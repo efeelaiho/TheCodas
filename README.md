@@ -17,6 +17,7 @@ A music database website for Software Engineering project
   * Tupac
   * Biggie
   * Jay-Z
+  * Frank Ocean
   * Nas 
   * Schoolboy Q
   * Eminem
