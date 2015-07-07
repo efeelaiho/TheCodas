@@ -16,6 +16,6 @@ class Albums(models.Model):
 class TopSongs(models.Model): 
 	artist = models.ForeignKey(Artist)
 	album = models.ForeignKey(Albums)
-	year = models.DateField()
+	year = models.IntegerField()
 
 
