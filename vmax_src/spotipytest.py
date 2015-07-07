@@ -1,6 +1,7 @@
 import spotipy
 import sys
 import json
+import wikipedia
 
 
 spotify = spotipy.Spotify()
@@ -12,8 +13,6 @@ else:
 '''
 
 tempartists = ['7dGJo4pcD2V6oG8kP0tJRR', '19eLuQmk9aCobbVDHc6eek', '4jXfFzeP66Zy67HM2mvIIF', '0kbYTNQb4Pb1rPbbaF0pT4', '3fMbdgg4jU18AjLCKBhRSm', '5K4W6rqBFWDnAN6FQUkS6x']
-
-
 artistcache = {}
 '''
 imgresults = spotify.search(q='artist:' + name, type='artist')
@@ -23,6 +22,7 @@ if len(items) > 0:
     '''
 for temp in tempartists:
 	artist = spotify.artist(temp)
+	print (artist)
 	aid = artist['id']
 	artistcache[aid] = {}
 
@@ -47,6 +47,8 @@ for temp in tempartists:
 	for track in toptracksresults['tracks'][:3]:
 		toptracks.append(track['name'])
 	artistcache[aid]['toptracks'] = toptracks
+
+	artistcache[aid]['bio'] = wikipedia.summary(artist['name'])
 
 	#json dump
 	with open ('artistcache.json', 'w') as fp:
