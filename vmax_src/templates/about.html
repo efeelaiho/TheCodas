@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="{% url 'home' %}">
                     <i class="fa fa-play-circle"></i>  <span class="light"></span> Volume.max()
                 </a>
             </div>
@@ -56,10 +56,10 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="{% url 'home' %}"></a>
                     </li>
                     <li>
-                        <a  href="#about">About</a>
+                        <a  href="{% url 'about' %}">About</a>
                     </li>
                     <li>
                         <a  href="#download">Artists</a>
@@ -119,14 +119,14 @@
                 <img class="img-circle img-responsive img-center aboutpic" src="{% static 'img/johnny.jpg' %}" alt="" height="200" width="200" >
                 <h4>Chang Chih Chi #Johnny</h4>
                 <h6> Front-End Development & UX/UI</h6>
-                <p>keeps site classy!</p>
+                <p>Keeps site classy!</p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <img class="img-circle img-responsive img-center aboutpic" src="{% static 'img/mark.jpg' %}" alt="" height="200" width="200">
                 <h4>Mark Laver</h4>
                 <h6> API / Back-End Development/ Server </h6>
 
-                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                <p>Mark is a former Marine pursuing a bachelor's degree in computer science. Interests include scuba and history.</p>
             </div>
         </div>
 

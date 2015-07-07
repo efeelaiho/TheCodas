@@ -23,8 +23,6 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Volume.max()
+                <a class="navbar-brand page-scroll" href="{% url 'home' %}">Volume.max()
                     <!--<i class="fa fa-play-circle"></i>  <span class="light"></span> -->
                 </a>
             </div>
@@ -55,16 +53,16 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="{% url 'home' %}"></a>
                     </li>
                     <li>
-                        <a  href="{{ about }}">About</a>
+                        <a  href="{% url 'about' %}">About</a>
                     </li>
                     <li>
-                        <a  href="#download">Artists</a>
+                        <a  href="{% url 'artists' %}">Artists</a>
                     </li>
                     <li>
-                        <a  href="#contact">Albums</a>
+                        <a  href="{% url 'albums' %}">Albums</a>
                     </li>
                     <li>
                         <a  href="#contact">Top Songs</a>

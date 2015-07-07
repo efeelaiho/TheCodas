@@ -18,6 +18,10 @@ html {
     height: 100%;
 }
 
+h3 {
+    font-size: 16px;
+}
+
 h1,
 h2,
 h3,
@@ -46,7 +50,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #cfd8dc;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
