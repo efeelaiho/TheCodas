@@ -55,26 +55,27 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-<<<<<<< HEAD
+
                     <li class="hidden">
                         <a href="{% url 'home' %}"></a>
                     </li>
+
+                    <li>
+                        <a href="{% url 'home' %}">Home</a>
+                    </li>
+
                     <li>
                         <a  href="{% url 'about' %}">About</a>
-=======
-                    <li>
-                        <a href="../">Home</a>
                     </li>
+
                     <li>
-                        <a  href="../about">About</a>
->>>>>>> 7b222651df5a4272e073aabfad8baafe01ba9413
+                        <a  href="{% url 'artists' %}">Artists</a>
                     </li>
+
                     <li>
-                        <a  href="../artists">Artists</a>
+                        <a  href="{% url 'albums' %}">Albums</a>
                     </li>
-                    <li>
-                        <a  href="../albums">Albums</a>
-                    </li>
+
                     <li>
                         <a  href="#contact">Top Songs</a>
                     </li>
