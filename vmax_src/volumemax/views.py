@@ -10,3 +10,6 @@ def about(request):
 
 def artists(request):
 	return render(request, "artists.html", {})	
+
+def albums(request):
+	return render(request, "albums.html", {})	

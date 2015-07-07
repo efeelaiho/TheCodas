@@ -2,19 +2,10 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.img-center {
-	margin: 0 auto;
-	margin-bottom: 20px;
+.portfolio-item {
+    margin-bottom: 25px;
 }
 
 footer {
     margin: 50px 0;
-}
-
-.aboutpic {
-	border: 4px solid white;
-}
-
-.aboutrow{
-	margin-top: 20px;
 }
