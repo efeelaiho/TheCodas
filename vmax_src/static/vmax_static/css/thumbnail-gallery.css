@@ -9,4 +9,6 @@ body {
 footer {
     margin: 50px 0;
 }
-
+ a:hover {
+	box-shadow: 0 0 40px #009688;
+}
