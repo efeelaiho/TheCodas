@@ -55,5 +55,10 @@ A music database website for Software Engineering project
   * Miranda Lambert
   * Lady Antebellum
   * Hunter Hayes
-  
+  * 
+
+* Jazz:
+  * Louis Armstrong
+  * Bill Evans
+  * Miles Davis
   
