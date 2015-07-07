@@ -17,11 +17,8 @@ def albums(request):
 def eminem(request):
 	return render(request, "eminem.html",{})
 
-<<<<<<< HEAD
-def kanyewest(requet):
-=======
+
 def kanyewest(request):
->>>>>>> 857c12fce4e3afcb78a8d306f5fc6c61eb8c64a5
 	return render(request, "kanyewest.html", {})
 
 def michael(request):
