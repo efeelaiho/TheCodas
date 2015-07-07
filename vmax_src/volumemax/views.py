@@ -16,3 +16,9 @@ def albums(request):
 
 def eminem(request):
 	return render(request, "eminem.html",{})
+
+def kanyewest(requet):
+	return render(request, "kanyewest.html", {})
+
+def michael(request):
+	return render(request, "michael.html", {})
