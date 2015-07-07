@@ -14,3 +14,7 @@ footer {
 .aboutpic {
 	border: 4px solid white;
 }
+
+.aboutrow{
+	margin-top: 20px;
+}
