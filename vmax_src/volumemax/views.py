@@ -13,3 +13,6 @@ def artists(request):
 
 def albums(request):
 	return render(request, "albums.html", {})	
+
+def eminem(request):
+	return render(request, "eminem.html",{})
