@@ -1,17 +1,13 @@
 FILES :=                         	      \
     .travis.yml                  		  \
-    netflix-tests/jw34846-RunNetflix.in   \
-    netflix-tests/jw34846-RunNetflix.out  \
-    netflix-tests/jw34846-TestNetflix.py  \
-    netflix-tests/jw34846-TestNetflix.out \
-    Netflix.html                  		  \
-    Netflix.log                      	  \
+    makefile							  \
+    IDB.log  	                    	  \
     Netflix.py                         	  \
-    RunNetflix.py              		      \
-    RunNetflix.in         		          \
-    RunNetflix.out             		      \
-    TestNetflix.py                 		  \
-    TestNetflix.out
+    tests.py  	            		      \
+    apiary.apib         		          \
+    models.html                  		  \
+    models.py          		       		  \
+    UML.pdf
 
 all:
 
@@ -24,32 +20,13 @@ check:
 clean:
 	rm -f  .coverage
 	rm -f  *.pyc
-	rm -f  Netflix.html
-	rm -f  Netflix.log
-	rm -f  RunNetflix.out
-	rm -f  TestNetflix.out
 	rm -rf __pycache__
 
 config:
 	git config -l
 
-test: RunNetflix.out TestNetflix.out
+Models.html: models.py
+	pydoc3 -w models
 
-netflix-tests:
-	git clone https://github.com/cs373-summer-2015/netflix-tests.git
-
-Netflix.html: Netflix.py
-	pydoc3 -w Netflix
-
-Netflix.log:
-	git log > Netflix.log
-
-RunNetflix.out: RunNetflix.py
-	cat RunNetflix.in
-	./RunNetflix.py < RunNetflix.in > RunNetflix.out
-	cat RunNetflix.out
-
-TestNetflix.out: TestNetflix.py
-	coverage3 run    --branch TestNetflix.py >  TestNetflix.out 2>&1
-	coverage3 report -m                      >> TestNetflix.out
-	cat TestNetflix.out
+IDB.log:
+	git log > IDB.log
