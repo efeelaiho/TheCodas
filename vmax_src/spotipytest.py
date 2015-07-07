@@ -43,7 +43,6 @@ items = imgresults['artists']['items']
 if len(items) > 0:
     artist = items[0]
 '''
-
 for temp in tempartists:
 	artist = spotify.artist(temp)
 	aid = artist['id']
@@ -52,7 +51,10 @@ for temp in tempartists:
 	artistcache[aid]['albums'] = {}
 
 	#image scrape
-	artistcache[aid]['img'] = artist['images'][0]['url']
+	if 0 < len(artist['images']):
+		artistcache[aid]['img'] = artist['images'][0]['url']
+	else:
+		artistcache[aid]['img'] = 'N/A'
 
 
 	#albums scrape {album name: album art url}
@@ -75,9 +77,13 @@ for temp in tempartists:
 		toptracks.append(track['name'])
 	artistcache[aid]['toptracks'] = toptracks
 
-	artistcache[aid]['bio'] = wikipedia.summary(artist['name'])
+	#wiki summary scrape
+	try:
+		artistcache[aid]['bio'] = wikipedia.summary(artist['name'])
+	except wikipedia.exceptions.DisambiguationError:
+		artistcache[aid]['bio'] = 'N/A'
+
 
 	#json dump
-print (artistcache);
 with open ('artistcache.json', 'w') as fp:
 	json.dump(artistcache, fp)
