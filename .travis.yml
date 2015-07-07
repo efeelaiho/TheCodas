@@ -10,30 +10,30 @@ python:
     - "3.4"
 
 before_install:
-	- sudo apt-get update
+    - sudo apt-get update
 
 install:
-	- pip install --upgrade pip
-	- pip install coverage
-	- pip install Django
+    - pip install --upgrade pip
+    - pip install coverage
+    - pip install Django
 
 before_script:
-	- uname -a
-	- printenv
-	- pip3 --version
-	- pip3 freeze
-	- python3 --version
-	- coverage3 --version
+    - uname -a
+    - printenv
+    - pip3 --version
+    - pip3 freeze
+    - python3 --version
+    - coverage3 --version
   #  - python3 -c "import numpy; print(numpy.__version__)"
 
 script:
-	- date
-	- ls -al
-	- touch IDB.log
-	- make tests
-	- ls -al
-	- make models.html
-	- ls -al
-	- make test
-	- ls -al
-	- make check
+    - date
+    - ls -al
+    - touch IDB.log
+    - make tests
+    - ls -al
+    - make models.html
+    - ls -al
+    - make test
+    - ls -al
+    - make check
