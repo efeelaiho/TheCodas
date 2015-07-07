@@ -20,7 +20,9 @@ from django.contrib import admin
 
 urlpatterns = [
 	url(r'^$', 'volumemax.views.home', name='home'),
+	url(r'^about/', 'volumemax.views.about', name='about'),
     url(r'^admin/', include(admin.site.urls)),
+
 ]
 
 
