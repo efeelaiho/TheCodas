@@ -1,26 +1,26 @@
 FILES :=                         	      \
-    .travis.yml                  		  \
-    apiary.apib							  \
-    # netflix-tests/jw34846-RunNetflix.in   \
-    # netflix-tests/jw34846-RunNetflix.out  \
-    # netflix-tests/jw34846-TestNetflix.py  \
-    # netflix-tests/jw34846-TestNetflix.out \
-    models.html                  		  \
-    IDB.log								  \
-    models.py                         	  \
-    #RunNetflix.py              		  \
-    #RunNetflix.in         		          \
-    #RunNetflix.out             		  \
-    tests.py                 		  	  \
-    tests.out
+	.travis.yml                  		  \
+	apiary.apib							  \
+	# netflix-tests/jw34846-RunNetflix.in   \
+	# netflix-tests/jw34846-RunNetflix.out  \
+	# netflix-tests/jw34846-TestNetflix.py  \
+	# netflix-tests/jw34846-TestNetflix.out \
+	models.html                  		  \
+	IDB.log								  \
+	models.py                         	  \
+	#RunNetflix.py              		  \
+	#RunNetflix.in         		          \
+	#RunNetflix.out             		  \
+	tests.py                 		  	  \
+	tests.out
 
 all:
 
 check:
 	@for i in $(FILES);                                         \
-    do                                                          \
-        [ -e $$i ] && echo "$$i found" || echo "$$i NOT FOUND"; \
-    done
+	do                                                          \
+		[ -e $$i ] && echo "$$i found" || echo "$$i NOT FOUND"; \
+	done
 
 clean:
 	rm -f  .coverage
@@ -48,7 +48,7 @@ IDB.log:
 # 	./RunNetflix.py < RunNetflix.in > RunNetflix.out
 # 	cat RunNetflix.out
 
-tests.out: sests.py
+tests.out: tests.py
 	coverage3 run    --branch tests.py >  tests.out 2>&1
 	coverage3 report -m                      >> tests.out
 	cat tests.out
