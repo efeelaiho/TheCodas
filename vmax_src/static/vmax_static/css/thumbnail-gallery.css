@@ -10,3 +10,6 @@ footer {
     margin: 50px 0;
 }
 
+a.thumbnail:hover {
+	box-shadow: 0 0 20px #F00000;
+}
