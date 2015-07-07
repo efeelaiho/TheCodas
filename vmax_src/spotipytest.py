@@ -14,6 +14,7 @@ else:
 
 tempartists = ['7dGJo4pcD2V6oG8kP0tJRR', '4jXfFzeP66Zy67HM2mvIIF', '5K4W6rqBFWDnAN6FQUkS6x',  '3fMbdgg4jU18AjLCKBhRSm', '0kbYTNQb4Pb1rPbbaF0pT4', '19eLuQmk9aCobbVDHc6eek']
 artistcache = {}
+albumcache = {}
 
 '''
 
@@ -64,11 +65,23 @@ for temp in tempartists:
 		albumresults = spotify.next(albumresults)
 		albums.extend(albumresults['items'])
 	for album in albums:
-		#albumlist.append(album['name'])
+		albid = album['id']
+		albumcache[albid] = {}
+		albumcache[albid]['name'] = album['name']
 		if 0 < len(album['images']): 
 			artistcache[aid]['albums'][album['name']] = album['images'][0]['url']
+			albumcache[albid]['img'] = album['images'][0]['url']
 		else:
 			artistcache[aid]['albums'][album['name']] = 'N/A'
+			albumcache[albid]['img'] = 'N/A'
+		#album tracks scrape
+		trackresults = spotify.album_tracks(album['id'])
+		albumtracks = []
+		for track in trackresults['items']:
+			albumtracks.append(track['name'])
+		print(albumtracks)
+		albumcache[albid]['albumtracks'] = albumtracks
+
 
 	#top tracks scrape
 	toptracksresults = spotify.artist_top_tracks(artist['id'])
@@ -87,3 +100,5 @@ for temp in tempartists:
 	#json dump
 with open ('artistcache.json', 'w') as fp:
 	json.dump(artistcache, fp)
+with open ('albumcache.json', 'w') as fp:
+	json.dump(albumcache, fp)
