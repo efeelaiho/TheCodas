@@ -82,20 +82,20 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-sm-3 portfolio-item text-center">
-                <a href="#">
+                <a href="{% url 'college' %}">
                     <img class="img-responsive" src="{% static 'img/albums/college.jpg' %}" alt="">
                 </a>
                 <h6 class="albumname">
-                    <a  href="#">College Dropout</a>
+                    <a  href="{% url 'college' %}">College Dropout</a>
                 </h6>
                 <p></p>
             </div>
             <div class="col-sm-3 portfolio-item text-center">
-                <a href="#">
+                <a href="{% url 'bad' %}">
                     <img class="img-responsive k" src="{% static 'img/albums/bad.jpg' %}" alt="">
                 </a>
                 <h6 class="albumname">
-                    <a href="#">Bad</a>
+                    <a href="{% url 'bad' %}">Bad</a>
                 </h6>
             </div>
             <div class="col-sm-3 portfolio-item text-center">
