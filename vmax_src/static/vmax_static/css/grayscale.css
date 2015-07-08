@@ -10,6 +10,12 @@ body {
     font-family: Jura,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
+    background-image:url("img/soundwave.jpeg") no-repeat fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    margin: 0;
 }
 
 
