@@ -24,5 +24,5 @@ def kanyewest(request):
 def michael(request):
 	return render(request, "michael.html", {})
 
-def college_drop_out(request):
+def encore(request):
 	return render(request, "encore.html", {})
