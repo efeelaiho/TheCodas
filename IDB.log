@@ -1,0 +1,1415 @@
+commit b57bd4032e714fb712dfacee3c94f807161c05a2
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:46:13 2015 -0500
+
+    Added team stats
+
+commit 4dc4e2bca7651247f912954173f2772a4c4fc920
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:41:15 2015 -0500
+
+    Added stats to about
+
+commit c4a91a4a1eb1bcb9cbd526a1f41ba9ed984e2d18
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 21:34:28 2015 -0500
+
+    merging
+
+commit f42b174c9e82eba0f5f49b3b569f539b14c09147
+Merge: d59c1f8 bdc68e0
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 21:33:35 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit d59c1f8211c21e796e6136c8812cab333683ab0d
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 21:33:05 2015 -0500
+
+    Moving UML diagram to home page
+
+commit bdc68e07f7fe988ffe5550952cdc542cca247cfd
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:27:51 2015 -0500
+
+    Added Data section to About
+
+commit 02d37f9292d76fea896f87d2cb78733b05922b3f
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:26:31 2015 -0500
+
+    Added Data section to About
+
+commit 6c28ee1c66efa2ed1992e857423b821c64117f95
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 21:22:19 2015 -0500
+
+    Create tests.py for turn in
+
+commit 2a4ca4bf0a364c1da3634bcf5298f1ca79116c8d
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 21:20:51 2015 -0500
+
+    Create models.py for turn in
+
+commit db800becaf7c221fcb7bf8e0250ff4fb469d83cb
+Merge: 9b01a61 934931b
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 21:13:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 9b01a612e4416d2b25df5995f0b129ec5d1ca334
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 21:13:34 2015 -0500
+
+    fixed alignment
+
+commit 934931b0a49cfab5433ddf5ec7d41add1492ff8f
+Merge: c0ed1b0 07a08a5
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 21:08:47 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit c0ed1b0a281808df0d70b64ce2fc7a66625571ee
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 21:08:43 2015 -0500
+
+    fix background
+
+commit 07a08a5c1cbdf612194988bcda22f73f4dd8f01c
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 21:05:15 2015 -0500
+
+    fixed alignment
+
+commit 96e870c31841ad068d5a004960e958c0978dbb03
+Merge: 8d691e4 723354e
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:57:51 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 8d691e45140a258c65074aa58cb96d72df6bbfd3
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:57:48 2015 -0500
+
+    fixed alignment
+
+commit 723354e0b65c88de43fcfeec1abbfc02459957df
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 20:48:39 2015 -0500
+
+    Reformatted labels for albums
+
+commit de8a43eec20fb978097080b778c2078bd8f51bdc
+Merge: ffc7783 13aa542
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:45:41 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit ffc77830fb1ed5e7b8cd9c10e69bd65470af85df
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:45:16 2015 -0500
+
+    add background photo
+
+commit 13aa54203bf69bf45f42ed3d975ed787a51b7611
+Merge: 4441899 b5487fb
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:44:12 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 44418994587f94e8b0966aabbff7d65dc766b909
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:44:09 2015 -0500
+
+    college.html and bad html
+
+commit b5487fbf929d57994f3713a9848f7e11ce24845c
+Merge: 4fd0d7e 801d116
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 20:32:50 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 4fd0d7ef14b41e0a1cdd38f3916de25d8e8ce283
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 20:32:48 2015 -0500
+
+    Fixed home link
+
+commit 801d11667a5b5d488e3520c4ba4dd6384141a407
+Merge: 34599fc d2a7076
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:31:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 34599fcef2165754f4171bd0d26409a5564be94e
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:31:33 2015 -0500
+
+    encore.html
+
+commit d2a707641d8d1420060046578a21fd774b9da410
+Merge: 776f9bf ab2a755
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 20:29:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 776f9bfc1385da16b7fc153022e31ba0dde10955
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 20:29:34 2015 -0500
+
+    Added captions for each artist
+
+commit ab2a755ec2218992cd08b6ff5392ca7be94937aa
+Merge: a4336a0 08a8455
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:22:27 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit a4336a0b733f985e573e4707174997616cefe41b
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:22:23 2015 -0500
+
+    encore.html
+
+commit 08a8455ebce90c15c49104c15e070151be322f50
+Merge: 7255407 a2ff124
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:21:39 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 7255407eba1546c067157b54bf242a97a75aa634
+Merge: e86817e 9e41e1b
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:20:55 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit e86817e4922bbf4f5d8198abcb4ac174b8cd26d1
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:20:40 2015 -0500
+
+    fix about html
+
+commit a2ff12425dcfadcf877a1116a45e903110444b6f
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:20:37 2015 -0500
+
+    encore.html
+
+commit 9e41e1b279b062a2fc4e498f192d7a3731611a5f
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:18:55 2015 -0500
+
+    encore.html
+
+commit 9b85ab43eb40419dbf6568997f24c26c6b548b15
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:14:32 2015 -0500
+
+    encore.html
+
+commit 5b95f5c75129d7b236b4e011fd67bfd7e1ada98e
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 20:12:14 2015 -0500
+
+    edit about.html
+
+commit 03818e1c5601117412ff27109f1275f30088241e
+Merge: 4dfbc54 cd11a8f
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:12:03 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 4dfbc547d0ca20e5550245f1a2e562fdd51297ff
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 20:11:59 2015 -0500
+
+    encore.html
+
+commit cd11a8fb3d1b7d7d84ab831a077fc0c140bcfb7a
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:40:35 2015 -0500
+
+    Fixed typo
+
+commit 5744e18327d5ea37290b1060c53330bb50710e54
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:38:29 2015 -0500
+
+    Adding potential background
+
+commit c0f9c7284c1784a68dc2f41683fd2cb38fcbf160
+Merge: 3f58704 458d21f
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:32:27 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 3f587047a1fcd7397af5f82175331a544389f67e
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:32:25 2015 -0500
+
+    Centered text
+
+commit 458d21f11bf09339da7faed5c529b6d5b0566bbb
+Merge: a587729 8404fa4
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:28:28 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit a58772940c6e9fffee5c615b41ab87e7c6ae4b1e
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:28:25 2015 -0500
+
+    edited kanye, eminem, michael html files
+
+commit 8404fa47de3b80a580a00b77a7e05c2c0b970635
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:26:20 2015 -0500
+
+    Added labels
+
+commit 89cbd61f9e5a5f616f269aa189cfe49c6ad62cbc
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:24:19 2015 -0500
+
+    Added and edited logos
+
+commit 3cda32da5e22875d99a29282b6cfafb4ae77d9ad
+Merge: 7ea014a 1b6df83
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:19:54 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 7ea014a1a4ed9283e61178b3d02e2893412ff5bc
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:19:51 2015 -0500
+
+    edited eminem.html
+
+commit 1b6df8379f7e2a1870c4f2c430028fe6d42caeba
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:16:00 2015 -0500
+
+    Centering text
+
+commit b8facd0997c5c816cc9d4da766e7e92f96806d79
+Merge: 961efc2 432b8c7
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:13:42 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 961efc2f9c525657b05519ed65f275c0f4ad4792
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:13:40 2015 -0500
+
+    Fixed typo, adding text
+
+commit 432b8c781c47f1833a7299082e182395e06783c8
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 18:11:57 2015 -0500
+
+    Update .travis.yml
+
+commit cd8069222d5bacaad0e7bc3ea586c81d5e7f00f8
+Merge: c5d5c51 93756cf
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:11:42 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit c5d5c510e079e9c1721fcc13855e2c75c08b4cfe
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:11:39 2015 -0500
+
+    Added links to apiary and wiki and issues
+
+commit 93756cf665fd6c8a8af37fdb717d408d0bedce57
+Merge: 1796a99 845722f
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:09:00 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 1796a9989a3c94537ff58c05d7890117e02f2c92
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 18:08:18 2015 -0500
+
+    edited eminem.html
+
+commit 845722f6ed5a7b902f7f2ce1d94ee2a07eb51009
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 18:07:51 2015 -0500
+
+    added album cache scraping
+
+commit b755659507337035f7deeaaf61b35569dc306d1f
+Merge: 93b62b4 470c619
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:00:12 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 93b62b4b605b218e221477e8e0c0c72b6af136ec
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 18:00:09 2015 -0500
+
+    Changed image
+
+commit 470c619f664f7284a2b61475a64bf3b47bb8b0f5
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:58:40 2015 -0500
+
+    Update .travis.yml
+
+commit ded8d26ce1a9b65df4c16ec75f16ddd28fcfede3
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 17:57:50 2015 -0500
+
+    moved link
+
+commit f544d3f3bfac836622a9bd0c5c395e9eed3444aa
+Merge: 3f47654 c61a67b
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:57:02 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 3f476541a15cf4aea48709f0a96bc3f8fc3818c9
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:56:58 2015 -0500
+
+    edited eminem.html
+
+commit c61a67ba8c1cf8e2cd87ffefb749514d2f51518a
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 17:55:50 2015 -0500
+
+    moved link
+
+commit 8cc5d955a75726dce13e12802ae11bb7a5018392
+Merge: a87dd20 0bbf7fd
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 17:53:17 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit a87dd20f03893a2e432daff6212f250c1c39f743
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 17:53:14 2015 -0500
+
+    Added github link
+
+commit 0bbf7fda7c853bc2c0f44c7820ac6a18e4bc571d
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:50:15 2015 -0500
+
+    Update .travis.yml
+
+commit 07714df6a66eb59ff34d7b7ce7b45035620ccf5d
+Merge: cffab9a f51d8fc
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 7 22:49:37 2015 +0000
+
+    merge conflicts?
+
+commit cffab9a9122f62afbb3de721bfdfeaa3bf73a515
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 7 22:48:59 2015 +0000
+
+    update cache
+
+commit f51d8fc306ccfec7423d2b5ac882db939bc844a7
+Merge: ce56eb0 59d2990
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:44:15 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit ce56eb052f84797af658e955a7c793e0d7ea86fa
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:44:07 2015 -0500
+
+    edited eminem.html
+
+commit e4b16c52e4d26fabf8b88e20aa5f5df6b0e8e8e0
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 17:42:56 2015 -0500
+
+    Added images for links to apiary and github
+
+commit 59d29905dca62191703b9eaae8fb6828bd237695
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:42:40 2015 -0500
+
+    check builds
+
+commit c939d334f67c77a89e9d8639b4f9e068c5f706f4
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:38:55 2015 -0500
+
+    edited eminem.html
+
+commit ffc0e93a7760df39d27a4795e7b21104d54e0a1b
+Merge: 14b08a5 c0ce952
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:33:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 14b08a571e183b628ad06ef9447f36b32e691c2f
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:33:27 2015 -0500
+
+    edited eminem.html
+
+commit c0ce952dd2af1217ac1ab06b4bf7ba2743474a98
+Merge: 88a9b2b 5775eed
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:29:41 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 88a9b2b26d43757690869b1b7028699b2ef78dd5
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:29:29 2015 -0500
+
+    add moz and webkit to modified css
+
+commit 5775eedaa7ff15830cc4671693e2ad09d09f9bcd
+Merge: 72efb64 89c662d
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 17:28:39 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 72efb64dc320c4be04e556148695eb181a2ec877
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 17:28:33 2015 -0500
+
+    edited how dates are checked
+
+commit 89c662d6d02926427d5b0e41b4df3f37b3c8b7b9
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:24:49 2015 -0500
+
+    fixed multiple html
+
+commit 05cd3380e73c703e798944350a942c75e756c461
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:22:19 2015 -0500
+
+    fixed artists.html
+
+commit abae0319e003a53428528f44d16003c9b334e5a4
+Merge: b671ddf 52836db
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:19:58 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit b671ddf7438190614b2a54ae896d7f24564e8ae5
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:19:43 2015 -0500
+
+    fixed artists.html
+
+commit 52836db1ea7f4053312a5fab2f37cac5cfe8be58
+Merge: eeefa06 857c12f
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:15:27 2015 -0500
+
+    fix merged files
+
+commit eeefa0684e12378f6deb570e664deb02761ea350
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:12:38 2015 -0500
+
+    fixed kanye
+
+commit 857c12fce4e3afcb78a8d306f5fc6c61eb8c64a5
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 7 22:11:42 2015 +0000
+
+    Fixed typo
+
+commit fb15b6c1bdd32cd683e1d7db37228300a56387c1
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:09:38 2015 -0500
+
+    fixed kanye.html
+
+commit 1b9d5d4e85eefb58001821ca6bb89376339ae3ee
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:07:19 2015 -0500
+
+    change red highlighting
+
+commit c379f09eff91ff8ec50775338edd8ac7d4a4e173
+Merge: 9126fe7 5d80787
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:06:43 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 9126fe7e789a3d330df7d3c633a8677a340340be
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 17:06:36 2015 -0500
+
+    added several artists' html pages
+
+commit 5d807878884fbedd967ac6ab16071dd3a3fd98aa
+Merge: 50959c7 8ce794f
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:00:16 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 50959c7b1f456e78400821bbd9539a48cfb0284c
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 17:00:08 2015 -0500
+
+    add red highlighting
+
+commit 8ce794ff0f1ba866e4406abe7b929b3ce79c0674
+Merge: eee9a96 9cddf70
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:55:03 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit eee9a96aee8fd9e8142edd49df80a9d65dc4277c
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:54:59 2015 -0500
+
+    edited urls.py
+
+commit 9cddf709d9942da719378fd73905e57c325a6184
+Merge: 4356112 1bced53
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 16:52:58 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 43561128957fd1fd357e67626fef4eed465cdd6a
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 16:52:35 2015 -0500
+
+    fixed initial errors
+
+commit 1bced53cb7d94a7bbda4ab6dda6c3d1e98100387
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:49:53 2015 -0500
+
+    edited urls.py
+
+commit f0aa0fe27ca15edfdaa5625d2cf03c95d2b887cd
+Merge: f1f686d 6d116fb
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:42:33 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit f1f686d8e69575042627045fb3259220fdcd771d
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:42:28 2015 -0500
+
+    edited eminem.html
+
+commit 6d116fb2448dc33b2d48a4ec2712432db64d3671
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:40:37 2015 -0500
+
+    Background image
+
+commit 56024a462fc804cdffec77af1f1fc21c68ccc2a2
+Merge: 0c55edf 95d4fd3
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 16:39:21 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 0c55edfc29ce7b244d38a1d9d90054e68314bb77
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 16:38:40 2015 -0500
+
+    created test cases
+
+commit 95d4fd3b8570bd85642c2f0c9f80a07f63ce4009
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 7 21:38:19 2015 +0000
+
+    eminem sample page
+
+commit 0b143366337d0879d4feb09b9c206f9636c06c4f
+Merge: 2099b67 9276201
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:33:20 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 2099b674a024109007dd798f85e9cac8c6cd5bb2
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:33:15 2015 -0500
+
+    edited eminem.html
+
+commit 9276201f7d4025166b7910b8050fd1210a41f893
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:23:31 2015 -0500
+
+    Background image
+
+commit c762f9a052e3370bf74f85d8ddf1e99169e5f356
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:22:08 2015 -0500
+
+    edited href in artist.html
+
+commit d2a883e02f7ff0a9275f0025357f31907ff21996
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:19:21 2015 -0500
+
+    Background image
+
+commit 7ddf7ecf8e7a2fc539689e4578e28c55785dad55
+Merge: 7317d09 79b6eab
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:17:39 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 7317d090eaa1eed9bc41704e5b45347bf55e4b29
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:17:27 2015 -0500
+
+    Background image
+
+commit 79b6eab0852f6849ad3e7231005ae9916e52a0f6
+Merge: 170d075 711ea13
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:17:12 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 170d075509e0278d488fd30cf96e3d664908436b
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:17:04 2015 -0500
+
+    edited href in artist.html
+
+commit 711ea13acb3012973731828ebf55616c6c2ed6b2
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 16:11:10 2015 -0500
+
+    Background image
+
+commit e8d0b88eac3c2d2d9dd1b0253a888ee12c8d9571
+Merge: 886781b a3146bb
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:04:33 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 886781b68293d5074cf4865cd0ee577e53e78680
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 16:04:27 2015 -0500
+
+    added eminem.html
+
+commit a3146bb2bf0233514732f75eac484ee113e3df13
+Merge: fc77b14 64aa420
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 16:02:47 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit fc77b142a90ba767301ae6dab714f6de7afefd0f
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 16:02:36 2015 -0500
+
+    add red highlighting
+
+commit 64aa420130af64a13b18e2a587f01ac7c57c06f5
+Merge: 3ab4299 7266e29
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:49:04 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 3ab4299c60cd53303b608de6259c62345f94d079
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:48:50 2015 -0500
+
+    background
+
+commit 7266e299bc0a42f7d07301c02d0c4b1e5e839057
+Merge: 2cc4e8d a0b5291
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:46:27 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 2cc4e8d1a1a69e843af28c41ddb23ef212a38896
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:46:15 2015 -0500
+
+    Removed dead links
+
+commit a0b5291a90de140184cf9c2a7acf310539ff5989
+Merge: e2824d8 67812cb
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:46:01 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit e2824d87c747d49f6a3de1bc7d6ba6a4e11a0d93
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:45:57 2015 -0500
+
+    background
+
+commit 67812cb997f3d2f599fddc31d7b293e9527f98a6
+Merge: e416791 476724d
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:44:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit e416791dc497a0d799d54471883f37bec3cca0f9
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:44:27 2015 -0500
+
+    fixing font
+
+commit 476724d285a44efe784bef0a05d6b9d6b544deab
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:43:45 2015 -0500
+
+    Testing video
+
+commit d5d4a409735e0e12c25c36ba1f61ef71ee467792
+Merge: 5b07574 4c66e31
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:40:08 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 5b0757413b53292691780456eb2f01edc0f219fb
+Merge: 7b6a1bc 4008841
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:40:05 2015 -0500
+
+    fixing font
+
+commit 4c66e31a865e2b8f617ae662095a7a979a1f3d05
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:39:22 2015 -0500
+
+    Testing video
+
+commit 7b6a1bcf25df83c27b5492ee90bc9813316febe0
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:37:15 2015 -0500
+
+    fixing font
+
+commit 40088411483f9a6478a4d6713ffbdedf222b3b49
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 15:36:25 2015 -0500
+
+    background
+
+commit c2baab976c12e5e8b6b18b113f986c75d9001104
+Merge: 580e4fb 8f7b0c1
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:34:01 2015 -0500
+
+    add box shadow
+
+commit 580e4fbf7073bdfb309b4741277765ee0289db54
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 15:32:31 2015 -0500
+
+    add box shadow
+
+commit 8f7b0c1742e343d3b1b3c9fc4f0ad9b174e9793f
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:29:58 2015 -0500
+
+    testing video
+
+commit 79ba61e1c85a0f0ccc0351df6a82e2f539827559
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:28:27 2015 -0500
+
+    testing video
+
+commit a535626fa0e68f2edcd41a24a8c41084fd11d712
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:26:54 2015 -0500
+
+    testing video
+
+commit dd8193b391c03f91825dc4c6b3d25aad8a6eaef9
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:26:11 2015 -0500
+
+    Old UML deleted, new one renamed
+
+commit 08b3350640a8b84461e2342fef3ffa2a9dfa7d0a
+Merge: e0f9cda a02bac0
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:23:24 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit e0f9cdab6375c7245b073365e870fa8eaf59ee05
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 15:23:13 2015 -0500
+
+    Added some exception handling to scraping script
+
+commit a02bac06813998e2a1467f8b172d49e2491f3d10
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 15:23:08 2015 -0500
+
+    testing video
+
+commit 80bef4f855c01de470d467f8502af242bdff0fa8
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 15:14:01 2015 -0500
+
+    background
+
+commit 51f0e31791c2edd704145507095bb9d34c885af0
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 15:09:49 2015 -0500
+
+    background
+
+commit fd6361adb9c2ed6c3805dee1aa5bbdb60e53d984
+Merge: 0944e85 ebc7634
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 15:03:18 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 0944e85a68621da5bc4a940692824bf0f4c400e9
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 15:03:12 2015 -0500
+
+    failed
+
+commit ebc763407671b5a914f84f45284b937c39be5d19
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 14:54:53 2015 -0500
+
+    Video
+
+commit 96de1de2803141773226ac1a8929e1c13f3edb39
+Merge: ef58d7c 7c2925f
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 14:45:15 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit ef58d7cf9a29d3f3586cb4c13ab93e8707922f47
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 14:44:42 2015 -0500
+
+    updated models.py and added a new UML diagram
+
+commit 7c2925f057503ab84fce8685433b91b00be9e91c
+Merge: bd8dc1d d4e65d6
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:43:48 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit bd8dc1dfff27721ba9f91b597d72785bf2411ea2
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:43:43 2015 -0500
+
+     alter the bios
+
+commit d4e65d6e4ccc9d8651ceea6b8cca2b6c8c0d2895
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:32:31 2015 -0500
+
+    background of home.html
+
+commit 089759ee739a37b131464c0dfe1a245a3ad2dbd0
+Merge: 5c6fcaf 00d6bbd
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:26:56 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 5c6fcaf35a54ba729a840ecf4d7b9ec6ec85cbfb
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:26:50 2015 -0500
+
+    background of home.html
+
+commit 00d6bbd8d40ce106eb4e84bcad0c3159c12cfdf1
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 14:22:18 2015 -0500
+
+    Added album art url scraping
+
+commit d06c0b67b7eb74094f2bd7d4b87ece31820bf655
+Merge: ecf4e0a 843b4d9
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:20:21 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 843b4d9b5acf4f476b1292be662eb05fbbc738f8
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:19:52 2015 -0500
+
+    background of home.html
+
+commit ecf4e0a5991bfd56f0d384705eab05db071e18a4
+Merge: da66135 2199f0d
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:19:44 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit da661359c982d5a7d25e2d508193c227c63cfc91
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:19:40 2015 -0500
+
+     alter the bios
+
+commit 2199f0d487423588ca13537cf4a91db158ed5b76
+Merge: f0aa4d6 ac5d496
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:10:44 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit f0aa4d63364ae559d8fad3911be2fc50311ef571
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 14:10:38 2015 -0500
+
+    background of home.html
+
+commit cc056327e42ed3df384b35b7d5b6c9b64105a942
+Merge: f7dc98c ac5d496
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:09:50 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit f7dc98cc05fe943b4a5d119b24bf26a613b8c479
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 14:09:46 2015 -0500
+
+     alter the bios
+
+commit ac5d496bc054ba066dc4fdf3d0266078f43ee645
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 14:08:45 2015 -0500
+
+    Removed 'top songs' page
+
+commit c7f63f7da9b5e21f2023c88963de7166535b3085
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 13:49:05 2015 -0500
+
+    re-add yt player
+
+commit 3db3613be212d8a8763cbfb829037ca8dbb2b7cc
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 13:42:10 2015 -0500
+
+    fix about page
+
+commit d03a1ca98c236948270dbeb55a565ed672ef7edb
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 13:34:34 2015 -0500
+
+    adding yt player
+
+commit e452a92a5085d03612eed6be467ecadd07a2fcf3
+Merge: a74f7da 7b22265
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 12:41:05 2015 -0500
+
+    fix url path
+
+commit a74f7da02bc49bcbb078ac7aefd8604248d4bd2a
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 12:38:08 2015 -0500
+
+    make urls relative
+
+commit 7b222651df5a4272e073aabfad8baafe01ba9413
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 12:35:46 2015 -0500
+
+    edited home.html
+
+commit 935ba615ca393036026f059bab7683c67f6bde46
+Merge: b336536 4160877
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 12:33:23 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit b3365362050b6507b21b180b77fff6c22855227c
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 12:33:18 2015 -0500
+
+    added video background for testing
+
+commit 4160877499ebfa3b5539aa6a0344c8ab508a6f3b
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 12:32:09 2015 -0500
+
+    Testing change to a href links
+
+commit 04bff9aea79f9cd8b407cc5c4fa0a46d36b72fbc
+Merge: 9e9679f 717d32b
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 12:24:35 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 9e9679f88c0005c149525607dd4a6a0f31d82269
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 12:24:15 2015 -0500
+
+    Removed extra lines from makefile
+
+commit 717d32b5cfa12ef025ab43e1e223f92f3880f45f
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 7 17:12:05 2015 +0000
+
+    Modified Home links
+
+commit 3fa37286eb76c93ff4f63749047b5f884960a8c9
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 11:59:07 2015 -0500
+
+    Removed hidden tag from home link
+
+commit 7d256eaf0e20e35a9e50603e535fec91307681ab
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 11:57:12 2015 -0500
+
+    Added links to home page. Fixes #28
+
+commit da43eecd43386416c68a667e05e4bb43001370d3
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 11:54:48 2015 -0500
+
+    Fixed relative a href links. Fixes #26
+
+commit 2799c4be9b7ec028174620b4bf004cf579c8d04b
+Author: marklaver <crusherven@yahoo.com>
+Date:   Tue Jul 7 11:52:25 2015 -0500
+
+    Tentative fix for #26
+
+commit ca543c3fde3efc752daaf32f6694faddc947f077
+Merge: d67d6f4 4948a38
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 11:39:47 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit d67d6f4c3e6abcb6a668734f99d809c71ef01b29
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Tue Jul 7 11:39:42 2015 -0500
+
+    edited bio
+
+commit 4948a38c82d8c24baf9a4252a30d0887632e15eb
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 11:39:25 2015 -0500
+
+    Working on nav links
+
+commit af695798b0028ebbec80e4b7b95cd72cba32db62
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 11:35:51 2015 -0500
+
+    Trying to adjust navigation links
+
+commit f8071eb06e99cfa3dc467d5184c6f914fc931f23
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 11:32:37 2015 -0500
+
+    Added About Mark blurb
+
+commit 32b3f6722485225891813254ee8ef66e5407d566
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 11:25:12 2015 -0500
+
+    Added About Justin Winata blurb
+
+commit 2a0e7e527821a020f9436e5d1b614ac0ce338d1e
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 02:30:08 2015 -0500
+
+    make albums.html
+
+commit 711a2200045db022027bb66dfc1eae6d553b1cba
+Merge: eb9471b b13e8dd
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 22:36:12 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit eb9471ba8dd42c27e1791705905ddab7d3c9c368
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 22:36:04 2015 -0500
+
+    add artist images
+
+commit b13e8dd5fefc15f44d91aa1ce60ed508bd3043e9
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 22:32:14 2015 -0500
+
+    eminem photo updated
+
+commit 29728b177d7ec88d12796cf205a98e77ce6c7d6d
+Merge: b6d2bd1 a7c1fec
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 22:22:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit b6d2bd136b49c4522dcc89c012d96c23b14bb01d
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 22:22:30 2015 -0500
+
+    edited album arts
+
+commit a7c1fec773a5b373550521468bc4392d55ee525f
+Merge: f5fb1b1 acc6e0d
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 22:17:13 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit f5fb1b1ebbaba1d575d526ae5b5ce9d0a2f05f91
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 22:17:00 2015 -0500
+
+    added artists.html
+
+commit acc6e0d3100ee21f8333ebebe236e8c8b54a7bf3
+Merge: 7cbeb71 af026b3
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 22:15:02 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 7cbeb71b1b0c53e8d9f2eeb17af492a40b5783cd
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 22:14:26 2015 -0500
+
+    added artists' images
+
+commit af026b315e0e07e1b73c53edcaccbdcfe18aa3c3
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 21:59:31 2015 -0500
+
+    .yml file draft. DOES NOT WORK
+
+commit fbc9440480d319750ea4cc85b94d75ef5c4a5d77
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 21:41:42 2015 -0500
+
+    makefile draft
+
+commit 62758cc931ae9efb8f0cca6c10ad79f5abd57f00
+Author: Chih Chi Chang <jchang6@cs.utexas.edu>
+Date:   Mon Jul 6 21:32:10 2015 -0500
+
+    edited home and about
+
+commit 901858f69b9f90ad4c258d5fd68147bfafea6cae
+Merge: fcb8290 94bb439
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 21:23:44 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit fcb82901886a800b5fc1bec51607c4c8a7d1b861
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 21:23:32 2015 -0500
+
+    Place holder Makefile and .yml file -- DO NOT WORK
+
+commit 94bb439b40d6a2599f578db3d71c9f5e8070cecb
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 21:11:33 2015 -0500
+
+    adjust about photos
+
+commit ff57178ef2c9cd0bfc37c5b884c8470ff4524e95
+Merge: f61d584 d46fb11
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 21:00:42 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit d46fb116341ebe2dba3eb687fba1cd6c1bc371e0
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 21:00:10 2015 -0500
+
+    Added UML model
+
+commit f61d58474b61942c4ce32e5bdeeb64cb6a2d2f76
+Merge: 35628e0 5869001
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 20:59:52 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 35628e093757205a25fdef3511a143916cadc266
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 20:59:35 2015 -0500
+
+    add templates and photos
+
+commit 5869001e7258bb1bba9058ea6eda2b6e1e8f0955
+Merge: a9a548e 8083bc7
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 20:35:10 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit a9a548e7d2c177f61be189dc3657b53a40abf334
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 20:34:52 2015 -0500
+
+    Added scraping for bio from wikipedia
+
+commit 8083bc7c0703e1cc5af8fea4eb0762b4e7abd5f4
+Merge: 7483a54 6d36980
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 6 18:11:46 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 7483a5473ddf3f492f4f2f1a918ecc1fab941bec
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 6 18:11:27 2015 -0500
+
+    edited year to int
+
+commit 6d369801cb024a3e82ae45cec748d77354e6de0f
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 6 17:57:57 2015 -0500
+
+    Temporary data scraping script and sample data
+
+commit dbaed884ad37bafc0f7795e68398b39dcaf91d39
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 6 16:13:16 2015 -0500
+
+    edited models.py
+
+commit fa45b502f40fa9f1a3ebe62a18494510f1136ddf
+Merge: d07bf16 6333643
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 6 15:56:44 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit d07bf166cdb1bece97017cafd687a48cde909441
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 6 15:55:46 2015 -0500
+
+    added models.py
+
+commit 6333643d91b7256a29eed5cf3e6e3e874af23d34
+Author: Chang Chih Chi <johnnychang6@gmail.com>
+Date:   Mon Jul 6 15:26:51 2015 -0500
+
+    Update README.md
+
+commit 0233aa7dbe7997b88d8129c699749ce1d2ac92fd
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 02:40:27 2015 -0500
+
+    setup static file service
+
+commit fc0a670ad108ad07fc9f15302bd0ac47f1616e1a
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 6 01:34:06 2015 -0500
+
+    created static folders
+
+commit 376431a1c7e8cf80f8452024d82026a5d2615aac
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Sat Jul 4 15:34:49 2015 -0500
+
+    made templates global
+
+commit f5445cce6e65d0e1d520dd7873b7ff7f1f1bd75b
+Merge: f1f76d6 1fede2a
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Sat Jul 4 15:10:53 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit f1f76d6a7db2c269cb02921403d06d5b797b81e4
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Sat Jul 4 15:09:32 2015 -0500
+
+    created volume max app
+
+commit 1fede2a6a57507676e8b834ad31e866afca53a3e
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Sat Jul 4 01:33:27 2015 -0500
+
+    Update README.md
+
+commit 78984a1e4a0f2fe40ec7973383ecf3565adc38d9
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Sat Jul 4 01:06:54 2015 -0500
+
+    Update README.md
+
+commit cfe0fbfff1feecfe4231090c45219f94e59aaa8f
+Merge: 3df9b54 173a2c5
+Author: efeelaiho <efeelaiho15@gmail.com>
+Date:   Fri Jul 3 01:31:11 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 3df9b5470cb18a186773d9af0543a5fb5f0e57e7
+Author: efeelaiho <efeelaiho15@gmail.com>
+Date:   Fri Jul 3 01:30:04 2015 -0500
+
+    Initialize django
+
+commit 173a2c54964158c3a16a6e9bed6418d9f50f8947
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Wed Jul 1 16:18:04 2015 -0500
+
+    Initial commit
