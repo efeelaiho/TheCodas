@@ -23,3 +23,6 @@ def kanyewest(request):
 
 def michael(request):
 	return render(request, "michael.html", {})
+
+def encore(request):
+	return render(request, "encore.html", {})
