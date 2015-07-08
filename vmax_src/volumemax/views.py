@@ -26,3 +26,9 @@ def michael(request):
 
 def encore(request):
 	return render(request, "encore.html", {})
+
+def bad(request):
+	return render(request, "bad.html", {})
+
+def college(request):
+	return render(request, "college_drop_out.html", {})
