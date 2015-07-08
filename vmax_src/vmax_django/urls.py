@@ -25,6 +25,7 @@ urlpatterns = [
     url(r'^eminem/', 'volumemax.views.eminem', name='eminem'),
     url(r'^kanyewest/', 'volumemax.views.kanyewest', name='kanyewest'),
     url(r'^michael/', 'volumemax.views.michael', name='michael'),
+    url(r'^encore/', 'volumemax.views.encore', name='encore'),
 	url(r'^albums/', 'volumemax.views.albums', name='albums'),
     url(r'^admin/', include(admin.site.urls)),
 
