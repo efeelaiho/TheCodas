@@ -1,0 +1,133 @@
+FORMAT: 1A
+HOST: http://volumemin.volumemax.me:8000
+
+# volumemin
+
+volumemin is a simple API allowing consumers to extract the data stored on volume.max()
+
+# volumemin API Root [/]
+
+## Retrieve the Entry Point [GET]
+
++ Response 200 (application/json)
+
+        {
+            "artists_uri": "/artists"
+        }
+
+## Group Artists
+
+Resources related to Artists in the API.
+
+## Artist [/artists/{artist_id}]
+
+An Artist object has the following attributes:
+
++ artist_name
++ albums - an array of Album objects
++ toptracks - an array of Song objects
++ img - a url to an image of the artist
++ bio - Wikipedia mini-biography of the artist
+
++ Parameters
+    + artist_id: 1 (required, number) - Spotify ID of the Artist in form of an integer
+
+### View an Artist Object [GET]
+
++ Response 200 (application/json)
+
+        {
+            "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
+            "albums": ["By Popular Demand", "In Person"], 
+            "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+        }
+
+## Artists Collection [/artists{?page}]
+
++ Parameters
+    + page: 1 (optional, number) - The page of artists to return
+    
+
+### List All Artists [GET]
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Link: </artists?page=2>; rel="next"
+
+    + Body
+        
+            {
+                "19eLuQmk9aCobbVDHc6eek": 
+                {
+                    "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
+                    "albums": ["By Popular Demand", "In Person"], 
+                    "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+                }
+                "3fMbdgg4jU18AjLCKBhRSm": 
+                {
+                    "toptracks": ["Billie Jean - Single Version", "Love Never Felt so Good", "Love Never Felt so Good"], 
+                    "albums": ["XSCAPE", "Michael", "Invincible", "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix"],
+                    "img": "https://i.scdn.co/image/738650ce127e119788a7bca020fbd054b5aa57b5"
+                }
+            }
+
+## Group Albums
+
+Resources related to Albums in the API.
+
+## Album [/Albums/{album_name}]
+
+An Album object has the following attributes:
+
++ album_name
++ albums - an array of Album objects
++ toptracks - an array of Song objects
++ img - a url to an image of the Album
++ bio - Wikipedia mini-biography of the Album
+
++ Parameters
+    + album_name: 1 (required, number) - Spotify ID of the Album in form of an integer
+
+### View an Album Object [GET]
+
++ Response 200 (application/json)
+    
+        {
+            "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
+            "albums": ["By Popular Demand", "In Person"], 
+            "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+        }
+
+
+## Albums Collection [/albums{?page}]
+
++ Parameters
+    + page: 1 (optional, number) - The page of albums to return
+    
+
+### List All Albums [GET]
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Link: </albums?page=2>; rel="next"
+
+    + Body
+
+            {
+                "19eLuQmk9aCobbVDHc6eek": 
+                {
+                    "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
+                    "albums": ["By Popular Demand", "In Person"], 
+                    "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+                }
+                "3fMbdgg4jU18AjLCKBhRSm": 
+                {
+                    "toptracks": ["Billie Jean - Single Version", "Love Never Felt so Good", "Love Never Felt so Good"], 
+                    "albums": ["XSCAPE", "Michael", "Invincible", "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix"],
+                    "img": "https://i.scdn.co/image/738650ce127e119788a7bca020fbd054b5aa57b5"
+                }
+            }
