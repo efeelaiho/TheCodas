@@ -11,7 +11,7 @@ footer {
 }
 
 a.thumbnail:hover {
-	box-shadow: 0 0 30px #D50000;
-	-moz-box-shadow: 0 0 30px #D50000;
-	-webkit-box-shadow: 0 0 30px #D50000;
+	box-shadow: 0 0 70px #D50000;
+	-moz-box-shadow: 0 0 70px #D50000;
+	-webkit-box-shadow: 0 0 70px #D50000;
 }
