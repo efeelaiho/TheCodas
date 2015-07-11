@@ -15,20 +15,20 @@ def albums(request):
 	return render(request, "albums.html", {})	
 
 def eminem(request):
-	return render(request, "eminem.html",{})
+	return render(request, "artist/eminem.html",{})
 
 
 def kanyewest(request):
-	return render(request, "kanyewest.html", {})
+	return render(request, "artist/kanyewest.html", {})
 
 def michael(request):
-	return render(request, "michael.html", {})
+	return render(request, "artist/michael.html", {})
 
 def encore(request):
-	return render(request, "encore.html", {})
+	return render(request, "album/encore.html", {})
 
 def bad(request):
-	return render(request, "bad.html", {})
+	return render(request, "album/bad.html", {})
 
 def college(request):
-	return render(request, "college_drop_out.html", {})
+	return render(request, "album/college_drop_out.html", {})
