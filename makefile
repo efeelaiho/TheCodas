@@ -2,7 +2,6 @@ FILES :=                         	      \
     .travis.yml                  		  \
     makefile							  \
     IDB.log  	                    	  \
-    Netflix.py                         	  \
     tests.py  	            		      \
     apiary.apib         		          \
     models.html                  		  \

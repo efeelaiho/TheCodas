@@ -17,7 +17,7 @@ artistcache = {}
 albumcache = {}
 
 '''
-
+Artist Cache
 {	Artist Spotify URI: 
 	{
 		'name': artist name, 
@@ -36,6 +36,22 @@ albumcache = {}
 			]
 	}
 }
+'''
+'''
+Album Cache
+{	Album Spotify URI:
+	{
+		'name': artist name,
+		'img': album art image url
+		'tracks': 
+			[track1, track2, ...]
+		'genre': [genre1, genre2, ...]
+		'releasedate': album release date
+
+
+	}
+}
+
 '''
 
 '''
@@ -60,6 +76,8 @@ for temp in tempartists:
 
 	#albums scrape {album name: album art url}
 	albumresults = spotify.artist_albums(artist['id'], album_type='album')
+	albumcache[albid]['releasedate'] = albumresults['release_date']
+	albumcache[albid]['genres'] = albumresults['genres']
 	albums = albumresults['items']
 	while albumresults['next']:
 		albumresults = spotify.next(albumresults)
@@ -68,12 +86,14 @@ for temp in tempartists:
 		albid = album['id']
 		albumcache[albid] = {}
 		albumcache[albid]['name'] = album['name']
+
 		if 0 < len(album['images']): 
 			artistcache[aid]['albums'][album['name']] = album['images'][0]['url']
 			albumcache[albid]['img'] = album['images'][0]['url']
 		else:
 			artistcache[aid]['albums'][album['name']] = 'N/A'
 			albumcache[albid]['img'] = 'N/A'
+
 		#album tracks scrape
 		trackresults = spotify.album_tracks(album['id'])
 		albumtracks = []

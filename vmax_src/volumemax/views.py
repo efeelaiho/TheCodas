@@ -2,6 +2,12 @@ from django.shortcuts import render
 
 # Create your views here.
 
+###################################################################	
+#
+#	MAIN NAVBAR
+#
+###################################################################
+
 def home(request):
 	return render(request, "home.html",{})
 
@@ -14,12 +20,41 @@ def artists(request):
 def albums(request):
 	return render(request, "albums.html", {})	
 
+
+###################################################################	
+#
+#	ARTISTS
+#
+###################################################################	
+
+
 def eminem(request):
-	return render(request, "eminem.html",{})
+	return render(request, "artist/eminem.html",{})
 
 
 def kanyewest(request):
-	return render(request, "kanyewest.html", {})
+	return render(request, "artist/kanyewest.html", {})
 
 def michael(request):
-	return render(request, "michael.html", {})
+	return render(request, "artist/michael.html", {})
+
+
+
+###################################################################	
+#
+#	ALBUMS
+#
+###################################################################	
+
+
+def encore(request):
+	return render(request, "album/encore.html", {})
+
+def bad(request):
+	return render(request, "album/bad.html", {})
+
+def college(request):
+	return render(request, "album/college_drop_out.html", {})
+
+
+

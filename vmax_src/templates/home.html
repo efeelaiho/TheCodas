@@ -1,7 +1,7 @@
 {% load staticfiles %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
 
 <head>
 
@@ -32,7 +32,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-
+{{ name }}
 
 
 </head>
@@ -47,9 +47,9 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="{% url 'home' %}">Volume.max()
+                <p class="title"><a class="navbar-brand page-scroll" href="{% url 'home' %}">Volume.max()
                     <!--<i class="fa fa-play-circle"></i>  <span class="light"></span> -->
-                </a>
+                </a></p>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -103,7 +103,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p align="center">Copyright &copy; TheCodas 2015</p>
+            <p>Copyright &copy; TheCodas 2015</p>
         </div>
     </footer>
 
