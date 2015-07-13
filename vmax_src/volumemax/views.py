@@ -56,5 +56,3 @@ def bad(request):
 def college(request):
 	return render(request, "album/college_drop_out.html", {})
 
-
-
