@@ -10,6 +10,7 @@ class Artist(models.Model):
 	last_name = models.CharField(max_length=50)
 	date_of_birth = models.DateField()
 	origin = models.CharField(max_length=50)
+	popularity = models.IntegerField()
 	
 
 class Albums(models.Model):
