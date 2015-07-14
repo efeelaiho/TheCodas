@@ -9,7 +9,6 @@ class Artist(models.Model):
 	origin will be represented as city, state format (Austin, TX)
 	"""
 	full_name = models.CharField(max_length=100)
-	date_of_birth = models.DateField()
 	origin = models.CharField(max_length=50)
 	popularity = models.IntegerField()
 	genre = models.CharField(max_length=50)
@@ -26,7 +25,7 @@ class Artist(models.Model):
 		return self.full_name
 
 
-class Albums(models.Model):
+class Album(models.Model):
 	"""
 	each album will contain artist, name, release_date, and genre
 	release_date will be represented as a datetime object in YYYY/MM/DD format
