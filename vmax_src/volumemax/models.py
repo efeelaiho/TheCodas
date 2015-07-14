@@ -36,7 +36,7 @@ class Albums(models.Model):
 	release_date = models.DateField()
 	genre = models.CharField(max_length=50)
 	spotify_albums_uri = models.CharField(max_length=500)
-	editors_notes = CharField(max_length=5000)
+	editors_notes = models.CharField(max_length=5000)
 	
 	def get_absolute_url(self):
 		return "/albums/%s/" % self.album_name
