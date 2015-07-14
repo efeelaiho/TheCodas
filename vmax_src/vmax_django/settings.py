@@ -79,10 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'volumemax',
-        'USER': 'admin',
-        'PASSWORD': 'thecodas',
-        'HOST': '0e2dcaf09bdc4695b2fbce660612b515882b1ce5.rackspaceclouddb.com',
-      #  'HOST': '127.0.0.1',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
         'PORT': '3306'
     }
 }
