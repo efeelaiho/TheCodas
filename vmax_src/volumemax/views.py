@@ -1,4 +1,10 @@
 from django.shortcuts import render
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+from django.core.exceptions import ObjectDoesNotExist
+from volumemax.models import *
+from django.http import HttpResponse
+import json
 
 # Create your views here.
 
@@ -19,6 +25,32 @@ def artists(request):
 
 def albums(request):
 	return render(request, "albums.html", {})	
+
+
+###################################################################	
+#
+#	DYNAMIC - ARTIST - ALBUM
+#
+###################################################################	
+
+
+def artist(request, a_name):
+	context = RequestContext(request)
+
+	x = a_name.replace('_', ' ')
+
+	artist = Artist.objects.get(full_name = x)
+	album_url = (player.recommended_album).replace(' ', '_')
+
+
+	player_dic 
+
+
+def album()
+
+
+
+
 
 
 ###################################################################	
