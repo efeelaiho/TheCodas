@@ -26,7 +26,7 @@ class Artist(models.Model):
 		return self.full_name
 
 
-class Albums(models.Model):
+class Album(models.Model):
 	"""
 	each album will contain artist, name, release_date, and genre
 	release_date will be represented as a datetime object in YYYY/MM/DD format
