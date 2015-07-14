@@ -11,6 +11,8 @@ class Artist(models.Model):
 	date_of_birth = models.DateField()
 	origin = models.CharField(max_length=50)
 	popularity = models.IntegerField()
+	genre = models.CharField(max_length=50)
+	spotify_href = models.CharField(max_length=100)
 	
 
 class Albums(models.Model):
@@ -22,4 +24,5 @@ class Albums(models.Model):
 	name = models.CharField(max_length=100)
 	release_date = models.DateField()
 	genre = models.CharField(max_length=50)
+	spotify_href = models.CharField(max_length=100)
 
