@@ -17,10 +17,12 @@ html {
     height: 100%;
 }
 
-h2{
-    margin-top: 10px;
+
+h2 {
+    margin-top: 10px; 
 
 }
+
 
 h3 {
     font-size: 16px;
@@ -40,9 +42,10 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     font-size: 18px;
     line-height: 1.5;
+    
 }
 
 @media(min-width:768px) {
@@ -388,4 +391,43 @@ body {
     margin-left: 20px;
 
 
+}
+
+.album-page-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommended-album img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommended-album {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.albumParagraph {
+    margin-top: -50px;
+
+
+}
+
+.artist{
+
+    height: auto; overflow: hidden;
+
+}
+
+.editor{
+    line-height: 2cm;
+    padding-bottom: 2px;
+}
+
+hr{
+    border-color:#d50000"
 }

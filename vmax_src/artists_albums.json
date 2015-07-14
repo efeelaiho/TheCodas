@@ -1,0 +1,242 @@
+[
+  {
+    "model": "volumemax.artist",
+    "pk": 1,
+    "fields": {
+      "full_name": "Eminem",
+      "origin": "Chicago, IL" ,
+      "popularity": 96,
+      "genre": "Hip-Hop/Rap",
+      "spotify_artist_uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 1,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+  {
+    "model": "volumemax.artist",
+    "pk": 2,
+    "fields": {
+      "full_name": "Kanye West",
+      "origin": "Chicago, IL",
+      "popularity": 97,
+      "genre": "Hip-Hop/Rap",
+      "spotify_artist_uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 2,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+  {
+    "model": "volumemax.artist",
+    "pk": 3,
+    "fields": {
+      "full_name": "Kendrick Lamar",
+      "origin": "Compton, CA",
+      "popularity": 93,
+      "genre": "Hip-Hop/Rap",
+      "spotify_artist_uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 3,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+  {
+    "model": "volumemax.artist",
+    "pk": 4,
+    "fields": {
+      "full_name": "Frank Ocean",
+      "origin": "New Orleans, LA",
+      "popularity": 82,
+      "genre": "Hip-Hop/Rap",
+      "spotify_artist_uri": "spotify:artist:2h93pZq0e7k5yf4dywlkpM",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 4,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+   {
+    "model": "volumemax.artist",
+    "pk": 5,
+    "fields": {
+      "full_name": "Michael Jackson",
+      "origin": "Gary, IN",
+      "popularity": 88,
+      "genre": "Pop",
+      "spotify_artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 5,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+   {
+    "model": "volumemax.artist",
+    "pk": 6,
+    "fields": {
+      "full_name": "Louis Armstrong",
+      "origin": "New Orleans, LA",
+      "popularity": 74,
+      "genre": "Jazz",
+      "spotify_artist_uri": "spotify:artist:19eLuQmk9aCobbVDHc6eek",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 6,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+   {
+    "model": "volumemax.artist",
+    "pk": 7,
+    "fields": {
+      "full_name": "Miles Davis",
+      "origin": "Alton, IL",
+      "popularity": 72,
+      "genre": "Jazz",
+      "spotify_artist_uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 7,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+   {
+    "model": "volumemax.artist",
+    "pk": 8,
+    "fields": {
+      "full_name": "Bill Evans",
+      "origin": "Plainfield, NJ",
+      "popularity": 65,
+      "genre": "Jazz",
+      "spotify_artist_uri": "spotify:artist:4jXfFzeP66Zy67HM2mvIIF",
+      "biography": "",
+      "youtube_url_1": "https://www.youtube.com/embed/S9bCLPwzSC0",
+      "youtube_url_2": "https://www.youtube.com/embed/uelHwf8o7_U",
+      "recommended_album": 8,
+      "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 1,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "rap",
+       "album_name": "Encore",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 2,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 2,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "rap",
+       "album_name": "College Dropout",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 3,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 3,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "rap",
+       "album_name": "To Pimp A Butterfly",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 4,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 4,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "rap",
+       "album_name": "Channel Orange",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 5,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 5,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "rap",
+       "album_name": "Bad",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 6,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 6,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "Jazz",
+       "album_name": "Essential of Louis",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 7,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 7,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "Pop",
+       "album_name": "Kind of Blue",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  },
+  {
+    "pk": 8,
+    "model": "volumemax.album",
+     "fields": {
+       "album_artist": 8,
+       "release_date": "2009-05-01",
+       "spotify_albums_uri": "stuff",
+       "genre": "Jazz",
+       "album_name": "Portrait in Jazz",
+       "editors_notes": "this is info",
+       "spotify_albums_uri": "spotify:album:1kTlYbs28MXw7hwO0NLYif",
+       "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"
+     }
+  }
+]

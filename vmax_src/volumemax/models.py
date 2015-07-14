@@ -10,9 +10,9 @@ class Artist(models.Model):
 	get_absolute_url function creates a url link for the artist
 	__str__ function returns the artist's name as a string
 	"""
-	full_name = models.CharField(max_length=100, null=True, blank=True)
-	date_of_birth = models.DateField(null=True, blank=True)
-	origin = models.CharField(max_length=50, null=True, blank=True)
+
+	full_name = models.CharField(max_length=100,null=True, blank=True)
+	origin = models.CharField(max_length=50,null=True, blank=True)
 	popularity = models.IntegerField(null=True, blank=True)
 	genre = models.CharField(max_length=50, null=True, blank=True)
 	spotify_artist_uri = models.CharField(max_length=500, null=True, blank=True)
@@ -20,7 +20,8 @@ class Artist(models.Model):
 	youtube_url_1 = models.CharField(max_length=500, null=True, blank=True)
 	youtube_url_2 = models.CharField(max_length=500, null=True, blank=True)
 	image_url = models.CharField(max_length=500, null=True, blank=True)
-	#recommended_album = models.ForeignKey(Album, null = True, blank = True)
+	recommended_album = models.ForeignKey('Album',default=1)
+
 
 	def get_absolute_url(self):
 		url_name = self.full_name.replace(' ', '_')
@@ -29,7 +30,6 @@ class Artist(models.Model):
 	def __str__ (self):
 		return self.full_name
 
-
 class Album(models.Model):
 	"""
 	each album will contain artist, name, release_date, and genre
@@ -37,7 +37,7 @@ class Album(models.Model):
 	get_absolute_url function creates a url link for the album
 	__str__ function returns the album name as a string
 	"""
-	album_artist = models.ForeignKey(Artist, null=True, blank=True)
+	album_artist = models.ForeignKey('Artist',default=1)
 	album_name = models.CharField(max_length=100, null=True, blank=True)
 	release_date = models.DateField(null=True, blank=True)
 	genre = models.CharField(max_length=50, null=True, blank=True)
@@ -47,7 +47,6 @@ class Album(models.Model):
 	
 	def get_absolute_url(self):
 		return "/albums/%s/" % self.album_name
-
 
 	def __str__ (self):
 		return self.album_name
