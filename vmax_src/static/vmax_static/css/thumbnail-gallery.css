@@ -11,9 +11,9 @@ footer {
 }
 
 a.thumbnail:hover {
-	box-shadow: 0 0 80px #D50000;
-	-moz-box-shadow: 0 0 80px #D50000;
-	-webkit-box-shadow: 0 0 80px #D50000;
+	box-shadow: 0 0 100px #D50000;
+	-moz-box-shadow: 0 0 100px #D50000;
+	-webkit-box-shadow: 0 0 100px #D50000;
 }
 
 /*.img-responsive {

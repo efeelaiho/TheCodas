@@ -18,7 +18,7 @@ class Artist(models.Model):
 	youtube_url_1 = models.CharField(max_length=500, null=True, blank=True)
 	youtube_url_2 = models.CharField(max_length=500, null=True, blank=True)
 	image_url = models.CharField(max_length=500, null=True, blank=True)
-	#recommended_album = models.ForeignKey(Album, null = True, blank = True)
+	recommended_album = models.ForeignKey('Album',default=1)
 
 
 	def get_absolute_url(self):
@@ -33,7 +33,7 @@ class Album(models.Model):
 	each album will contain artist, name, release_date, and genre
 	release_date will be represented as a datetime object in YYYY/MM/DD format
 	"""
-	album_artist = models.ForeignKey(Artist, null=True, blank=True)
+	album_artist = models.ForeignKey('Artist',default=1)
 	album_name = models.CharField(max_length=100, null=True, blank=True)
 	release_date = models.DateField(null=True, blank=True)
 	genre = models.CharField(max_length=50, null=True, blank=True)
