@@ -39,7 +39,7 @@ class Albums(models.Model):
 	editors_notes = CharField(max_length=5000)
 	
 	def get_absolute_url(self):
-    	return "/albums/%s/" % self.album_name
+		return "/albums/%s/" % self.album_name
 
 
 	def __str__ (self):
