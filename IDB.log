@@ -1,14 +1,578 @@
+commit 59f350de48fd8b421846c4715e8084ca0125d000
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 21:46:57 2015 -0500
+
+    Syntax error
+
+commit 09059e843ca41f560bf443a3671c8ad9f8a32c1f
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 21:45:06 2015 -0500
+
+    Fixing syntax error in views.py
+
+commit 70a4505b57fafe15927260dc5397fa901760ced9
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 21:24:51 2015 -0500
+
+    updated photos
+
+commit 5930a79a4cae061df8ee7c1bab82a8fa7a1bc437
+Merge: a92fd1c 72918af
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 21:07:32 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit a92fd1ce339de0d87bed5ab2cb02c9f164f1d63f
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 21:07:06 2015 -0500
+
+    fixed test cases
+
+commit 72918af64694cee2b67a6f39efb015b86b287b4d
+Merge: 4a8dd67 723ca10
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 21:03:27 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 4a8dd67383d9d4ca6291efd1c98b97f091cf8296
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 21:02:49 2015 -0500
+
+    Dynamic loading for views/urls
+
+commit 723ca102a2a6b1f8731a6d5f30ebf9e0351a1a01
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 20:50:36 2015 -0500
+
+    quotation
+
+commit 310c2ea199da448736b3ffd9fc610fd2321b5f3e
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 20:17:02 2015 -0500
+
+    fixed indentation
+
+commit 60d20ae801ab09713d79cfad15423a75cc763cb7
+Merge: ae9ba73 92c4b74
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 19:58:01 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit ae9ba73c9d6927933d5c815f615554d92af68885
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 19:57:57 2015 -0500
+
+    added bio section
+
+commit 92c4b746f44416a4bd6f24597ef156749e1e183c
+Merge: e37b00a 0d7f249
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 19:38:11 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 0d7f249c000d85faf94ed8df34564630177225b8
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 19:37:30 2015 -0500
+
+    modeified artists_albums.json
+
+commit e37b00aee8484fe9a22752be0fe3b7a0e10f0e6e
+Merge: fec7c80 3551bf7
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 19:36:05 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit fec7c80f816bcab469630605a407c599ff9f21ee
+Merge: dcf65ac f19f4e5
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 19:35:18 2015 -0500
+
+    add album function to views.py
+
+commit 3551bf7f30e0bddbab8f369b6a91e3f149d0ce1f
+Merge: 95f923f f19f4e5
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 19:33:47 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 95f923f8a2fd5fc22b45eb7aab99186a6e1a910e
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 19:33:41 2015 -0500
+
+    added youtube urls in artists_album.json
+
+commit dcf65ac7751747a7b164de57bf84fbcc25e94f66
+Merge: 583991f 1855349
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 19:31:16 2015 -0500
+
+    add album function to views.py
+
+commit f19f4e5ec597725e563aebb55b9085f46ed3f86b
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 19:27:15 2015 -0500
+
+    Finished API. Fixes #51
+
+commit 583991fae3ccfd60fe7787bd2b683b828f47a979
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 19:05:05 2015 -0500
+
+    making changes to view.py
+
+commit 185534945068bedbc8e53fb43299af8c70bc2ba3
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 19:04:20 2015 -0500
+
+    Implemented basic API
+
+commit f625b63f951969c042d4515500f3715f4432401c
+Merge: 95ca345 8ed0b43
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 18:38:53 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 95ca3459a97742cb3c87316cdb71da1d64f437b4
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 18:38:30 2015 -0500
+
+    making changes to view.py
+
+commit 8ed0b435abe235c65719295d0f2a6c02dd114447
+Merge: fc65e1c 1e3ddc5
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 18:09:08 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit fc65e1cfa0f247ea1db788656d12f56ce5c54827
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 18:08:39 2015 -0500
+
+    Adding settings.py to .gitignore
+
+commit 1e3ddc5b35f06b05e9e137bff71afd5fa955a5d0
+Merge: cf5d558 e03d630
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 17:17:52 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit cf5d5585a520a89c09cd3441cb7815a7349918b2
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 17:17:45 2015 -0500
+
+    revision of dynamic artist and album html
+
+commit e03d630861b24a5400976c7d0c6e482d07ecd13f
+Merge: 9516d72 4975b73
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 14 22:08:23 2015 +0000
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 9516d724a28747561b0aadc62b628e8598ee87a0
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 14 22:08:12 2015 +0000
+
+    Working on API
+
+commit 4975b73cb95215ef26de4b7e99cf0b579a6b5078
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 17:07:48 2015 -0500
+
+    generic album page created
+
+commit 78486c0991066178b53c0a80b8832b3482778d97
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 17:04:57 2015 -0500
+
+    generic album page created
+
+commit e24360133ccc3973f2b23bca2f331d23b62f8d4f
+Merge: c2c657a d056753
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 16:06:43 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit c2c657acce02e1a368a9e39986b9d07fd0d71530
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 16:06:35 2015 -0500
+
+    updated UML and added comments to models.py
+
+commit d056753a1dc8c9df063d503b2ba2d5d31d048069
+Merge: 4931771 31d7763
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 15:56:12 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 4931771bb257681b51a3af42e27b133c7cd0c019
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Tue Jul 14 15:55:56 2015 -0500
+
+    Added skeleton code for dynamic pages
+
+commit 31d7763ce43e0346013b27a5a708ef7bbd231bfb
+Merge: 46d1e1b 7345ce6
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 14 20:45:00 2015 +0000
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 46d1e1bf71b12162fcaea7e5154bd8b3215ab3df
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 14 20:44:40 2015 +0000
+
+    Modified calls to foreign keys
+
+commit 7345ce68987d53f38f5ef5659e6a586f610986e3
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 15:39:01 2015 -0500
+
+    increased red glow
+
+commit 37fba2b21e22eb0943e8398dfed85fe63b635dff
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 15:36:07 2015 -0500
+
+    fixed comma error
+
+commit fa7c693e51bbf9d46311a42741900f0db2d86307
+Merge: 871ce59 362243e
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 15:23:24 2015 -0500
+
+    fix conflict merge on models.py
+
+commit 871ce5950d3ab6318f8e5d730f7fc30b0fa60384
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 15:19:52 2015 -0500
+
+    modified cache
+
+commit f95df5192b6a39c670d9439dc6fd987cbc9e8dd0
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 15:18:08 2015 -0500
+
+    modified cache
+
+commit 362243ea09744c684533bb9ecee1b7baaf273c13
+Merge: 09a1f23 59b6dfb
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 15:13:22 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 09a1f234fbd6779a1db5af0f179dc10ddf8db222
+Author: greenday3470 <johnnychang6@gmail.com>
+Date:   Tue Jul 14 15:11:43 2015 -0500
+
+    edited css files, eminem.html, encore.html
+
+commit 59b6dfb6a053300761124e7964a78db35ff312fa
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 15:06:56 2015 -0500
+
+    added image url fields
+
+commit 1f03fccaea147daa81f4c8073004303acde1dd46
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 14:36:32 2015 -0500
+
+    added more fields and updated tests.py
+
+commit 7aca83846a0a823e1b372fc7db8acd0b13f70956
+Merge: fd096cb a4c0c62
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 13:56:14 2015 -0500
+
+    making new cache
+
+commit fd096cb697b8b30a0b24c83cb9475f5378393ef8
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 13:51:01 2015 -0500
+
+    make new cache
+
+commit a4c0c6249a2b0c6682f5e4275e1d296ea1a68e1f
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 13:26:33 2015 -0500
+
+    added null = true and blank = true to all fields
+
+commit 21a82de2a7131b7c3bbdf3b620c7e716ab3468fe
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 13:15:18 2015 -0500
+
+    changed some spelling
+
+commit 7f7f2306784a572be00280ea068ffb625721aca8
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 12:51:34 2015 -0500
+
+    fixed charfield error
+
+commit 9534675aa8369113fb085391739b4569b8e51396
+Merge: c52a5cb 1905a6d
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 12:49:34 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit c52a5cbc8d28f1b354eb68353774d9a1137459a2
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 14 12:47:57 2015 -0500
+
+    fixed indentation error
+
+commit 1905a6d0ce5dc32acd9716a50c66557b20f21967
+Author: TheCodas <thecodas@volumemax.me>
+Date:   Tue Jul 14 14:46:51 2015 +0000
+
+    Finally got MySQL working, I think...
+
+commit ac20721fd8b55abf5ed5649a7b70244b7f573572
+Merge: 2bfd38b ec94132
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 04:17:43 2015 -0500
+
+    fix merge conflict
+
+commit 2bfd38b5657a93b89259362da31778a855497cd5
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Tue Jul 14 04:04:25 2015 -0500
+
+     add thumbnail images for artists
+
+commit ec9413244cde8e3836fd56d9d8753e264662362d
+Merge: aec4691 e5f50d6
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 20:36:48 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit aec469178559613279cd9be1fbd8e8053563371a
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 20:36:31 2015 -0500
+
+    added more attributes
+
+commit e5f50d672a0b53a73f155f05ab63e376b8563912
+Merge: d643792 d5602af
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Mon Jul 13 20:17:32 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit d6437921a1d4fb25ed74c6bf4d2ccc734e28ea98
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Mon Jul 13 20:17:28 2015 -0500
+
+    Changed to using navbar.html
+
+commit d5602af656615af7f854ccea0408580c3380a32a
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 19:26:54 2015 -0500
+
+    updated UML
+
+commit b48bddfb316b99a958d228df38312c9e5dfe4cd3
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 19:04:41 2015 -0500
+
+    edited models.py and added in migrations
+
+commit 3525eb358997d39991e822a8c59b408be84e5754
+Merge: 399edaa f7a3473
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 13 19:02:27 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 399edaa10ddd75922dd96836bd2372e08f544d6a
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 13 19:02:12 2015 -0500
+
+    Trying to get MySQL connected...
+
+commit f7a3473abac861a20c2f351d11d751f89026cd19
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Mon Jul 13 18:55:12 2015 -0500
+
+    Using global navbar.html
+
+commit a0f11134ac1596d7b66e4ac1ebb3789e966e561f
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 13 17:48:05 2015 -0500
+
+    restored album cache
+
+commit 600620e5bdaaae9aa59808a6e19b3d996f976999
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 13 17:29:56 2015 -0500
+
+    Top 50 albums, top 50 artists, top 50 album's artists
+
+commit 3ed122e2b3fc6cad1d7961885ccf7e98540eae1e
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 13 16:42:36 2015 -0500
+
+    add artists to artistlist
+
+commit bca746acff251fa1e21e54b4bf5b8a7ce815bcbe
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Mon Jul 13 16:40:03 2015 -0500
+
+    Changing .gitignore to not push .pyc and pycache
+
+commit 86ebe29d6b8fecfb2c31f9bb681818778421aa4d
+Author: justwinata <justwinata@gmail.com>
+Date:   Mon Jul 13 16:13:20 2015 -0500
+
+    Added best-selling music artists list
+
+commit 9ac24ca21e83990c56757942f1848f7ea88e59c1
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Mon Jul 13 15:47:00 2015 -0500
+
+    add red glow to albums
+
+commit ce0981e948eebfafb85babd52cbdb807e9b03e75
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 14:58:42 2015 -0500
+
+    added popularity field to artists
+
+commit cba1abe6ce906582cc7c7ebbb9bd576c7982dc70
+Merge: b06d665 537254f
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Mon Jul 13 14:57:59 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit 537254f2e63fdc05d82d969172f2e40f5d6be742
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Sat Jul 11 12:55:02 2015 -0500
+
+    organize urls.py file by categories
+
+commit 4c6b7c775551c200344d20531037cc595b4d10c2
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Sat Jul 11 12:44:13 2015 -0500
+
+    organized functions respective to their category
+
+commit 6ad6bc43f4fa2cd7c88dcaa6ed684e889535538d
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Fri Jul 10 20:00:23 2015 -0500
+
+    Fixing broken links
+
+commit 835808dee7e3da377da68bdfff9756be634632a1
+Merge: bb6d973 4a1b95f
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Thu Jul 9 15:59:58 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas into dev
+
+commit bb6d9736300971f8a8071eb6ce58b21011d1d320
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Thu Jul 9 15:59:33 2015 -0500
+
+    increased red glow, and centered the copyright
+
+commit 4a1b95fb524c654145566ce411eb6c4730114acc
+Author: justwinata <justwinata@gmail.com>
+Date:   Thu Jul 9 12:59:33 2015 -0500
+
+    adjusted bg image
+
+commit e123b8f8c0566a59d79e54cefec70883ac8c1ba5
+Merge: 5dd8902 c70240d
+Author: justwinata <justwinata@gmail.com>
+Date:   Thu Jul 9 12:55:01 2015 -0500
+
+    Merge branch 'dev' of http://github.com/efeelaiho/TheCodas into dev
+
+commit c70240d2ac7f83b0bcee8558a2e98334133902bf
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Thu Jul 9 03:47:48 2015 -0500
+
+    modified octocat more
+
+commit f540dade248eed5b61195b550d4acf2f75f30e90
+Author: efeelaiho <efeelaiho15@utexas.edu>
+Date:   Thu Jul 9 03:30:22 2015 -0500
+
+    add trimming to octocat and made github links open in new window
+
+commit aaefaace298be4d92b3e37e70de0b19263b069f0
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Wed Jul 8 21:07:04 2015 -0500
+
+    Fixed broken apiary link and moved github links
+
+commit 9f5c37c363e411eaef2d2e479382b77b0a55401f
+Author: Mark Laver <mark.laver@utexas.edu>
+Date:   Wed Jul 8 20:46:57 2015 -0500
+
+    Implemented folders for artists & albums. Fixes #37
+
+commit 5dd89028868ec1623d4d3c42696adb3914f0ae57
+Merge: 08b5798 2079c26
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:50:24 2015 -0500
+
+    Merge branch 'dev'
+
+commit 2079c2679e28b6b61878f70bd389b862703462fc
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:48:33 2015 -0500
+
+    working on adding release date and genres
+
+commit 98aef123679320971aef310dd40be42c5b3fa61a
+Author: justwinata <justwinata@gmail.com>
+Date:   Tue Jul 7 21:47:39 2015 -0500
+
+    Added IDB.log
+
 commit b57bd4032e714fb712dfacee3c94f807161c05a2
 Author: justwinata <justwinata@gmail.com>
 Date:   Tue Jul 7 21:46:13 2015 -0500
 
     Added team stats
 
+commit 08b57987c38e70c21dee899771a9ecc5c3d9c98f
+Merge: 028b9e2 4dc4e2b
+Author: Efé <efeelaiho15@utexas.edu>
+Date:   Tue Jul 7 21:41:44 2015 -0500
+
+    Merge pull request #36 from efeelaiho/dev
+    
+    Dev
+
 commit 4dc4e2bca7651247f912954173f2772a4c4fc920
 Author: justwinata <justwinata@gmail.com>
 Date:   Tue Jul 7 21:41:15 2015 -0500
 
     Added stats to about
+
+commit 028b9e248e973a453eadb3022978021fa30a3d68
+Author: marklaver <mark.laver@utexas.edu>
+Date:   Tue Jul 7 21:37:47 2015 -0500
+
+    Transferring blueprint from apiary.io
 
 commit c4a91a4a1eb1bcb9cbd526a1f41ba9ed984e2d18
 Author: marklaver <crusherven@yahoo.com>
@@ -238,6 +802,19 @@ Author: Chih Chi Chang <jchang6@cs.utexas.edu>
 Date:   Tue Jul 7 20:11:59 2015 -0500
 
     encore.html
+
+commit b06d665ebc2c1a1d45eafcac614cf59470e7d0ca
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 18:56:28 2015 -0500
+
+    added documentation and removed top songs
+
+commit 22b78971bbada78e05a539f6344d0fb978905a1e
+Merge: dd623a4 cd11a8f
+Author: Raymond Ton <rtx129@cs.utexas.edu>
+Date:   Tue Jul 7 18:54:39 2015 -0500
+
+    Merge branch 'dev' of https://github.com/efeelaiho/TheCodas
 
 commit cd11a8fb3d1b7d7d84ab831a077fc0c140bcfb7a
 Author: marklaver <crusherven@yahoo.com>
@@ -670,6 +1247,12 @@ Date:   Tue Jul 7 16:33:15 2015 -0500
 
     edited eminem.html
 
+commit dd623a4711be22aa5bd58577b5ee467973138424
+Author: marklaver <mark.laver@utexas.edu>
+Date:   Tue Jul 7 16:26:57 2015 -0500
+
+    Transferring blueprint from apiary.io
+
 commit 9276201f7d4025166b7910b8050fd1210a41f893
 Author: justwinata <justwinata@gmail.com>
 Date:   Tue Jul 7 16:23:31 2015 -0500
@@ -1049,6 +1632,18 @@ Author: efeelaiho <efeelaiho15@utexas.edu>
 Date:   Tue Jul 7 13:34:34 2015 -0500
 
     adding yt player
+
+commit 9bb63f55a57b19ca7d72620e5b559b323ed71f0a
+Author: marklaver <mark.laver@utexas.edu>
+Date:   Tue Jul 7 13:26:05 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit c349b0e04f6f7b247b6df5477beb34fe9a5ff35a
+Author: marklaver <mark.laver@utexas.edu>
+Date:   Tue Jul 7 13:21:23 2015 -0500
+
+    Transferring blueprint from apiary.io
 
 commit e452a92a5085d03612eed6be467ecadd07a2fcf3
 Merge: a74f7da 7b22265
