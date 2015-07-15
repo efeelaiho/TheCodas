@@ -10,12 +10,11 @@ from rest_framework.parsers import JSONParser
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
 
-
 # Create your views here.
 
-###################################################################	
+################################################################### 
 #
-#	MAIN NAVBAR
+#   MAIN NAVBAR
 #
 ###################################################################
 
@@ -23,20 +22,30 @@ def home(request):
 	return render(request, "home.html",{})
 
 def about(request):
-	return render(request, "about.html", {})	
+	return render(request, "about.html", {})    
 
 def artists(request):
-	return render(request, "artists.html", {})	
+	context = RequestContext(request)
+	artists = Artist.objects.all()
+	serializer = ArtistSerializer(artists, many=True)
+	artist_dict = JSONRenderer().render(serializer.data)
+	#return render_to_response("artists.html", artist_dict, context)
+	return render(request, "artists.html", {})  
 
 def albums(request):
-	return render(request, "albums.html", {})	
+	context = RequestContext(request)
+	albums = Album.objects.all()
+	serializer = AlbumSerializer(albums, many=True)
+	album_dict = JSONRenderer().render(serializer.data)
+	# return render_to_response("albums.html", album_dict, context)
+	return render(request, "albums.html", {})
 
-
-###################################################################	
+		
+################################################################### 
 #
-#	DYNAMIC - ARTIST - ALBUM
+#   DYNAMIC - ARTIST - ALBUM
 #
-###################################################################	
+################################################################### 
 
 
 def artist(request, ar_name):
@@ -47,26 +56,24 @@ def artist(request, ar_name):
 	artist = Artist.objects.get(full_name = x)
 	album_url = (artist.recommended_album.album_name).replace(' ', '_')
 	album_img_url = (artist.recommended_album.image_url)
+	serializer = ArtistSerializer(artist, many=True)
+	artist_dic = JSONRenderer().render(serializer.data)
 
-
-	artist_dic = {
-	  "full_name": artist.full_name,
-      "origin": artist.origin,
-      "popularity": artist.popularity,
-      "genre": artist.genre,
-      "spotify_artist_uri": artist.spotify_artist_uri,
-      "biography": artist.biography,
-      "youtube_url_1": artist.youtube_url_1,
-      "youtube_url_2": artist.youtube_url_2,
-      "recommended_album": artist.recommended_album,
-      "image_url": artist.image_url,
-      "rec_album_url": album_url
-	} 
+	# artist_dic = {
+	#   "full_name": artist.full_name,
+	#   "origin": artist.origin,
+	#   "popularity": artist.popularity,
+	#   "genre": artist.genre,
+	#   "spotify_artist_uri": artist.spotify_artist_uri,
+	#   "biography": artist.biography,
+	#   "youtube_url_1": artist.youtube_url_1,
+	#   "youtube_url_2": artist.youtube_url_2,
+	#   "recommended_album": artist.recommended_album,
+	#   "image_url": artist.image_url,
+	#   "rec_album_url": album_url
+	# } 
 
 	return render_to_response('dynamic_artist.html', artist_dic, context)
-
-
-
 
 def album(request, al_name):
 	context = RequestContext(request)
@@ -75,18 +82,19 @@ def album(request, al_name):
 
 	album = Album.objects.get(album_name = x)
 	artist_url = (album.album_artist.full_name).replace(' ', '_')
+	serializer = AlbumSerializer(artists, many=True)
+	album_dict = JSONRenderer().render(serializer.data)
 
-
-	album_dic = {
-		"album_artist" = album.album_artist,
-		"album_name" = album.album_name,
-		"release_date" = album.release_date,
-		"genre" = album.genre,
-		"spotify_albums_uri" = album.spotify_albums_uri,
-		"editors_notes" = album.editors_notes,
-		"image_url" = album.image_url,
-		"artist_url" = artist_url
-	}
+	# album_dic = {
+	# 	"album_artist" = album.album_artist,
+	# 	"album_name" = album.album_name,
+	# 	"release_date" = album.release_date,
+	# 	"genre" = album.genre,
+	# 	"spotify_albums_uri" = album.spotify_albums_uri,
+	# 	"editors_notes" = album.editors_notes,
+	# 	"image_url" = album.image_url,
+	# 	"artist_url" = artist_url
+	# }
 
 	return render_to_response('dynamic_album.html', album_dic, context)
 
@@ -94,11 +102,11 @@ def album(request, al_name):
 
 
 
-###################################################################	
+################################################################### 
 #
-#	ARTISTS
+#   ARTISTS
 #
-###################################################################	
+################################################################### 
 
 
 def eminem(request):
@@ -113,11 +121,11 @@ def michael(request):
 
 
 
-###################################################################	
+################################################################### 
 #
-#	ALBUMS
+#   ALBUMS
 #
-###################################################################	
+################################################################### 
 
 
 def encore(request):
@@ -129,64 +137,64 @@ def bad(request):
 def college(request):
 	return render(request, "album/college_drop_out.html", {})
 
-###################################################################	
+################################################################### 
 #
-#	API
+#   API
 #
 ###################################################################
 
 class JSONResponse(HttpResponse):
-    """
-    An HttpResponse that renders its content into JSON.
-    """
-    def __init__(self, data, **kwargs):
-        content = JSONRenderer().render(data)
-        kwargs['content_type'] = 'application/json'
-        super(JSONResponse, self).__init__(content, **kwargs)
+	"""
+	An HttpResponse that renders its content into JSON.
+	"""
+	def __init__(self, data, **kwargs):
+		content = JSONRenderer().render(data)
+		kwargs['content_type'] = 'application/json'
+		super(JSONResponse, self).__init__(content, **kwargs)
 
 @csrf_exempt
 def artist_list(request):
-    """
-    List all artists, or create a new artist.
-    """
-    if request.method == 'GET':
-        artists = Artist.objects.all()
-        serializer = ArtistSerializer(artists, many=True)
-        return JSONResponse(serializer.data)
+	"""
+	List all artists, or create a new artist.
+	"""
+	if request.method == 'GET':
+		artists = Artist.objects.all()
+		serializer = ArtistSerializer(artists, many=True)
+		return JSONResponse(serializer.data)
 
 @csrf_exempt
 def album_list(request):
-    """
-    List all albums, or create a new album.
-    """
-    if request.method == 'GET':
-        albums = Album.objects.all()
-        serializer = AlbumSerializer(albums, many=True)
-        return JSONResponse(serializer.data)
+	"""
+	List all albums, or create a new album.
+	"""
+	if request.method == 'GET':
+		albums = Album.objects.all()
+		serializer = AlbumSerializer(albums, many=True)
+		return JSONResponse(serializer.data)
 
 def artist_detail(request, pk):
-    """
-    Retrieve an artist.
-    """
-    try:
-        artist = Artist.objects.get(pk=pk)
-    except Artist.DoesNotExist:
-        return HttpResponse(status=404)
+	"""
+	Retrieve an artist.
+	"""
+	try:
+		artist = Artist.objects.get(pk=pk)
+	except Artist.DoesNotExist:
+		return HttpResponse(status=404)
 
-    if request.method == 'GET':
-        serializer = ArtistSerializer(artist)
-        return JSONResponse(serializer.data)
+	if request.method == 'GET':
+		serializer = ArtistSerializer(artist)
+		return JSONResponse(serializer.data)
 
 def album_detail(request, pk):
-    """
-    Retrieve an album.
-    """
-    try:
-        album = Album.objects.get(pk=pk)
-    except Album.DoesNotExist:
-        return HttpResponse(status=404)
+	"""
+	Retrieve an album.
+	"""
+	try:
+		album = Album.objects.get(pk=pk)
+	except Album.DoesNotExist:
+		return HttpResponse(status=404)
 
-    if request.method == 'GET':
-        serializer = AlbumSerializer(album)
-        return JSONResponse(serializer.data)
+	if request.method == 'GET':
+		serializer = AlbumSerializer(album)
+		return JSONResponse(serializer.data)
 
