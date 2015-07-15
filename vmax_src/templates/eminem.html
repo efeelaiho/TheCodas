@@ -1,0 +1,125 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EMINEM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/albums.css' %}" rel="stylesheet">
+    <link href="{% static 'css/grayscale.css' %}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light"></span> Volume.max()
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a href="{% url 'home' %}"></a>
+                    </li>
+                    <li>
+                        <a  href="{% url 'about' %}">About</a>
+                    </li>
+                    <li>
+                        <a  href="../artists">Artists</a>
+                    </li>
+                    <li>
+                        <a  href="../albums">Albums</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Eminem
+                </h1>
+            </div>
+        </div>
+
+        
+
+
+        
+        <!-- photo -->
+
+       <h2>Biography: </h2>
+            <p>
+                <img  src="{% static 'img/artist/eminem_page.jpg' %}" alt=""  style="float: left; margin: 0px 20px 10px 0px;"> 
+
+                To call Eminem hip-hop's Elvis is correct to a degree, but it's largely inaccurate. Certainly, Eminem was the first white rapper since the Beastie Boys to garner both sales and critical respect, but his impact exceeded this confining distinction. On sheer verbal skills, Eminem was one of the greatest MCs of his generation — rapid, fluid, dexterous, and unpredictable, as capable of pulling off long-form narrative as he was delivering a withering aside — and thanks to his mentor Dr. Dre, he had music to match: thick, muscular loops that evoked the terror and paranoia Em's music conjured. And, to be certain, a great deal of the controversy Eminem courted — and during the turn of the millennium, there was no greater pop cultural bogeyman than Marshall Mathers — came through in how his violent fantasias, often directed at his mother or his wife, intertwined with flights of absurdity that appealed to listeners too young to absorb the psychodramas Eminem explored on his hit albums, The Slim Shady LP and The Marshall Mathers LP. With hits "My Name Is" and "The Real Slim Shady," he ruled the airwaves, but it wasn’t long before some detractors acknowledged his depth, helped in part by singles like the mournful "Stan," written from the perspective of an obsessed fan. Eminem capitalized on this forward momentum by crossing over onto the big screen with 8 Mile, earning acclaim for his performance and an Oscar for the film’s anthem "Lose Yourself," but a number of demons led him to shut down for the second half of the decade, an absence that proved life is indeed empty without Em, before he returned in 2009 with Relapse.
+            </p>
+
+       <hr>
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; TheCodas 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'js/grayscale.js' %}"></script>
+
+</body>
+
+</html>

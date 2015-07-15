@@ -1,0 +1,17 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+a.thumbnail:hover {
+	box-shadow: 0 0 30px #D50000;
+	-moz-box-shadow: 0 0 30px #D50000;
+	-webkit-box-shadow: 0 0 30px #D50000;
+}

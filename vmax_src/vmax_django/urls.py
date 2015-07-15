@@ -13,9 +13,33 @@ Including another URLconf
     1. Add an import:  from blog import urls as blog_urls
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
+from django.conf import settings
 from django.conf.urls import include, url
+from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = [
+	url(r'^$', 'volumemax.views.home', name='home'),
+	url(r'^about/', 'volumemax.views.about', name='about'),
+	url(r'^artists/', 'volumemax.views.artists', name='artists'),
+    url(r'^eminem/', 'volumemax.views.eminem', name='eminem'),
+    url(r'^kanyewest/', 'volumemax.views.kanyewest', name='kanyewest'),
+    url(r'^michael/', 'volumemax.views.michael', name='michael'),
+    url(r'^encore/', 'volumemax.views.encore', name='encore'),
+    url(r'^bad/', 'volumemax.views.bad', name='bad'),
+    url(r'^college/', 'volumemax.views.college', name='college'),    
+	url(r'^albums/', 'volumemax.views.albums', name='albums'),
     url(r'^admin/', include(admin.site.urls)),
+
+
 ]
+
+
+
+if settings.DEBUG:
+	urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+	urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+
+
