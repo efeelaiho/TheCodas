@@ -50,9 +50,10 @@ urlpatterns = [
     #
     ################################################################### 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^artist_list/', 'volumemax.views.artist_list', name='api'),    
-    url(r'^album_list/', 'volumemax.views.album_list', name='api'),    
-
+    url(r'^api/artists/$', 'volumemax.views.artist_list', name='api'),    
+    url(r'^api/albums/$', 'volumemax.views.album_list', name='api'),    
+    url(r'^api/artists/(?P<pk>[0-9]+)/$', 'volumemax.views.artist_detail', name='api'),
+    url(r'^api/albums/(?P<pk>[0-9]+)/$', 'volumemax.views.album_detail', name='api'),
 ]
 
 
