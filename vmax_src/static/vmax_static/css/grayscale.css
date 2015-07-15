@@ -429,5 +429,10 @@ body {
 }
 
 hr{
-    border-color:#d50000"
+    border-color:#d50000;
+}
+
+.bigprofilepic{
+    border-radius: 15px;
+    border: 1.5px solid #D50000;
 }
