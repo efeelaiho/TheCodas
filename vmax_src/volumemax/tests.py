@@ -11,7 +11,7 @@ from models import Artist, Albums
 
 from json import dumps, loads
 
-class AnimalTestCase(TestCase):
+class ArtistTestCase(TestCase):
          
     # ----
     # Artist
