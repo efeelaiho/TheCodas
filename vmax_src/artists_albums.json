@@ -133,7 +133,6 @@
      "fields": {
        "album_artist": 1,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "rap",
        "album_name": "Encore",
        "editors_notes": "this is info",
@@ -147,7 +146,6 @@
      "fields": {
        "album_artist": 2,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "rap",
        "album_name": "College Dropout",
        "editors_notes": "this is info",
@@ -161,7 +159,6 @@
      "fields": {
        "album_artist": 3,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "rap",
        "album_name": "To Pimp A Butterfly",
        "editors_notes": "this is info",
@@ -175,7 +172,6 @@
      "fields": {
        "album_artist": 4,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "rap",
        "album_name": "Channel Orange",
        "editors_notes": "this is info",
@@ -189,7 +185,6 @@
      "fields": {
        "album_artist": 5,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "rap",
        "album_name": "Bad",
        "editors_notes": "this is info",
@@ -203,7 +198,6 @@
      "fields": {
        "album_artist": 6,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "Jazz",
        "album_name": "Essential of Louis",
        "editors_notes": "this is info",
@@ -217,7 +211,6 @@
      "fields": {
        "album_artist": 7,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "Pop",
        "album_name": "Kind of Blue",
        "editors_notes": "this is info",
@@ -231,7 +224,6 @@
      "fields": {
        "album_artist": 8,
        "release_date": "2009-05-01",
-       "spotify_albums_uri": "stuff",
        "genre": "Jazz",
        "album_name": "Portrait in Jazz",
        "editors_notes": "this is info",
