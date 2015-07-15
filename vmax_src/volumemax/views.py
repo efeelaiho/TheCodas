@@ -87,20 +87,39 @@ def artist_list(request):
         serializer = ArtistSerializer(artists, many=True)
         return JSONResponse(serializer.data)
 
-    # elif request.method == 'POST':
-    #     data = JSONParser().parse(request)
-    #     serializer = SnippetSerializer(data=data)
-    #     if serializer.is_valid():
-    #         serializer.save()
-    #         return JSONResponse(serializer.data, status=201)
-    #     return JSONResponse(serializer.errors, status=400)
-
 @csrf_exempt
 def album_list(request):
     """
-    List all artists, or create a new artist.
+    List all albums, or create a new album.
     """
     if request.method == 'GET':
         albums = Album.objects.all()
         serializer = AlbumSerializer(albums, many=True)
+        return JSONResponse(serializer.data)
+
+
+def artist_detail(request, pk):
+    """
+    Retrieve an artist.
+    """
+    try:
+        artist = Artist.objects.get(pk=pk)
+    except Artist.DoesNotExist:
+        return HttpResponse(status=404)
+
+    if request.method == 'GET':
+        serializer = ArtistSerializer(artist)
+        return JSONResponse(serializer.data)
+
+def album_detail(request, pk):
+    """
+    Retrieve an album.
+    """
+    try:
+        album = Album.objects.get(pk=pk)
+    except Album.DoesNotExist:
+        return HttpResponse(status=404)
+
+    if request.method == 'GET':
+        serializer = AlbumSerializer(album)
         return JSONResponse(serializer.data)
