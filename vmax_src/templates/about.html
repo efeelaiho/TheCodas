@@ -1,31 +1,8 @@
-{% load staticfiles %}
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>About</title>
-
-    <!-- Bootstrap Core CSS -->
-     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-
+{% extends "navbar.html" %}
+{% block head %}
+    {% load staticfiles %}
     <!-- Custom CSS -->
     <link href="{% static 'css/round-about.css' %}" rel="stylesheet">
-    <link href="{% static 'css/grayscale.css' %}" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,59 +11,16 @@
     <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+  {{block.super}}
+{% endblock %}
+{% block navbar %}
+  {{block.super}}
+{% endblock %}
+{% block content %}
 
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="{% url 'home' %}">
-                    <i class="fa fa-play-circle"></i>  <span class="light"></span> Volume.max()
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-
-                     <li>
-                        <a  href="{% url 'about' %}">About</a>
-                    </li>
-
-                    <li>
-                        <a  href="{% url 'artists' %}">Artists</a>
-                    </li>
-
-                    <li>
-                        <a  href="{% url 'albums' %}">Albums</a>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Introduction Row -->
-        <!--<div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">About Us
-                    <small>It's Nice to Meet You!</small>
-                </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
-            </div>
-        </div>-->
 
         <!-- Team Members Row -->
         <div class="row">
@@ -101,12 +35,12 @@
                 <h6>Number of Commits: 38</h6>
                 <h6>Number of Issues: 12</h6>
                 <h6>Number of Unit Tests: 0</h6>
-                <p>A computer science major from Dallas,TX. I love sushi rolls. Dez Bryant caught the ball fam!</p>
+                <p>A computer science major from Dallas,TX. Loves sushi rolls. Firmly believes Dez Bryant caught the ball!</p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <img class="img-circle img-responsive img-center aboutpic aboutrow" src="{% static 'img/raymond.jpg' %}" alt="" height="200" width="200">
                 <h4>Raymond Ton</h4>
-                <h6>Back-End Development</h6>
+                <h6>Back-End Development / Quality Assurance</h6>
                 <h6>Number of Commits: 7</h6>
                 <h6>Number of Issues: 5</h6>
                 <h6>Number of Unit Tests: 6</h6>
@@ -143,34 +77,22 @@
                 <p>Mark is a former Marine pursuing a bachelor's degree in computer science. Interests include scuba and history.</p>
 
             </div>
+            <div class="col-lg-4 col-sm-4 text-center">
+                <img class="img-circle img-responsive img-center aboutpic" src="{% static 'img/GitHub-Mark-Light-120px-plus.png' %}" alt="" height="200" width="200">
+                <h4>Github</h4>
+                <h5><a href="https://github.com/efeelaiho/TheCodas" target="_blank">GitHub Code Repository</a></h5>
+                <h5><a href="https://github.com/efeelaiho/TheCodas/wiki" target="_blank">GitHub Wiki</a></h5>
+                <h5><a href="https://github.com/efeelaiho/TheCodas/issues" target="_blank">GitHub Issue Tracker</a></h5>
+                <a href="http://docs.volumemax.apiary.io/#" target="_blank">
+                    <img class="img-responsive" src="{% static 'img/apiary-logo.png' %}" alt="">
+                </a>
+            </div>            
         </div>
 
         <hr>
+        
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 text-center">
-                <a href="https://github.com/efeelaiho/TheCodas">
-                    <img class="img-responsive" src="{% static 'img/GitHub_Logo.png' %}" alt="">
-                </a>
-                <h6>GitHub Code Repository</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 text-center">
-                <a href="https://github.com/efeelaiho/TheCodas/wiki">
-                    <img class="img-responsive" src="{% static 'img/GitHub_Logo.png' %}" alt="">
-                </a>
-                <h6>GitHub Wiki</h6>
-            </div>            
-            <div class="col-lg-3 col-md-4 col-xs-6 text-center">
-                <a href="https://github.com/efeelaiho/TheCodas/issues">
-                    <img class="img-responsive" src="{% static 'img/GitHub_Logo.png' %}" alt="">
-                </a>
-                <h6>GitHub Issue Tracker</h6>
-            </div> 
-            <div class="col-lg-3 col-md-4 col-xs-6 text-center">
-                <a href="http://volumemin.marklaver.apiary.io/#">
-                    <img class="img-responsive" src="{% static 'img/apiary-logo.png' %}" alt="">
-                </a>
-                <h6>Apiary API</h6>
-            </div> 
+
         </div>
         <!-- Stats Row -->
         <div class="row">
@@ -242,34 +164,10 @@
 <li><a href="https://wikipedia.readthedocs.org/en/latest/code.html">https://wikipedia.readthedocs.org/en/latest/code.html</a></li>
 <li><a href="http://docs.volumemax.apiary.io/#">http://docs.volumemax.apiary.io/#</a></li>
 </ol>
-
+<hr>
             </div>
         </div>
-
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; TheCodas 2015</p>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="{% static 'js/jquery.js' %}"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="{% static 'js/grayscale.js' %}"></script>
-
-</body>
-
-</html>
+{% endblock %}
+{% block footer %}
+  {{block.super}}
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "navbar.html" %}
+{% block head %}
+    {% load staticfiles %}
+  {{block.super}}
+{% endblock %}
+{% block navbar %}
+  {{block.super}}
+{% endblock %}
+{% block content %}
+
+      <!-- Page Content -->
+    <div class="container">
+
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{{Album.album_name}}
+                </h1>
+            </div>
+        </div>          
+
+        <!-- Subtitles with album additional information -->
+        <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">released date:  &nbsp &nbsp 95 &nbsp / &nbsp {{Album.release_date}} </h2>
+        <h2 style="font-size:17px;margin-top:-10px;margin-bottom: 10px">genre: &nbsp &nbsp {{Album.genre}} </h2>
+
+
+        <!-- album image -->
+        <img src="{{Album.spotify_albums_uri}}" alt="" class = "album-page-pic">
+
+        <!-- editor notes section -->
+        <h2 align="middle" class="editor">Editors' Notes</h2>
+        <p class="albumParagraph">{{Album.editors_notes}}</p>
+        
+
+        <!-- Spotify tracks player -->
+        <h3 align="middle">Track listing</h3>
+        <iframe src="https://embed.spotify.com/?uri=spotify:album:{{Album.spotify_albums_uri}}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <br>
+        <!-- close line -->
+       <hr>
+
+{% endblock %}
+{% block footer %}
+  {{block.super}}
+{% endblock %}

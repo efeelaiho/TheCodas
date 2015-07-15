@@ -19,19 +19,41 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = [
+    ################################################################### 
+    #
+    #   MAIN NAVBAR
+    #
+    ################################################################### 
 	url(r'^$', 'volumemax.views.home', name='home'),
 	url(r'^about/', 'volumemax.views.about', name='about'),
-	url(r'^artists/', 'volumemax.views.artists', name='artists'),
+	url(r'^artists/$', 'volumemax.views.artists', name='artists'),
+    url(r'^albums/$', 'volumemax.views.albums', name='albums'),
+    ################################################################### 
+    #
+    #   ARTISTS
+    #
+    ################################################################### 
     url(r'^eminem/', 'volumemax.views.eminem', name='eminem'),
-    url(r'^kanyewest/', 'volumemax.views.kanyewest', name='kanyewest'),
-    url(r'^michael/', 'volumemax.views.michael', name='michael'),
+    url(r'^kanye_west/', 'volumemax.views.kanyewest', name='kanye_west'),
+    url(r'^michael_jackson/', 'volumemax.views.michael', name='michael_jackson'),
+    ################################################################### 
+    #
+    #   ALBUMS
+    #
+    ################################################################### 
     url(r'^encore/', 'volumemax.views.encore', name='encore'),
     url(r'^bad/', 'volumemax.views.bad', name='bad'),
     url(r'^college/', 'volumemax.views.college', name='college'),    
-	url(r'^albums/', 'volumemax.views.albums', name='albums'),
+	###################################################################    
+    #
+    #   ADMIN
+    #
+    ################################################################### 
     url(r'^admin/', include(admin.site.urls)),
-
-
+    url(r'^api/artists/$', 'volumemax.views.artist_list', name='api'),    
+    url(r'^api/albums/$', 'volumemax.views.album_list', name='api'),    
+    url(r'^api/artists/(?P<pk>[0-9]+)/$', 'volumemax.views.artist_detail', name='api'),
+    url(r'^api/albums/(?P<pk>[0-9]+)/$', 'volumemax.views.album_detail', name='api'),
 ]
 
 

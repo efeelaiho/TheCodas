@@ -10,19 +10,16 @@ body {
     font-family: Jura,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
-    background-image: url("img/soundwave.jpg") no-repeat fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;         /* Generic*/
-    margin: 0;
-    height: 100%;
 }
-
 
 html {
     width: 100%;
     height: 100%;
+}
+
+h2{
+    margin-top: 10px;
+
 }
 
 h3 {
@@ -160,7 +157,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url('soundwave.jpeg') no-repeat bottom scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -355,6 +352,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    text-align: center;
 }
 
 footer p {
