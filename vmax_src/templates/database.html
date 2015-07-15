@@ -1,0 +1,32 @@
+{% extends "navbar.html" %}
+{% block head %}
+  {{block.super}}
+{% endblock %}
+{% block navbar %}
+  {{block.super}}
+{% endblock %}
+{% block content %}
+{% load staticfiles %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <table data-url="data1.json" data-height="299" data-sort-name="name" data-sort-order="desc">
+            <thead>
+                <tr>
+                    <th data-field="id" data-align="right" data-sortable="true">Item ID</th>
+                    <th data-field="name" data-align="center" data-sortable="true">Item Name</th>
+                    <th data-field="price" data-sortable="true">Item Price</th>
+                </tr>
+            </thead>
+        </table>
+                
+
+        
+
+
+
+{% endblock %}
+{% block footer %}
+  {{block.super}}
+{% endblock %}

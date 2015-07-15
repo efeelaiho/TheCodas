@@ -47,6 +47,10 @@ def albums(request):
 	#return render_to_response("albums.html", context)
 	return render(request, "albums.html", {})
 
+
+def database(request):
+	return render(request, "database.html", {})
+
 		
 ################################################################### 
 #
