@@ -25,19 +25,26 @@ def about(request):
 	return render(request, "about.html", {})    
 
 def artists(request):
-	context = RequestContext(request)
-	artists = Artist.objects.all()
-	serializer = ArtistSerializer(artists, many=True)
-	artist_dict = JSONRenderer().render(serializer.data)
-	#return render_to_response("artists.html", artist_dict, context)
+	# artists = Artist.objects.all()
+	# #x = al_name.replace('_', ' ')
+	# try:
+	# 	artist_url = artists['full_name'].replace(' ', '_')
+	# 	artists.update({'artist_url': artist_url})
+	# except:
+	# 	# return handler404(request)
+	# 	artists['artist_url'] = 'michael_jackson'
+	# 	# artists.update({'artist_url': ""})
+	# context = {"artist_list": artists}
+
+	#return render_to_response("artists.html", context)
 	return render(request, "artists.html", {})  
 
 def albums(request):
-	context = RequestContext(request)
 	albums = Album.objects.all()
-	serializer = AlbumSerializer(albums, many=True)
-	album_dict = JSONRenderer().render(serializer.data)
-	# return render_to_response("albums.html", album_dict, context)
+	context = {"albums_list": albums}
+	# serializer = AlbumSerializer(albums, many=True)
+	# album_dict = JSONRenderer().render(serializer.data)
+	#return render_to_response("albums.html", context)
 	return render(request, "albums.html", {})
 
 		
