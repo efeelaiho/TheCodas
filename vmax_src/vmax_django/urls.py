@@ -34,8 +34,8 @@ urlpatterns = [
     #
     ################################################################### 
     url(r'^eminem/', 'volumemax.views.eminem', name='eminem'),
-    url(r'^kanyewest/', 'volumemax.views.kanyewest', name='kanyewest'),
-    url(r'^michael/', 'volumemax.views.michael', name='michael'),
+    url(r'^kanye_west/', 'volumemax.views.kanyewest', name='kanye_west'),
+    url(r'^michael_jackson/', 'volumemax.views.michael', name='michael_jackson'),
     ################################################################### 
     #
     #   ALBUMS
