@@ -1,133 +1,181 @@
 FORMAT: 1A
-HOST: http://volumemin.volumemax.me:8000
+HOST: http://polls.apiblueprint.org/
 
-# volumemin
+# test
 
-volumemin is a simple API allowing consumers to extract the data stored on volume.max()
+Polls is a simple API allowing consumers to view polls and vote in them.
 
-# volumemin API Root [/]
+# Polls API Root [/]
+
+This resource does not have any attributes. Instead it offers the initial
+API affordances in the form of the links in the JSON body.
+
+It is recommend to follow the “url” link values,
+[Link](https://tools.ietf.org/html/rfc5988) or Location headers where
+applicable to retrieve resources. Instead of constructing your own URLs,
+to keep your client decoupled from implementation details.
 
 ## Retrieve the Entry Point [GET]
 
 + Response 200 (application/json)
 
         {
-            "artists_uri": "/artists"
+            "questions_url": "/questions"
         }
 
-## Group Artists
+## Group Question
 
-Resources related to Artists in the API.
+Resources related to questions in the API.
 
-## Artist [/artists/{artist_id}]
+## Question [/questions/{question_id}]
 
-An Artist object has the following attributes:
+A Question object has the following attributes:
 
-+ artist_name
-+ albums - an array of Album objects
-+ toptracks - an array of Song objects
-+ img - a url to an image of the artist
-+ bio - Wikipedia mini-biography of the artist
++ question
++ published_at - An ISO8601 date when the question was published.
++ url
++ choices - An array of Choice objects.
 
 + Parameters
-    + artist_id: 1 (required, number) - Spotify ID of the Artist in form of an integer
+    + question_id: 1 (required, number) - ID of the Question in form of an integer
 
-### View an Artist Object [GET]
+### View a Questions Detail [GET]
 
 + Response 200 (application/json)
 
         {
-            "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
-            "albums": ["By Popular Demand", "In Person"], 
-            "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+            "question": "Favourite programming language?",
+            "published_at": "2014-11-11T08:40:51.620Z",
+            "url": "/questions/1",
+            "choices": [
+                {
+                    "choice": "Swift",
+                    "url": "/questions/1/choices/1",
+                    "votes": 2048
+                }, {
+                    "choice": "Python",
+                    "url": "/questions/1/choices/2",
+                    "votes": 1024
+                }, {
+                    "choice": "Objective-C",
+                    "url": "/questions/1/choices/3",
+                    "votes": 512
+                }, {
+                    "choice": "Ruby",
+                    "url": "/questions/1/choices/4",
+                    "votes": 256
+                }
+            ]
         }
 
-## Artists Collection [/artists{?page}]
+## Choice [/questions/{question_id}/choices/{choice_id}]
 
 + Parameters
-    + page: 1 (optional, number) - The page of artists to return
-    
+    + question_id: 1 (required, number) - ID of the Question in form of an integer
+    + choice_id: 1 (required, number) - ID of the Choice in form of an integer
 
-### List All Artists [GET]
+### Vote on a Choice [POST]
+
+This action allows you to vote on a question's choice.
+
++ Response 201
+
+    + Headers
+
+            Location: /questions/1
+
+## Questions Collection [/questions{?page}]
+
++ Parameters
+    + page: 1 (optional, number) - The page of questions to return
+
+### List All Questions [GET]
 
 + Response 200 (application/json)
 
     + Headers
 
-            Link: </artists?page=2>; rel="next"
+            Link: </questions?page=2>; rel="next"
 
     + Body
-        
-            {
-                "19eLuQmk9aCobbVDHc6eek": 
+
+            [
                 {
-                    "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
-                    "albums": ["By Popular Demand", "In Person"], 
-                    "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+                    "question": "Favourite programming language?",
+                    "published_at": "2014-11-11T08:40:51.620Z",
+                    "url": "/questions/1",
+                    "choices": [
+                        {
+                            "choice": "Swift",
+                            "url": "/questions/1/choices/1",
+                            "votes": 2048
+                        }, {
+                            "choice": "Python",
+                            "url": "/questions/1/choices/2",
+                            "votes": 1024
+                        }, {
+                            "choice": "Objective-C",
+                            "url": "/questions/1/choices/3",
+                            "votes": 512
+                        }, {
+                            "choice": "Ruby",
+                            "url": "/questions/1/choices/4",
+                            "votes": 256
+                        }
+                    ]
                 }
-                "3fMbdgg4jU18AjLCKBhRSm": 
-                {
-                    "toptracks": ["Billie Jean - Single Version", "Love Never Felt so Good", "Love Never Felt so Good"], 
-                    "albums": ["XSCAPE", "Michael", "Invincible", "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix"],
-                    "img": "https://i.scdn.co/image/738650ce127e119788a7bca020fbd054b5aa57b5"
-                }
-            }
+            ]
 
-## Group Albums
+### Create a New Question [POST]
 
-Resources related to Albums in the API.
+You may create your own question using this action. It takes a JSON
+object containing a question and a collection of answers in the
+form of choices.
 
-## Album [/Albums/{album_name}]
++ question (string) - The question
++ choices (array[string]) - A collection of choices.
 
-An Album object has the following attributes:
++ Request (application/json)
 
-+ album_name
-+ albums - an array of Album objects
-+ toptracks - an array of Song objects
-+ img - a url to an image of the Album
-+ bio - Wikipedia mini-biography of the Album
-
-+ Parameters
-    + album_name: 1 (required, number) - Spotify ID of the Album in form of an integer
-
-### View an Album Object [GET]
-
-+ Response 200 (application/json)
-    
         {
-            "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
-            "albums": ["By Popular Demand", "In Person"], 
-            "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
+            "question": "Favourite programming language?",
+            "choices": [
+                "Swift",
+                "Python",
+                "Objective-C",
+                "Ruby"
+            ]
         }
 
-
-## Albums Collection [/albums{?page}]
-
-+ Parameters
-    + page: 1 (optional, number) - The page of albums to return
-    
-
-### List All Albums [GET]
-
-+ Response 200 (application/json)
++ Response 201 (application/json)
 
     + Headers
 
-            Link: </albums?page=2>; rel="next"
+            Location: /questions/2
 
     + Body
 
             {
-                "19eLuQmk9aCobbVDHc6eek": 
-                {
-                    "toptracks": ["What A Wonderful World", "Dream A Little Dream Of Me", "La Vie En Rose - Single Version"],
-                    "albums": ["By Popular Demand", "In Person"], 
-                    "img": "https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3"
-                }
-                "3fMbdgg4jU18AjLCKBhRSm": 
-                {
-                    "toptracks": ["Billie Jean - Single Version", "Love Never Felt so Good", "Love Never Felt so Good"], 
-                    "albums": ["XSCAPE", "Michael", "Invincible", "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix"],
-                    "img": "https://i.scdn.co/image/738650ce127e119788a7bca020fbd054b5aa57b5"
-                }
+                "question": "Favourite programming language?",
+                "published_at": "2014-11-11T08:40:51.620Z",
+                "url": "/questions/2",
+                "choices": [
+                    {
+                        "choice": "Swift",
+                        "url": "/questions/2/choices/1",
+                        "votes": 0
+                    }, {
+                        "choice": "Python",
+                        "url": "/questions/2/choices/2",
+                        "votes": 0
+                    }, {
+                        "choice": "Objective-C",
+                        "url": "/questions/2/choices/3",
+                        "votes": 0
+                    }, {
+                        "choice": "Ruby",
+                        "url": "/questions/2/choices/4",
+                        "votes": 0
+                    }
+                ]
             }
