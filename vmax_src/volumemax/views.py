@@ -34,19 +34,44 @@ def albums(request):
 ###################################################################	
 
 
-def artist(request, a_name):
+def artist(request, ar_name):
 	context = RequestContext(request)
 
-	x = a_name.replace('_', ' ')
+	x = ar_name.replace('_', ' ')
 
 	artist = Artist.objects.get(full_name = x)
-	album_url = (player.recommended_album).replace(' ', '_')
+	album_url = (artist.recommended_album.album_name).replace(' ', '_')
+	album_img_url = (artist.recommended_album.image_url)
 
 
-	player_dic 
+	artist_dic = {
+	  "full_name": artist.full_name,
+      "origin": artist.origin,
+      "popularity": artist.popularity,
+      "genre": artist.genre,
+      "spotify_artist_uri": artist.spotify_artist_uri,
+      "biography": artist.biography,
+      "youtube_url_1": artist.youtube_url_1,
+      "youtube_url_2": artist.youtube_url_2,
+      "recommended_album": artist.recommended_album,
+      "image_url": artist.image_url,
+      "rec_album_url": album_url
+	} 
+
+	return render_to_response('dynamic_artist.html', artist_dic, context)
 
 
-def album()
+
+
+def album(request, al_name):
+	context = RequestContext(request)
+
+	x = al_name.replace('_', ' ')
+
+	album = Album.objects.get(album_name = x)
+	artist_url = (album.album_artist.full_name).replace
+
+
 
 
 
