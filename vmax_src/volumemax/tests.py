@@ -207,7 +207,7 @@ class APItests(unittest.TestCase) :
             self.assertTrue(obj in expected_response)
 
     #----
-    #Artists
+    #Albums
     #----
 
     def test_get_albums(self) :
