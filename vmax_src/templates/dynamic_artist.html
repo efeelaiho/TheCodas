@@ -14,16 +14,16 @@
         <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header" >{{Artist.full_name}}
+                <h1 class="page-header" >{{artist.full_name}}
                 </h1>
             </div>
         </div>
 
 
         <!-- artist additional information -->
-        <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">popularity:  &nbsp &nbsp {{Artist.popularity}} &nbsp / &nbsp 100 </h2>
-         <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">origin: &nbsp &nbsp {{Artist.origin}} </h2>
-        <h2 style="font-size:17px;margin-top:-10px;margin-bottom: 10px">genre: &nbsp &nbsp {{Artist.origin}} </h2>
+        <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">popularity:  &nbsp &nbsp {{artist.popularity}} &nbsp / &nbsp 100 </h2>
+         <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">origin: &nbsp &nbsp {{artist.origin}} </h2>
+        <h2 style="font-size:17px;margin-top:-10px;margin-bottom: 10px">genre: &nbsp &nbsp {{artist.genre}} </h2>
 
      
             
@@ -31,17 +31,17 @@
        <h2 class="page-header">Biography </h2>
 
             <p>
-                <img  src="{% static {{Artist.image_url}} %}" alt=""  style="float: left; margin: 0px 20px 10px 0px;"> {{Artist.biography}}
+                <img  src="{{artist.image_url}}" alt=""  style="float: left; margin: 0px 20px 10px 0px;" width="490" class="bigprofilepic"> {{artist.biography}}
             </p>
 
 
         <!-- youtube -->
         <h2 class="page-header">Related Videos</h2>
         <!-- video 1 -->
-        <iframe width="450" height="350" src={{Artist.youtubeurl_1}} frameborder="0" allowfullscreen></iframe>
+        <iframe width="450" height="350" src="{{artist.youtube_url_1}}" frameborder="0" allowfullscreen></iframe>
          &nbsp 
         <!-- video 2 -->
-        <iframe width="450" height="350" src={{Artist.youtubeurl_2}} frameborder="0" allowfullscreen></iframe>
+        <iframe width="450" height="350" src="{{artist.youtube_url_2}}" frameborder="0" allowfullscreen></iframe>
 
 
         <!-- album -->
@@ -50,9 +50,9 @@
         <h2 class="page-header">TheCodas' recommended album</h2>
         
         <div class="recommended-album">
-            <a href="{% url {{Artist.recommended_album}} %}">
-                <img src="{% static {{Artist.recommended_album.image_url}} %}"   height="250" width="250" >  
-                {{Artist.recommended_album}}
+            <a class="img-link" href="{% url 'album_view' {{album.album_name}} %}">
+                <img src="{{album.image_url}}"   height="250" width="250" >  
+                {{album.album_name}}
             </a>
         </div>
 
@@ -60,7 +60,7 @@
         <!-- spotify  link -->
         <h2 class="page-header">Follow on Spotify</h2>
 
-        <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:{{Artist.spotify_artist_uri}}&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true">
+        <iframe src="https://embed.spotify.com/follow/1/?uri={{artist.spotify_artist_uri}}&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true">
         </iframe> 
         <br>
         <!-- closing line -->
