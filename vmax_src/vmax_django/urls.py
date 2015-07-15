@@ -26,8 +26,8 @@ urlpatterns = [
     ################################################################### 
 	url(r'^$', 'volumemax.views.home', name='home'),
 	url(r'^about/', 'volumemax.views.about', name='about'),
-	url(r'^artists/', 'volumemax.views.artists', name='artists'),
-    url(r'^albums/', 'volumemax.views.albums', name='albums'),
+	url(r'^artists/$', 'volumemax.views.artists', name='artists'),
+    url(r'^albums/$', 'volumemax.views.albums', name='albums'),
     ################################################################### 
     #
     #   ARTISTS
