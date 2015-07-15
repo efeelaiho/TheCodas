@@ -39,7 +39,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'volumemax',
     'rest_framework',
-    'api',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -74,8 +73,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'vmax_django.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
+#Database
+#https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -87,7 +86,12 @@ DATABASES = {
         'PORT': '3306'
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
