@@ -50,7 +50,7 @@
         <h2 class="page-header">TheCodas' recommended album</h2>
         
         <div class="recommended-album">
-            <a class="img-link" href="{% url 'album_view' {{album.album_name}} %}">
+            <a class="img-link" href="{% url 'album_view' album.get_absolute_url %}">
                 <img src="{{album.image_url}}"   height="250" width="250" >  
                 {{album.album_name}}
             </a>
