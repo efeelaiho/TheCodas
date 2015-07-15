@@ -197,22 +197,22 @@ class APItests(unittest.TestCase) :
                 if type(obj[key]) == list:
                     obj[key] = sorted(obj[key])
 
-        for obj in expected_response:
+        for obj in expected_api:
             for key in obj:
                 if type(obj[key]) == list:
                     obj[key] = sorted(obj[key])
 
 
         for obj in api_objects:
-            self.assertTrue(obj in expected_response)
+            self.assertTrue(obj in expected_api)
 
     #----
-    #Artists
+    #Albums
     #----
 
     def test_get_albums(self) :
         self.maxDiff = None
-        expected_response ={"album_artist":1,"album_name":"Encore","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":2,"album_name":"College Dropout","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":3,"album_name":"To Pimp A Butterfly","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":4,"album_name":"Channel Orange","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":5,"album_name":"Bad","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":6,"album_name":"Essential of Louis","release_date":"2009-05-01","genre":"Jazz","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":7,"album_name":"Kind of Blue","release_date":"2009-05-01","genre":"Pop","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":8,"album_name":"Portrait in Jazz","release_date":"2009-05-01","genre":"Jazz","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"}
+        expected_api ={"album_artist":1,"album_name":"Encore","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":2,"album_name":"College Dropout","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":3,"album_name":"To Pimp A Butterfly","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":4,"album_name":"Channel Orange","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":5,"album_name":"Bad","release_date":"2009-05-01","genre":"rap","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":6,"album_name":"Essential of Louis","release_date":"2009-05-01","genre":"Jazz","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":7,"album_name":"Kind of Blue","release_date":"2009-05-01","genre":"Pop","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"},{"album_artist":8,"album_name":"Portrait in Jazz","release_date":"2009-05-01","genre":"Jazz","spotify_albums_uri":"spotify:album:1kTlYbs28MXw7hwO0NLYif","editors_notes":"this is info","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f7be5e8069d250ca6d9991c6c7cf8b21a0922999"}
         album_api = Request(self.url+"api/albums/")
         api = urlopen(album_api)
         api_body = api.read().decode("utf-8")
