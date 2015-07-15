@@ -1,10 +1,15 @@
 from django.shortcuts import render
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse
+import json
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
+
 
 # Create your views here.
 
@@ -25,6 +30,68 @@ def artists(request):
 
 def albums(request):
 	return render(request, "albums.html", {})	
+
+
+###################################################################	
+#
+#	DYNAMIC - ARTIST - ALBUM
+#
+###################################################################	
+
+
+def artist(request, ar_name):
+	context = RequestContext(request)
+
+	x = ar_name.replace('_', ' ')
+
+	artist = Artist.objects.get(full_name = x)
+	album_url = (artist.recommended_album.album_name).replace(' ', '_')
+	album_img_url = (artist.recommended_album.image_url)
+
+
+	artist_dic = {
+	  "full_name": artist.full_name,
+      "origin": artist.origin,
+      "popularity": artist.popularity,
+      "genre": artist.genre,
+      "spotify_artist_uri": artist.spotify_artist_uri,
+      "biography": artist.biography,
+      "youtube_url_1": artist.youtube_url_1,
+      "youtube_url_2": artist.youtube_url_2,
+      "recommended_album": artist.recommended_album,
+      "image_url": artist.image_url,
+      "rec_album_url": album_url
+	} 
+
+	return render_to_response('dynamic_artist.html', artist_dic, context)
+
+
+
+
+def album(request, al_name):
+	context = RequestContext(request)
+
+	x = al_name.replace('_', ' ')
+
+	album = Album.objects.get(album_name = x)
+	artist_url = (album.album_artist.full_name).replace(' ', '_')
+
+
+	album_dic = {
+		"album_artist" = album.album_artist,
+		"album_name" = album.album_name,
+		"release_date" = album.release_date,
+		"genre" = album.genre,
+		"spotify_albums_uri" = album.spotify_albums_uri,
+		"editors_notes" = album.editors_notes,
+		"image_url" = album.image_url,
+		"artist_url" = artist_url
+	}
+
+	return render_to_response('dynamic_album.html', album_dic, context)
+
+
+
 
 
 ###################################################################	
@@ -97,7 +164,6 @@ def album_list(request):
         serializer = AlbumSerializer(albums, many=True)
         return JSONResponse(serializer.data)
 
-
 def artist_detail(request, pk):
     """
     Retrieve an artist.
@@ -123,3 +189,4 @@ def album_detail(request, pk):
     if request.method == 'GET':
         serializer = AlbumSerializer(album)
         return JSONResponse(serializer.data)
+
