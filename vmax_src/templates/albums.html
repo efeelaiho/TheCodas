@@ -16,56 +16,15 @@
             <div class="col-lg-12">
                 <h1 class="page-header">Albums</h1>
             </div>
+            {% for album in albums_list %}
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="{% static 'img/albums/pimp_a_butterfly.jpg' %}" alt=""> 
+                <a class="thumbnail" href="{% url 'album_view' album.get_absolute_url %}">
+                    <img class="img-responsive" src="{{album.image_url}}" alt=""> 
                 </a>
-                <h6>To Pimp A Butterfly</h6>
+                <h6>{{album.album_name}}</h6>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail redglow" href="{% url 'college' %}">
-                    <img class="img-responsive" src="{% static 'img/albums/college.jpg' %}" alt="">
-                </a>
-                <h6>College Dropout</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="{% url 'bad' %}">
-                    <img class="img-responsive" src="{% static 'img/albums/bad.jpg' %}" alt="">
-                </a>
-                <h6>Bad</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="{% static 'img/albums/channel.jpg' %}" alt="">
-                </a>
-                <h6>Orange Channel</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="{% url 'encore' %}">
-                    <img class="img-responsive" src="{% static 'img/albums/encore.jpg' %}" alt="">
-
-                </a>
-                <h6>Encore</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="{% static 'img/albums/kind_of_blue.jpg' %}" alt="">
-                </a>
-                <h6>Kind of Blue</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="{% static 'img/albums/louis_essential.jpg' %}" alt="">
-                </a>
-                <h6>Essential of Louis</h6>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="{% static 'img/albums/portraitinjazzgroot.jpg' %}" alt="">
-                </a>
-                <h6>Portrait in Jazz</h6>
-            </div>
+            {% endfor %}
         </div>
 
         <hr>

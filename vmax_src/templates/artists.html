@@ -18,7 +18,7 @@
             {% for artist in artist_list %}
             <div class="col-lg-3 col-md-4 col-xs-6 thumb text-center">
                 
-                <a class="thumbnail" href="{% url 'artist_view' forloop.counter %}">
+                <a class="thumbnail" href="{% url 'artist_view' artist.get_absolute_url %}">
                     <img class="img-responsive" src="{{artist.image_url}}" width="320">
                 </a>
                 <h6>{{artist.full_name}}</h6>

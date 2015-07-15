@@ -37,7 +37,9 @@ def albums(request):
 	context = {"albums_list": albums}
 	# serializer = AlbumSerializer(albums, many=True)
 	# album_dict = JSONRenderer().render(serializer.data)
-	return render(request, "albums.html", {})
+	return render_to_response("albums.html", context)
+
+	#return render(request, "albums.html", {})
 
 def database(request):
 	return render(request, "database.html", {})
@@ -48,9 +50,14 @@ def database(request):
 #
 ################################################################### 
 
-def artist_view(request, id):
-	artist = Artist.objects.get(pk = id)
-	album  = Album.objects.get(pk = id)
+def artist_view(request, name):
+	name = name.replace('_', ' ')
+
+	artist = Artist.objects.get(full_name = name)
+	album  = artist.recommended_album
+	# artist = Artist.objects.get(pk = name)
+	# album = Album.objects.get(pk = name)
+
 	#context = {"artist_info": artist}
 	#album_url = (artist.recommended_album.album_name).replace(' ', '_')
 
@@ -71,6 +78,19 @@ def artist_view(request, id):
 	# } 
 
 	return render_to_response("dynamic_artist.html", context)
+
+def album_view(request, name):
+	#artist = Artist.objects.get()
+	name = name.replace('_', ' ')
+	album  = Album.objects.get(album_name = name)
+
+	artist = album.album_artist
+	#artist_url = (album.album_artist.full_name).replace(' ', '_')
+	#serializer = AlbumSerializer(artists, many=True)
+	#album_dict = JSONRenderer().render(serializer.data)
+	context = {"album": album, "artist": artist}
+
+	return render_to_response('dynamic_album.html', context)
 
 # def artist(request, ar_name):
 # 	context = RequestContext(request)
@@ -98,28 +118,7 @@ def artist_view(request, id):
 
 # 	return render_to_response('dynamic_artist.html', artist_dic, context)
 
-def album_view(request, id):
-	context = RequestContext(request)
 
-	x = al_name.replace('_', ' ')
-
-	album = Album.objects.get(album_name = x)
-	artist_url = (album.album_artist.full_name).replace(' ', '_')
-	serializer = AlbumSerializer(artists, many=True)
-	album_dict = JSONRenderer().render(serializer.data)
-
-	# album_dic = {
-	# 	"album_artist" = album.album_artist,
-	# 	"album_name" = album.album_name,
-	# 	"release_date" = album.release_date,
-	# 	"genre" = album.genre,
-	# 	"spotify_albums_uri" = album.spotify_albums_uri,
-	# 	"editors_notes" = album.editors_notes,
-	# 	"image_url" = album.image_url,
-	# 	"artist_url" = artist_url
-	# }
-
-	return render_to_response('dynamic_album.html', album_dic, context)
 
 
 
