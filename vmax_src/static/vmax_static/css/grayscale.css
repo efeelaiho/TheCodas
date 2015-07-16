@@ -434,5 +434,7 @@ hr{
 
 .bigprofilepic{
     border-radius: 15px;
-    border: 1.5px solid #D50000;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #D50000;
 }
