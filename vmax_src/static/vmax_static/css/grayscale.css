@@ -400,6 +400,7 @@ body {
     width: 400px;
     height: auto;
     border-radius: 5px;
+    border-width: 1.5px;
     border-style: solid;
     border-color: #D50000;
 
