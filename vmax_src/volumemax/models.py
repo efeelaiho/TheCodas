@@ -22,10 +22,9 @@ class Artist(models.Model):
 	image_url = models.CharField(max_length=500, null=True, blank=True)
 	recommended_album = models.ForeignKey('Album',default=1)
 
-
 	def get_absolute_url(self):
 		url_name = self.full_name.replace(' ', '_')
-		return "/artists/%s/" % url_name
+		return url_name
 
 	def __str__ (self):
 		return self.full_name
@@ -46,7 +45,8 @@ class Album(models.Model):
 	image_url = models.CharField(max_length=500, null=True, blank=True)
 	
 	def get_absolute_url(self):
-		return "/albums/%s/" % self.album_name
+		url_name = self.album_name.replace(' ', '_')
+		return url_name
 
 	def __str__ (self):
 		return self.album_name

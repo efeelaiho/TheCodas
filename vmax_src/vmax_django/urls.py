@@ -28,12 +28,15 @@ urlpatterns = [
 	url(r'^about/', 'volumemax.views.about', name='about'),
 	url(r'^artists/$', 'volumemax.views.artists', name='artists'),
     url(r'^albums/$', 'volumemax.views.albums', name='albums'),
+    url(r'^database/$', 'volumemax.views.database', name='database'),
+    
     ################################################################### 
     #
     #   ARTISTS
     #
     ################################################################### 
     url(r'^eminem/', 'volumemax.views.eminem', name='eminem'),
+    url(r'^artists/(\w+)', 'volumemax.views.artist_view', name='artist_view'),
     url(r'^kanye_west/', 'volumemax.views.kanyewest', name='kanye_west'),
     url(r'^michael_jackson/', 'volumemax.views.michael', name='michael_jackson'),
     ################################################################### 
@@ -43,7 +46,9 @@ urlpatterns = [
     ################################################################### 
     url(r'^encore/', 'volumemax.views.encore', name='encore'),
     url(r'^bad/', 'volumemax.views.bad', name='bad'),
-    url(r'^college/', 'volumemax.views.college', name='college'),    
+    url(r'^college/', 'volumemax.views.college', name='college'),
+    url(r'^albums/(\w+)', 'volumemax.views.album_view', name='album_view'),
+
 	###################################################################    
     #
     #   ADMIN

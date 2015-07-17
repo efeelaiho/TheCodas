@@ -85,7 +85,9 @@ a:focus {
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
-
+.nav {
+    font-weight: 700;
+}
 .navbar-custom .navbar-brand:focus {
     outline: 0;
 }
@@ -397,6 +399,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #D50000;
+
 }
 
 .recommended-album img{
@@ -429,5 +438,17 @@ body {
 }
 
 hr{
-    border-color:#d50000"
+    border-color:#d50000;
 }
+
+.bigprofilepic{
+    border-radius: 15px;
+
+    border: 1.5px solid #D50000;
+
+
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #D50000;
+}
+

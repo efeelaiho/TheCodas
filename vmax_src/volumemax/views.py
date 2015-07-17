@@ -25,28 +25,24 @@ def about(request):
 	return render(request, "about.html", {})    
 
 def artists(request):
-	# artists = Artist.objects.all()
-	# #x = al_name.replace('_', ' ')
-	# try:
-	# 	artist_url = artists['full_name'].replace(' ', '_')
-	# 	artists.update({'artist_url': artist_url})
-	# except:
-	# 	# return handler404(request)
-	# 	artists['artist_url'] = 'michael_jackson'
-	# 	# artists.update({'artist_url': ""})
-	# context = {"artist_list": artists}
+	artists = Artist.objects.all()
+	context = {"artist_list": artists}
+	# serializer = ArtistSerializer(artists, many=True)
+	# artist_dict = JSONRenderer().render(serializer.data)
 
-	#return render_to_response("artists.html", context)
-	return render(request, "artists.html", {})  
+	return render_to_response("artists.html", context)
 
 def albums(request):
 	albums = Album.objects.all()
 	context = {"albums_list": albums}
 	# serializer = AlbumSerializer(albums, many=True)
 	# album_dict = JSONRenderer().render(serializer.data)
-	#return render_to_response("albums.html", context)
-	return render(request, "albums.html", {})
+	return render_to_response("albums.html", context)
 
+	#return render(request, "albums.html", {})
+
+def database(request):
+	return render(request, "database.html", {})
 		
 ################################################################### 
 #
@@ -54,20 +50,21 @@ def albums(request):
 #
 ################################################################### 
 
+def artist_view(request, name):
+	name = name.replace('_', ' ')
 
-def artist(request, ar_name):
-	context = RequestContext(request)
+	artist = Artist.objects.get(full_name = name)
+	album  = artist.recommended_album
+	# artist = Artist.objects.get(pk = name)
+	# album = Album.objects.get(pk = name)
 
-	x = ar_name.replace('_', ' ')
+	#context = {"artist_info": artist}
+	#album_url = (artist.recommended_album.album_name).replace(' ', '_')
 
-	artist = Artist.objects.get(full_name = x)
-	album_url = (artist.recommended_album.album_name).replace(' ', '_')
-	album_img_url = (artist.recommended_album.image_url)
-	serializer = ArtistSerializer(artist, many=True)
-	artist_dic = JSONRenderer().render(serializer.data)
+	#serializer = ArtistSerializer(artist)
+	context = {"album": album, "artist": artist}
 
-	# artist_dic = {
-	#   "full_name": artist.full_name,
+	# context = {"full_name": artist.full_name,
 	#   "origin": artist.origin,
 	#   "popularity": artist.popularity,
 	#   "genre": artist.genre,
@@ -80,30 +77,48 @@ def artist(request, ar_name):
 	#   "rec_album_url": album_url
 	# } 
 
-	return render_to_response('dynamic_artist.html', artist_dic, context)
+	return render_to_response("dynamic_artist.html", context)
 
-def album(request, al_name):
-	context = RequestContext(request)
+def album_view(request, name):
+	#artist = Artist.objects.get()
+	name = name.replace('_', ' ')
+	album  = Album.objects.get(album_name = name)
 
-	x = al_name.replace('_', ' ')
+	artist = album.album_artist
+	#artist_url = (album.album_artist.full_name).replace(' ', '_')
+	#serializer = AlbumSerializer(artists, many=True)
+	#album_dict = JSONRenderer().render(serializer.data)
+	context = {"album": album, "artist": artist}
 
-	album = Album.objects.get(album_name = x)
-	artist_url = (album.album_artist.full_name).replace(' ', '_')
-	serializer = AlbumSerializer(artists, many=True)
-	album_dict = JSONRenderer().render(serializer.data)
+	return render_to_response('dynamic_album.html', context)
 
-	# album_dic = {
-	# 	"album_artist" = album.album_artist,
-	# 	"album_name" = album.album_name,
-	# 	"release_date" = album.release_date,
-	# 	"genre" = album.genre,
-	# 	"spotify_albums_uri" = album.spotify_albums_uri,
-	# 	"editors_notes" = album.editors_notes,
-	# 	"image_url" = album.image_url,
-	# 	"artist_url" = artist_url
-	# }
+# def artist(request, ar_name):
+# 	context = RequestContext(request)
 
-	return render_to_response('dynamic_album.html', album_dic, context)
+# 	x = ar_name.replace('_', ' ')
+
+# 	artist = Artist.objects.get(full_name = x)
+# 	album_url = (artist.recommended_album.album_name).replace(' ', '_')
+# 	album_img_url = (artist.recommended_album.image_url)
+# 	serializer = ArtistSerializer(artist, many=True)
+# 	artist_dic = JSONRenderer().render(serializer.data)
+
+# 	artist_dic = {"full_name": artist.full_name,
+# 	  "origin": artist.origin,
+# 	  "popularity": artist.popularity,
+# 	  "genre": artist.genre,
+# 	  "spotify_artist_uri": artist.spotify_artist_uri,
+# 	  "biography": artist.biography,
+# 	  "youtube_url_1": artist.youtube_url_1,
+# 	  "youtube_url_2": artist.youtube_url_2,
+# 	  "recommended_album": artist.recommended_album,
+# 	  "image_url": artist.image_url,
+# 	  "rec_album_url": album_url
+# 	} 
+
+# 	return render_to_response('dynamic_artist.html', artist_dic, context)
+
+
 
 
 
