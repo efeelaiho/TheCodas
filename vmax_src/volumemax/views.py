@@ -7,6 +7,7 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
+from rest_framework.decorators import api_view
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
 
@@ -27,19 +28,12 @@ def about(request):
 def artists(request):
 	artists = Artist.objects.all()
 	context = {"artist_list": artists}
-	# serializer = ArtistSerializer(artists, many=True)
-	# artist_dict = JSONRenderer().render(serializer.data)
-
 	return render_to_response("artists.html", context)
 
 def albums(request):
 	albums = Album.objects.all()
 	context = {"albums_list": albums}
-	# serializer = AlbumSerializer(albums, many=True)
-	# album_dict = JSONRenderer().render(serializer.data)
 	return render_to_response("albums.html", context)
-
-	#return render(request, "albums.html", {})
 
 def database(request):
 	return render(request, "database.html", {})
@@ -55,74 +49,18 @@ def artist_view(request, name):
 
 	artist = Artist.objects.get(full_name = name)
 	album  = artist.recommended_album
-	# artist = Artist.objects.get(pk = name)
-	# album = Album.objects.get(pk = name)
-
-	#context = {"artist_info": artist}
-	#album_url = (artist.recommended_album.album_name).replace(' ', '_')
-
-	#serializer = ArtistSerializer(artist)
 	context = {"album": album, "artist": artist}
 
-	# context = {"full_name": artist.full_name,
-	#   "origin": artist.origin,
-	#   "popularity": artist.popularity,
-	#   "genre": artist.genre,
-	#   "spotify_artist_uri": artist.spotify_artist_uri,
-	#   "biography": artist.biography,
-	#   "youtube_url_1": artist.youtube_url_1,
-	#   "youtube_url_2": artist.youtube_url_2,
-	#   "recommended_album": artist.recommended_album,
-	#   "image_url": artist.image_url,
-	#   "rec_album_url": album_url
-	# } 
 
 	return render_to_response("dynamic_artist.html", context)
 
 def album_view(request, name):
-	#artist = Artist.objects.get()
 	name = name.replace('_', ' ')
 	album  = Album.objects.get(album_name = name)
 
 	artist = album.album_artist
-	#artist_url = (album.album_artist.full_name).replace(' ', '_')
-	#serializer = AlbumSerializer(artists, many=True)
-	#album_dict = JSONRenderer().render(serializer.data)
 	context = {"album": album, "artist": artist}
-
 	return render_to_response('dynamic_album.html', context)
-
-# def artist(request, ar_name):
-# 	context = RequestContext(request)
-
-# 	x = ar_name.replace('_', ' ')
-
-# 	artist = Artist.objects.get(full_name = x)
-# 	album_url = (artist.recommended_album.album_name).replace(' ', '_')
-# 	album_img_url = (artist.recommended_album.image_url)
-# 	serializer = ArtistSerializer(artist, many=True)
-# 	artist_dic = JSONRenderer().render(serializer.data)
-
-# 	artist_dic = {"full_name": artist.full_name,
-# 	  "origin": artist.origin,
-# 	  "popularity": artist.popularity,
-# 	  "genre": artist.genre,
-# 	  "spotify_artist_uri": artist.spotify_artist_uri,
-# 	  "biography": artist.biography,
-# 	  "youtube_url_1": artist.youtube_url_1,
-# 	  "youtube_url_2": artist.youtube_url_2,
-# 	  "recommended_album": artist.recommended_album,
-# 	  "image_url": artist.image_url,
-# 	  "rec_album_url": album_url
-# 	} 
-
-# 	return render_to_response('dynamic_artist.html', artist_dic, context)
-
-
-
-
-
-
 
 ################################################################### 
 #
@@ -131,15 +69,15 @@ def album_view(request, name):
 ################################################################### 
 
 
-def eminem(request):
-	return render(request, "artist/eminem.html",{})
+# def eminem(request):
+# 	return render(request, "artist/eminem.html",{})
 
 
-def kanyewest(request):
-	return render(request, "artist/kanyewest.html", {})
+# def kanyewest(request):
+# 	return render(request, "artist/kanyewest.html", {})
 
-def michael(request):
-	return render(request, "artist/michael.html", {})
+# def michael(request):
+# 	return render(request, "artist/michael.html", {})
 
 
 
@@ -150,14 +88,14 @@ def michael(request):
 ################################################################### 
 
 
-def encore(request):
-	return render(request, "album/encore.html", {})
+# def encore(request):
+# 	return render(request, "album/encore.html", {})
 
-def bad(request):
-	return render(request, "album/bad.html", {})
+# def bad(request):
+# 	return render(request, "album/bad.html", {})
 
-def college(request):
-	return render(request, "album/college_drop_out.html", {})
+# def college(request):
+# 	return render(request, "album/college_drop_out.html", {})
 
 ################################################################### 
 #
@@ -174,7 +112,7 @@ class JSONResponse(HttpResponse):
 		kwargs['content_type'] = 'application/json'
 		super(JSONResponse, self).__init__(content, **kwargs)
 
-@csrf_exempt
+@api_view()
 def artist_list(request):
 	"""
 	List all artists, or create a new artist.
@@ -184,7 +122,7 @@ def artist_list(request):
 		serializer = ArtistSerializer(artists, many=True)
 		return JSONResponse(serializer.data)
 
-@csrf_exempt
+@api_view()
 def album_list(request):
 	"""
 	List all albums, or create a new album.
@@ -194,6 +132,7 @@ def album_list(request):
 		serializer = AlbumSerializer(albums, many=True)
 		return JSONResponse(serializer.data)
 
+@api_view()
 def artist_detail(request, pk):
 	"""
 	Retrieve an artist.
@@ -207,6 +146,7 @@ def artist_detail(request, pk):
 		serializer = ArtistSerializer(artist)
 		return JSONResponse(serializer.data)
 
+@api_view()
 def album_detail(request, pk):
 	"""
 	Retrieve an album.
