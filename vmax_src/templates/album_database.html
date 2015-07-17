@@ -1,0 +1,42 @@
+{% extends "navbar.html" %}
+
+<!--head tag-->
+{% block head %}
+  {{block.super}}
+
+
+
+
+{% endblock %}
+
+<!-- navigation -->
+{% block navbar %}
+  {{block.super}}
+{% endblock %}
+
+<!--body-->
+{% block content %}
+{% load staticfiles %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <table data-url="data1.json" data-height="299" data-sort-name="name" data-sort-order="desc">
+            <thead>
+                <tr>
+                    <th data-field="id" data-align="center" data-sortable="true">Name</th>
+                    <th data-field="name" data-align="center" data-sortable="true">Origin</th>
+                    <th data-field="price" data-align="center" data-sortable="true">Popularity</th>
+                    <th data-field="price" data-align="center" data-sortable="true">Genre</th>
+                </tr>
+
+            </thead>
+        </table>
+                
+
+{% endblock %}
+
+
+{% block footer %}
+  {{block.super}}
+{% endblock %}
