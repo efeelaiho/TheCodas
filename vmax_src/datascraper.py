@@ -19,10 +19,11 @@ with open('artistlist') as f:
 
 		#pk
 		artdict["pk"] = index
+		index +=1
 
 		#model
 		artdict["model"] = "volumemax.artist"
-		
+	
 		#fields
 		artdict["fields"] = {}
 		
@@ -129,6 +130,7 @@ with open('albumlist') as f:
 		albumbyuri = spotify.album(album['uri'])
 		#pk
 		albdict["pk"] = index
+		index +=1
 		
 		#fields
 		albdict["fields"] = {}
