@@ -35,8 +35,11 @@ def albums(request):
 	context = {"albums_list": albums}
 	return render_to_response("albums.html", context)
 
-def database(request):
-	return render(request, "database.html", {})
+def artistdatabase(request):
+	return render(request, "artist_database.html", {})
+
+def albumdatabase(request):
+	return render(request, "album_database.html", {})	
 		
 ################################################################### 
 #
