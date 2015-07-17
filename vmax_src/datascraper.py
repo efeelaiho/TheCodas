@@ -32,32 +32,37 @@ with open('artistlist') as f:
 		items = results['artists']['items']
 		if len(items) > 0:
 			artist = items[0]
-		artdict["fields"]["full_name"] = artist['name']
+			artdict["fields"]["full_name"] = artist['name']
+		else:
+			artdict["fields"]["full_name"] = "N/A"
 
 		#origin
-		undscore = re.sub(" ",'_',artist['name'])
-		url1 = "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&rvsection=0&titles="
-		format = "&format=json"
-		url = url1+undscore+format
-		res = requests.get(url)
-		text = res.json()["query"]["pages"].values()[0]["revisions"][0]["*"]
-		wiki = mwparserfromhell.parse(text)
-		templates = wiki.filter_templates(matches="birth_place")
-		if 0 < len(templates):
-			template = templates[0]
-			origin = template.get("birth_place").value
-			origin = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]', r'\1',str(origin))
-		else: 
-				templates = wiki.filter_templates(matches="origin")
-				if 0 < len(templates):
-					template = templates[0]
-					try:
-						origin = template.get("origin").value
-						origin = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]', r'\1',str(origin))
-					except ValueError:
+		try:
+			undscore = re.sub(" ",'_',artist['name'])
+			url1 = "https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&rvsection=0&titles="
+			format = "&format=json"
+			url = url1+undscore+format
+			res = requests.get(url)
+			text = res.json()["query"]["pages"].values()[0]["revisions"][0]["*"]
+			wiki = mwparserfromhell.parse(text)
+			templates = wiki.filter_templates(matches="birth_place")
+			if 0 < len(templates):
+				template = templates[0]
+				origin = template.get("birth_place").value
+				origin = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]', r'\1',str(origin))
+			else: 
+					templates = wiki.filter_templates(matches="origin")
+					if 0 < len(templates):
+						template = templates[0]
+						try:
+							origin = template.get("origin").value
+							origin = re.sub(r'\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]', r'\1',str(origin))
+						except ValueError:
+							origin = 'N/A'
+					else:
 						origin = 'N/A'
-				else:
-					origin = 'N/A'
+		except KeyError:
+			origin = 'N/A'
 		artdict["fields"]["origin"] = origin
 
 		#popularity
@@ -88,7 +93,10 @@ with open('artistlist') as f:
 		#recommended_album
 		results = spotify.artist_albums(artist['uri'], album_type='album')
 		albums = results['items']
-		artdict["fields"]["recommended_album"] = albums[0]['uri']
+		if 0 < len(albums):
+			artdict["fields"]["recommended_album"] = albums[0]['uri']
+		else:
+			artdict["fields"]["recommended_album"] = "N/A"
 
 		#img
 		searchformat = re.sub(" ",'%20',artist['name'])
