@@ -23,6 +23,7 @@
         <!-- Subtitles with album additional information -->
         <h2 style="font-size:17px;margin-top:-10px; margin-bottom: 10px">released date:&nbsp {{album.release_date}} </h2>
         <h2 style="font-size:17px;margin-top:-10px;margin-bottom: 10px">genre:&nbsp {{album.genre}} </h2>
+        <h2 style="font-size:17px;margin-top:-10px;margin-bottom: 10px">Artist:&nbsp <a href="{% url 'artist_view' artist.get_absolute_url %}">{{artist.full_name}} </a></h2>
 
 
         <!-- album image -->
