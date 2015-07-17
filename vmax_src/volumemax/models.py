@@ -4,10 +4,9 @@ from django.utils.html import format_html
 
 class Artist(models.Model):
 	"""
-	each artist will contain first_name, last_name, date_of_birth, and origin
-	date_of_birth will be represented as a datetime object in YYYY/MM/DD format
+	each artist will contain full_name, origin, popularity, genre, spotify_artist_uri, biography, youtube_url_1, youtube_url_2, image_url, and recommended_album
 	origin will be represented as city, state format (Austin, TX)
-	get_absolute_url function creates a url link for the artist
+	get_absolute_url function creates a url link for the artist by replacing spaces with "_"
 	__str__ function returns the artist's name as a string
 	"""
 
@@ -31,9 +30,9 @@ class Artist(models.Model):
 
 class Album(models.Model):
 	"""
-	each album will contain artist, name, release_date, and genre
+	each album will contain album_artist, album_name, release_date, genre, spotify_albums_uri, editors_notes, and image_url
 	release_date will be represented as a datetime object in YYYY/MM/DD format
-	get_absolute_url function creates a url link for the album
+	get_absolute_url function creates a url link for the album by replacing spaces with "_"
 	__str__ function returns the album name as a string
 	"""
 	album_artist = models.ForeignKey('Artist',default=1)
