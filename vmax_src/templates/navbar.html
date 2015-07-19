@@ -49,6 +49,7 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+
                     <li>
                         <a  href="../about">About</a>
                     </li>
@@ -64,6 +65,14 @@
                     <li>
                         <a  href="../albumdatabase"> Album Database</a>
                     </li>
+                    <li>
+                      <form action="/search/" method="get">
+                       
+                        {{form}}
+                        <input type="submit" value="Search"/>
+                      </form>
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
