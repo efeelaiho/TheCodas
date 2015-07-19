@@ -1,11 +1,19 @@
 {% extends "navbar.html" %}
+{% load staticfiles %}
 
 <!--head tag-->
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" 
+href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" 
+src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" 
+src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 {% block head %}
+<title>Volume.max() - Album Database</title>
   {{block.super}}
-
-
-
 
 {% endblock %}
 
@@ -16,27 +24,130 @@
 
 <!--body-->
 {% block content %}
-{% load staticfiles %}
+
 
     <!-- Page Content -->
     <div class="container">
 
-        <table data-url="data1.json" data-height="299" data-sort-name="name" data-sort-order="desc">
-            <thead>
-                <tr>
-                    <th data-field="id" data-align="center" data-sortable="true">Name</th>
-                    <th data-field="name" data-align="center" data-sortable="true">Origin</th>
-                    <th data-field="price" data-align="center" data-sortable="true">Popularity</th>
-                    <th data-field="price" data-align="center" data-sortable="true">Genre</th>
-                </tr>
+            <div class="col-lg-12">
+                <h1 class="page-header">Album Database</h1>
+            </div>
+    </div>
 
-            </thead>
-        </table>
-                
+    <div class="container">
+            <div class="table-responsive">
+                <table id="myTable" class="display table" width="100%" >
+                    <thead>  
+                          <tr>  
+                            <th>ENO</th>  
+                            <th>EMPName</th>  
+                            <th>Country</th>  
+                            <th>Salary</th>  
+                          </tr>  
+                        </thead>  
+                        <tbody>  
+                          <tr>  
+                            <td>Eminem</td>  
+                            <td>Anusha</td>  
+                            <td>India</td>  
+                            <td>10000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>002</td>  
+                            <td>Charles</td>  
+                            <td>United Kingdom</td>  
+                            <td>28000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>003</td>  
+                            <td>Sravani</td>  
+                            <td>Australia</td>  
+                            <td>7000</td>  
+                          </tr>  
+                           <tr>  
+                            <td>004</td>  
+                            <td>Amar</td>  
+                            <td>India</td>  
+                            <td>18000</td>  
+                          </tr> 
+                          <tr>  
+                            <td>001</td>  
+                            <td>Anusha</td>  
+                            <td>India</td>  
+                            <td>10000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>002</td>  
+                            <td>Charles</td>  
+                            <td>United Kingdom</td>  
+                            <td>28000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>003</td>  
+                            <td>Sravani</td>  
+                            <td>Australia</td>  
+                            <td>7000</td>  
+                          </tr>  
+                           <tr>  
+                            <td>004</td>  
+                            <td>Amar</td>  
+                            <td>India</td>  
+                            <td>18000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>005</td>  
+                            <td>Lakshmi</td>  
+                            <td>India</td>  
+                            <td>12000</td>  
+                          </tr>   
+                          <tr>  
+                            <td>001</td>  
+                            <td>Anusha</td>  
+                            <td>India</td>  
+                            <td>10000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>002</td>  
+                            <td>Charles</td>  
+                            <td>United Kingdom</td>  
+                            <td>28000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>003</td>  
+                            <td>Sravani</td>  
+                            <td>Australia</td>  
+                            <td>7000</td>  
+                          </tr>  
+                           <tr>  
+                            <td>004</td>  
+                            <td>Amar</td>  
+                            <td>India</td>  
+                            <td>18000</td>  
+                          </tr>  
+                          <tr>  
+                            <td>005</td>  
+                            <td>Lakshmi</td>  
+                            <td>India</td>  
+                            <td>12000</td>  
+                          </tr>  
+                        </tbody>
+
+
+                </table>
+            </div>
+        <hr>
+
+
+        
 
 {% endblock %}
 
-
 {% block footer %}
+
   {{block.super}}
+  <script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+});
+</script>
 {% endblock %}
