@@ -20,6 +20,7 @@
       <link href="{% static 'css/thumbnail-gallery.css' %}" rel="stylesheet">
       <link href="{% static 'css/grayscale.css' %}" rel="stylesheet">
 
+
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -27,6 +28,7 @@
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
       <!-- Custom Fonts -->
+      <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
       <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
 
   </head>
@@ -41,7 +43,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="{% url 'home' %}">
-                    <i class="fa fa-play-circle"></i>  <span class="light"></span> Volume.max()
+                      <span class="light"></span> Volume.max()
                 </a>
             </div>
 
@@ -66,14 +68,14 @@
                         <a  href="../albumdatabase"> Album Database</a>
                     </li>
                     <li>
-                      <form action="/search/" method="get">
-                       
-                        {{form}}
-                        <input type="submit" value="Search"/>
-                      </form>
+                      
                     </li>
 
                 </ul>
+                <form class="navbar-form navbar-right" action="/search/" method="get">
+                        {{form}}
+                        <input type="submit" class="custom-btn" value="Search"/>
+                </form>
             </div>
             <!-- /.navbar-collapse -->
         </div>
