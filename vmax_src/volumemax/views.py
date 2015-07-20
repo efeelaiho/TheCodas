@@ -97,28 +97,30 @@ def search(request) :
 	found_entries = None
 	if ('q' in request.GET) and request.GET['q'].strip():
 		query_string = request.GET['q']
-		artist_query = get_query(query_string, ['full_name', 'genre', 'origin'])
+		artist_query = get_query(query_string, ['full_name', 'genre', 'origin', 'biography'])
+		album_query = get_query(query_string, ['album_name', 'genre', 'editors_notes', 'album_artist__full_name'])
 		found_artists = Artist.objects.filter(artist_query).order_by('full_name')
-		context = { 'query_string': query_string, 'found_artists': found_artists, 'form': form}
+		found_albums  = Album.objects.filter(album_query).order_by('album_name')
+		context = { 'query_string': query_string, 'found_artists': found_artists, 'found_albums': found_albums}
 	else :
 		context = {'form': form}
 	return render_to_response('search.html', context, context_instance=RequestContext(request))	
 
-def search_results(request):
-	form = SearchForm()
-	query_string = ''
-	found_entries = None
-	if ('q' in request.GET) and request.GET['q'].strip():
-		query_string = request.GET['q']
+# def search_results(request):
+# 	form = SearchForm()
+# 	query_string = ''
+# 	found_entries = None
+# 	if ('q' in request.GET) and request.GET['q'].strip():
+# 		query_string = request.GET['q']
 		
-		entry_query = get_query(query_string, ['title', 'body',])
+# 		entry_query = get_query(query_string, ['title', 'body',])
 		
-		found_entries = Album.objects.filter(entry_query).order_by('-pub_date')
-		context = { 'query_string': query_string, 'found_entries': found_entries, 'form': form}
+# 		found_entries = Album.objects.filter(entry_query).order_by('-pub_date')
+# 		context = { 'query_string': query_string, 'found_entries': found_entries, 'form': form}
 
-	return render_to_response('search/search_results.html',
-						  { 'query_string': query_string, 'found_entries': found_entries },
-						  context_instance=RequestContext(request))
+# 	return render_to_response('search/search_results.html',
+# 						  { 'query_string': query_string, 'found_entries': found_entries },
+# 						  context_instance=RequestContext(request))
 
 
 # def eminem(request):
