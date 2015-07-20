@@ -10,13 +10,33 @@
 
     <!-- Page Content -->
     <div class="container">
+        <div class="row">
 
-        {% if found_artists %}
-        <li> {{ found_artists}}</li>
-        {% endif %}
+          <div class="col-lg-12">
+              <h1 class="page-header">Search Results</h1>
+          </div>
+          <h5>You searched for "{{query_string}}" </h5>  
 
+          {% if found_artists %}
+            <h4>Matching artists:</h4>
+            {% for result in found_artists %}
+            {{forloop.counter}}. <a href="{% url 'artist_view' result.get_absolute_url %}">{{result.full_name}} </a> <br>
+            {% endfor %}
+          {% else %}
+            Sorry, no matching artists found. 
+          {% endif %}
+          <br><br>
+          {% if found_albums %}
+            <h4>Matching albums:</h4>
+            {% for result in found_albums %}
+            {{forloop.counter}}. <a href="{% url 'album_view' result.get_absolute_url %}">{{result.album_name}} </a> <br>
+            {% endfor %}          
+          {% else %}
+            Sorry, no matching albums found.
+          {% endif %}
 
         <hr>
+        <!-- -->
 
 {% endblock %}
 {% block footer %}
