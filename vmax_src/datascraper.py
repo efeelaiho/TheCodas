@@ -87,12 +87,15 @@ with open('artistlist') as f:
 
 
 		#recommended_album
-		results = spotify.artist_albums(artist['uri'], album_type='album')
-		albums = results['items']
-		if 0 < len(albums):
-			artdict["fields"]["recommended_album"] = albums[0]['uri']
-			alburi = albums[0]['uri']
-			album = spotify.album(alburi)
+		topresults = spotify.artist_top_tracks(artist['uri'])
+		track = topresults['tracks'][0]
+		#print track
+		albresults = spotify.artist_albums(artist['uri'], album_type='album')
+		if 0 < len(albresults):
+			album = track["album"]
+			artdict["fields"]["recommended_album"] = album['uri']
+			#alburi = albums[0]['uri']
+			album = spotify.album(track['album']['uri'])
 			albdict = {}
 
 			#model
@@ -106,7 +109,7 @@ with open('artistlist') as f:
 			albdict["fields"] = {}
 			
 			#album_artist
-			albdict["fields"]["album_artist"] =  album['artists'][0]['uri']
+			albdict["fields"]["album_artist"] =  artist['uri']
 
 			#release_date
 			albdict["fields"]["release_date"] = album['release_date']
@@ -128,7 +131,7 @@ with open('artistlist') as f:
 			albdict["fields"]["editors_notes"] = "ADD FROM ITUNES"
 
 			#uri
-			artdict["fields"]["recommended_album"] = albums[0]['uri']
+			artdict["fields"]["recommended_album"] = track['album']['uri']
 			albdict["fields"]["spotify_albums_uri"] = album['uri']
 
 			#image_url
