@@ -70,12 +70,6 @@ with open('artistlist') as f:
 		#popularity
 		artdict["fields"]["popularity"] = artist['popularity']
 
-		#genre
-		if 0 < len(artist['genres']):
-			artdict["fields"]["genre"] = artist['genres'][0]
-		else:
-			artdict["fields"]["genre"] = 'N/A'
-
 		#uri
 		artdict["fields"]["spotify_artist_uri"] = artist['uri']
 
@@ -97,17 +91,13 @@ with open('artistlist') as f:
 		albums = results['items']
 		if 0 < len(albums):
 			artdict["fields"]["recommended_album"] = albums[0]['uri']
+			alburi = albums[0]['uri']
+			album = spotify.album(alburi)
 			albdict = {}
 
 			#model
 			albdict["model"] = "volumemax.album"
 
-			albumname = line
-			results = spotify.search(q='album:' + albumname, type='album')
-			items = results['albums']['items']
-			if len(items) > 0:
-				album = items[0]
-			albumbyuri = spotify.album(album['uri'])
 			#pk
 			albdict["pk"] = albindex
 			albindex +=1
@@ -116,17 +106,20 @@ with open('artistlist') as f:
 			albdict["fields"] = {}
 			
 			#album_artist
-			albdict["fields"]["album_artist"] =  albumbyuri['artists'][0]['uri']
+			albdict["fields"]["album_artist"] =  album['artists'][0]['uri']
 
 			#release_date
-			albdict["fields"]["release_date"] = albumbyuri['release_date']
+			albdict["fields"]["release_date"] = album['release_date']
 
 
 			#genre
-			if 0 < len(albumbyuri['genres']):
-				albdict["fields"]["genre"] = albumbyuri['genres'][0]
+			if 0 < len(album['genres']):
+				albdict["fields"]["genre"] = album['genres'][0]
+				artdict["fields"]["genre"] = album['genres'][0]
 			else:
 				albdict["fields"]["genre"] = 'N/A'
+				artdict["fields"]["genre"] = 'N/A'
+
 
 			#album_name
 			albdict["fields"]["album_name"] = album['name']
@@ -135,6 +128,7 @@ with open('artistlist') as f:
 			albdict["fields"]["editors_notes"] = "ADD FROM ITUNES"
 
 			#uri
+			artdict["fields"]["recommended_album"] = albums[0]['uri']
 			albdict["fields"]["spotify_albums_uri"] = album['uri']
 
 			#image_url
@@ -162,53 +156,53 @@ with open('artistlist') as f:
 		cache.append(artdict)
  
 
-with open('albumlist') as f:
-	for line in f:
-		albdict = {}
+# with open('albumlist') as f:
+# 	for line in f:
+# 		albdict = {}
 
-		#model
-		albdict["model"] = "volumemax.album"
+# 		#model
+# 		albdict["model"] = "volumemax.album"
 
-		albumname = line
-		results = spotify.search(q='album:' + albumname, type='album')
-		items = results['albums']['items']
-		if len(items) > 0:
-			album = items[0]
-		albumbyuri = spotify.album(album['uri'])
-		#pk
-		albdict["pk"] = albindex
-		albindex +=1
+# 		albumname = line
+# 		results = spotify.search(q='album:' + albumname, type='album')
+# 		items = results['albums']['items']
+# 		if len(items) > 0:
+# 			album = items[0]
+# 		albumbyuri = spotify.album(album['uri'])
+# 		#pk
+# 		albdict["pk"] = albindex
+# 		albindex +=1
 		
-		#fields
-		albdict["fields"] = {}
+# 		#fields
+# 		albdict["fields"] = {}
 		
-		#album_artist
-		albdict["fields"]["album_artist"] =  albumbyuri['artists'][0]['uri']
+# 		#album_artist
+# 		albdict["fields"]["album_artist"] =  albumbyuri['artists'][0]['uri']
 
-		#release_date
-		albdict["fields"]["release_date"] = albumbyuri['release_date']
+# 		#release_date
+# 		albdict["fields"]["release_date"] = albumbyuri['release_date']
 
 
-		#genre
-		if 0 < len(albumbyuri['genres']):
-			albdict["fields"]["genre"] = albumbyuri['genres'][0]
-		else:
-			albdict["fields"]["genre"] = 'N/A'
+# 		#genre
+# 		if 0 < len(albumbyuri['genres']):
+# 			albdict["fields"]["genre"] = albumbyuri['genres'][0]
+# 		else:
+# 			albdict["fields"]["genre"] = 'N/A'
 
-		#album_name
-		albdict["fields"]["album_name"] = album['name']
+# 		#album_name
+# 		albdict["fields"]["album_name"] = album['name']
 
-		#editors_notes
-		albdict["fields"]["editors_notes"] = "ADD FROM ITUNES"
+# 		#editors_notes
+# 		albdict["fields"]["editors_notes"] = "ADD FROM ITUNES"
 
-		#uri
-		albdict["fields"]["spotify_albums_uri"] = album['uri']
+# 		#uri
+# 		albdict["fields"]["spotify_albums_uri"] = album['uri']
 
-		#image_url
-		if 0 < len(album['images']): 
-			albdict["fields"]["image_url"] = album['images'][0]['url']
-		else:
-			albdict["fields"]['image_url'] = 'N/A'
+# 		#image_url
+# 		if 0 < len(album['images']): 
+# 			albdict["fields"]["image_url"] = album['images'][0]['url']
+# 		else:
+# 			albdict["fields"]['image_url'] = 'N/A'
 		
-		cache.append(albdict)
+# 		cache.append(albdict)
 print json.dumps(cache, indent=4)
