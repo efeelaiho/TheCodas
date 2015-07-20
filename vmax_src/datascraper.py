@@ -89,8 +89,9 @@ with open('artistlist') as f:
 		#recommended_album
 		topresults = spotify.artist_top_tracks(artist['uri'])
 		track = topresults['tracks'][0]
-		#print track
+		artdict["track_url"] = track['preview_url']
 		albresults = spotify.artist_albums(artist['uri'], album_type='album')
+
 		if 0 < len(albresults):
 			album = track["album"]
 			artdict["fields"]["recommended_album"] = album['uri']
