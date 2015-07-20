@@ -2,14 +2,6 @@
 {% load staticfiles %}
 
 <!--head tag-->
-<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<link rel="stylesheet" 
-href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
-<script type="text/javascript" 
-src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" 
-src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 {% block head %}
 <title>Volume.max() - Album Database</title>
@@ -36,100 +28,30 @@ src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></scrip
 
     <div class="container">
             <div class="table-responsive">
-                <table id="myTable" class="display table" width="100%" >
-                    <thead>  
+                <table id="albumTable" class="display table " width="100%" >
+                        <thead>  
                           <tr>  
-                            <th>ENO</th>  
-                            <th>EMPName</th>  
-                            <th>Country</th>  
-                            <th>Salary</th>  
+                            <th>Photo</th>  
+                            <th>Name</th>  
+                            <th>Artist</th>
+                            <th>Release Date</th>  
+                            <th>Genre</th>  
                           </tr>  
-                        </thead>  
+                    </thead>  
                         <tbody>  
+                        {% for album in albums_list %}
                           <tr>  
-                            <td>Eminem</td>  
-                            <td>Anusha</td>  
-                            <td>India</td>  
-                            <td>10000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>002</td>  
-                            <td>Charles</td>  
-                            <td>United Kingdom</td>  
-                            <td>28000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>003</td>  
-                            <td>Sravani</td>  
-                            <td>Australia</td>  
-                            <td>7000</td>  
-                          </tr>  
-                           <tr>  
-                            <td>004</td>  
-                            <td>Amar</td>  
-                            <td>India</td>  
-                            <td>18000</td>  
-                          </tr> 
-                          <tr>  
-                            <td>001</td>  
-                            <td>Anusha</td>  
-                            <td>India</td>  
-                            <td>10000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>002</td>  
-                            <td>Charles</td>  
-                            <td>United Kingdom</td>  
-                            <td>28000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>003</td>  
-                            <td>Sravani</td>  
-                            <td>Australia</td>  
-                            <td>7000</td>  
-                          </tr>  
-                           <tr>  
-                            <td>004</td>  
-                            <td>Amar</td>  
-                            <td>India</td>  
-                            <td>18000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>005</td>  
-                            <td>Lakshmi</td>  
-                            <td>India</td>  
-                            <td>12000</td>  
-                          </tr>   
-                          <tr>  
-                            <td>001</td>  
-                            <td>Anusha</td>  
-                            <td>India</td>  
-                            <td>10000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>002</td>  
-                            <td>Charles</td>  
-                            <td>United Kingdom</td>  
-                            <td>28000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>003</td>  
-                            <td>Sravani</td>  
-                            <td>Australia</td>  
-                            <td>7000</td>  
-                          </tr>  
-                           <tr>  
-                            <td>004</td>  
-                            <td>Amar</td>  
-                            <td>India</td>  
-                            <td>18000</td>  
-                          </tr>  
-                          <tr>  
-                            <td>005</td>  
-                            <td>Lakshmi</td>  
-                            <td>India</td>  
-                            <td>12000</td>  
-                          </tr>  
+                            <td> <a href="{% url 'album_view' album.get_absolute_url %}">
+                    <img class="img-responsive" src="{{album.image_url}}" alt="" width="200" height="200" 
+                    style="border-radius: 5px;border-style: solid;border-width: 2px;border-color: #D50000;"> 
+                </a></td>  
+                            <td>{{album.album_name}}</td>  
+                            <td>{{album.album_artist.full_name}} </td>  
+                            <td>{{album.release_date}}</td>
+                            <td>{{album.genre}}</td>  
+                          </tr>
+                          {% endfor %} 
+                           
                         </tbody>
 
 
@@ -145,9 +67,4 @@ src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></scrip
 {% block footer %}
 
   {{block.super}}
-  <script>
-$(document).ready(function(){
-    $('#myTable').dataTable();
-});
-</script>
 {% endblock %}

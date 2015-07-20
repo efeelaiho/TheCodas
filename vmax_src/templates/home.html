@@ -19,6 +19,10 @@
     <!-- Custom CSS -->
     <link href="{% static 'css/grayscale.css' %}" rel="stylesheet">
 
+    <!--DataTables CSS-->
+      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
+
+
     <!-- Custom Fonts -->
     <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
@@ -33,7 +37,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-
+    <!--DataTables-->
+       <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.js"></script>
+       <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+          $('#example').dataTable();
+        } );
+      </script>
 
 
 </head>

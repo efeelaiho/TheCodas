@@ -42,12 +42,16 @@ def albums(request):
 	return render_to_response("albums.html", context)
 
 def artistdatabase(request):
+	artists =  Artist.objects.all()
 	form = SearchForm()
-	return render(request, "artist_database.html", {'form': form})
+	context = {"artist_list": artists,'form': form}
+	return render(request, "artist_database.html", context)
 
 def albumdatabase(request):
+	albums = Album.objects.all()
 	form = SearchForm()
-	return render(request, "album_database.html", {'form': form})	
+	context = {"albums_list": albums, 'form': form}
+	return render(request, "album_database.html", context)	
 		
 ################################################################### 
 #

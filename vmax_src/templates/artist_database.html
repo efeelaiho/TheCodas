@@ -1,16 +1,9 @@
 {% extends "navbar.html" %}
+{% load staticfiles %}
 
 <!--head tag-->
 
 {% block head %}
-<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<link rel="stylesheet" 
-href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
-<script type="text/javascript" 
-src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" 
-src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <title>Volume.max() - Artist Database</title>
   {{block.super}}
 
@@ -35,182 +28,30 @@ src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></scrip
 
     <div class="container">
             <div class="table-responsive">
-                <table id="myTable" class="display table" width="100%" >
+                <table id="albumTable" class="display table" width="100%" >
                     <thead>  
                           <tr>  
                             <th>Photo</th>  
                             <th>Name</th>  
-                            <th>Origin</th>  
-                            <th>Popularity</th> 
-                            <th>Genre</th> 
+                            <th>Origin</th>
+                            <th>Popularity</th>  
+                            <th>Genre</th>  
                           </tr>  
-                        </thead>  
-                        <tbody>  
+                    </thead>  
+                        <tbody> 
+                            {% for artist in artist_list %} 
                           <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
+                            <td> <a href="{% url 'artist_view' artist.get_absolute_url %}">
+                    <img class="img-responsive" src="{{artist.image_url}}" width="200" height="200" 
+                    style="border-radius: 5px;border-style: solid;border-width: 2px;border-color: #D50000;"></a></td>  
+                            <td><a href="{% url 'artist_view' artist.get_absolute_url %}">{{artist.full_name}}</a></td>  
+                            <td>{{artist.origin}}</td>  
+                            <td>{{artist.popularity}}</td>
+                            <td>{{artist.genre}}</td>  
                           </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>   
-                           <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-                          <tr>  
-                            <td>Eminem</td>  
-                            <td>Eminem</td>  
-                            <td>Chicago, IL</td> 
-                            <td>96</td> 
-                            <td>Hip-Hop/Rap</td>  
-                          </tr>  
-
+                           {% endfor %}
+                          
                         </tbody>
-
 
                 </table>
             </div>
@@ -224,9 +65,4 @@ src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></scrip
 {% block footer %}
 
   {{block.super}}
-  <script>
-$(document).ready(function(){
-    $('#myTable').dataTable();
-});
-</script>
 {% endblock %}
