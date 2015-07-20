@@ -15,6 +15,7 @@
     {
         "pk": 0, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/91dce87c97ece764c03e0d2cb7cc2b03efaf45c8", 
         "fields": {
             "origin": " Liverpool, England\n", 
             "popularity": 62, 
@@ -32,22 +33,23 @@
         "pk": 1, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:67WNQsweOZ94qxgAUDGXAk", 
-            "release_date": "2015-06-22", 
+            "spotify_albums_uri": "spotify:album:0QVoYzGd1p8Z3ohEaM0lsc", 
+            "release_date": "2002-09-23", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/f382c42e4c6fce3b9764cb14a784ddfc641f2645", 
+            "image_url": "https://i.scdn.co/image/725c77471dea914e9f4c59fa802b57661c452bfd", 
             "genre": "N/A", 
-            "album_name": "Elvis Sings the Wonderful World of Christmas", 
+            "album_name": "Elvis 30 #1 Hits", 
             "album_artist": "spotify:artist:43ZHCT0cAZBISjO8DG9PnE"
         }
     }, 
     {
         "pk": 1, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/fa7061f7112d69c2352ee904b5425f2d068153c6", 
         "fields": {
             "origin": " {{nowrap|Tupelo, Mississippi, U.S.}}\n", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:67WNQsweOZ94qxgAUDGXAk", 
+            "recommended_album": "spotify:album:0QVoYzGd1p8Z3ohEaM0lsc", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c7b8708eab6d0f0902908c1b9f9ba1daaeed06af", 
             "spotify_artist_uri": "spotify:artist:43ZHCT0cAZBISjO8DG9PnE", 
             "full_name": "Elvis Presley", 
@@ -61,22 +63,23 @@
         "pk": 2, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7pomP86PUhoJpY3fsC0WDQ", 
-            "release_date": "2014-05-09", 
+            "spotify_albums_uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a", 
+            "release_date": "1982-11-30", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/733fb672fbedb230487b8d3d38b4dd14761f72e8", 
+            "image_url": "https://i.scdn.co/image/e337f3661f68bc4d96a554de0ad7988d65edb25a", 
             "genre": "N/A", 
-            "album_name": "XSCAPE", 
+            "album_name": "Thriller 25 Super Deluxe Edition", 
             "album_artist": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
         }
     }, 
     {
         "pk": 2, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/5371616374a56bb4620612fbbc08d89747a04f2a", 
         "fields": {
             "origin": " Gary, Indiana, U.S.\n", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:7pomP86PUhoJpY3fsC0WDQ", 
+            "recommended_album": "spotify:album:1C2h7mLntPSeVYciMRTF4a", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/738650ce127e119788a7bca020fbd054b5aa57b5", 
             "spotify_artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm", 
             "full_name": "Michael Jackson", 
@@ -90,22 +93,23 @@
         "pk": 3, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0ZSFNfYucinvKCiPnid7UH", 
-            "release_date": "2015-03-06", 
+            "spotify_albums_uri": "spotify:album:43lok9zd7BW5CoYkXZs7S0", 
+            "release_date": "2009-09-18", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/2b74db21e40ac4f818322f71825d891608d9c424", 
+            "image_url": "https://i.scdn.co/image/006c443e86ad04f6ce8f9ade1da24e9b6f2e2132", 
             "genre": "N/A", 
-            "album_name": "Rebel Heart", 
+            "album_name": "Celebration", 
             "album_artist": "spotify:artist:6tbjWDEIzxoDsBA1FuhfPW"
         }
     }, 
     {
         "pk": 3, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/e3f2c751d537788f5b0c5a43b0d0b4a5aa23ae26", 
         "fields": {
             "origin": "N/A", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:0ZSFNfYucinvKCiPnid7UH", 
+            "recommended_album": "spotify:album:43lok9zd7BW5CoYkXZs7S0", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/2b74db21e40ac4f818322f71825d891608d9c424", 
             "spotify_artist_uri": "spotify:artist:6tbjWDEIzxoDsBA1FuhfPW", 
             "full_name": "Madonna", 
@@ -119,22 +123,23 @@
         "pk": 4, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4uT9DV66lXaM1CMX4HHaSe", 
-            "release_date": "2013-09-16", 
+            "spotify_albums_uri": "spotify:album:2OZbaW9tgO62ndm375lFZr", 
+            "release_date": "1971-11-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e4eafac67dc931daf50924bdc997d1636fe08da4", 
+            "image_url": "https://i.scdn.co/image/0d28b0477b59b0a18450c9a6ce8dd9bac0184fa5", 
             "genre": "N/A", 
-            "album_name": "The Diving Board", 
+            "album_name": "Madman Across The Water", 
             "album_artist": "spotify:artist:3PhoLpVuITZKcymswpck5b"
         }
     }, 
     {
         "pk": 4, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/af9c97f58938d0d746b17f12df6f9ac3d1de1a8a", 
         "fields": {
             "origin": " Pinner, Middlesex, England\n", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:4uT9DV66lXaM1CMX4HHaSe", 
+            "recommended_album": "spotify:album:2OZbaW9tgO62ndm375lFZr", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/90104614b4f215c8acd203e9d8d82d6a1c1ab8cf", 
             "spotify_artist_uri": "spotify:artist:3PhoLpVuITZKcymswpck5b", 
             "full_name": "Elton John", 
@@ -148,22 +153,23 @@
         "pk": 5, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:26tH0kjUhkxBEd3ipGkx3Y", 
-            "release_date": "2015-02-24", 
+            "spotify_albums_uri": "spotify:album:1Ugdi2OTxKopVVqsprp5pb", 
+            "release_date": "1971-11-08", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e4d437831cccc9967dc92726c59e855ac59d6abd", 
+            "image_url": "https://i.scdn.co/image/5ef60ee8ba01f7042961420378733beb308e46f0", 
             "genre": "N/A", 
-            "album_name": "Physical Graffiti (Deluxe Edition)", 
+            "album_name": "Led Zeppelin IV", 
             "album_artist": "spotify:artist:36QJpDe2go2KgaRleHCDTp"
         }
     }, 
     {
         "pk": 5, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/752da50bddc3a4352a6ad3548735dad34e3ebe63", 
         "fields": {
             "origin": " London, England\n", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:26tH0kjUhkxBEd3ipGkx3Y", 
+            "recommended_album": "spotify:album:1Ugdi2OTxKopVVqsprp5pb", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:36QJpDe2go2KgaRleHCDTp", 
             "full_name": "Led Zeppelin", 
@@ -177,22 +183,23 @@
         "pk": 6, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0fXAlQ9wTG2glNJvZEkBZc", 
-            "release_date": "2014-11-07", 
+            "spotify_albums_uri": "spotify:album:1x0uzT3ETlIYjPueTyNfnQ", 
+            "release_date": "1975-09-12", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e967961e987317a29a014abd0c2339766179c34a", 
+            "image_url": "https://i.scdn.co/image/015298910a64e2f4be650dd21792cfa7a9d3a58f", 
             "genre": "N/A", 
-            "album_name": "The Endless River", 
+            "album_name": "Wish You Were Here [2011 - Remaster] (2011 Remastered Version)", 
             "album_artist": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9"
         }
     }, 
     {
         "pk": 6, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/cce05a03c838bbf7fee2b64b3698c229562ce580", 
         "fields": {
             "origin": " London, England\n", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:0fXAlQ9wTG2glNJvZEkBZc", 
+            "recommended_album": "spotify:album:1x0uzT3ETlIYjPueTyNfnQ", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9", 
             "full_name": "Pink Floyd", 
@@ -206,22 +213,23 @@
         "pk": 7, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6kRdK7cPgLqNfSoI7AMlyj", 
-            "release_date": "2015-05-15", 
+            "spotify_albums_uri": "spotify:album:1ibYM4abQtSVQFQWvDSo4J", 
+            "release_date": "1995-09-26", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/91b28d38c5494cb335578a7af58fffda76e775da", 
+            "image_url": "https://i.scdn.co/image/ac0afd64e904c7eff0895b49b23adfb886bf6484", 
             "genre": "N/A", 
-            "album_name": "#1 to Infinity", 
+            "album_name": "Daydream", 
             "album_artist": "spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ"
         }
     }, 
     {
         "pk": 7, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/646209c8d0095e1f233ca27444a937fb36b887be", 
         "fields": {
             "origin": " Huntington, New York, U.S.\n", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:6kRdK7cPgLqNfSoI7AMlyj", 
+            "recommended_album": "spotify:album:1ibYM4abQtSVQFQWvDSo4J", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/78e4e190f0e43bed7d11226d15990647fc91d742", 
             "spotify_artist_uri": "spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ", 
             "full_name": "Mariah Carey", 
@@ -235,22 +243,23 @@
         "pk": 8, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0rsJSdnc89hsmJkCV24YQK", 
-            "release_date": "2013-11-01", 
+            "spotify_albums_uri": "spotify:album:08aLDHdtfHxjtOmEHusqGC", 
+            "release_date": "1996-03-11", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/f91d126beb5fa463d8b27945a4653aba426a7075", 
+            "image_url": "https://i.scdn.co/image/7b2f36e5a8be3d02dc1a3424d38502220786f559", 
             "genre": "N/A", 
-            "album_name": "Loved Me Back to Life", 
+            "album_name": "Falling Into You", 
             "album_artist": "spotify:artist:4S9EykWXhStSc15wEx8QFK"
         }
     }, 
     {
         "pk": 8, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/bfb6c43741f13a18cabd8db38bb0a58900bab944", 
         "fields": {
             "origin": "N/A", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:0rsJSdnc89hsmJkCV24YQK", 
+            "recommended_album": "spotify:album:08aLDHdtfHxjtOmEHusqGC", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3f4e57a824d3976730129dcfbb0c3504d657712e", 
             "spotify_artist_uri": "spotify:artist:4S9EykWXhStSc15wEx8QFK", 
             "full_name": "C\u00e9line Dion", 
@@ -264,22 +273,23 @@
         "pk": 9, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:36ofDpRRmMmSVVmsynRAs0", 
-            "release_date": "2014-11-07", 
+            "spotify_albums_uri": "spotify:album:7JVJlkNNobS0GSoy4tCS96", 
+            "release_date": "1992-11-17", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/3507117aab386e4a5c0b857059b32640285ed3f1", 
+            "image_url": "https://i.scdn.co/image/7bcb439989b592287aeac1599aaa36be17672b73", 
             "genre": "N/A", 
-            "album_name": "Whitney Houston Live: Her Greatest Performances", 
+            "album_name": "The Bodyguard - Original Soundtrack Album", 
             "album_artist": "spotify:artist:6XpaIBNiVzIetEPCWDvAFP"
         }
     }, 
     {
         "pk": 9, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/8f7b6745580f5264b3ab679e2661ddfb8a333714", 
         "fields": {
             "origin": " Newark, New Jersey, U.S.\n", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:36ofDpRRmMmSVVmsynRAs0", 
+            "recommended_album": "spotify:album:7JVJlkNNobS0GSoy4tCS96", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e1c89155cbd2f94f9ae169d2ecd84acf0749b4c9", 
             "spotify_artist_uri": "spotify:artist:6XpaIBNiVzIetEPCWDvAFP", 
             "full_name": "Whitney Houston", 
@@ -293,22 +303,23 @@
         "pk": 10, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6OwvO40ahugJE5PH4TjqTg", 
-            "release_date": "2014-12-02", 
+            "spotify_albums_uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh", 
+            "release_date": "1980-07-25", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/aaf8ff4322606c6ba66101d4b5015ce030631651", 
+            "image_url": "https://i.scdn.co/image/8d6f289fc3586790c5e89feba8ce4d0c2d86a1c9", 
             "genre": "N/A", 
-            "album_name": "Rock or Bust", 
+            "album_name": "Back In Black", 
             "album_artist": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
         }
     }, 
     {
         "pk": 10, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/89aa5e4a040dd7f4e66fe707db7143e95f607b25", 
         "fields": {
             "origin": " Sydney, Australia\n", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:6OwvO40ahugJE5PH4TjqTg", 
+            "recommended_album": "spotify:album:6mUdeDZCsExyJLMdAfDuwh", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un", 
             "full_name": "AC/DC", 
@@ -322,22 +333,23 @@
         "pk": 11, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7dDGrgcjzDmzXBfyinYIGQ", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:6X9k3hSsvQck2OfKYdBbXr", 
+            "release_date": "1975-11-21", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/19dc89f960d20634a001647720d5c68faef3d773", 
+            "image_url": "https://i.scdn.co/image/a17df796c83359e90ff722ff3d065ee00411ed74", 
             "genre": "N/A", 
-            "album_name": "Live At The Rainbow", 
+            "album_name": "A Night At The Opera (Deluxe Remastered Version)", 
             "album_artist": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
         }
     }, 
     {
         "pk": 11, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/7784471d58e99080e54aa88f30f9412d5204ef0b", 
         "fields": {
             "origin": "N/A", 
             "popularity": 87, 
-            "recommended_album": "spotify:album:7dDGrgcjzDmzXBfyinYIGQ", 
+            "recommended_album": "spotify:album:6X9k3hSsvQck2OfKYdBbXr", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f439465a43dd0e4d1aed1df5b0e3243eda49a403", 
             "spotify_artist_uri": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d", 
             "full_name": "Queen", 
@@ -351,22 +363,23 @@
         "pk": 12, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6tOzjkT6XdSxiT9FZ54q6d", 
-            "release_date": "2015-07-07", 
+            "spotify_albums_uri": "spotify:album:4l4u9e9jSbotSXNjYfOugy", 
+            "release_date": "1969-12-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/42ae1124d631f996983aa4e5a5c98b44f2f228e0", 
+            "image_url": "https://i.scdn.co/image/f1d32b1a4e0f1d3c3b6904a19a94412d28f6b0d4", 
             "genre": "N/A", 
-            "album_name": "Sticky Fingers (Spotify Landmark Edition)", 
+            "album_name": "Let It Bleed", 
             "album_artist": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
         }
     }, 
     {
         "pk": 12, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/ad861c37005fdb42298e33725325ecca99edfd5e", 
         "fields": {
             "origin": " London, England\n", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:6tOzjkT6XdSxiT9FZ54q6d", 
+            "recommended_album": "spotify:album:4l4u9e9jSbotSXNjYfOugy", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/2b3993e967c42310876f226e5c380896e861ae8d", 
             "spotify_artist_uri": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe", 
             "full_name": "The Rolling Stones", 
@@ -380,22 +393,23 @@
         "pk": 13, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1fVjOJU7tB7IGm63Mket0i", 
-            "release_date": "2014-09-26", 
+            "spotify_albums_uri": "spotify:album:1M4anG49aEs4YimBdj96Oy", 
+            "release_date": "1976", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/84a6d8dd9860aeb73600004535dc9f6df041c27f", 
+            "image_url": "https://i.scdn.co/image/50c3071b308c78365b99cdfe8a931ab3057a1b06", 
             "genre": "N/A", 
-            "album_name": "Live At Wembley Arena", 
+            "album_name": "Arrival", 
             "album_artist": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV"
         }
     }, 
     {
         "pk": 13, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/8e68458fe7b76db4884e5bb680c0945005aab523", 
         "fields": {
             "origin": "Stockholm, Sweden\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:1fVjOJU7tB7IGm63Mket0i", 
+            "recommended_album": "spotify:album:1M4anG49aEs4YimBdj96Oy", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/1ace43eddbf6010d417d53ce77b584bd6aa11428", 
             "spotify_artist_uri": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV", 
             "full_name": "ABBA", 
@@ -409,22 +423,23 @@
         "pk": 14, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3sW7wD2qdMjs7KncaOoIJ5", 
-            "release_date": "2012-07-18", 
+            "spotify_albums_uri": "spotify:album:4S8F794ucXJcAtycwOZgR9", 
+            "release_date": "2015-03-26", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1ed07c2ace7df8b3f501b592ed4949e5a47216b9", 
+            "image_url": "https://i.scdn.co/image/7e4855c2279dba5e19d15d3e0ce825a895d40c8b", 
             "genre": "N/A", 
-            "album_name": "Talk That Talk (Deluxe Explicit Edition)", 
+            "album_name": "Bitch Better Have My Money", 
             "album_artist": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
         }
     }, 
     {
         "pk": 14, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b1072cd3acc8f6981f46f02f7ad64841523ac5b2", 
         "fields": {
             "origin": " Saint Michael, Barbados\n", 
             "popularity": 97, 
-            "recommended_album": "spotify:album:3sW7wD2qdMjs7KncaOoIJ5", 
+            "recommended_album": "spotify:album:4S8F794ucXJcAtycwOZgR9", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H", 
             "full_name": "Rihanna", 
@@ -436,39 +451,55 @@
     }, 
     {
         "pk": 15, 
+        "model": "volumemax.album", 
+        "fields": {
+            "spotify_albums_uri": "spotify:album:45nqVXRAW0xv0wpU9JljPN", 
+            "release_date": "2012-03-19", 
+            "editors_notes": "ADD FROM ITUNES", 
+            "image_url": "https://i.scdn.co/image/e6f4b10d325a5dc4db62fd1624e3e0a87b935379", 
+            "genre": "N/A", 
+            "album_name": "The Hunger Games: Songs From District 12 And Beyond", 
+            "album_artist": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+        }
+    }, 
+    {
+        "pk": 15, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/3eddb3cfa01b5473173ac9ccf24a82e0cde41815", 
         "fields": {
             "origin": " Reading, Pennsylvania\n", 
             "popularity": 77, 
-            "recommended_album": "N/A", 
+            "recommended_album": "spotify:album:45nqVXRAW0xv0wpU9JljPN", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02", 
             "full_name": "Taylor Swift", 
             "youtube_url_1": "ADD FROM YOUTUBE", 
             "youtube_url_2": "ADD FROM YOUTUBE", 
+            "genre": "N/A", 
             "biography": "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter and actress. Raised in Wyomissing, Pennsylvania, she moved to Nashville, Tennessee, at the age of 14 to pursue a career in country music. She signed with the independent label Big Machine Records and became the youngest songwriter ever hired by the Sony/ATV Music publishing house. The release of Swift's self-titled debut album in 2006 established her as a country music star. Her third single, \"Our Song,\" made her the youngest person to single-handedly write and perform a number-one song on the Hot Country Songs chart. She received a Best New Artist nomination at the 2008 Grammy Awards. .\nSwift's second album, Fearless, was released in 2008. Buoyed by the pop crossover success of the singles \"Love Story\" and \"You Belong with Me,\" Fearless became the best-selling album of 2009 in the United States. The album won four Grammy Awards, making Swift the youngest ever Album of the Year winner. Swift's third and fourth albums, 2010's Speak Now and 2012's Red, both sold more than one million copies within the first week of their U.S release. Speak Now's \"Mean\" won two Grammy Awards, while Red's singles \"We Are Never Ever Getting Back Together\" and \"I Knew You Were Trouble\" were worldwide hits. Swift's fifth album, the pop-focused 1989, was released in 2014 and sold more copies in its opening week than any album in the previous 12 years, making Swift the first and only act to have three albums sell more than one million copies in the opening release week. The singles \"Shake It Off\", \"Blank Space\", and \"Bad Blood\" reached number one on the Billboard Hot 100.\nSwift is known for narrative songs about her personal experiences. As a songwriter, she has been honored by the Nashville Songwriters Association and the Songwriters Hall of Fame. Swift's other achievements include seven Grammy Awards, 22 Billboard Music Awards, 11 Country Music Association Awards, eight Academy of Country Music Awards, and one Brit Award. She is one of the best-selling artists of all time, having sold more than 40 million albums\u2014including 27.1 million in the U.S.\u2014and 130 million single downloads. Swift has also had supporting roles in feature films including Valentine's Day (2010) and The Giver (2014). In 2015, Swift became the youngest woman ever to be included on Forbes' \"100 Most Powerful Women\" list, ranking at number 65."
         }
     }, 
     {
-        "pk": 15, 
+        "pk": 16, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3qGeRY1wt4rrLIt1YuSwHR", 
-            "release_date": "2013-11-05", 
+            "spotify_albums_uri": "spotify:album:2cWBwpqMsDJC1ZUwz813lo", 
+            "release_date": "2002-05-28", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1b3240b2085c032f819dbbec7395ecab34b5e8b2", 
+            "image_url": "https://i.scdn.co/image/f4127e4708860dca407b1c24794456477c57b7d5", 
             "genre": "N/A", 
-            "album_name": "The Marshall Mathers LP2 (Deluxe)", 
+            "album_name": "The Eminem Show", 
             "album_artist": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
         }
     }, 
     {
         "pk": 16, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/abb504a0efd816a98a0c5ff14821761dc082cf5b", 
         "fields": {
             "origin": " St. Joseph, Missouri, U.S.\n", 
             "popularity": 96, 
-            "recommended_album": "spotify:album:3qGeRY1wt4rrLIt1YuSwHR", 
+            "recommended_album": "spotify:album:2cWBwpqMsDJC1ZUwz813lo", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c", 
             "spotify_artist_uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR", 
             "full_name": "Eminem", 
@@ -480,39 +511,55 @@
     }, 
     {
         "pk": 17, 
+        "model": "volumemax.album", 
+        "fields": {
+            "spotify_albums_uri": "spotify:album:2HlCIUeBTNkI07j4VgrsA3", 
+            "release_date": "1999-06-01", 
+            "editors_notes": "ADD FROM ITUNES", 
+            "image_url": "https://i.scdn.co/image/f2b0c7bb0fe2d9805f260635a60dd5d98313ca03", 
+            "genre": "N/A", 
+            "album_name": "The George Jones Collection", 
+            "album_artist": "spotify:artist:4BclNkZtAUq1YrYNzye3N7"
+        }
+    }, 
+    {
+        "pk": 17, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/42ff8e1e9db133b549cb4faba8905d0553dad113", 
         "fields": {
             "origin": " Tulsa, Oklahoma, U.S\n", 
             "popularity": 54, 
-            "recommended_album": "N/A", 
+            "recommended_album": "spotify:album:2HlCIUeBTNkI07j4VgrsA3", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:4BclNkZtAUq1YrYNzye3N7", 
             "full_name": "Garth Brooks", 
             "youtube_url_1": "ADD FROM YOUTUBE", 
             "youtube_url_2": "ADD FROM YOUTUBE", 
+            "genre": "N/A", 
             "biography": "Troyal Garth Brooks (born February 7, 1962), best known as Garth Brooks, is an American country music singer-songwriter. His eponymous first album was released in 1989 and peaked at number 2 in the US country album chart while climbing to number 13 on the Billboard 200 album chart. Brooks' integration of rock elements into his recordings and live performances earned him immense popularity. This progressive approach allowed him to dominate the country single and album charts while crossing over into the mainstream pop arena.\nBrooks broke records for both sales and concert attendance throughout the 1990s. As of 2013, his recordings continue to sell well and, according to Nielsen Soundscan, his albums sales up to May 2013 are 68,630,000, which makes him the best-selling albums artist in the United States in the SoundScan era (since 1991), a title held since 1991, well over 5 million ahead of his nearest rival, the Beatles. According to RIAA he is the second best-selling solo albums artist in the United States of all time ahead of Elvis Presley (second to the Beatles) with 135 million units sold. Brooks is one of the world's best-selling artists of all time, having sold more than 150 million records.\nBrooks has released six albums that achieved diamond status in the United States, those being: Garth Brooks (10\u00d7 platinum), No Fences (17\u00d7 platinum), Ropin' the Wind (14\u00d7 platinum), The Hits (10\u00d7 platinum), Sevens (10\u00d7 platinum) and Double Live (21\u00d7 platinum). Since 1989, Brooks has released 20 records in all, which include; 10 studio albums, 1 live album, 3 compilation albums, 3 Christmas albums and 3 box sets, along with 77 singles. He won several important awards in his career, including 2 Grammy Awards, 17 American Music Awards (including the \"Artist of the '90s\") and the RIAA Award as Best selling solo albums artist of the Century in the United States.\nTroubled by conflicts between career and family, Brooks officially retired from recording and performing from 2001 until 2009. During this time, he sold millions of albums through an exclusive distribution deal with Walmart and sporadically released new singles. In 2005, Brooks started a partial comeback, and has since given several performances and released two compilation albums.\nOn October 15, 2009, Garth Brooks announced the end of his retirement. In December 2009, he began a five-year concert deal with the Encore Hotel and Casino on the Las Vegas Strip. Following the conclusion of his residency in Las Vegas, Brooks announced his signing with Sony Music Nashville in July 2014. In September 2014, he began his comeback world tour. His most recent album, Man Against Machine, was released on November 11, 2014 via his new online music store GhostTunes.\nBrooks was inducted into the Country Music Hall of Fame on October 21, 2012."
         }
     }, 
     {
-        "pk": 16, 
+        "pk": 18, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:22iX205pYu4YLGv5ANZsMT", 
-            "release_date": "2007-10-29", 
+            "spotify_albums_uri": "spotify:album:2widuo17g5CEC66IbzveRu", 
+            "release_date": "1976", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/851ab27c125da3029ba2a8bb479acde869adadf0", 
+            "image_url": "https://i.scdn.co/image/a5d370a3ea82efa63784521a1d7352db0a7a4d3a", 
             "genre": "N/A", 
-            "album_name": "Long Road Out Of Eden", 
+            "album_name": "Hotel California (Remastered)", 
             "album_artist": "spotify:artist:0ECwFtbIWEVNwjlrfc6xoL"
         }
     }, 
     {
         "pk": 18, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/939ee1dd218dddfbf984ffb5012fc7b35530db4f", 
         "fields": {
             "origin": "N/A", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:22iX205pYu4YLGv5ANZsMT", 
+            "recommended_album": "spotify:album:2widuo17g5CEC66IbzveRu", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/173519085c3eb8301fbeb744b0b92b6747938ab3", 
             "spotify_artist_uri": "spotify:artist:0ECwFtbIWEVNwjlrfc6xoL", 
             "full_name": "Eagles", 
@@ -523,25 +570,26 @@
         }
     }, 
     {
-        "pk": 17, 
+        "pk": 19, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7DY6v8qiyQcsTCqUWjH7pS", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:4mULDK6YXrFXTfSwvwm4M3", 
+            "release_date": "1987-03-10", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/a59a796b7c5e778c1a2ffcc7dda4974f4c53fd83", 
+            "image_url": "https://i.scdn.co/image/7d70e6c75857e33c0afb7a7efed7bedc684b0f07", 
             "genre": "N/A", 
-            "album_name": "Songs Of Innocence", 
+            "album_name": "The Joshua Tree (Deluxe Edition Remastered)", 
             "album_artist": "spotify:artist:51Blml2LZPmy7TTiAg47vQ"
         }
     }, 
     {
         "pk": 19, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/87ee273a8b249a5550da3345e112db48facc74cc", 
         "fields": {
             "origin": " Dublin, Ireland\n", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:7DY6v8qiyQcsTCqUWjH7pS", 
+            "recommended_album": "spotify:album:4mULDK6YXrFXTfSwvwm4M3", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:51Blml2LZPmy7TTiAg47vQ", 
             "full_name": "U2", 
@@ -552,25 +600,26 @@
         }
     }, 
     {
-        "pk": 18, 
+        "pk": 20, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1dBlgy5UFC8vfLcASVtdg3", 
-            "release_date": "2014-05-16", 
+            "spotify_albums_uri": "spotify:album:69wjSAZXZiD2EBia3b3gxL", 
+            "release_date": "1973-11-07", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/5e17869c9dd359a91c96ede81e5ae21d34cc59c3", 
+            "image_url": "https://i.scdn.co/image/460b81e8a291a65056e9a24d8f197037f31c7662", 
             "genre": "N/A", 
-            "album_name": "A Matter Of Trust - The Bridge To Russia (Commentary Album)", 
+            "album_name": "Piano Man (Legacy Edition)", 
             "album_artist": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e"
         }
     }, 
     {
         "pk": 20, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/ded5694d43a39b57eb50d61e45c136be7aa67baa", 
         "fields": {
             "origin": " The Bronx, New York, US\n", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:1dBlgy5UFC8vfLcASVtdg3", 
+            "recommended_album": "spotify:album:69wjSAZXZiD2EBia3b3gxL", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/efe12153773965625ad234182fc8abaca5228258", 
             "spotify_artist_uri": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e", 
             "full_name": "Billy Joel", 
@@ -581,25 +630,26 @@
         }
     }, 
     {
-        "pk": 19, 
+        "pk": 21, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2uhZxder0PdUmfvQ2ZOvhV", 
-            "release_date": "2013-12-10", 
+            "spotify_albums_uri": "spotify:album:0z6C9U8FscvTVyFXo4Zza3", 
+            "release_date": "1981-01-01", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e8c74f8d51e465989be3749ef8e3b8bbefa15db4", 
+            "image_url": "https://i.scdn.co/image/f1d8b65faccb92c4451c223d7773a6b55fd1d20a", 
             "genre": "N/A", 
-            "album_name": "At Fukuoka Dome", 
+            "album_name": "Face Value", 
             "album_artist": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp"
         }
     }, 
     {
         "pk": 21, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/3f7ab9e3b8fbe43fa4ff3f09a0ce9007f98ebe07", 
         "fields": {
             "origin": " Chiswick, Greater London, England\n", 
             "popularity": 80, 
-            "recommended_album": "spotify:album:2uhZxder0PdUmfvQ2ZOvhV", 
+            "recommended_album": "spotify:album:0z6C9U8FscvTVyFXo4Zza3", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f1d8b65faccb92c4451c223d7773a6b55fd1d20a", 
             "spotify_artist_uri": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp", 
             "full_name": "Phil Collins", 
@@ -610,25 +660,26 @@
         }
     }, 
     {
-        "pk": 20, 
+        "pk": 22, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1nrDZQLT9EfFArdk9oSCxQ", 
-            "release_date": "2012-11-02", 
+            "spotify_albums_uri": "spotify:album:616UgaZTc454Gu0aXxVH3K", 
+            "release_date": "2002-02-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/ad1a8c6407acf34f217a917d009c49746ab87713", 
+            "image_url": "https://i.scdn.co/image/ffe911bedb8c069c93427687ed59dd56449f4830", 
             "genre": "N/A", 
-            "album_name": "Music From Another Dimension!", 
+            "album_name": "I Don't Want To Miss A Thing", 
             "album_artist": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH"
         }
     }, 
     {
         "pk": 22, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/43b06d3a892f1343847c64fd8c573c10ecd98dcb", 
         "fields": {
             "origin": " Boston, Massachusetts, U.S.\n", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:1nrDZQLT9EfFArdk9oSCxQ", 
+            "recommended_album": "spotify:album:616UgaZTc454Gu0aXxVH3K", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3208f60d9b33a29d4ffa63618b3771a018015f85", 
             "spotify_artist_uri": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH", 
             "full_name": "Aerosmith", 
@@ -639,25 +690,26 @@
         }
     }, 
     {
-        "pk": 21, 
+        "pk": 23, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4G6ZaR4A7tkkMsglaYpDeS", 
-            "release_date": "2015-04-17", 
+            "spotify_albums_uri": "spotify:album:66v9QmjAj0Wwhh2OpbU4BE", 
+            "release_date": "1958", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/207de0ad69ef2368e609a81f1b27de768236d09c", 
+            "image_url": "https://i.scdn.co/image/e0570464ff9519d95129286c97e304ba8c99881f", 
             "genre": "N/A", 
-            "album_name": "Ultimate Sinatra", 
+            "album_name": "Come Fly With Me", 
             "album_artist": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0"
         }
     }, 
     {
         "pk": 23, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/681cabd79071e6653b32fd810ccc255fa550ba27", 
         "fields": {
             "origin": " Hoboken, New Jersey, U.S.<ref name=frank>{{cite news|url=http://news.bbc.co.uk/2/hi/special_report/1998/05/98/sinatra/67911.stm|title=Frank Sinatra obituary|date=May 16, 1998|accessdate=2008-05-15|work=BBC News}}</ref>\n", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:4G6ZaR4A7tkkMsglaYpDeS", 
+            "recommended_album": "spotify:album:66v9QmjAj0Wwhh2OpbU4BE", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ff3c32fa9aa3cda2f9aa9ff33284cf825a3651b0", 
             "spotify_artist_uri": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0", 
             "full_name": "Frank Sinatra", 
@@ -668,25 +720,26 @@
         }
     }, 
     {
-        "pk": 22, 
+        "pk": 24, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0vpZmvUH5x2ByXTYtXB4mG", 
-            "release_date": "2014-09-12", 
+            "spotify_albums_uri": "spotify:album:5mMebbufullX8FIhpCxwCt", 
+            "release_date": "1980-09-23", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/94cdefca5b22e63d677cbe1d9590dcf7a1506855", 
+            "image_url": "https://i.scdn.co/image/311eef499f07d4fa1d4016f8cda3425e421da73c", 
             "genre": "N/A", 
-            "album_name": "Partners (Deluxe)", 
+            "album_name": "Guilty", 
             "album_artist": "spotify:artist:7jmTilWYlKOuavFfmQAcu6"
         }
     }, 
     {
         "pk": 24, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/8a17c4f89623641d2ac54eee756a7a82e60fd1d3", 
         "fields": {
             "origin": " Brooklyn, New York, U.S.\n", 
             "popularity": 67, 
-            "recommended_album": "spotify:album:0vpZmvUH5x2ByXTYtXB4mG", 
+            "recommended_album": "spotify:album:5mMebbufullX8FIhpCxwCt", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/94cdefca5b22e63d677cbe1d9590dcf7a1506855", 
             "spotify_artist_uri": "spotify:artist:7jmTilWYlKOuavFfmQAcu6", 
             "full_name": "Barbra Streisand", 
@@ -697,25 +750,26 @@
         }
     }, 
     {
-        "pk": 23, 
+        "pk": 25, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7Jigl7PJCgN4mAODbJYkFT", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:632b0oXuFpstA4DO2cUKdG", 
+            "release_date": "1986-06-09", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bb8fb4ff97984054db0157e1bc084383ef5870ab", 
+            "image_url": "https://i.scdn.co/image/431343e6995d6b71cc700fd24d18f336dfcbe61a", 
             "genre": "N/A", 
-            "album_name": "R-Kive", 
+            "album_name": "Invisible Touch", 
             "album_artist": "spotify:artist:3CkvROUTQ6nRi9yQOcsB50"
         }
     }, 
     {
         "pk": 25, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b249f6274afd979a3c1da89b51b38f4e349ad87f", 
         "fields": {
             "origin": "N/A", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:7Jigl7PJCgN4mAODbJYkFT", 
+            "recommended_album": "spotify:album:632b0oXuFpstA4DO2cUKdG", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8ff19a29da65e4fe8684bc0878fac3b79de7d0da", 
             "spotify_artist_uri": "spotify:artist:3CkvROUTQ6nRi9yQOcsB50", 
             "full_name": "Genesis", 
@@ -726,25 +780,26 @@
         }
     }, 
     {
-        "pk": 24, 
+        "pk": 26, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7fgvs00InMTZZkR6lqsTfa", 
-            "release_date": "2014-10-17", 
+            "spotify_albums_uri": "spotify:album:3F3ZBkt86QKDSPRrVpk7Wx", 
+            "release_date": "1969", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/b9d415941da3e641f3cecee92daf9e12a202b2b5", 
+            "image_url": "https://i.scdn.co/image/4479f1db678aa5a4bbab7709bea0b1c71de4581c", 
             "genre": "N/A", 
-            "album_name": "Melody Road (Deluxe)", 
+            "album_name": "Sweet Caroline", 
             "album_artist": "spotify:artist:7mEIug7XUlQHikrFxjTWes"
         }
     }, 
     {
         "pk": 26, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/e146e5c77e4cce9615820c6b6606aa1c54985b58", 
         "fields": {
             "origin": " Brooklyn, New York, United States\n", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:7fgvs00InMTZZkR6lqsTfa", 
+            "recommended_album": "spotify:album:3F3ZBkt86QKDSPRrVpk7Wx", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/7b9e83da15a28e8ee14f417bad8c34665f9958bc", 
             "spotify_artist_uri": "spotify:artist:7mEIug7XUlQHikrFxjTWes", 
             "full_name": "Neil Diamond", 
@@ -755,25 +810,26 @@
         }
     }, 
     {
-        "pk": 25, 
+        "pk": 27, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:57coxHLQpVvFaYpGSCBXmp", 
-            "release_date": "2014-01-08", 
+            "spotify_albums_uri": "spotify:album:0PMasrHdpaoIRuHuhHp72O", 
+            "release_date": "1984-07-17", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bf7a1ba4b4f55ee01cf36586cda92b28185ea3e9", 
+            "image_url": "https://i.scdn.co/image/60d572a6f384afec96e89887a9072b65782c1137", 
             "genre": "N/A", 
-            "album_name": "High Hopes", 
+            "album_name": "Born In The U.S.A.", 
             "album_artist": "spotify:artist:3eqjTLE0HfPfh78zjh6TqT"
         }
     }, 
     {
         "pk": 27, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b8318c15c0699e5e71da60f32f7f731dbea8717a", 
         "fields": {
             "origin": " Long Branch, New Jersey, United States<!-- NOTE THAT HE WAS BORN IN A HOSPITAL IN LONG BRANCH BUT WAS RAISED IN FREEHOLD-->\n", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:57coxHLQpVvFaYpGSCBXmp", 
+            "recommended_album": "spotify:album:0PMasrHdpaoIRuHuhHp72O", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/08142d2cf369e2d9a4562c458b406936110dae62", 
             "spotify_artist_uri": "spotify:artist:3eqjTLE0HfPfh78zjh6TqT", 
             "full_name": "Bruce Springsteen", 
@@ -784,25 +840,26 @@
         }
     }, 
     {
-        "pk": 26, 
+        "pk": 28, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:252jOIsvkI4P8YRek8q3zx", 
-            "release_date": "2014-04-15", 
+            "spotify_albums_uri": "spotify:album:79F4jBcsI4qg66Xax1u4U8", 
+            "release_date": "2004-11-09", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/c2aa13093c7497fdfc5d029ebefea2a3861fc191", 
+            "image_url": "https://i.scdn.co/image/f8be5e54fb651f86bb6c9e328a805c34e5527d48", 
             "genre": "N/A", 
-            "album_name": "One For All Concert 1989", 
+            "album_name": "Number Ones", 
             "album_artist": "spotify:artist:1LZEQNv7sE11VDY3SdxQeN"
         }
     }, 
     {
         "pk": 28, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/48995c0af9fd239515b62047aeca0ce21cb03f17", 
         "fields": {
             "origin": " <!-- PLEASE, DO NOT ADD ANYTHING IN THIS FIELD TO AVOID EDIT WARS = SEE ARCHIVES-->\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:252jOIsvkI4P8YRek8q3zx", 
+            "recommended_album": "spotify:album:79F4jBcsI4qg66Xax1u4U8", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fadfe2865b5e6858867b9cb00fff26520a6b9ea1", 
             "spotify_artist_uri": "spotify:artist:1LZEQNv7sE11VDY3SdxQeN", 
             "full_name": "Bee Gees", 
@@ -813,25 +870,26 @@
         }
     }, 
     {
-        "pk": 27, 
+        "pk": 29, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2QwoFoXH1zNuUlokowJu8c", 
-            "release_date": "2014-09-05", 
+            "spotify_albums_uri": "spotify:album:2mvTdPihXIOm17QqGlkK3i", 
+            "release_date": "2002-09-03", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/fe99fa2479cdd396602249ccae4796e30ece23b7", 
+            "image_url": "https://i.scdn.co/image/dc9275eb6b5e550ddbe19eac3476a7b57260fa01", 
             "genre": "N/A", 
-            "album_name": "The Spanish Collection", 
+            "album_name": "Personalidad", 
             "album_artist": "spotify:artist:4etuCZVdP8yiNPn4xf0ie5"
         }
     }, 
     {
         "pk": 29, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/3d2e7acb6920a0d012b15b8542cc6a3802c0b272", 
         "fields": {
             "origin": " Madrid, Spain\n", 
             "popularity": 72, 
-            "recommended_album": "spotify:album:2QwoFoXH1zNuUlokowJu8c", 
+            "recommended_album": "spotify:album:2mvTdPihXIOm17QqGlkK3i", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/00b22c090f61d1720a383bf09a5e1a1fb9fb0b65", 
             "spotify_artist_uri": "spotify:artist:4etuCZVdP8yiNPn4xf0ie5", 
             "full_name": "Julio Iglesias", 
@@ -842,25 +900,26 @@
         }
     }, 
     {
-        "pk": 28, 
+        "pk": 30, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6kM41JrxW39bdMTW2o3oPE", 
-            "release_date": "1995-06-26", 
+            "spotify_albums_uri": "spotify:album:4dKdxly4ji1vfl7sEYuqBe", 
+            "release_date": "1978-10-07", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/6ffc3c376ef85467b14baa258c65b893d4379797", 
+            "image_url": "https://i.scdn.co/image/a635106f337f4216c7c05f72e43aac71c89c9d77", 
             "genre": "N/A", 
-            "album_name": "Live At The BBC", 
+            "album_name": "Dire Straits", 
             "album_artist": "spotify:artist:0WwSkZ7LtFUFjGjMZBMt6T"
         }
     }, 
     {
         "pk": 30, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/2884c0de96916013750cc8bbe5e3e83c363a5059", 
         "fields": {
             "origin": " Deptford, London, England\n ", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:6kM41JrxW39bdMTW2o3oPE", 
+            "recommended_album": "spotify:album:4dKdxly4ji1vfl7sEYuqBe", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3789f4791276bfd14602e11206276937c27ae818", 
             "spotify_artist_uri": "spotify:artist:0WwSkZ7LtFUFjGjMZBMt6T", 
             "full_name": "Dire Straits", 
@@ -871,25 +930,26 @@
         }
     }, 
     {
-        "pk": 29, 
+        "pk": 31, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:72grIwGP38Iy2S1jxt1Gjd", 
-            "release_date": "2013-09-24", 
+            "spotify_albums_uri": "spotify:album:37lWyRxkf3wQHCOlXM5WfX", 
+            "release_date": "1991-08-12", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/4cd50118eab5b6e46f8d7f6993a24462af01834c", 
+            "image_url": "https://i.scdn.co/image/bbd1f19477ee2cb30c1ae9cece461b156d2bb48d", 
             "genre": "N/A", 
-            "album_name": "Metallica Through The Never (Music from the Motion Picture)", 
+            "album_name": "Metallica", 
             "album_artist": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
         }
     }, 
     {
         "pk": 31, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/41113bb93fe7a245a752e23b695aa6f5b3eec559", 
         "fields": {
             "origin": " Los Angeles, California, U.S.\n", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:72grIwGP38Iy2S1jxt1Gjd", 
+            "recommended_album": "spotify:album:37lWyRxkf3wQHCOlXM5WfX", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3e77faaefed7e976999d5d40b02c2d0cae173a5a", 
             "spotify_artist_uri": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB", 
             "full_name": "Metallica", 
@@ -900,25 +960,26 @@
         }
     }, 
     {
-        "pk": 30, 
+        "pk": 32, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4xUcAz00F6J8afYL2TDook", 
-            "release_date": "2013-03-13", 
+            "spotify_albums_uri": "spotify:album:5uU2uM1RGHfzlA12opjqol", 
+            "release_date": "1986", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/53bc33c8037ae9c62e8af0ae80db9b795f6723ce", 
+            "image_url": "https://i.scdn.co/image/49ac2c956fbade3288660fcf0d607badf7f941f4", 
             "genre": "N/A", 
-            "album_name": "What About Now", 
+            "album_name": "Slippery When Wet (Remastered)", 
             "album_artist": "spotify:artist:58lV9VcRSjABbAbfWS6skp"
         }
     }, 
     {
         "pk": 32, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/13d224df83ebc3d2ba66e1a16f965aabc18781d5", 
         "fields": {
             "origin": " Sayreville, New Jersey\n", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:4xUcAz00F6J8afYL2TDook", 
+            "recommended_album": "spotify:album:5uU2uM1RGHfzlA12opjqol", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3826acc318f32610352cfd4b9ea6f4c40ac556cb", 
             "spotify_artist_uri": "spotify:artist:58lV9VcRSjABbAbfWS6skp", 
             "full_name": "Bon Jovi", 
@@ -929,25 +990,26 @@
         }
     }, 
     {
-        "pk": 31, 
+        "pk": 33, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0anlRE2dYlRqEKL1gj1WPq", 
-            "release_date": "2013-01-01", 
+            "spotify_albums_uri": "spotify:album:1YwzJz7CrV9fd9Qeb6oo1d", 
+            "release_date": "2011-08-12", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/3fe9c4795e3443c0504f7b263a433fced4608bce", 
+            "image_url": "https://i.scdn.co/image/d794460520c3ace23242ab5dd2be938695723848", 
             "genre": "N/A", 
-            "album_name": "Magna Carta... Holy Grail", 
+            "album_name": "Watch The Throne [Deluxe Edition (Explicit)]", 
             "album_artist": "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB"
         }
     }, 
     {
         "pk": 33, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/49010cbd7f1976919b2fc3c772e3364d5f008481", 
         "fields": {
             "origin": "N/A", 
             "popularity": 93, 
-            "recommended_album": "spotify:album:0anlRE2dYlRqEKL1gj1WPq", 
+            "recommended_album": "spotify:album:1YwzJz7CrV9fd9Qeb6oo1d", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB", 
             "full_name": "JAY Z", 
@@ -958,25 +1020,26 @@
         }
     }, 
     {
-        "pk": 32, 
+        "pk": 34, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5rlB2HPoNHg2m1wmmh0TRv", 
-            "release_date": "2013-11-30", 
+            "spotify_albums_uri": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
+            "release_date": "2015-05-04", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/21a6e6a0d33a413cfbaa0e10cc16c056498ba997", 
+            "image_url": "https://i.scdn.co/image/4107f2042e335af19063191d42050e4c10d856ca", 
             "genre": "N/A", 
-            "album_name": "Britney Jean (Deluxe Version)", 
+            "album_name": "Pretty Girls", 
             "album_artist": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
         }
     }, 
     {
         "pk": 34, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/fedc0a21a90a3af865fe89f4a05e63a78e164d17", 
         "fields": {
             "origin": " McComb, Mississippi, U.S.\n", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:5rlB2HPoNHg2m1wmmh0TRv", 
+            "recommended_album": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/21a6e6a0d33a413cfbaa0e10cc16c056498ba997", 
             "spotify_artist_uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4", 
             "full_name": "Britney Spears", 
@@ -987,25 +1050,26 @@
         }
     }, 
     {
-        "pk": 33, 
+        "pk": 35, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:24jPYdVMBVtLrPbbIuh8Ze", 
-            "release_date": "2013-11-15", 
+            "spotify_albums_uri": "spotify:album:38tXOrjXUUfQWWV2DRwMio", 
+            "release_date": "1978", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/71f1d55b318156e16f2d2800e9f042b17d2279d3", 
+            "image_url": "https://i.scdn.co/image/201be9c27da63b75628cffc9864b413a25907a0a", 
             "genre": "N/A", 
-            "album_name": "Time (Deluxe)", 
+            "album_name": "Blondes Have More Fun", 
             "album_artist": "spotify:artist:2y8Jo9CKhJvtfeKOsYzRdT"
         }
     }, 
     {
         "pk": 35, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/fd7f47266c82c94bb69039cd9614015995b562b4", 
         "fields": {
             "origin": " Highgate, North London, England\n", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:24jPYdVMBVtLrPbbIuh8Ze", 
+            "recommended_album": "spotify:album:38tXOrjXUUfQWWV2DRwMio", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:2y8Jo9CKhJvtfeKOsYzRdT", 
             "full_name": "Rod Stewart", 
@@ -1016,25 +1080,26 @@
         }
     }, 
     {
-        "pk": 34, 
+        "pk": 36, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6dMdadS6Ng71pD9As93ufx", 
-            "release_date": "2003-04-15", 
+            "spotify_albums_uri": "spotify:album:5VIQ3VaAoRKOEpJ0fewdvo", 
+            "release_date": "1975-07-11", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bfba32adead100dc00243ba03ff0dd6e5a3e8529", 
+            "image_url": "https://i.scdn.co/image/d0a80af9bc4735ae29a26493785439bf3ef88660", 
             "genre": "N/A", 
-            "album_name": "Say You Will (Enh'd-U.S. Version)", 
+            "album_name": "Fleetwood Mac", 
             "album_artist": "spotify:artist:08GQAI4eElDnROBrJRGE0X"
         }
     }, 
     {
         "pk": 36, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/e5f2c9ba1c1f48d8f9db8e88ac88852bdb198d89", 
         "fields": {
             "origin": " London, United Kingdom\n", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:6dMdadS6Ng71pD9As93ufx", 
+            "recommended_album": "spotify:album:5VIQ3VaAoRKOEpJ0fewdvo", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d0a80af9bc4735ae29a26493785439bf3ef88660", 
             "spotify_artist_uri": "spotify:artist:08GQAI4eElDnROBrJRGE0X", 
             "full_name": "Fleetwood Mac", 
@@ -1045,25 +1110,26 @@
         }
     }, 
     {
-        "pk": 35, 
+        "pk": 37, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2L2L5dwy8JCw6zqslBaASk", 
-            "release_date": "2014-09-16", 
+            "spotify_albums_uri": "spotify:album:2tJoaDnwr0xWHD4OriSNtB", 
+            "release_date": "2013-05-14", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/4961cebcbf34ff3f0a0bfc98af931225b65f3c52", 
+            "image_url": "https://i.scdn.co/image/77c11da2a69490dc9d34b2ca09a6f5a170b0ac5f", 
             "genre": "N/A", 
-            "album_name": "The Cowboy Rides Away: Live From AT&T Stadium", 
+            "album_name": "Love Is Everything", 
             "album_artist": "spotify:artist:5vngPClqofybhPERIqQMYd"
         }
     }, 
     {
         "pk": 37, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/9ae2155e081bd7435e5ba305ef14960e154a56bc", 
         "fields": {
             "origin": " Poteet, Texas, U.S.\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:2L2L5dwy8JCw6zqslBaASk", 
+            "recommended_album": "spotify:album:2tJoaDnwr0xWHD4OriSNtB", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:5vngPClqofybhPERIqQMYd", 
             "full_name": "George Strait", 
@@ -1074,25 +1140,26 @@
         }
     }, 
     {
-        "pk": 36, 
+        "pk": 38, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1IvSD5QnbtgLrn7jEIZ2Bb", 
-            "release_date": "2014-04-15", 
+            "spotify_albums_uri": "spotify:album:1NslKOZobWxINFaFkLol3r", 
+            "release_date": "2001-10-29", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/9e108119497bc6b89d69c3e214bbb26a1651fa86", 
+            "image_url": "https://i.scdn.co/image/72fa1290350b648028c634a98d5644167361e5b2", 
             "genre": "N/A", 
-            "album_name": "In a World Like This - Deluxe World Tour Edition", 
+            "album_name": "The Hits--Chapter One", 
             "album_artist": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
         }
     }, 
     {
         "pk": 38, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/8b8e07f6566d960cb853cc5de37777de677c20c5", 
         "fields": {
             "origin": " Orlando, Florida, United States\n", 
             "popularity": 80, 
-            "recommended_album": "spotify:album:1IvSD5QnbtgLrn7jEIZ2Bb", 
+            "recommended_album": "spotify:album:1NslKOZobWxINFaFkLol3r", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7", 
             "full_name": "Backstreet Boys", 
@@ -1103,25 +1170,26 @@
         }
     }, 
     {
-        "pk": 37, 
+        "pk": 39, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6lhy43UpR3Qb21vxb6IwQO", 
-            "release_date": "2008", 
+            "spotify_albums_uri": "spotify:album:5JKFiC2WVi9HtvJEm8CUB8", 
+            "release_date": "1987-07-21", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/d078993c26a8dd277ad4f1f2ad4063dc3ed74cf1", 
+            "image_url": "https://i.scdn.co/image/b6c85982f15447256f06fde54023a15a5d84e718", 
             "genre": "N/A", 
-            "album_name": "Chinese Democracy", 
+            "album_name": "Appetite For Destruction (Explicit Version)", 
             "album_artist": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
         }
     }, 
     {
         "pk": 39, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/85804bbc237e05ae7db9e90b9c0e09527e50d594", 
         "fields": {
             "origin": " Los Angeles, California, U.S.\n", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:6lhy43UpR3Qb21vxb6IwQO", 
+            "recommended_album": "spotify:album:5JKFiC2WVi9HtvJEm8CUB8", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9161b5e282bbe652c80d7a364a6af8871a7a4d4e", 
             "spotify_artist_uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC", 
             "full_name": "Guns N' Roses", 
@@ -1132,25 +1200,26 @@
         }
     }, 
     {
-        "pk": 38, 
+        "pk": 40, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2TC4mJcfJACLFZ5yb313ES", 
-            "release_date": "2014-11-24", 
+            "spotify_albums_uri": "spotify:album:4o8ZyBzwPxPVc2bqNG5Xfe", 
+            "release_date": "2013-10-08", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/cb3c107959d74efeaf5f359211f8f3c286e7c534", 
+            "image_url": "https://i.scdn.co/image/f45f771ba626071c1a295c9e9a0bcdb853f35a6d", 
             "genre": "N/A", 
-            "album_name": "Soy El Mismo (Deluxe Edition)", 
+            "album_name": "Soy el Mismo", 
             "album_artist": "spotify:artist:3MHaV05u0io8fQbZ2XPtlC"
         }
     }, 
     {
         "pk": 40, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/c3e17aedc4f177cc49c3a160e814c06379243ae2", 
         "fields": {
             "origin": " The Bronx, New York, U.S.\n", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:2TC4mJcfJACLFZ5yb313ES", 
+            "recommended_album": "spotify:album:4o8ZyBzwPxPVc2bqNG5Xfe", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f45f771ba626071c1a295c9e9a0bcdb853f35a6d", 
             "spotify_artist_uri": "spotify:artist:3MHaV05u0io8fQbZ2XPtlC", 
             "full_name": "Prince Royce", 
@@ -1161,25 +1230,26 @@
         }
     }, 
     {
-        "pk": 39, 
+        "pk": 41, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:608c6dgWXw15hfKngzmshw", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:7yBl4uFyJzH48Vy6tPieXL", 
+            "release_date": "2015-01-24", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1c74ef45d715cb7b01ccccb3509420baf4415eda", 
+            "image_url": "https://i.scdn.co/image/430d7afebf738c788ccadc1b2488ab956465236f", 
             "genre": "N/A", 
-            "album_name": "NEW (Collector's Edition)", 
+            "album_name": "FourFiveSeconds", 
             "album_artist": "spotify:artist:4STHEaNw4mPZ2tzheohgXB"
         }
     }, 
     {
         "pk": 41, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/71ba1ddba06b048a19616a51422637acb1e567df", 
         "fields": {
             "origin": " Liverpool, England\n", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:608c6dgWXw15hfKngzmshw", 
+            "recommended_album": "spotify:album:7yBl4uFyJzH48Vy6tPieXL", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:4STHEaNw4mPZ2tzheohgXB", 
             "full_name": "Paul McCartney", 
@@ -1190,25 +1260,26 @@
         }
     }, 
     {
-        "pk": 40, 
+        "pk": 42, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7dWvwovdX6VSFAjcB9Ibia", 
-            "release_date": "2015-01-16", 
+            "spotify_albums_uri": "spotify:album:3XdvQjIMjdwxRivZrg1ziJ", 
+            "release_date": "1978", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/d51ba08a4a08930ed4466f25b83941a4a1c5f7b1", 
+            "image_url": "https://i.scdn.co/image/58f30cb6545fe5ecba1153844617e5ad79fe2ab1", 
             "genre": "N/A", 
-            "album_name": "The World Of Kenny Rogers", 
+            "album_name": "The Gambler", 
             "album_artist": "spotify:artist:4tw2Lmn9tTPUv7Gy7mVPI4"
         }
     }, 
     {
         "pk": 42, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/827e2ae9a59f4649bb977766230683bb81deeec8", 
         "fields": {
             "origin": " Houston, Texas, United States\n", 
             "popularity": 69, 
-            "recommended_album": "spotify:album:7dWvwovdX6VSFAjcB9Ibia", 
+            "recommended_album": "spotify:album:3XdvQjIMjdwxRivZrg1ziJ", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/58f30cb6545fe5ecba1153844617e5ad79fe2ab1", 
             "spotify_artist_uri": "spotify:artist:4tw2Lmn9tTPUv7Gy7mVPI4", 
             "full_name": "Kenny Rogers", 
@@ -1219,25 +1290,26 @@
         }
     }, 
     {
-        "pk": 41, 
+        "pk": 43, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4l0yiPESXaygz2DaJkZCLL", 
-            "release_date": "2008-02-25", 
+            "spotify_albums_uri": "spotify:album:01f9l0SBAi6PrQZ99qCv1w", 
+            "release_date": "2015-06-22", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/8216cad3421af61f2b7d0fe4e3bb3d88561e336e", 
+            "image_url": "https://i.scdn.co/image/3bcfd01d87f7e6a2588d5ad24d7acae4c9d4b192", 
             "genre": "N/A", 
-            "album_name": "Discipline", 
+            "album_name": "No Sleeep", 
             "album_artist": "spotify:artist:4qwGe91Bz9K2T8jXTZ815W"
         }
     }, 
     {
         "pk": 43, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/3bfd0b12dd3c9ecb6742a17ec7eb6950525ab17a", 
         "fields": {
             "origin": " Gary, Indiana, U.S.\n", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:4l0yiPESXaygz2DaJkZCLL", 
+            "recommended_album": "spotify:album:01f9l0SBAi6PrQZ99qCv1w", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/03074d8efc8a19b674282032a737dffabb656ac6", 
             "spotify_artist_uri": "spotify:artist:4qwGe91Bz9K2T8jXTZ815W", 
             "full_name": "Janet Jackson", 
@@ -1248,25 +1320,26 @@
         }
     }, 
     {
-        "pk": 42, 
+        "pk": 44, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3zDMMFkGJMmjrZX6jo9UiL", 
-            "release_date": "2015-07-10", 
+            "spotify_albums_uri": "spotify:album:4asBn7hzIq2Ka7rDzJN24P", 
+            "release_date": "1976-06-14", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/a1483ad1aea722d776b7d7a7b5361d85e0c367d7", 
+            "image_url": "https://i.scdn.co/image/730e9ea3b8bd5b5d2590216346aa95a360ea7f6d", 
             "genre": "N/A", 
-            "album_name": "The Studio Albums 1979-2008 (Vol. 2)", 
+            "album_name": "Chicago X", 
             "album_artist": "spotify:artist:3iDD7bnsjL9J4fO298r0L0"
         }
     }, 
     {
         "pk": 44, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/844ca61824e1824b8649c2d854321081057e2f3f", 
         "fields": {
             "origin": "N/A", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:3zDMMFkGJMmjrZX6jo9UiL", 
+            "recommended_album": "spotify:album:4asBn7hzIq2Ka7rDzJN24P", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:3iDD7bnsjL9J4fO298r0L0", 
             "full_name": "Chicago", 
@@ -1277,25 +1350,26 @@
         }
     }, 
     {
-        "pk": 43, 
+        "pk": 45, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3eV1SMnqMny0ogB4titLIZ", 
-            "release_date": "1977", 
+            "spotify_albums_uri": "spotify:album:2FxmC1q7CTXLSfHIX5xWCr", 
+            "release_date": "1975", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e13e06068b4c5d2ca7826f986450998d13ad07ea", 
+            "image_url": "https://i.scdn.co/image/a46be8e9d28f1e2c05b475194114d604a2f87836", 
             "genre": "N/A", 
-            "album_name": "Please Mr. Postman", 
+            "album_name": "Horizon", 
             "album_artist": "spotify:artist:6nWLkLMNljsR8U1emdLDbJ"
         }
     }, 
     {
         "pk": 45, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/42a3acbf4eb1c22370ad3466679aa33dc2212a74", 
         "fields": {
             "origin": " Los Angeles, California, United States\n", 
             "popularity": 14, 
-            "recommended_album": "spotify:album:3eV1SMnqMny0ogB4titLIZ", 
+            "recommended_album": "spotify:album:2FxmC1q7CTXLSfHIX5xWCr", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:6nWLkLMNljsR8U1emdLDbJ", 
             "full_name": "The Carpenters", 
@@ -1306,25 +1380,26 @@
         }
     }, 
     {
-        "pk": 44, 
+        "pk": 46, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1B6OGpVCRi83QnMK7y8uBh", 
-            "release_date": "2014-10-31", 
+            "spotify_albums_uri": "spotify:album:6YabPKtZAjxwyWbuO9p4ZD", 
+            "release_date": "1965-08-30", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/a940f1d6cec76c1a5d7435e1d00993cbb361680b", 
+            "image_url": "https://i.scdn.co/image/4475b6e95cd5c153cf89f49daa3a85b939359690", 
             "genre": "N/A", 
-            "album_name": "The Basement Tapes Sampler: The Bootleg Series, Vol. 11", 
+            "album_name": "Highway 61 Revisited", 
             "album_artist": "spotify:artist:74ASZWbe4lXaubB36ztrGX"
         }
     }, 
     {
         "pk": 46, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/582a3cca28e1932109560ccdcad7d55f3dc12a70", 
         "fields": {
             "origin": " Duluth, Minnesota, United&nbsp;States\n", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:1B6OGpVCRi83QnMK7y8uBh", 
+            "recommended_album": "spotify:album:6YabPKtZAjxwyWbuO9p4ZD", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c5525afd94a493d7d7dd53ef23f1def0db47fc51", 
             "spotify_artist_uri": "spotify:artist:74ASZWbe4lXaubB36ztrGX", 
             "full_name": "Bob Dylan", 
@@ -1335,25 +1410,26 @@
         }
     }, 
     {
-        "pk": 45, 
+        "pk": 47, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:50JXdvjNWtNWVuboQhEQkO", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:3coLNlyStg9h7f8CZ103Rl", 
+            "release_date": "1998-11-09", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/d5ae3978bd747a77981ed49dda665db766e78d1e", 
+            "image_url": "https://i.scdn.co/image/2a7f31645ca539734a18c841dda5047784c017cf", 
             "genre": "N/A", 
-            "album_name": "Symphonica (Deluxe Version)", 
+            "album_name": "Ladies And Gentlemen... The Best Of George Michael", 
             "album_artist": "spotify:artist:19ra5tSw0tWufvUp8GotLo"
         }
     }, 
     {
         "pk": 47, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/885021ec9b6ac110238a9463bdcc0dc6d4778cec", 
         "fields": {
             "origin": " East Finchley, London, England \n", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:50JXdvjNWtNWVuboQhEQkO", 
+            "recommended_album": "spotify:album:3coLNlyStg9h7f8CZ103Rl", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/2a7f31645ca539734a18c841dda5047784c017cf", 
             "spotify_artist_uri": "spotify:artist:19ra5tSw0tWufvUp8GotLo", 
             "full_name": "George Michael", 
@@ -1364,25 +1440,26 @@
         }
     }, 
     {
-        "pk": 46, 
+        "pk": 48, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:79qh6vRcNJOSiBFzD1pyLJ", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:2o2G49EPi4lua5zgxUKhLL", 
+            "release_date": "1984-11-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/9ed2f7a24f4aeef7cb432933528e15d019d1e1fd", 
+            "image_url": "https://i.scdn.co/image/d67cc75b3cc7641af4f7f90e055cfad617e9dfe9", 
             "genre": "N/A", 
-            "album_name": "Live At Bush Hall", 
+            "album_name": "Reckless (30th Anniversary / Deluxe Edition)", 
             "album_artist": "spotify:artist:3Z02hBLubJxuFJfhacLSDc"
         }
     }, 
     {
         "pk": 48, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/ca4663322a851f5a0dec23cedfc91b6d516b13f9", 
         "fields": {
             "origin": " Kingston, Ontario, Canada\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:79qh6vRcNJOSiBFzD1pyLJ", 
+            "recommended_album": "spotify:album:2o2G49EPi4lua5zgxUKhLL", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/57b54c4137ce069f643f78686afc58067820e27e", 
             "spotify_artist_uri": "spotify:artist:3Z02hBLubJxuFJfhacLSDc", 
             "full_name": "Bryan Adams", 
@@ -1393,25 +1470,26 @@
         }
     }, 
     {
-        "pk": 47, 
+        "pk": 49, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1P6GUw6ld7D5YvKDL0vmTU", 
-            "release_date": "2014-02-11", 
+            "spotify_albums_uri": "spotify:album:5eJnzLcFCVt0Wcepaj6GiW", 
+            "release_date": "1987", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/20a86d4ad00a26d1ed4d4669ecc01a947c9cecb0", 
+            "image_url": "https://i.scdn.co/image/076da5ae5491ae8fd19e0705a4ffc56268ac9888", 
             "genre": "N/A", 
-            "album_name": "Slang (Deluxe Edition)", 
+            "album_name": "Pour Some Sugar On Me (2012)", 
             "album_artist": "spotify:artist:6H1RjVyNruCmrBEWRbD0VZ"
         }
     }, 
     {
         "pk": 49, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/f8ad90d3836a565655d5fe6e8ee76c7464edcba9", 
         "fields": {
             "origin": " Sheffield, South Yorkshire, England\n", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:1P6GUw6ld7D5YvKDL0vmTU", 
+            "recommended_album": "spotify:album:5eJnzLcFCVt0Wcepaj6GiW", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:6H1RjVyNruCmrBEWRbD0VZ", 
             "full_name": "Def Leppard", 
@@ -1422,25 +1500,26 @@
         }
     }, 
     {
-        "pk": 48, 
+        "pk": 50, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2kNTAUqNHzTej4EQekcz8Y", 
-            "release_date": "2015-06-30", 
+            "spotify_albums_uri": "spotify:album:4E2eUhFHqTG2pu9MN1NDIF", 
+            "release_date": "2013-10-01", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/add08646d476240087a1d7e812dba3c8f006707b", 
+            "image_url": "https://i.scdn.co/image/e42cfaca492919e1c090ae41ac89b4792a256f18", 
             "genre": "N/A", 
-            "album_name": "Johnny Cash - All the Best", 
+            "album_name": "The Essential Johnny Cash", 
             "album_artist": "spotify:artist:6kACVPfCOnqzgfEF5ryl0x"
         }
     }, 
     {
         "pk": 50, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/c51c29b7fad410c9771293c3c04fb2e6584c1064", 
         "fields": {
             "origin": " Kingsland, Arkansas, U.S.\n", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:2kNTAUqNHzTej4EQekcz8Y", 
+            "recommended_album": "spotify:album:4E2eUhFHqTG2pu9MN1NDIF", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e35451b38b162c4a8665b77e729c53a2437d6f74", 
             "spotify_artist_uri": "spotify:artist:6kACVPfCOnqzgfEF5ryl0x", 
             "full_name": "Johnny Cash", 
@@ -1451,25 +1530,26 @@
         }
     }, 
     {
-        "pk": 49, 
+        "pk": 51, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7J2hXOVq8FZ367dTczV7oH", 
-            "release_date": "2013-04-09", 
+            "spotify_albums_uri": "spotify:album:4sgYpkIASM1jVlNC8Wp9oF", 
+            "release_date": "2013-04-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/ad1474d4707f8d3c9bd33c10e653655319231a42", 
+            "image_url": "https://i.scdn.co/image/6c41a31021b9ce126768d6ed51bb76bf0673c4b2", 
             "genre": "N/A", 
-            "album_name": "Paramore: Self-Titled Deluxe", 
+            "album_name": "Paramore", 
             "album_artist": "spotify:artist:74XFHRwlV6OrjEM0A2NCMF"
         }
     }, 
     {
         "pk": 51, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/0fa543265a55a1ad90334da0357e2c309ccd5380", 
         "fields": {
             "origin": " Franklin, Tennessee, U.S.\n", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:7J2hXOVq8FZ367dTczV7oH", 
+            "recommended_album": "spotify:album:4sgYpkIASM1jVlNC8Wp9oF", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8abe74b2a7d3e92c0be3757a38533c48f7397ebb", 
             "spotify_artist_uri": "spotify:artist:74XFHRwlV6OrjEM0A2NCMF", 
             "full_name": "Paramore", 
@@ -1480,25 +1560,26 @@
         }
     }, 
     {
-        "pk": 50, 
+        "pk": 52, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:05Y3EJT0XR8wadfHm7u7No", 
-            "release_date": "2014-10-31", 
+            "spotify_albums_uri": "spotify:album:0XvHcGX9MJXt9Cx1Iml7WS", 
+            "release_date": "2005", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/6f3f5a651c98c2eb71ebd4aed84e39506db5a1ad", 
+            "image_url": "https://i.scdn.co/image/eed98be29bfd1387cc359d45a9704076d11f0e71", 
             "genre": "N/A", 
-            "album_name": "Between the Stars (Special Edition)", 
+            "album_name": "Flyleaf", 
             "album_artist": "spotify:artist:4IliztYDlfMvzQzbx50o60"
         }
     }, 
     {
         "pk": 52, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/d9057b29cc3e2dabb9a40b3f55fb052287488153", 
         "fields": {
             "origin": "N/A", 
             "popularity": 70, 
-            "recommended_album": "spotify:album:05Y3EJT0XR8wadfHm7u7No", 
+            "recommended_album": "spotify:album:0XvHcGX9MJXt9Cx1Iml7WS", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3ff269b6d23c571fefbf57ef62d4f67419dbed69", 
             "spotify_artist_uri": "spotify:artist:4IliztYDlfMvzQzbx50o60", 
             "full_name": "Flyleaf", 
@@ -1509,25 +1590,26 @@
         }
     }, 
     {
-        "pk": 51, 
+        "pk": 53, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3vPk33QD0vnsufVEwODWTM", 
-            "release_date": "2013-09-30", 
+            "spotify_albums_uri": "spotify:album:6F5sVtKKgS7c9dhSyNru09", 
+            "release_date": "2009", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/17cd83dcdf9dccf280291df0072bc97df008ac82", 
+            "image_url": "https://i.scdn.co/image/ebb609c04ae8687e974625af45ac93a29bf3ede4", 
             "genre": "N/A", 
-            "album_name": "Unvarnished (Deluxe Edition)", 
+            "album_name": "The Iggy Pop Tribute: We Will Fall", 
             "album_artist": "spotify:artist:1Fmb52lZ6Jv7FMWXXTPO3K"
         }
     }, 
     {
         "pk": 53, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/d6115dd896a8f0d817763743a9e6181de5447ab7", 
         "fields": {
             "origin": " Wynnewood, Pennsylvania, United States\n", 
             "popularity": 41, 
-            "recommended_album": "spotify:album:3vPk33QD0vnsufVEwODWTM", 
+            "recommended_album": "spotify:album:6F5sVtKKgS7c9dhSyNru09", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:1Fmb52lZ6Jv7FMWXXTPO3K", 
             "full_name": "Joan Jett & The Blackhearts", 
@@ -1538,25 +1620,26 @@
         }
     }, 
     {
-        "pk": 52, 
+        "pk": 54, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3U85Q4GtR0I3VwgDOKHttO", 
-            "release_date": "2011", 
+            "spotify_albums_uri": "spotify:album:02w1xMzzdF2OJxTeh1basm", 
+            "release_date": "2003", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/72919d4ea4dad735bb6e8a1f5c1d3182a72aa135", 
+            "image_url": "https://i.scdn.co/image/a42e3ae40dfd871b5d17a00f2f8167c0d0d26916", 
             "genre": "N/A", 
-            "album_name": "Evanescence", 
+            "album_name": "Fallen", 
             "album_artist": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c"
         }
     }, 
     {
         "pk": 54, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/78a45b86c9f260d2875980d612c3aa5df0826dac", 
         "fields": {
             "origin": " Little Rock, Arkansas, United States\n", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:3U85Q4GtR0I3VwgDOKHttO", 
+            "recommended_album": "spotify:album:02w1xMzzdF2OJxTeh1basm", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/491bbf195736547d36d5de602d7af33b9d7fec37", 
             "spotify_artist_uri": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c", 
             "full_name": "Evanescence", 
@@ -1567,25 +1650,26 @@
         }
     }, 
     {
-        "pk": 53, 
+        "pk": 55, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3IcVjLxdbASosZxCdgb2EM", 
-            "release_date": "2008-11-07", 
+            "spotify_albums_uri": "spotify:album:2ioso1tqQ5zABQDVYyiUi5", 
+            "release_date": "2000-11-11", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/978f9b95da4a29bee5088d90c0f4d49d862c6d70", 
+            "image_url": "https://i.scdn.co/image/8dd4af6ec5392ea84fee555a000c6a21d4b7f202", 
             "genre": "N/A", 
-            "album_name": "And Winter Came", 
+            "album_name": "A Day Without Rain", 
             "album_artist": "spotify:artist:6uothxMWeLWIhsGeF7cyo4"
         }
     }, 
     {
         "pk": 55, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/4164aefbe2c3a06e0c341b3b00ef82724c293f49", 
         "fields": {
             "origin": " Gweedore, County Donegal, Ireland\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:3IcVjLxdbASosZxCdgb2EM", 
+            "recommended_album": "spotify:album:2ioso1tqQ5zABQDVYyiUi5", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/da0539d52523b8c464d86c1d5eaeb1f4f481249f", 
             "spotify_artist_uri": "spotify:artist:6uothxMWeLWIhsGeF7cyo4", 
             "full_name": "Enya", 
@@ -1596,25 +1680,26 @@
         }
     }, 
     {
-        "pk": 54, 
+        "pk": 56, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2WmZdgoUrCOxxQIddL3cEl", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:67vgL4RvpcGY0nooDOK6zW", 
+            "release_date": "2014-05-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/728686422bab20c6a78eec6d703ec4b1d21ed4cc", 
+            "image_url": "https://i.scdn.co/image/d0217aa4bab7b2a6d94beba073e97b5f289c7026", 
             "genre": "N/A", 
-            "album_name": "Shatter Me", 
+            "album_name": "Radioactive", 
             "album_artist": "spotify:artist:378dH6EszOLFShpRzAQkVM"
         }
     }, 
     {
         "pk": 56, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/92c16d45fd8427d202769d1c7949fe8d4de576d1", 
         "fields": {
             "origin": " Santa Ana, California, United States\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:2WmZdgoUrCOxxQIddL3cEl", 
+            "recommended_album": "spotify:album:67vgL4RvpcGY0nooDOK6zW", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:378dH6EszOLFShpRzAQkVM", 
             "full_name": "Lindsey Stirling", 
@@ -1625,25 +1710,26 @@
         }
     }, 
     {
-        "pk": 55, 
+        "pk": 57, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5N6Jn6dBh0WqLzGfOPytgx", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:0zi2TaQkYxfXIBvl2yTjQJ", 
+            "release_date": "2013-12-10", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1b9fc64b00d0edfa53673666148db1d690b7c00e", 
+            "image_url": "https://i.scdn.co/image/358ed12331556a389256bc3c14597f2693b331d2", 
             "genre": "N/A", 
-            "album_name": "Kauai", 
+            "album_name": "Because The Internet", 
             "album_artist": "spotify:artist:73sIBHcqh3Z3NyqHKZ7FOL"
         }
     }, 
     {
         "pk": 57, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/a4b65c42aac8803bd91a54461320cc6b1ebadb79", 
         "fields": {
             "origin": "N/A", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:5N6Jn6dBh0WqLzGfOPytgx", 
+            "recommended_album": "spotify:album:0zi2TaQkYxfXIBvl2yTjQJ", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3edce0c25a024d222472a002260379a8b3dcdf5e", 
             "spotify_artist_uri": "spotify:artist:73sIBHcqh3Z3NyqHKZ7FOL", 
             "full_name": "Childish Gambino", 
@@ -1654,7 +1740,7 @@
         }
     }, 
     {
-        "pk": 56, 
+        "pk": 58, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:726GB3GTBwPdsGr5XzOQbz", 
@@ -1669,6 +1755,7 @@
     {
         "pk": 58, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/1533a39a4908733147d996bf1bf62eee74ad0231", 
         "fields": {
             "origin": " New York City, New York\n", 
             "popularity": 78, 
@@ -1683,7 +1770,7 @@
         }
     }, 
     {
-        "pk": 57, 
+        "pk": 59, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:7viNUmZZ8ztn2UB4XB3jIL", 
@@ -1698,6 +1785,7 @@
     {
         "pk": 59, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/fd5c52927da3c1b3d2df4727a89975aaa395ca23", 
         "fields": {
             "origin": " Frankfurt, West Germany\n", 
             "popularity": 91, 
@@ -1712,25 +1800,26 @@
         }
     }, 
     {
-        "pk": 58, 
+        "pk": 60, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3hhDpPtCFuQbppwYgsVhMO", 
-            "release_date": "2013-09-10", 
+            "spotify_albums_uri": "spotify:album:2SNSXzdTfoGk3XTpD5DAi9", 
+            "release_date": "2015-06-08", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bd1c5b6ab8dd67361619f4fd1baabb303b964b39", 
+            "image_url": "https://i.scdn.co/image/81af87afb8641d98d00cec4fc322756be81c2b72", 
             "genre": "N/A", 
-            "album_name": "Kiss Land", 
+            "album_name": "Can\u2019t Feel My Face", 
             "album_artist": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
         }
     }, 
     {
         "pk": 60, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/458ed8a439204178af07a7662955271fd1c5544c", 
         "fields": {
             "origin": " Scarborough, Ontario, Canada\n", 
             "popularity": 98, 
-            "recommended_album": "spotify:album:3hhDpPtCFuQbppwYgsVhMO", 
+            "recommended_album": "spotify:album:2SNSXzdTfoGk3XTpD5DAi9", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ", 
             "full_name": "The Weeknd", 
@@ -1741,13 +1830,13 @@
         }
     }, 
     {
-        "pk": 59, 
+        "pk": 61, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2bfWH730j0HtAJrNcg1LuP", 
-            "release_date": "2015-02-12", 
+            "spotify_albums_uri": "spotify:album:0ptlfJfwGTy0Yvrk14JK1I", 
+            "release_date": "2015-02-13", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/c5b8abbf2f4113909fb75e1da10e1c98c38dfd06", 
+            "image_url": "https://i.scdn.co/image/8ac6bc32c9114dfba63d403f5387b0c220dc72a9", 
             "genre": "N/A", 
             "album_name": "If You're Reading This It's Too Late", 
             "album_artist": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
@@ -1756,10 +1845,11 @@
     {
         "pk": 61, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/cfbd0278aa861dbd564f3e99a4d1220da57145b9", 
         "fields": {
             "origin": "N/A", 
             "popularity": 100, 
-            "recommended_album": "spotify:album:2bfWH730j0HtAJrNcg1LuP", 
+            "recommended_album": "spotify:album:0ptlfJfwGTy0Yvrk14JK1I", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4", 
             "full_name": "Drake", 
@@ -1770,7 +1860,7 @@
         }
     }, 
     {
-        "pk": 60, 
+        "pk": 62, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:621OhgnZJ7Pz8iUazct1In", 
@@ -1785,6 +1875,7 @@
     {
         "pk": 62, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/223d1f36f93ac479fab12baa619fe1c51a4f31ef", 
         "fields": {
             "origin": "N/A", 
             "popularity": 79, 
@@ -1799,25 +1890,26 @@
         }
     }, 
     {
-        "pk": 61, 
+        "pk": 63, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2hyDesSAYNefikDJXlqhPE", 
-            "release_date": "2014-06-23", 
+            "spotify_albums_uri": "spotify:album:1xn54DMo2qIqBuMqHtUsFd", 
+            "release_date": "2014-06-21", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bd21e1d0ed0fc83a9906b2d9dcf2f1072ec7bb75", 
+            "image_url": "https://i.scdn.co/image/646e9619750dfa3d1eadbbea959dc6f528a9109e", 
             "genre": "N/A", 
-            "album_name": "5", 
+            "album_name": "x (Deluxe Edition)", 
             "album_artist": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
         }
     }, 
     {
         "pk": 63, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/f48d9f72d83f86b4c9b8adf0d4187f2940e23125", 
         "fields": {
             "origin": " Hebden Bridge, West Yorkshire, England\n", 
             "popularity": 98, 
-            "recommended_album": "spotify:album:2hyDesSAYNefikDJXlqhPE", 
+            "recommended_album": "spotify:album:1xn54DMo2qIqBuMqHtUsFd", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ba57d0db68e7a5af235b0e7eb91a17a1dda11424", 
             "spotify_artist_uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V", 
             "full_name": "Ed Sheeran", 
@@ -1828,25 +1920,26 @@
         }
     }, 
     {
-        "pk": 62, 
+        "pk": 64, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5SqCyY1YmSdD6H5SjQuDrn", 
-            "release_date": "2015-04-06", 
+            "spotify_albums_uri": "spotify:album:7Et3bSTLLqdABO1qCxUplS", 
+            "release_date": "2014-02-25", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/769659da2fab74e0cd05100720128a23b3f1f119", 
+            "image_url": "https://i.scdn.co/image/c5af6ac191c10474288e39e54ae50466d5ea0066", 
             "genre": "N/A", 
-            "album_name": "Schoolboy Q 2", 
+            "album_name": "Oxymoron (Deluxe)", 
             "album_artist": "spotify:artist:5IcR3N7QB1j6KBL8eImZ8m"
         }
     }, 
     {
         "pk": 64, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/4b2b9265c2afebf4dec2e71dd2ac97a985a6bac1", 
         "fields": {
             "origin": " Wiesbaden, Germany<ref name=\"germany\"/><ref name=\"LAweekly\"/>\n", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:5SqCyY1YmSdD6H5SjQuDrn", 
+            "recommended_album": "spotify:album:7Et3bSTLLqdABO1qCxUplS", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c5af6ac191c10474288e39e54ae50466d5ea0066", 
             "spotify_artist_uri": "spotify:artist:5IcR3N7QB1j6KBL8eImZ8m", 
             "full_name": "Schoolboy Q", 
@@ -1857,7 +1950,7 @@
         }
     }, 
     {
-        "pk": 63, 
+        "pk": 65, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:48zisMeiXniWLzOQghbPqS", 
@@ -1872,6 +1965,7 @@
     {
         "pk": 65, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/c9a2185452c3fbbc9bd93dad9c26f6b8f80a6d6f", 
         "fields": {
             "origin": " Dumfries, Scotland <!--Do not add \"UK\"-->\n", 
             "popularity": 93, 
@@ -1886,13 +1980,13 @@
         }
     }, 
     {
-        "pk": 64, 
+        "pk": 66, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7xue2jn8y2BL3EbonL9mup", 
-            "release_date": "2015-02-23", 
+            "spotify_albums_uri": "spotify:album:1j2x7FJXTgUT0X5hZ8TDXE", 
+            "release_date": "2015-02-24", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/c097429a0eb110f0ce89fe41342d6a47ec9361be", 
+            "image_url": "https://i.scdn.co/image/40aee5f4ae2cff4e5ea340e756a2ebdf4af4e86f", 
             "genre": "N/A", 
             "album_name": "Dark Sky Paradise", 
             "album_artist": "spotify:artist:0c173mlxpT3dSFRgMO8XPh"
@@ -1901,10 +1995,11 @@
     {
         "pk": 66, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/2a5e3b8357dc915b3a1808ea60c9ab57112e315d", 
         "fields": {
             "origin": " {{nowrap|Santa Monica, California, United States}}\n", 
             "popularity": 92, 
-            "recommended_album": "spotify:album:7xue2jn8y2BL3EbonL9mup", 
+            "recommended_album": "spotify:album:1j2x7FJXTgUT0X5hZ8TDXE", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/763529a7f97491a82a0fa9427254cdab5785d929", 
             "spotify_artist_uri": "spotify:artist:0c173mlxpT3dSFRgMO8XPh", 
             "full_name": "Big Sean", 
@@ -1915,25 +2010,26 @@
         }
     }, 
     {
-        "pk": 65, 
+        "pk": 67, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2btszoya78vyT8fwelmVnz", 
-            "release_date": "2015-06-02", 
+            "spotify_albums_uri": "spotify:album:2FgknX5e7fJlriQtxvpLhZ", 
+            "release_date": "2009", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/3e4bb24f0e59cc4e9c5bf24ee1aad3f54ce5a14d", 
+            "image_url": "https://i.scdn.co/image/edff0706907bd488b6bec693b4d8aa5880e86365", 
             "genre": "N/A", 
-            "album_name": "How Big, How Blue, How Beautiful", 
+            "album_name": "Lungs (Deluxe Edition)", 
             "album_artist": "spotify:artist:1moxjboGR7GNWYIMWsRjgG"
         }
     }, 
     {
         "pk": 67, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/0e2e0b8f93f967e513b59a18131d6d9ef333ef06", 
         "fields": {
             "origin": "N/A", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:2btszoya78vyT8fwelmVnz", 
+            "recommended_album": "spotify:album:2FgknX5e7fJlriQtxvpLhZ", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/50b34edb9efa434371a09df5b42a916a36b1f6b7", 
             "spotify_artist_uri": "spotify:artist:1moxjboGR7GNWYIMWsRjgG", 
             "full_name": "Florence + The Machine", 
@@ -1944,25 +2040,26 @@
         }
     }, 
     {
-        "pk": 66, 
+        "pk": 68, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6upb2pGCSfN0mO7DpO06dJ", 
-            "release_date": "2012-10-01", 
+            "spotify_albums_uri": "spotify:album:0elHWyUbF2KLuHl8GjlzEM", 
+            "release_date": "1977", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/0afa2faf9005f2d941726c7def03e582ff080c97", 
+            "image_url": "https://i.scdn.co/image/123a32e80b8373e90511dae14ca59cb23d440e79", 
             "genre": "N/A", 
-            "album_name": "Guilty Pleasure Tour (Live)", 
+            "album_name": "Bat Out Of Hell", 
             "album_artist": "spotify:artist:7dnB1wSxbYa8CejeVg98hz"
         }
     }, 
     {
         "pk": 68, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/aa11b4a19a809386ff6ade38771fadb52487ceff", 
         "fields": {
             "origin": " Dallas, Texas, U.S.\n", 
             "popularity": 68, 
-            "recommended_album": "spotify:album:6upb2pGCSfN0mO7DpO06dJ", 
+            "recommended_album": "spotify:album:0elHWyUbF2KLuHl8GjlzEM", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/1e2b3dc5561a8bed5423dd644f269adae62e5adb", 
             "spotify_artist_uri": "spotify:artist:7dnB1wSxbYa8CejeVg98hz", 
             "full_name": "Meat Loaf", 
@@ -1973,25 +2070,26 @@
         }
     }, 
     {
-        "pk": 67, 
+        "pk": 69, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6JIzTtUxNFG6zOGY4TQFWO", 
-            "release_date": "2015-03-02", 
+            "spotify_albums_uri": "spotify:album:0vOj0JVKv2bobFBBUTjgQF", 
+            "release_date": "1997", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/a8a05e9255456af4b1390c167a847ab2e8430f8a", 
+            "image_url": "https://i.scdn.co/image/cc5293a9bf15d998061cab8127d13f6acb7f3937", 
             "genre": "N/A", 
-            "album_name": "Still The One: Live From Vegas", 
+            "album_name": "Come On Over (International Version)", 
             "album_artist": "spotify:artist:5e4Dhzv426EvQe3aDb64jL"
         }
     }, 
     {
         "pk": 69, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/bf3e8bc60fc2d627aef70aa8ef857b03fb525f9b", 
         "fields": {
             "origin": " Windsor, Ontario, Canada\n", 
             "popularity": 74, 
-            "recommended_album": "spotify:album:6JIzTtUxNFG6zOGY4TQFWO", 
+            "recommended_album": "spotify:album:0vOj0JVKv2bobFBBUTjgQF", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fc3ee9228024d8ef1d6e11ed89212401da2e6568", 
             "spotify_artist_uri": "spotify:artist:5e4Dhzv426EvQe3aDb64jL", 
             "full_name": "Shania Twain", 
@@ -2002,25 +2100,26 @@
         }
     }, 
     {
-        "pk": 68, 
+        "pk": 70, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7Dozd7ugjsiQO36tw83Ubo", 
-            "release_date": "2013-01-01", 
+            "spotify_albums_uri": "spotify:album:4N7LuZYpstQrtcHIoOKzqg", 
+            "release_date": "2005-11-11", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/acfbaf374b8e9c806e9f9769335d43e60c31e133", 
+            "image_url": "https://i.scdn.co/image/2a996c920d96d5926050336b5f5296b2d3a41a7d", 
             "genre": "N/A", 
-            "album_name": "Live At Montreux 2012 (Live At The Montreux Jazz Festival, Montreux,Switzerland / 2012)", 
+            "album_name": "The Collection (Standard Edition)", 
             "album_artist": "spotify:artist:6ogn9necmbUdCppmNnGOdi"
         }
     }, 
     {
         "pk": 70, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/f4c76cf2d3637a184b969eb61049477a63764f00", 
         "fields": {
             "origin": " Ottawa, Ontario, Canada\n", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:7Dozd7ugjsiQO36tw83Ubo", 
+            "recommended_album": "spotify:album:4N7LuZYpstQrtcHIoOKzqg", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fba0729481a05332822bf401618b4c31fea87641", 
             "spotify_artist_uri": "spotify:artist:6ogn9necmbUdCppmNnGOdi", 
             "full_name": "Alanis Morissette", 
@@ -2031,10 +2130,10 @@
         }
     }, 
     {
-        "pk": 69, 
+        "pk": 71, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1cCEfOTFdaZo0POsxE5SkM", 
+            "spotify_albums_uri": "spotify:album:1azUkThwd2HfUDdeNeT147", 
             "release_date": "2011-01-19", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/8fa409e337ce4d3056bb957bc1d0586ba99629b9", 
@@ -2046,10 +2145,11 @@
     {
         "pk": 71, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/223cdaebf4d9317edfb5ff521784fa788e05c7ba", 
         "fields": {
             "origin": " Tottenham, London, England\n", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:1cCEfOTFdaZo0POsxE5SkM", 
+            "recommended_album": "spotify:album:1azUkThwd2HfUDdeNeT147", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9c0ab03ce86482525f03487b25c7f90c08c8ccfd", 
             "spotify_artist_uri": "spotify:artist:4dpARuHxo51G3z768sgnrY", 
             "full_name": "Adele", 
@@ -2060,25 +2160,26 @@
         }
     }, 
     {
-        "pk": 70, 
+        "pk": 72, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0BKjOSKozQwMp7T9yN1yRO", 
-            "release_date": "2015-02-26", 
+            "spotify_albums_uri": "spotify:album:60IT8AganbZfiCpoJbiEnU", 
+            "release_date": "2012-06-25", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/bdd70a23bb20a85219ceda3950da3151c21782e2", 
+            "image_url": "https://i.scdn.co/image/bab9d36b846fc49562db73e2122ed2232769eb35", 
             "genre": "N/A", 
-            "album_name": "Wolf Totem (Original Motion Picture Soundtrack)", 
+            "album_name": "The Amazing Spider-Man", 
             "album_artist": "spotify:artist:3PhL2Vdao2v8SS8AptuhAr"
         }
     }, 
     {
         "pk": 72, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/71891d2f86967aee58fcc7b684c57f1a7f4ef85b", 
         "fields": {
             "origin": " Los Angeles, California, U.S.\n", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:0BKjOSKozQwMp7T9yN1yRO", 
+            "recommended_album": "spotify:album:60IT8AganbZfiCpoJbiEnU", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/76726fec3bc108f1808f374543de328761aa231c", 
             "spotify_artist_uri": "spotify:artist:3PhL2Vdao2v8SS8AptuhAr", 
             "full_name": "James Horner", 
@@ -2089,25 +2190,26 @@
         }
     }, 
     {
-        "pk": 71, 
+        "pk": 73, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7xAzFnsPL6Bv84Cgvpg3yj", 
-            "release_date": "2009-10-30", 
+            "spotify_albums_uri": "spotify:album:2guirTSEqLizK7j9i1MTTZ", 
+            "release_date": "1991-09-26", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/fcf9abf2aaf3737283b4f76a1a050b714dc2708f", 
+            "image_url": "https://i.scdn.co/image/5445e6941b0979d381b1635fe75b0ae8d0f8a856", 
             "genre": "N/A", 
-            "album_name": "Live at Reading", 
+            "album_name": "Nevermind (Remastered)", 
             "album_artist": "spotify:artist:6olE6TJLqED3rqDCT0FyPh"
         }
     }, 
     {
         "pk": 73, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/772ffad6933bca2da0c8c7297c48b0be03398026", 
         "fields": {
             "origin": "N/A", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:7xAzFnsPL6Bv84Cgvpg3yj", 
+            "recommended_album": "spotify:album:2guirTSEqLizK7j9i1MTTZ", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5d66307bbf73337bb073bfb2bf242e099a47e219", 
             "spotify_artist_uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh", 
             "full_name": "Nirvana", 
@@ -2118,25 +2220,26 @@
         }
     }, 
     {
-        "pk": 72, 
+        "pk": 74, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5Pf54lJ07uRn4dqJYS7Fhp", 
-            "release_date": "2014-09-05", 
+            "spotify_albums_uri": "spotify:album:10aiDpdFGyfCFEcqpx6XTq", 
+            "release_date": "1999", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/523368dcc09934b1a3f909e7f8c2042482892397", 
+            "image_url": "https://i.scdn.co/image/3d5922f3ba74a2b68b2164e07ffb18ff9e49d6b9", 
             "genre": "N/A", 
-            "album_name": "Coraz\u00f3n - Live From Mexico: Live It To Believe It", 
+            "album_name": "Supernatural (Remastered)", 
             "album_artist": "spotify:artist:6GI52t8N5F02MxU0g5U69P"
         }
     }, 
     {
         "pk": 74, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/d58e4a07aaf8c366ab0f1735660533d4fc81fe3b", 
         "fields": {
             "origin": "N/A", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:5Pf54lJ07uRn4dqJYS7Fhp", 
+            "recommended_album": "spotify:album:10aiDpdFGyfCFEcqpx6XTq", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8a7c6d07bf44acb546a79e9a441a8761ee1ae6fd", 
             "spotify_artist_uri": "spotify:artist:6GI52t8N5F02MxU0g5U69P", 
             "full_name": "Santana", 
@@ -2147,25 +2250,26 @@
         }
     }, 
     {
-        "pk": 73, 
+        "pk": 75, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1Thbr6ONpraUhJFzhzoxn7", 
-            "release_date": "2007-11-09", 
+            "spotify_albums_uri": "spotify:album:3x2jF7blR6bFHtk4MccsyJ", 
+            "release_date": "1996-11-04", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/65a99c5e90a3ae94fc2a61c4c6dc38e5490f0a95", 
+            "image_url": "https://i.scdn.co/image/5ca35e4b6f956888d8e0ad1a22f36d3bc76c7a49", 
             "genre": "N/A", 
-            "album_name": "Greatest Hits", 
+            "album_name": "Spice", 
             "album_artist": "spotify:artist:0uq5PttqEjj3IH1bzwcrXF"
         }
     }, 
     {
         "pk": 75, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/640b1a73f6bf6d3367a3c393b7dc3529837f34af", 
         "fields": {
             "origin": " London, England\n", 
             "popularity": 73, 
-            "recommended_album": "spotify:album:1Thbr6ONpraUhJFzhzoxn7", 
+            "recommended_album": "spotify:album:3x2jF7blR6bFHtk4MccsyJ", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:0uq5PttqEjj3IH1bzwcrXF", 
             "full_name": "Spice Girls", 
@@ -2176,25 +2280,26 @@
         }
     }, 
     {
-        "pk": 74, 
+        "pk": 76, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6hU9JCoqq4GjYq86dQ1o9b", 
-            "release_date": "2014-06-16", 
+            "spotify_albums_uri": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM", 
+            "release_date": "2000-10-24", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/aa7a42b958de414293c3843cd3e4ed2b6cd28ca6", 
+            "image_url": "https://i.scdn.co/image/265c0eab7914bcd19da90fde628ef5579d2b1a32", 
             "genre": "N/A", 
-            "album_name": "The Hunting Party: Acapellas + Instrumentals", 
+            "album_name": "Hybrid Theory (Bonus Track Version)", 
             "album_artist": "spotify:artist:6XyY86QOPPrYVGvF9ch6wz"
         }
     }, 
     {
         "pk": 76, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/d88f74748d7ca16715e78fc82ba455dc925a9a17", 
         "fields": {
             "origin": " Agoura Hills, California, U.S.\n ", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:6hU9JCoqq4GjYq86dQ1o9b", 
+            "recommended_album": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:6XyY86QOPPrYVGvF9ch6wz", 
             "full_name": "Linkin Park", 
@@ -2205,25 +2310,26 @@
         }
     }, 
     {
-        "pk": 75, 
+        "pk": 77, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1SfFIU49Hh3x07wsdqPCRE", 
-            "release_date": "2015-02-03", 
+            "spotify_albums_uri": "spotify:album:3GNhjIdkd87lLc19w2L1jS", 
+            "release_date": "2012-04-16", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/c6b446a161cc5fb11b72d47833be460045ab7dd1", 
+            "image_url": "https://i.scdn.co/image/6d9d02b2c9357ccb3027d7139b78a388484afd07", 
             "genre": "N/A", 
-            "album_name": "Easy Skanking In Boston '78", 
+            "album_name": "Marley OST", 
             "album_artist": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
         }
     }, 
     {
         "pk": 77, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/3cb41a8ff99c0c0240c0ce1f4f838175ea6694ec", 
         "fields": {
             "origin": " Nine Mile, Saint Ann, Jamaica\n", 
             "popularity": 87, 
-            "recommended_album": "spotify:album:1SfFIU49Hh3x07wsdqPCRE", 
+            "recommended_album": "spotify:album:3GNhjIdkd87lLc19w2L1jS", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/22e6ec2e00e3fe5ce9e0aadb3ed2616d900bb385", 
             "spotify_artist_uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD", 
             "full_name": "Bob Marley & The Wailers", 
@@ -2234,25 +2340,26 @@
         }
     }, 
     {
-        "pk": 76, 
+        "pk": 78, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2w6WkLnbvYwP19EKsgBUaZ", 
-            "release_date": "2011-01-01", 
+            "spotify_albums_uri": "spotify:album:7kLLC7CN8oxt0HgP2a051K", 
+            "release_date": "1971", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/a55af50b2688a3901cef4d3edd72ebf962eb39ab", 
+            "image_url": "https://i.scdn.co/image/7638f1da35bb4a5105aee22a1c8b661662ee4bbd", 
             "genre": "N/A", 
-            "album_name": "A Christmas Carole", 
+            "album_name": "Tapestry (Legacy Edition)", 
             "album_artist": "spotify:artist:319yZVtYM9MBGqmSQnMyY6"
         }
     }, 
     {
         "pk": 78, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/794bb130f92d24e077c37413a585531a1a69d37c", 
         "fields": {
             "origin": " Manhattan, New York City, United States\n", 
             "popularity": 65, 
-            "recommended_album": "spotify:album:2w6WkLnbvYwP19EKsgBUaZ", 
+            "recommended_album": "spotify:album:7kLLC7CN8oxt0HgP2a051K", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/08bfff54057f9b8c26448d63093162fbdb4e67dd", 
             "spotify_artist_uri": "spotify:artist:319yZVtYM9MBGqmSQnMyY6", 
             "full_name": "Carole King", 
@@ -2263,25 +2370,26 @@
         }
     }, 
     {
-        "pk": 77, 
+        "pk": 79, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7lkScvsKOs3isiwn8bXFos", 
-            "release_date": "2013-11-22", 
+            "spotify_albums_uri": "spotify:album:1JvoMzqg04nC29gam4Qaiq", 
+            "release_date": "2002-02-26", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/ab401165191468bdc5f40a52db3c83340b343587", 
+            "image_url": "https://i.scdn.co/image/dbbec299844faf0b4d905a84cda75d7afd20c891", 
             "genre": "N/A", 
-            "album_name": "Foreverly", 
-            "album_artist": "spotify:artist:1MrEurzLcL8ugfP1PrUPWG"
+            "album_name": "Come Away With Me", 
+            "album_artist": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N"
         }
     }, 
     {
         "pk": 79, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/f62b43712829e2d939cf4dfa2396334b50d22bc9", 
         "fields": {
             "origin": " Brooklyn, New York City\n", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:7lkScvsKOs3isiwn8bXFos", 
+            "recommended_album": "spotify:album:1JvoMzqg04nC29gam4Qaiq", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N", 
             "full_name": "Norah Jones", 
@@ -2292,25 +2400,26 @@
         }
     }, 
     {
-        "pk": 78, 
+        "pk": 80, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1agP6sAeWsH8Pgm8WrVtdl", 
-            "release_date": "2008-03-25", 
+            "spotify_albums_uri": "spotify:album:6aimJxDJMApLmry2VSjsLT", 
+            "release_date": "1968-01-21", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/457e7f447226b32f417eb38ca606b35a09b2e216", 
+            "image_url": "https://i.scdn.co/image/4261b0913e61938ba09b1f141d14f55740390271", 
             "genre": "N/A", 
-            "album_name": "Live 1969", 
+            "album_name": "The Graduate", 
             "album_artist": "spotify:artist:70cRZdQywnSFp9pnc2WTCE"
         }
     }, 
     {
         "pk": 80, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/755c216155cdb5ac0708b0ac0bbccdfb756f3947", 
         "fields": {
             "origin": "N/A", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:1agP6sAeWsH8Pgm8WrVtdl", 
+            "recommended_album": "spotify:album:6aimJxDJMApLmry2VSjsLT", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:70cRZdQywnSFp9pnc2WTCE", 
             "full_name": "Simon & Garfunkel", 
@@ -2321,25 +2430,26 @@
         }
     }, 
     {
-        "pk": 79, 
+        "pk": 81, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6tjfcdnwY7lCVCQGQRkQtR", 
-            "release_date": "2015-03-06", 
+            "spotify_albums_uri": "spotify:album:6cpOIdpPfGaazHsh5eYz0k", 
+            "release_date": "1994", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/3a95b429146f45b1d80aa97d6e06511558e85bfa", 
+            "image_url": "https://i.scdn.co/image/b9a6cb0c19766459665583a603f25bc9c984ec05", 
             "genre": "N/A", 
-            "album_name": "Hidden Gems", 
+            "album_name": "Happy Nation (Remastered)", 
             "album_artist": "spotify:artist:5ksRONqssB7BR161NTtJAm"
         }
     }, 
     {
         "pk": 81, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/31691a9d7ca8c68270d02f86d5fdaed8d918d532", 
         "fields": {
             "origin": " Gothenburg, Sweden\n", 
             "popularity": 69, 
-            "recommended_album": "spotify:album:6tjfcdnwY7lCVCQGQRkQtR", 
+            "recommended_album": "spotify:album:6cpOIdpPfGaazHsh5eYz0k", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:5ksRONqssB7BR161NTtJAm", 
             "full_name": "Ace of Base", 
@@ -2350,25 +2460,26 @@
         }
     }, 
     {
-        "pk": 80, 
+        "pk": 82, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:15x78ENFnZFxy1ndHcu6XB", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:5MqyhhHbT13zsloD3uHhlQ", 
+            "release_date": "1971-08-14", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/38a78cdd55ca2f8cf9e0dbd4d6d656394da1505e", 
+            "image_url": "https://i.scdn.co/image/c22e5297f8dcb45774503563523201552bb1f53e", 
             "genre": "N/A", 
-            "album_name": "Quadrophenia - Live In London", 
+            "album_name": "Who's Next (Deluxe Edition)", 
             "album_artist": "spotify:artist:67ea9eGLXYMsO2eYQRui3w"
         }
     }, 
     {
         "pk": 82, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/d1aca9dad7602fd5a5feb6c30ad68d8796c08c87", 
         "fields": {
             "origin": " London, England\n", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:15x78ENFnZFxy1ndHcu6XB", 
+            "recommended_album": "spotify:album:5MqyhhHbT13zsloD3uHhlQ", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5304476e4596646d98a8f556d4d4ed19983c419e", 
             "spotify_artist_uri": "spotify:artist:67ea9eGLXYMsO2eYQRui3w", 
             "full_name": "The Who", 
@@ -2379,25 +2490,26 @@
         }
     }, 
     {
-        "pk": 81, 
+        "pk": 83, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5szxmEfjHdrXxMtX2uMExs", 
-            "release_date": "2013-01-01", 
+            "spotify_albums_uri": "spotify:album:5BvgP623rtvlc0HDcpzquz", 
+            "release_date": "2010-11-24", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/df9d3d065b5bd2f5e629cfa475a35aaa4de9a7ab", 
+            "image_url": "https://i.scdn.co/image/eaa88bf0154395e6d9d03cd7935d308d141aba7d", 
             "genre": "N/A", 
-            "album_name": "PRISM", 
+            "album_name": "Katy Perry - Teenage Dream: The Complete Confection", 
             "album_artist": "spotify:artist:6jJ0s89eD6GaHleKKya26X"
         }
     }, 
     {
         "pk": 83, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b9fdd806b4baf950febbf4d49ce07b5fc64424da", 
         "fields": {
             "origin": " Santa Barbara, California, U.S.\n", 
             "popularity": 90, 
-            "recommended_album": "spotify:album:5szxmEfjHdrXxMtX2uMExs", 
+            "recommended_album": "spotify:album:5BvgP623rtvlc0HDcpzquz", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d962669f8cb25b4d41b5f8970960d819ea88e2fc", 
             "spotify_artist_uri": "spotify:artist:6jJ0s89eD6GaHleKKya26X", 
             "full_name": "Katy Perry", 
@@ -2408,25 +2520,26 @@
         }
     }, 
     {
-        "pk": 82, 
+        "pk": 84, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4z4Pgh0fNUQkmGP4K1XxDb", 
-            "release_date": "2014-10-01", 
+            "spotify_albums_uri": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
+            "release_date": "2015-05-04", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/580ff897d9a1efa691ab010ba0f9b44b52b77d36", 
+            "image_url": "https://i.scdn.co/image/4107f2042e335af19063191d42050e4c10d856ca", 
             "genre": "N/A", 
-            "album_name": "Reclassified", 
+            "album_name": "Pretty Girls", 
             "album_artist": "spotify:artist:5yG7ZAZafVaAlMTeBybKAL"
         }
     }, 
     {
         "pk": 84, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/fedc0a21a90a3af865fe89f4a05e63a78e164d17", 
         "fields": {
             "origin": " Sydney, Australia\n", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:4z4Pgh0fNUQkmGP4K1XxDb", 
+            "recommended_album": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/54664af051f70685bc26529ac53d0527de79b059", 
             "spotify_artist_uri": "spotify:artist:5yG7ZAZafVaAlMTeBybKAL", 
             "full_name": "Iggy Azalea", 
@@ -2437,25 +2550,26 @@
         }
     }, 
     {
-        "pk": 83, 
+        "pk": 85, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5NrFMOprmnMEf4gMnLaHcq", 
-            "release_date": "2013-01-01", 
+            "spotify_albums_uri": "spotify:album:0rmhjUgoVa17LZuS8xWQ3v", 
+            "release_date": "2013-09-27", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/eddc6651cdebc83b09bbfa03032663ce172e834b", 
+            "image_url": "https://i.scdn.co/image/5bca76a430b03c65cf6118f7c1fc5d0cdf4bc8b8", 
             "genre": "N/A", 
-            "album_name": "Pure Heroine (Extended)", 
+            "album_name": "Pure Heroine", 
             "album_artist": "spotify:artist:163tK9Wjr9P9DmM0AVK7lm"
         }
     }, 
     {
         "pk": 85, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/794745d3b234723d6e49b65f55b29262e1a72ed7", 
         "fields": {
             "origin": " Takapuna, Auckland, {{nowrap|New Zealand}}\n", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:5NrFMOprmnMEf4gMnLaHcq", 
+            "recommended_album": "spotify:album:0rmhjUgoVa17LZuS8xWQ3v", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/02c4a43ced9e85812d29573e5ca1c055f4e77b76", 
             "spotify_artist_uri": "spotify:artist:163tK9Wjr9P9DmM0AVK7lm", 
             "full_name": "Lorde", 
@@ -2466,7 +2580,7 @@
         }
     }, 
     {
-        "pk": 84, 
+        "pk": 86, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:3RDqXDc1bAETps54MSSOW0", 
@@ -2481,6 +2595,7 @@
     {
         "pk": 86, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/c5a238abfc76ef7bf113df0a5dcc079c57ff3cd5", 
         "fields": {
             "origin": " Franklin, Tennessee, U.S.\n", 
             "popularity": 86, 
@@ -2495,25 +2610,26 @@
         }
     }, 
     {
-        "pk": 85, 
+        "pk": 87, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:7prfPBMbgDyhq7kdpM0R9v", 
-            "release_date": "2014-04-19", 
+            "spotify_albums_uri": "spotify:album:4uG8q3GPuWHQlRbswMIRS6", 
+            "release_date": "1994-02-01", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/b660a0e2f201f8d32dbce114477b962dfabe968b", 
+            "image_url": "https://i.scdn.co/image/3a1ec3bdc44d89ed93bf99d12138139469731b14", 
             "genre": "N/A", 
-            "album_name": "Demolicious", 
+            "album_name": "Dookie (U.S. Version)", 
             "album_artist": "spotify:artist:7oPftvlwr6VrsViSDV7fJY"
         }
     }, 
     {
         "pk": 87, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/11f6cc57f1287ee01712d57fe43117594d4774ba", 
         "fields": {
             "origin": " East Bay, California, U.S.<!--DO ''not'' CHANGE WITHOUT A TALK PAGE DISCUSSION -->\n", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:7prfPBMbgDyhq7kdpM0R9v", 
+            "recommended_album": "spotify:album:4uG8q3GPuWHQlRbswMIRS6", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/40d3253d366dd6d2f8bb14a75c6b762ddc493033", 
             "spotify_artist_uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY", 
             "full_name": "Green Day", 
@@ -2524,25 +2640,26 @@
         }
     }, 
     {
-        "pk": 86, 
+        "pk": 88, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0YkHsU3Mblh7jvNngbV20W", 
-            "release_date": "2015-03-27", 
+            "spotify_albums_uri": "spotify:album:38pfSOHvxHqDWwDnjZ25U5", 
+            "release_date": "2007-12-25", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e82ebca132a6c8ddb119633d0db7ecdb1622eaf8", 
+            "image_url": "https://i.scdn.co/image/185865ae146633b3751a10dbf9b98a211c85a227", 
             "genre": "N/A", 
-            "album_name": "Human", 
+            "album_name": "Three Days Grace (Deluxe Version)", 
             "album_artist": "spotify:artist:2xiIXseIJcq3nG7C8fHeBj"
         }
     }, 
     {
         "pk": 88, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/2ae5c37d54aa41f3dc3d386b7d4b22d7ffb153fe", 
         "fields": {
             "origin": " Norwood, Ontario, Canada\n", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:0YkHsU3Mblh7jvNngbV20W", 
+            "recommended_album": "spotify:album:38pfSOHvxHqDWwDnjZ25U5", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/daf77934526c4e40955e61c671db7ad077e66fe0", 
             "spotify_artist_uri": "spotify:artist:2xiIXseIJcq3nG7C8fHeBj", 
             "full_name": "Three Days Grace", 
@@ -2553,25 +2670,26 @@
         }
     }, 
     {
-        "pk": 87, 
+        "pk": 89, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:44myoe2TKVeLrIhfcN7xVK", 
-            "release_date": "2013-03-25", 
+            "spotify_albums_uri": "spotify:album:0QXyw5GWqDZe3nSWrM6d4z", 
+            "release_date": "1982", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/0fdb7e455945e7372eb4369bbca0bbb395b2aa68", 
+            "image_url": "https://i.scdn.co/image/7138d0afa3700f065bf08b5b67b782b8930efef4", 
             "genre": "N/A", 
-            "album_name": "Maiden England '88", 
+            "album_name": "The Number of the Beast", 
             "album_artist": "spotify:artist:6mdiAmATAx73kdxrNrnlao"
         }
     }, 
     {
         "pk": 89, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/44ddb9f6ff40af30fc74b93144efbe9f32ba1c41", 
         "fields": {
             "origin": " Leyton, London, England\n ", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:44myoe2TKVeLrIhfcN7xVK", 
+            "recommended_album": "spotify:album:0QXyw5GWqDZe3nSWrM6d4z", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/98226e1830a09668c1b810bc90b4ad00ab6ef4f1", 
             "spotify_artist_uri": "spotify:artist:6mdiAmATAx73kdxrNrnlao", 
             "full_name": "Iron Maiden", 
@@ -2582,25 +2700,26 @@
         }
     }, 
     {
-        "pk": 88, 
+        "pk": 90, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3b4thPzTXEeZICDZuNMhIy", 
-            "release_date": "2015-03-31", 
+            "spotify_albums_uri": "spotify:album:0G3YLIcJdk5wqqLAgOCmL8", 
+            "release_date": "1998-10-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/48e08139ce8e4fcdbf1f9a69436159b962174800", 
+            "image_url": "https://i.scdn.co/image/e966a23aa91a4ab7a328448fcf2c31e70bbec5e9", 
             "genre": "N/A", 
-            "album_name": "Convention Hall August 5, 1975, Asbury, New Jersey (Doxy Collection, Remastered, Live)", 
+            "album_name": "Reunion", 
             "album_artist": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
         }
     }, 
     {
         "pk": 90, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/5cc35f43c51f5f402b348a97d634d8254fac9e64", 
         "fields": {
             "origin": " Aston, Birmingham, England\n", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:3b4thPzTXEeZICDZuNMhIy", 
+            "recommended_album": "spotify:album:0G3YLIcJdk5wqqLAgOCmL8", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/181409237e2bb85b981a9218af384606efc99f5b", 
             "spotify_artist_uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ", 
             "full_name": "Black Sabbath", 
@@ -2611,25 +2730,26 @@
         }
     }, 
     {
-        "pk": 89, 
+        "pk": 91, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3b4thPzTXEeZICDZuNMhIy", 
-            "release_date": "2015-03-31", 
+            "spotify_albums_uri": "spotify:album:0G3YLIcJdk5wqqLAgOCmL8", 
+            "release_date": "1998-10-05", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/48e08139ce8e4fcdbf1f9a69436159b962174800", 
+            "image_url": "https://i.scdn.co/image/e966a23aa91a4ab7a328448fcf2c31e70bbec5e9", 
             "genre": "N/A", 
-            "album_name": "Convention Hall August 5, 1975, Asbury, New Jersey (Doxy Collection, Remastered, Live)", 
+            "album_name": "Reunion", 
             "album_artist": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
         }
     }, 
     {
         "pk": 91, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/5cc35f43c51f5f402b348a97d634d8254fac9e64", 
         "fields": {
             "origin": " Aston, Birmingham, England\n", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:3b4thPzTXEeZICDZuNMhIy", 
+            "recommended_album": "spotify:album:0G3YLIcJdk5wqqLAgOCmL8", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/181409237e2bb85b981a9218af384606efc99f5b", 
             "spotify_artist_uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ", 
             "full_name": "N/A", 
@@ -2640,25 +2760,26 @@
         }
     }, 
     {
-        "pk": 90, 
+        "pk": 92, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3nyxMohQINxnhYwyHvUqVf", 
-            "release_date": "2014-10-15", 
+            "spotify_albums_uri": "spotify:album:4ZDBQSIDIZRUBOG2OHcN3T", 
+            "release_date": "2004", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1184a740b8a2e01eb7502e0c647199f0a2722362", 
+            "image_url": "https://i.scdn.co/image/303606adba5b0a881379ecb2298741a61e7b082c", 
             "genre": "N/A", 
-            "album_name": ".5: The Gray Chapter", 
+            "album_name": "Vol. 3: The Subliminal Verses [Special Package]", 
             "album_artist": "spotify:artist:05fG473iIaoy82BF1aGhL8"
         }
     }, 
     {
         "pk": 92, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b50faf270bac93d6e07362f00f958cd8a6b0891f", 
         "fields": {
             "origin": "N/A", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:3nyxMohQINxnhYwyHvUqVf", 
+            "recommended_album": "spotify:album:4ZDBQSIDIZRUBOG2OHcN3T", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/564b80d4bae375befe9ce67234cceaf1424dda8c", 
             "spotify_artist_uri": "spotify:artist:05fG473iIaoy82BF1aGhL8", 
             "full_name": "Slipknot", 
@@ -2669,26 +2790,27 @@
         }
     }, 
     {
-        "pk": 91, 
+        "pk": 93, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:5zhIsj6BWFbPOGEdZupXwn", 
-            "release_date": "2014-07-29", 
+            "spotify_albums_uri": "spotify:album:5eAoPNZzWRn2C409kAUsbE", 
+            "release_date": "1998", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/50ec9a4087abe3626a20c95262ab607835de8d41", 
+            "image_url": "https://i.scdn.co/image/dcab2d136873cfbdb5feac7539897d6774bf83d3", 
             "genre": "N/A", 
-            "album_name": "The Paradigm Shift", 
+            "album_name": "Follow The Leader", 
             "album_artist": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD"
         }
     }, 
     {
         "pk": 93, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/5b2ad904e4af0a9ec0b7e559a1626c8f9688f4cd", 
         "fields": {
             "origin": " Bakersfield, California, United States\n", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:5zhIsj6BWFbPOGEdZupXwn", 
-            "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
+            "recommended_album": "spotify:album:5eAoPNZzWRn2C409kAUsbE", 
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a1a77a08c4f687123381fef8b5c25a488b5c6dde", 
             "spotify_artist_uri": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD", 
             "full_name": "Korn", 
             "youtube_url_1": "ADD FROM YOUTUBE", 
@@ -2698,25 +2820,26 @@
         }
     }, 
     {
-        "pk": 92, 
+        "pk": 94, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2N1s3Kg0BUTEDw3V2HolTT", 
-            "release_date": "2013-04-16", 
+            "spotify_albums_uri": "spotify:album:58NXIEYqmq5dQHg9nV9duM", 
+            "release_date": "1992-01-01", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/86cd63549e276095b26fd9241ff8757eb626946d", 
+            "image_url": "https://i.scdn.co/image/7879f73024ce6bb1c89fe749511eaeeee69478c0", 
             "genre": "N/A", 
-            "album_name": "The Devil Put Dinosaurs Here", 
+            "album_name": "Dirt", 
             "album_artist": "spotify:artist:64tNsm6TnZe2zpcMVMOoHL"
         }
     }, 
     {
         "pk": 94, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/370b784c91fb81a66b7c67ce5e3762cb0bf524f3", 
         "fields": {
             "origin": "N/A", 
             "popularity": 74, 
-            "recommended_album": "spotify:album:2N1s3Kg0BUTEDw3V2HolTT", 
+            "recommended_album": "spotify:album:58NXIEYqmq5dQHg9nV9duM", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:64tNsm6TnZe2zpcMVMOoHL", 
             "full_name": "Alice In Chains", 
@@ -2727,25 +2850,26 @@
         }
     }, 
     {
-        "pk": 93, 
+        "pk": 95, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3adcT7qENX6wOleHvfGtkP", 
-            "release_date": "2015-07-10", 
+            "spotify_albums_uri": "spotify:album:5hzFLt9DwW1RXr7omvS4B5", 
+            "release_date": "2006-05-23", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/2c03b89cf3aa29cad8556e300ac1e520795a8ef3", 
+            "image_url": "https://i.scdn.co/image/31fbc5cbd627b5271c59494feb091f79afaafeaa", 
             "genre": "N/A", 
-            "album_name": "In the Line of Fire (Live)", 
+            "album_name": "Inhuman Rampage", 
             "album_artist": "spotify:artist:2pH3wEn4eYlMMIIQyKPbVR"
         }
     }, 
     {
         "pk": 95, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/cfae8cd010296bba8cb1b98455be641280d45596", 
         "fields": {
             "origin": " London, England, UK\n", 
             "popularity": 64, 
-            "recommended_album": "spotify:album:3adcT7qENX6wOleHvfGtkP", 
+            "recommended_album": "spotify:album:5hzFLt9DwW1RXr7omvS4B5", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/2ec5dbb154923cb9dc9466d336897478ff1ed2b8", 
             "spotify_artist_uri": "spotify:artist:2pH3wEn4eYlMMIIQyKPbVR", 
             "full_name": "DragonForce", 
@@ -2756,25 +2880,26 @@
         }
     }, 
     {
-        "pk": 94, 
+        "pk": 96, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:3HVk2UGwXUfE51s1MmPzrL", 
-            "release_date": "2015-02-24", 
+            "spotify_albums_uri": "spotify:album:7BaR2YAgS5xCH20TBFqy74", 
+            "release_date": "2015-06-16", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/68a06cf8cea9cc1ce57ba88cf986ac2f42a171e7", 
+            "image_url": "https://i.scdn.co/image/e0771f87beebf166ea39b8a0b59f96e403421e6c", 
             "genre": "N/A", 
-            "album_name": "Indigo Child", 
+            "album_name": "Devil's Whisper", 
             "album_artist": "spotify:artist:2PU4qFehXQF7WnlFsJpBiJ"
         }
     }, 
     {
         "pk": 96, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/84ea21939cf76a1e1bf9a9dc600267e4b3976b67", 
         "fields": {
             "origin": " Stone Mountain, Georgia\n", 
             "popularity": 67, 
-            "recommended_album": "spotify:album:3HVk2UGwXUfE51s1MmPzrL", 
+            "recommended_album": "spotify:album:7BaR2YAgS5xCH20TBFqy74", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/68a06cf8cea9cc1ce57ba88cf986ac2f42a171e7", 
             "spotify_artist_uri": "spotify:artist:2PU4qFehXQF7WnlFsJpBiJ", 
             "full_name": "Raury", 
@@ -2785,7 +2910,7 @@
         }
     }, 
     {
-        "pk": 95, 
+        "pk": 97, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:5IUJ6v408Z7pECC3BXUJxX", 
@@ -2800,6 +2925,7 @@
     {
         "pk": 97, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b669dc4c3213b9de79341982c1cdff3b6dbe2822", 
         "fields": {
             "origin": "N/A", 
             "popularity": 71, 
@@ -2814,25 +2940,26 @@
         }
     }, 
     {
-        "pk": 96, 
+        "pk": 98, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:39WwaUn8HTVZpJJmAuIIHN", 
-            "release_date": "2014-12-12", 
+            "spotify_albums_uri": "spotify:album:5ooCuPIk58IwSo6DRr1JCu", 
+            "release_date": "2014-12-15", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/08113617a36fb47f250bfc80bd7d52dc0f42321a", 
+            "image_url": "https://i.scdn.co/image/3feefd0c85953760f02ef151ed7a7150bd86d4e0", 
             "genre": "N/A", 
-            "album_name": "The Pinkprint", 
+            "album_name": "The Pinkprint (Deluxe)", 
             "album_artist": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh"
         }
     }, 
     {
         "pk": 98, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/40460b1c1db3854a3cd83f0cc94349342228e540", 
         "fields": {
             "origin": " Saint James, Trinidad and Tobago\n", 
             "popularity": 99, 
-            "recommended_album": "spotify:album:39WwaUn8HTVZpJJmAuIIHN", 
+            "recommended_album": "spotify:album:5ooCuPIk58IwSo6DRr1JCu", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/0df79424849f852b77a07df746353764a51f6174", 
             "spotify_artist_uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh", 
             "full_name": "Nicki Minaj", 
@@ -2843,7 +2970,7 @@
         }
     }, 
     {
-        "pk": 97, 
+        "pk": 99, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:2lkQd5T32QHDOfFkEIPJKz", 
@@ -2858,6 +2985,7 @@
     {
         "pk": 99, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/0eada7118f7b1f81710e55f1ae51d07b2fc3da21", 
         "fields": {
             "origin": " Virginia Beach, Virginia, United States\n", 
             "popularity": 89, 
@@ -2872,25 +3000,26 @@
         }
     }, 
     {
-        "pk": 98, 
+        "pk": 100, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:4neocSMt40stXKK2B8Sy2G", 
-            "release_date": "2015-02-20", 
+            "spotify_albums_uri": "spotify:album:1j4y4oErsQ2dIiZXClg1Zc", 
+            "release_date": "2015-03-03", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/e1eaa893e6a7118a41b03768b2e59835eccb6015", 
+            "image_url": "https://i.scdn.co/image/8a46ad36789d2eba454e16caffca4fb994f5f64c", 
             "genre": "N/A", 
-            "album_name": "Fan of A Fan The Album (Deluxe Version)", 
+            "album_name": "Five More Hours", 
             "album_artist": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z"
         }
     }, 
     {
         "pk": 100, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/1e63b5df5d26255859494fd1594a78a15e1ae13e", 
         "fields": {
             "origin": " Tappahannock, Virginia, U.S.\n", 
             "popularity": 99, 
-            "recommended_album": "spotify:album:4neocSMt40stXKK2B8Sy2G", 
+            "recommended_album": "spotify:album:1j4y4oErsQ2dIiZXClg1Zc", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a23e1f4e9474cdcdf82a8c1c7e5bb77b904e8c62", 
             "spotify_artist_uri": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z", 
             "full_name": "Chris Brown", 
@@ -2901,13 +3030,13 @@
         }
     }, 
     {
-        "pk": 99, 
+        "pk": 101, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6dYDqMHA4COCFC0TfCiUCj", 
-            "release_date": "2015-04-13", 
+            "spotify_albums_uri": "spotify:album:6EVYTRG1drKdO8OnIQBeEj", 
+            "release_date": "2014-08-25", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/ded7eb8e29384d0d75be7ffc2411bb8008f055b4", 
+            "image_url": "https://i.scdn.co/image/1f7f2f62999164b6006955286ebec2a58bbbcb81", 
             "genre": "N/A", 
             "album_name": "My Everything (Deluxe)", 
             "album_artist": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
@@ -2916,10 +3045,11 @@
     {
         "pk": 101, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/19cfe4cbbc984e1985f2a884393795e4a591f52d", 
         "fields": {
             "origin": " Boca Raton, Florida, U.S.\n", 
             "popularity": 94, 
-            "recommended_album": "spotify:album:6dYDqMHA4COCFC0TfCiUCj", 
+            "recommended_album": "spotify:album:6EVYTRG1drKdO8OnIQBeEj", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/74c06cbc800430762db478b7a512b8765eb24017", 
             "spotify_artist_uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR", 
             "full_name": "Ariana Grande", 
@@ -2930,25 +3060,26 @@
         }
     }, 
     {
-        "pk": 100, 
+        "pk": 102, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2MsXdcPKRszLf19iaUvEtW", 
-            "release_date": "2013-10-08", 
+            "spotify_albums_uri": "spotify:album:1oHY6eQmEG8skElDvFgKz2", 
+            "release_date": "2013-10-04", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/905d15abb3b2fcc9551d5be90213df448da8f7f4", 
             "genre": "N/A", 
-            "album_name": "Talking Dreams", 
+            "album_name": "Talking Dreams (Deluxe Version)", 
             "album_artist": "spotify:artist:1PbBg2aYjWLKRk84zJK15x"
         }
     }, 
     {
         "pk": 102, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/4220a5ebf889b693492d63ffea972f77a3cdfdda", 
         "fields": {
             "origin": " Chino, California, United States\n", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:2MsXdcPKRszLf19iaUvEtW", 
+            "recommended_album": "spotify:album:1oHY6eQmEG8skElDvFgKz2", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/905d15abb3b2fcc9551d5be90213df448da8f7f4", 
             "spotify_artist_uri": "spotify:artist:1PbBg2aYjWLKRk84zJK15x", 
             "full_name": "Echosmith", 
@@ -2959,7 +3090,7 @@
         }
     }, 
     {
-        "pk": 101, 
+        "pk": 103, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:2Jg7JZ0ZXOGje1bkq7CVgK", 
@@ -2974,6 +3105,7 @@
     {
         "pk": 103, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/988d05c6cba1565a5d94f61731965b5ba9c9adfc", 
         "fields": {
             "origin": "N/A", 
             "popularity": 94, 
@@ -2988,13 +3120,13 @@
         }
     }, 
     {
-        "pk": 102, 
+        "pk": 104, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6LtzdMGhOCh9s6sssWrpuD", 
-            "release_date": "2015-05-18", 
+            "spotify_albums_uri": "spotify:album:2Auw0pTT6EcQdvHNimhLQI", 
+            "release_date": "2015-05-15", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/4b1d68544431fc9b9378f6bf2d6c309b790bfb87", 
+            "image_url": "https://i.scdn.co/image/4c23a82f33b034795a0fbc67af559420c8cb4928", 
             "genre": "N/A", 
             "album_name": "V", 
             "album_artist": "spotify:artist:04gDigrS5kc9YWfZHwBETP"
@@ -3003,10 +3135,11 @@
     {
         "pk": 104, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/30426d8dd3c7f626a27acb6bb2bdb879dcb36852", 
         "fields": {
             "origin": " Los Angeles, California, United States\n", 
             "popularity": 97, 
-            "recommended_album": "spotify:album:6LtzdMGhOCh9s6sssWrpuD", 
+            "recommended_album": "spotify:album:2Auw0pTT6EcQdvHNimhLQI", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/61b73a1125c1fc8d23355d0b709b6917536e61b4", 
             "spotify_artist_uri": "spotify:artist:04gDigrS5kc9YWfZHwBETP", 
             "full_name": "Maroon 5", 
@@ -3017,7 +3150,7 @@
         }
     }, 
     {
-        "pk": 103, 
+        "pk": 105, 
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:3pKTKC0AAe3yTcXQLzvpSW", 
@@ -3032,6 +3165,7 @@
     {
         "pk": 105, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/4a6c528796890b1029fe40b53d1ff1c64b54bc00", 
         "fields": {
             "origin": " Petersburg, Virginia, U.S.\n", 
             "popularity": 89, 
@@ -3046,13 +3180,13 @@
         }
     }, 
     {
-        "pk": 104, 
+        "pk": 106, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:1spbq60PWMBiuvARkJbXBP", 
-            "release_date": "2015-02-20", 
+            "spotify_albums_uri": "spotify:album:1teQxZPWNILIowWpQA6qfm", 
+            "release_date": "2014-09-24", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/9e001d75eb152f72af4f566e827b8d4335797402", 
+            "image_url": "https://i.scdn.co/image/2f92812b3d81fa8e4987b77c17ca5441f77d4b6f", 
             "genre": "N/A", 
             "album_name": "Queen Of The Clouds", 
             "album_artist": "spotify:artist:4NHQUGzhtTLFvgF5SZesLK"
@@ -3061,10 +3195,11 @@
     {
         "pk": 106, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/e2ad31602d81b982bd2c07594f3dbcf296051ce3", 
         "fields": {
             "origin": " Stockholm, Sweden\n", 
             "popularity": 90, 
-            "recommended_album": "spotify:album:1spbq60PWMBiuvARkJbXBP", 
+            "recommended_album": "spotify:album:1teQxZPWNILIowWpQA6qfm", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8d98605bcf26576df6e1eab28605baf803b1f901", 
             "spotify_artist_uri": "spotify:artist:4NHQUGzhtTLFvgF5SZesLK", 
             "full_name": "Tove Lo", 
@@ -3075,25 +3210,26 @@
         }
     }, 
     {
-        "pk": 105, 
+        "pk": 107, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0Bj0Vzrnr87Ak8Yj11rOC7", 
-            "release_date": "2015-06-19", 
+            "spotify_albums_uri": "spotify:album:55UhXq8grzHPga0we8mEL3", 
+            "release_date": "2009-09-29", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/6a8fb933f63de2bfd07a565782b14f308172c77e", 
+            "image_url": "https://i.scdn.co/image/a6b8a73eadfad92e0f799b1e01194659478b4212", 
             "genre": "N/A", 
-            "album_name": "Spitter", 
+            "album_name": "More Than A Game", 
             "album_artist": "spotify:artist:55Aa2cqylxrFIXC767Z865"
         }
     }, 
     {
         "pk": 107, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/aaf8ff66888beea73922c83d643eca4d6c50d697", 
         "fields": {
             "origin": " New Orleans, Louisiana, United States\n", 
             "popularity": 95, 
-            "recommended_album": "spotify:album:0Bj0Vzrnr87Ak8Yj11rOC7", 
+            "recommended_album": "spotify:album:55UhXq8grzHPga0we8mEL3", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e482561e4ae8727a66fb200fdd7343e8d758ee6b", 
             "spotify_artist_uri": "spotify:artist:55Aa2cqylxrFIXC767Z865", 
             "full_name": "Lil Wayne", 
@@ -3104,25 +3240,26 @@
         }
     }, 
     {
-        "pk": 106, 
+        "pk": 108, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:6FdNvoO5sF4EKwCX9je1MH", 
-            "release_date": "2015-05-01", 
+            "spotify_albums_uri": "spotify:album:3xFSl9lIRaYXIYkIn3OIl9", 
+            "release_date": "2014-07-04", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/03d97de27e99fd8099506ea172531cea0da59654", 
+            "image_url": "https://i.scdn.co/image/d0dab7610a3f191b2f07b3ed8ad209d1cf744ff0", 
             "genre": "N/A", 
-            "album_name": "1000 Forms Of Fear (Deluxe Version)", 
+            "album_name": "1000 Forms Of Fear", 
             "album_artist": "spotify:artist:5WUlDfRSoLAfcVSX1WnrxN"
         }
     }, 
     {
         "pk": 108, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/6862d0dfcc9e1b47be4996be9308d6752302ec6b", 
         "fields": {
             "origin": "N/A", 
             "popularity": 93, 
-            "recommended_album": "spotify:album:6FdNvoO5sF4EKwCX9je1MH", 
+            "recommended_album": "spotify:album:3xFSl9lIRaYXIYkIn3OIl9", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d0dab7610a3f191b2f07b3ed8ad209d1cf744ff0", 
             "spotify_artist_uri": "spotify:artist:5WUlDfRSoLAfcVSX1WnrxN", 
             "full_name": "Sia", 
@@ -3133,25 +3270,26 @@
         }
     }, 
     {
-        "pk": 107, 
+        "pk": 109, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:2Dw4fYqDQnxsgoXDdMbqh3", 
-            "release_date": "2014-01-01", 
+            "spotify_albums_uri": "spotify:album:38WMYJ0LhCKAiRflk43Xt9", 
+            "release_date": "2015-03-04", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/1a3ca29c2f93fa50f72df85b1a94f62383dbc5cd", 
+            "image_url": "https://i.scdn.co/image/c6ac5f61eddd60ce0872ec8cbec2597f67f226a3", 
             "genre": "N/A", 
-            "album_name": "Halcyon Days", 
+            "album_name": "Fifty Shades Of Grey (Original Motion Picture Soundtrack)", 
             "album_artist": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ"
         }
     }, 
     {
         "pk": 109, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/6391ac08142520229077e52e24fd7cad2f735aa7", 
         "fields": {
             "origin": " Hereford, Herefordshire, England\n", 
             "popularity": 94, 
-            "recommended_album": "spotify:album:2Dw4fYqDQnxsgoXDdMbqh3", 
+            "recommended_album": "spotify:album:38WMYJ0LhCKAiRflk43Xt9", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/cdfa418a53726ce2255cd543d4be873af49b5499", 
             "spotify_artist_uri": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ", 
             "full_name": "Ellie Goulding", 
@@ -3162,25 +3300,26 @@
         }
     }, 
     {
-        "pk": 108, 
+        "pk": 110, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0h2knr6qpiAq0tV5ri5JMF", 
-            "release_date": "2014-12-01", 
+            "spotify_albums_uri": "spotify:album:3bWO7zjRbZeyMMPpzmmKnJ", 
+            "release_date": "2015-05-22", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/3b0db511855bc991cb3c95ea25825762fae8c114", 
+            "image_url": "https://i.scdn.co/image/d4b91c357087554d2720c20e53e288253ba16db8", 
             "genre": "N/A", 
-            "album_name": "The Days / Nights", 
+            "album_name": "Waiting For Love", 
             "album_artist": "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
         }
     }, 
     {
         "pk": 110, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/b0876d92b1cb6c8e0f227f84076d6ada700613f3", 
         "fields": {
             "origin": " Stockholm, Sweden\n", 
             "popularity": 95, 
-            "recommended_album": "spotify:album:0h2knr6qpiAq0tV5ri5JMF", 
+            "recommended_album": "spotify:album:3bWO7zjRbZeyMMPpzmmKnJ", 
             "image_url": "https://pixabay.com/static/uploads/photo/2013/07/12/17/14/cd-rom-151860_640.png", 
             "spotify_artist_uri": "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6", 
             "full_name": "Avicii", 
@@ -3191,25 +3330,26 @@
         }
     }, 
     {
-        "pk": 109, 
+        "pk": 111, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:62AITKgUMplmKKSTsTlDDo", 
-            "release_date": "2015-07-17", 
+            "spotify_albums_uri": "spotify:album:4EUf4YyNjuXypWY6W5wEDm", 
+            "release_date": "2014-11-21", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/cc6c9be0e7d92b6779e1ac1346fcd40bf90102ca", 
+            "image_url": "https://i.scdn.co/image/835884befb1b595476e590e656f27b3ec028308b", 
             "genre": "N/A", 
-            "album_name": "Dale", 
+            "album_name": "Globalization", 
             "album_artist": "spotify:artist:0TnOYISbd1XYRBk9myaseg"
         }
     }, 
     {
         "pk": 111, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/f6cd2dac5beb16dc277d92ba4656df19765f9ab6", 
         "fields": {
             "origin": "N/A", 
             "popularity": 96, 
-            "recommended_album": "spotify:album:62AITKgUMplmKKSTsTlDDo", 
+            "recommended_album": "spotify:album:4EUf4YyNjuXypWY6W5wEDm", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d096684f9d3fa3525421f2c4204f4e8e2cbba471", 
             "spotify_artist_uri": "spotify:artist:0TnOYISbd1XYRBk9myaseg", 
             "full_name": "Pitbull", 
@@ -3220,13 +3360,13 @@
         }
     }, 
     {
-        "pk": 110, 
+        "pk": 112, 
         "model": "volumemax.album", 
         "fields": {
-            "spotify_albums_uri": "spotify:album:0VTMuNJ869MDHy9X4BZof7", 
+            "spotify_albums_uri": "spotify:album:2O3OKOYCub892PUGprsaQo", 
             "release_date": "2015-06-29", 
             "editors_notes": "ADD FROM ITUNES", 
-            "image_url": "https://i.scdn.co/image/2326b477cbc1789cf31d74df285bf82a4e66d84c", 
+            "image_url": "https://i.scdn.co/image/bf60b560bc5dd85ed7412508bdb75f6f27731c73", 
             "genre": "N/A", 
             "album_name": "Dreams Worth More Than Money", 
             "album_artist": "spotify:artist:20sxb77xiYeusSH8cVdatc"
@@ -3235,10 +3375,11 @@
     {
         "pk": 112, 
         "model": "volumemax.artist", 
+        "track_url": "https://p.scdn.co/mp3-preview/8ad72d6b90a37155eae2087249e9cf4be353cce5", 
         "fields": {
             "origin": " Philadelphia, Pennsylvania, United States\n", 
             "popularity": 92, 
-            "recommended_album": "spotify:album:0VTMuNJ869MDHy9X4BZof7", 
+            "recommended_album": "spotify:album:2O3OKOYCub892PUGprsaQo", 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/bf60b560bc5dd85ed7412508bdb75f6f27731c73", 
             "spotify_artist_uri": "spotify:artist:20sxb77xiYeusSH8cVdatc", 
             "full_name": "Meek Mill", 
