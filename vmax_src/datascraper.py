@@ -11,15 +11,16 @@ import json
 
 spotify = spotipy.Spotify()
 cache = []
-index = 0
+artindex = 0
+albindex = 0
 
 with open('artistlist') as f:
 	for line in f:
 		artdict = {}
 
 		#pk
-		artdict["pk"] = index
-		index +=1
+		artdict["pk"] = artindex
+		artindex +=1
 
 		#model
 		artdict["model"] = "volumemax.artist"
@@ -96,6 +97,53 @@ with open('artistlist') as f:
 		albums = results['items']
 		if 0 < len(albums):
 			artdict["fields"]["recommended_album"] = albums[0]['uri']
+			albdict = {}
+
+			#model
+			albdict["model"] = "volumemax.album"
+
+			albumname = line
+			results = spotify.search(q='album:' + albumname, type='album')
+			items = results['albums']['items']
+			if len(items) > 0:
+				album = items[0]
+			albumbyuri = spotify.album(album['uri'])
+			#pk
+			albdict["pk"] = albindex
+			albindex +=1
+			
+			#fields
+			albdict["fields"] = {}
+			
+			#album_artist
+			albdict["fields"]["album_artist"] =  albumbyuri['artists'][0]['uri']
+
+			#release_date
+			albdict["fields"]["release_date"] = albumbyuri['release_date']
+
+
+			#genre
+			if 0 < len(albumbyuri['genres']):
+				albdict["fields"]["genre"] = albumbyuri['genres'][0]
+			else:
+				albdict["fields"]["genre"] = 'N/A'
+
+			#album_name
+			albdict["fields"]["album_name"] = album['name']
+
+			#editors_notes
+			albdict["fields"]["editors_notes"] = "ADD FROM ITUNES"
+
+			#uri
+			albdict["fields"]["spotify_albums_uri"] = album['uri']
+
+			#image_url
+			if 0 < len(album['images']): 
+				albdict["fields"]["image_url"] = album['images'][0]['url']
+			else:
+				albdict["fields"]['image_url'] = 'N/A'
+			
+			cache.append(albdict)
 		else:
 			artdict["fields"]["recommended_album"] = "N/A"
 
@@ -112,8 +160,7 @@ with open('artistlist') as f:
 				break
 		artdict["fields"]["image_url"] = text
 		cache.append(artdict)
-
-index = 0
+ 
 
 with open('albumlist') as f:
 	for line in f:
@@ -129,8 +176,8 @@ with open('albumlist') as f:
 			album = items[0]
 		albumbyuri = spotify.album(album['uri'])
 		#pk
-		albdict["pk"] = index
-		index +=1
+		albdict["pk"] = albindex
+		albindex +=1
 		
 		#fields
 		albdict["fields"] = {}
