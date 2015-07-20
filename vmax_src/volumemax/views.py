@@ -10,6 +10,8 @@ from rest_framework.parsers import JSONParser
 from rest_framework.decorators import api_view
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
+from volumemax.forms import SearchForm
+from volumemax.search import get_query, normalize_query
 
 # Create your views here.
 
@@ -20,23 +22,32 @@ from volumemax.serializer import ArtistSerializer, AlbumSerializer
 ###################################################################
 
 def home(request):
-	return render(request, "home.html",{})
+	form = SearchForm()
+	return render(request, "home.html",{'form': form})
 
 def about(request):
-	return render(request, "about.html", {})    
+	form = SearchForm()
+	return render(request, "about.html", {'form': form})    
 
 def artists(request):
 	artists = Artist.objects.all()
-	context = {"artist_list": artists}
+	form = SearchForm()
+	context = {"artist_list": artists,'form': form}
 	return render_to_response("artists.html", context)
 
 def albums(request):
 	albums = Album.objects.all()
-	context = {"albums_list": albums}
+	form = SearchForm()
+	context = {"albums_list": albums,'form': form}
 	return render_to_response("albums.html", context)
 
-def database(request):
-	return render(request, "database.html", {})
+def artistdatabase(request):
+	form = SearchForm()
+	return render(request, "artist_database.html", {'form': form})
+
+def albumdatabase(request):
+	form = SearchForm()
+	return render(request, "album_database.html", {'form': form})	
 		
 ################################################################### 
 #
@@ -46,10 +57,10 @@ def database(request):
 
 def artist_view(request, name):
 	name = name.replace('_', ' ')
-
+	form = SearchForm()
 	artist = Artist.objects.get(full_name = name)
 	album  = artist.recommended_album
-	context = {"album": album, "artist": artist}
+	context = {"album": album, "artist": artist,'form': form}
 
 
 	return render_to_response("dynamic_artist.html", context)
@@ -57,16 +68,53 @@ def artist_view(request, name):
 def album_view(request, name):
 	name = name.replace('_', ' ')
 	album  = Album.objects.get(album_name = name)
-
+	form = SearchForm()
 	artist = album.album_artist
-	context = {"album": album, "artist": artist}
+	context = {"album": album, "artist": artist,'form': form}
 	return render_to_response('dynamic_album.html', context)
 
 ################################################################### 
 #
-#   ARTISTS
+#   SEARCH
 #
 ################################################################### 
+
+# def search_query(request) :
+# 	#if request.method == 'GET':
+# 	form = SearchForm()
+# 	return render(request, 'search_results.html', {'form': form})
+
+def search(request) :
+	form = SearchForm()
+	#return render(request, 'search.html', {'form': form})
+	#return render(request, "search.html")
+
+	query_string = ''
+	found_entries = None
+	if ('q' in request.GET) and request.GET['q'].strip():
+		query_string = request.GET['q']
+		artist_query = get_query(query_string, ['full_name', 'genre', 'origin'])
+		found_artists = Artist.objects.filter(artist_query).order_by('full_name')
+		context = { 'query_string': query_string, 'found_artists': found_artists, 'form': form}
+	else :
+		context = {'form': form}
+	return render_to_response('search.html', context, context_instance=RequestContext(request))	
+
+def search_results(request):
+	form = SearchForm()
+	query_string = ''
+	found_entries = None
+	if ('q' in request.GET) and request.GET['q'].strip():
+		query_string = request.GET['q']
+		
+		entry_query = get_query(query_string, ['title', 'body',])
+		
+		found_entries = Album.objects.filter(entry_query).order_by('-pub_date')
+		context = { 'query_string': query_string, 'found_entries': found_entries, 'form': form}
+
+	return render_to_response('search/search_results.html',
+						  { 'query_string': query_string, 'found_entries': found_entries },
+						  context_instance=RequestContext(request))
 
 
 # def eminem(request):

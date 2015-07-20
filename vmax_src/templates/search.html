@@ -1,0 +1,24 @@
+{% extends "navbar.html" %}
+{% block head %}
+  {{block.super}}
+{% endblock %}
+{% block navbar %}
+  {{block.super}}
+{% endblock %}
+{% block content %}
+{% load staticfiles %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        {% if found_artists %}
+        <li> {{ found_artists}}</li>
+        {% endif %}
+
+
+        <hr>
+
+{% endblock %}
+{% block footer %}
+  {{block.super}}
+{% endblock %}
