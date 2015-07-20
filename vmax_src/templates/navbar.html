@@ -19,8 +19,9 @@
       <!-- Custom CSS -->
       <link href="{% static 'css/thumbnail-gallery.css' %}" rel="stylesheet">
       <link href="{% static 'css/grayscale.css' %}" rel="stylesheet">
-
-
+      <link href="{% static 'css/dataTables.bootstrap.css' %}" rel="stylesheet">
+      <link href="{% static 'css/dataTables_responsive.css' %}" rel="stylesheet">
+      
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -30,6 +31,7 @@
       <!-- Custom Fonts -->
       <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
       <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+       
 
   </head>
  {% endblock %}
@@ -73,8 +75,16 @@
 
                 </ul>
                 <form class="navbar-form navbar-right" action="/search/" method="get">
-                        {{form}}
-                        <input type="submit" class="custom-btn" value="Search"/>
+
+                        <input id="id_q" maxlength="100" name="q" placeholder="Search Volume.max()" type="text" style="color:black; font-weight:700;border-radius: 5px;width: 200px;border-style: solid;border-width: 2px;border-color: #D50000;outline-color: #D50000;">
+
+                        <input type="submit" class="custom-btn" value="Search" style="
+                        border-radius: 5px;
+                        background-color: #D50000;
+                        border-width: 2px;
+                        border-style: solid;
+                        border-color: #D50000;
+                        outline-color: #D50000;">
                 </form>
             </div>
             <!-- /.navbar-collapse -->
@@ -101,10 +111,36 @@
 
     <!-- jQuery -->
     <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/jquery_dataTables.js' %}"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/dataTables_bootstrap.js' %}"></script>
+    <script src="{% static 'js/dataTables_bootstrapPagination.js' %}"></script>
+    <script src="{% static 'js/dataTables_responsive.js' %}"></script>
 
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+          $('#artistTable').dataTable({
+            "responsive": true,
+            "iDisplayLength": 150,
+            "sDom": "<'row'<'col-xs-6'T><'col-xs-6'f>r>t<'row'<'col-xs-6'i><'col-xs-6'p>>",
+            "sPaginationType": "bootstrap",
+          });
+        } );
+      </script>
+
+      <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+          $('#albumTable').dataTable({
+            "responsive": true,
+            "iDisplayLength": 150,
+            "sDom": "<'row'<'col-xs-6'T><'col-xs-6'f>r>t<'row'<'col-xs-6'i><'col-xs-6'p>>",
+            "sPaginationType": "bootstrap",
+          });
+        } );
+      </script>
     <!-- Custom Theme JavaScript -->
     <script src="{% static 'js/grayscale.js' %}"></script>
     {% endblock %}
