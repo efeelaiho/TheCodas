@@ -18,20 +18,38 @@
           </div>
           <h5>You searched for "{{query_string}}" </h5>  
 
-          {% if found_artists %}
-            <h4>Matching artists:</h4>
-            {% for result in found_artists %}
-            {{forloop.counter}}. <a href="{% url 'artist_view' result.get_absolute_url %}">{{result.full_name}} </a> <br>
-            {% endfor %}
+          {% if and_artists or or_artists %}
+            {% if and_artists %}
+              <h4>Matching artists using 'and' search:</h4>
+              {% for result, field in and_artists %}
+              {{forloop.counter}}. <a href="{% url 'artist_view' result.get_absolute_url %}">{{result.full_name}} </a> -- Found match with "{{field}}" <br>
+              {% endfor %}
+            {% endif %}
+            {% if or_artists %}
+            <br><br>
+              <h4>Matching artists using 'or' search:</h4>
+              {% for result, field in or_artists %}
+              {{forloop.counter}}. <a href="{% url 'artist_view' result.get_absolute_url %}">{{result.full_name}} </a> -- Found match with "{{field}}" <br>
+              {% endfor %}
+            {% endif %}       
           {% else %}
             Sorry, no matching artists found. 
           {% endif %}
           <br><br>
-          {% if found_albums %}
-            <h4>Matching albums:</h4>
-            {% for result in found_albums %}
-            {{forloop.counter}}. <a href="{% url 'album_view' result.get_absolute_url %}">{{result.album_name}} </a> <br>
-            {% endfor %}          
+          {% if and_albums or or_albums %}
+            {% if and_albums %}
+              <h4>Matching albums using 'and' search:</h4>
+              {% for result, field in and_albums %}
+              {{forloop.counter}}. <a href="{% url 'album_view' result.get_absolute_url %}">{{result.album_name}} </a> -- Found match with "{{field}}"  <br>
+              {% endfor %}
+            {% endif %}
+            <br><br>
+            {% if or_albums %}
+              <h4>Matching albums using 'or' search:</h4>
+              {% for result, field in or_albums %}
+              {{forloop.counter}}. <a href="{% url 'album_view' result.get_absolute_url %}">{{result.album_name}} </a> -- Found match with "{{field}}"  <br>
+              {% endfor %}   
+            {% endif %}                
           {% else %}
             Sorry, no matching albums found.
           {% endif %}

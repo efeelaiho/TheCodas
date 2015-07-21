@@ -11,9 +11,9 @@ from rest_framework.decorators import api_view
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
 from volumemax.forms import SearchForm
-from volumemax.search import get_query, normalize_query
+from volumemax.search import get_query
+from volumemax.tests import *
 from operator import add
-from functools import reduce
 
 # Create your views here.
 
@@ -27,7 +27,8 @@ def home(request):
 	return render(request, "home.html",{})
 
 def about(request):
-	return render(request, "about.html", {})    
+
+	return render(request, "about.html", {})
 
 def artists(request):
 	artists = Artist.objects.all()
@@ -131,26 +132,6 @@ def search(request) :
 				or_album_fields = album_field(album_field_list[y % 3], album)
 			y += 1
 
-		# and_artists = zip(reduce(add, and_artists),and_artist_fields)
-		# and_albums = zip(reduce(add, and_albums),and_album_fields)
-		# or_artists = zip(reduce(add, or_artists),or_artist_fields)
-		# or_albums = zip(reduce(add, or_albums),or_album_fields)
-
-		# if Artist.objects.filter(query_results[0]) or Artist.objects.filter(query_results[4]) :
-		# 	artist_fields.append('full_name')
-		# if Artist.objects.filter(query_results[1]) or Artist.objects.filter(query_results[5]) :
-		# 	artist_fields.append('genre')
-		# if Artist.objects.filter(query_results[2]) or Artist.objects.filter(query_results[6]) :
-		# 	artist_fields.append('origin')
-		# if Artist.objects.filter(query_results[3]) or Artist.objects.filter(query_results[7]) :
-		# 	artist_fields.append('recommended_album.album_name')
-		# if Album.objects.filter(query_results[8]) or Album.objects.filter(query_results[11]) :
-		# 	album_fields.append('album_name')
-		# if Album.objects.filter(query_results[9]) or Album.objects.filter(query_results[12]) :
-		# 	album_fields.append('genre')
-		# if Album.objects.filter(query_results[10]) or Album.objects.filter(query_results[13]) :
-		# 	album_fields.append('album_artist.full_name')
-
 		artist_and_query = get_query('and', query_string, ['full_name', 'genre', 'origin', 'recommended_album__album_name'])
 		album_and_query = get_query('and', query_string, ['album_name', 'genre', 'album_artist__full_name'])
 		artist_or_query = get_query('or', query_string, ['full_name', 'genre', 'origin', 'recommended_album__album_name'])
@@ -161,7 +142,9 @@ def search(request) :
 		or_albums  = zip(Album.objects.filter(album_or_query).order_by('album_name'),or_artist_fields)
 
 		context = {'query_string': query_string, 'and_artist_fields': and_artist_fields, 'or_artist_fields': or_artist_fields, 'and_album_fields': and_album_fields, 'or_album_fields': or_album_fields,'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
-		return render_to_response('search.html', context, context_instance=RequestContext(request))								
+		return render_to_response('search.html', context, context_instance=RequestContext(request))
+	else:
+		return render_to_response("search.html", {})
 
 def artist_field(field_name, artist):
 
