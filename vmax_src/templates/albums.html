@@ -24,7 +24,7 @@
                 <a class="thumbnail" href="{% url 'album_view' album.get_absolute_url %}">
                     <img class="img-responsive" src="{{album.image_url}}" alt="" width="320" > 
                 </a>
-                <h6>{{album.album_name}}</h6>
+                <h6 style="font-size: 10px;">{{album.album_name}}</h6>
             </div>
             {% endfor %}
         </div>
