@@ -12,6 +12,8 @@ from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
 from volumemax.forms import SearchForm
 from volumemax.search import get_query, normalize_query
+from operator import add
+from functools import reduce
 
 # Create your views here.
 
@@ -83,73 +85,124 @@ def album_view(request, name):
 #
 ################################################################### 
 
-# def search_query(request) :
-# 	#if request.method == 'GET':
-# 	form = SearchForm()
-# 	return render(request, 'search_results.html', {'form': form})
-
 def search(request) :
 	form = SearchForm()
-	#return render(request, 'search.html', {'form': form})
-	#return render(request, "search.html")
 
 	query_string = ''
 	found_entries = None
 	if ('q' in request.GET) and request.GET['q'].strip():
 		query_string = request.GET['q']
-		artist_query = get_query(query_string, ['full_name', 'genre', 'origin', 'biography'])
-		album_query = get_query(query_string, ['album_name', 'genre', 'editors_notes', 'album_artist__full_name'])
-		found_artists = Artist.objects.filter(artist_query).order_by('full_name')
-		found_albums  = Album.objects.filter(album_query).order_by('album_name')
-		context = { 'query_string': query_string, 'found_artists': found_artists, 'found_albums': found_albums}
-	else :
-		context = {'form': form}
-	return render_to_response('search.html', context, context_instance=RequestContext(request))	
-
-# def search_results(request):
-# 	form = SearchForm()
-# 	query_string = ''
-# 	found_entries = None
-# 	if ('q' in request.GET) and request.GET['q'].strip():
-# 		query_string = request.GET['q']
+		artist_field_list = ['full_name', 'genre', 'origin', 'recommended_album.album_name']
+		album_field_list = ['album_name', 'genre', 'album_artist.full_name']
+		query_results = []
+		query_results += [get_query('and', query_string, ['full_name'])]
+		query_results += [get_query('and', query_string, ['genre'])]
+		query_results += [get_query('and', query_string, ['origin'])]
+		query_results += [get_query('and', query_string, ['recommended_album__album_name'])]
+		query_results += [get_query('or', query_string, ['full_name'])]
+		query_results += [get_query('or', query_string, ['genre'])]
+		query_results += [get_query('or', query_string, ['origin'])]
+		query_results += [get_query('or', query_string, ['recommended_album__album_name'])]
+		query_results += [get_query('and', query_string, ['album_name'])]
+		query_results += [get_query('and', query_string, ['genre'])]
+		query_results += [get_query('and', query_string, ['album_artist__full_name'])]
+		query_results += [get_query('or', query_string, ['album_name'])]
+		query_results += [get_query('or', query_string, ['genre'])]
+		query_results += [get_query('or', query_string, ['album_artist__full_name'])]
 		
-# 		entry_query = get_query(query_string, ['title', 'body',])
-		
-# 		found_entries = Album.objects.filter(entry_query).order_by('-pub_date')
-# 		context = { 'query_string': query_string, 'found_entries': found_entries, 'form': form}
+		and_artists = []
+		or_artists  = []
+		and_artist_fields = []
+		or_artist_fields = []
+		and_albums = []
+		or_albums = []
+		or_album_fields = []		
+		and_album_fields = []
 
-# 	return render_to_response('search/search_results.html',
-# 						  { 'query_string': query_string, 'found_entries': found_entries },
-# 						  context_instance=RequestContext(request))
+		for x in range(0, 4) :
+			if Artist.objects.filter(query_results[x]) :
+				artist = Artist.objects.filter(query_results[x])
+				and_artist_fields = artist_field(artist_field_list[x % 4], artist)
+				and_artists.append(artist)
+		for x in range(4, 8) :
+			if Artist.objects.filter(query_results[x]) :
+				artist = Artist.objects.filter(query_results[x])
+				or_artist_fields = artist_field(artist_field_list[x % 4], artist)
+				or_artists.append(artist)
+		y = 0		
+		for x in range(8, 11) :
+			if Album.objects.filter(query_results[x]) :
+				album = Album.objects.filter(query_results[x])
+				and_album_fields = album_field(album_field_list[y % 3], album)
+				and_albums.append(album)
+			y += 1
+		for x in range(11, 14) :
+			if Album.objects.filter(query_results[x]) :
+				album = Album.objects.filter(query_results[x])
+				or_album_fields = album_field(album_field_list[y % 3], album)
+				or_albums.append(album)
+			y += 1
 
+		# and_artists = zip(reduce(add, and_artists),and_artist_fields)
+		# and_albums = zip(reduce(add, and_albums),and_album_fields)
+		# or_artists = zip(reduce(add, or_artists),or_artist_fields)
+		# or_albums = zip(reduce(add, or_albums),or_album_fields)
 
-# def eminem(request):
-# 	return render(request, "artist/eminem.html",{})
+		# if Artist.objects.filter(query_results[0]) or Artist.objects.filter(query_results[4]) :
+		# 	artist_fields.append('full_name')
+		# if Artist.objects.filter(query_results[1]) or Artist.objects.filter(query_results[5]) :
+		# 	artist_fields.append('genre')
+		# if Artist.objects.filter(query_results[2]) or Artist.objects.filter(query_results[6]) :
+		# 	artist_fields.append('origin')
+		# if Artist.objects.filter(query_results[3]) or Artist.objects.filter(query_results[7]) :
+		# 	artist_fields.append('recommended_album.album_name')
+		# if Album.objects.filter(query_results[8]) or Album.objects.filter(query_results[11]) :
+		# 	album_fields.append('album_name')
+		# if Album.objects.filter(query_results[9]) or Album.objects.filter(query_results[12]) :
+		# 	album_fields.append('genre')
+		# if Album.objects.filter(query_results[10]) or Album.objects.filter(query_results[13]) :
+		# 	album_fields.append('album_artist.full_name')
 
+		artist_and_query = get_query('and', query_string, ['full_name', 'genre', 'origin', 'recommended_album__album_name'])
+		album_and_query = get_query('and', query_string, ['album_name', 'genre', 'album_artist__full_name'])
+		artist_or_query = get_query('or', query_string, ['full_name', 'genre', 'origin', 'recommended_album__album_name'])
+		album_or_query = get_query('or', query_string, ['album_name', 'genre', 'album_artist__full_name'])
+		and_artists = zip(Artist.objects.filter(artist_and_query).order_by('full_name'),and_artist_fields)
+		and_albums  = zip(Album.objects.filter(album_and_query).order_by('album_name'),and_album_fields)
+		or_artists = zip(Artist.objects.filter(artist_or_query).order_by('full_name'),or_artist_fields)
+		or_albums  = zip(Album.objects.filter(album_or_query).order_by('album_name'),or_artist_fields)
 
-# def kanyewest(request):
-# 	return render(request, "artist/kanyewest.html", {})
+		context = {'query_string': query_string, 'and_artist_fields': and_artist_fields, 'or_artist_fields': or_artist_fields, 'and_album_fields': and_album_fields, 'or_album_fields': or_album_fields,'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
+		return render_to_response('search.html', context, context_instance=RequestContext(request))								
 
-# def michael(request):
-# 	return render(request, "artist/michael.html", {})
+	# 	context = {'query_string': query_string, 'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
+	# else :
+	# 	context = {'form': form}
+	# return render_to_response('search.html', context, context_instance=RequestContext(request))	
 
+def artist_field(field_name, artist):
 
+	result = []
+	#artist = list(artists)
+	if field_name == 'full_name':
+		result = [item.full_name for item in artist]
+	if field_name == 'genre':
+		result = [item.genre for item in artist]
+	if field_name == 'origin':
+		result = [item.origin for item in artist]
+	if field_name == 'recommended_album.album_name':
+		result = [item.recommended_album.album_name for item in artist]
+	return result
 
-################################################################### 
-#
-#   ALBUMS
-#
-################################################################### 
-
-
-# def encore(request):
-# 	return render(request, "album/encore.html", {})
-
-# def bad(request):
-# 	return render(request, "album/bad.html", {})
-
-# def college(request):
-# 	return render(request, "album/college_drop_out.html", {})
+def album_field(field_name, album):
+	result = ''
+	if field_name == 'album_name':
+		result = [item.album_name for item in album]
+	if field_name == 'genre':
+		result = [item.genre for item in album]
+	if field_name == 'album_artist.full_name':
+		result = [item.album_artist.full_name for item in album]
+	return result
 
 ################################################################### 
 #
