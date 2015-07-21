@@ -11,6 +11,7 @@ from django.test import TestCase
 import datetime
 from datetime import date
 from volumemax.models import *
+from volumemax.search import *
 
 try:
     from urllib.request import urlopen, Request
@@ -18,6 +19,72 @@ except:
     from urllib2 import *
 
 from json import dumps, loads
+
+
+class SearchTestCase(TestCase):
+
+    # -------------
+    # Normalization
+    # -------------
+
+    def test_normalize_terms1(self):
+        query = 'each term, should? be -separate'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['each','term,','should?','be','-separate'])
+
+    def test_normalize_terms2(self):
+        query = '  some random  words "with   quotes  " and   spaces'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['some', 'random', 'words', 'with quotes', 'and', 'spaces'])
+
+    def test_normalize_terms3(self):
+        query = ''
+        terms = normalize_query(query)
+        self.assertEqual(terms, [])
+
+    # ---------
+    # Searching
+    # ---------
+
+    def test_search_nonexistent(self):
+        artist = Artist.objects.filter(get_query('and', "Board to Base", ['full_name']))
+        self.assertEqual(list(artist),[])
+
+    def test_search_and_artist(self):
+        a = Artist.objects.create(full_name ="Jordan", origin = "Chicago, IL", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
+        b = Artist.objects.create(full_name ="Michael Jackson", origin = "Gary, IN", popularity = 90, genre = "Pop", biography = "asdf")
+
+        artist = Artist.objects.filter(get_query('and', "Michael Jordan", ['full_name']))
+        self.assertEqual(list(artist),[])
+
+    def test_search_or_artist(self):
+        a = Artist.objects.create(full_name ="John Jordan", origin = "Chicago, IL", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
+        b = Artist.objects.create(full_name ="Michael Jackson", origin = "Gary, IN", popularity = 90, genre = "Pop", biography = "asdf")
+
+        artist = Artist.objects.filter(get_query('or', "Michael Jordan", ['full_name']))
+        self.assertQuerysetEqual(list(artist),['<Artist: John Jordan>','<Artist: Michael Jackson>'])  
+
+    def test_search_and_album(self):
+        date = datetime.date(1987,9,7)
+
+        mj = Artist.objects.create(full_name = "Michael Jackson")
+        a = Album.objects.create(album_name = "Bad", album_artist = mj, release_date = date, genre = "Pop", editors_notes = "abc")
+        kanye = Artist.objects.create(full_name = "Kanye West")
+        b = Album.objects.create(album_name = "The College Dropout", album_artist = kanye, release_date = date, genre = "Hip hop", editors_notes = "asdf")
+        
+        album = Album.objects.filter(get_query('and', "Bad Dropout", ['album_name']))
+        self.assertQuerysetEqual(list(album),[])
+
+    def test_search_or_album(self):
+        date = datetime.date(1987,9,7)
+
+        mj = Artist.objects.create(full_name = "Michael Jackson")
+        a = Album.objects.create(album_name = "Bad", album_artist = mj, release_date = date, genre = "Pop", editors_notes = "abc")
+        kanye = Artist.objects.create(full_name = "Kanye West")
+        b = Album.objects.create(album_name = "The College Dropout", album_artist = kanye, release_date = date, genre = "Hip hop", editors_notes = "asdf")
+        
+        album = Album.objects.filter(get_query('or', "Bad DroPOUt", ['album_name']))
+        self.assertQuerysetEqual(list(album),['<Album: Bad>','<Album: The College Dropout>'])
 
 class ArtistTestCase(TestCase):
          
