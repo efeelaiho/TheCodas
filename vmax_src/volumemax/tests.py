@@ -196,7 +196,7 @@ class ArtistTestCase(TestCase):
 
     def test_albums4(self): 
         date = datetime.date(1995,9,7)
-        mj = Artist.objects.create(full_name = "Mariah Carey")
+        mariah = Artist.objects.create(full_name = "Mariah Carey")
         a = Album.objects.create(album_name = "Daydream", album_artist = mariah, release_date = 1995, genre = "R&B", editors_notes = "crystal clear")
         self.assertEqual(a.album_name, "Daydream")
         self.assertEqual(a.album_artist, mariah)
@@ -206,7 +206,7 @@ class ArtistTestCase(TestCase):
 
     def test_albums5(self): 
         date = datetime.date(1980,5,6)
-        mj = Artist.objects.create(full_name = "AC/DC")
+        acdc = Artist.objects.create(full_name = "AC/DC")
         a = Album.objects.create(album_name = "Back In Black", album_artist = acdc, release_date = 1980, genre = "Rock", editors_notes = "hello world")
         self.assertEqual(a.album_name, "Back In Black")
         self.assertEqual(a.album_artist, acdc)
