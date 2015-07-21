@@ -24,35 +24,29 @@ from functools import reduce
 ###################################################################
 
 def home(request):
-	form = SearchForm()
-	return render(request, "home.html",{'form': form})
+	return render(request, "home.html",{})
 
 def about(request):
-	form = SearchForm()
-	return render(request, "about.html", {'form': form})    
+	return render(request, "about.html", {})    
 
 def artists(request):
 	artists = Artist.objects.all()
-	form = SearchForm()
-	context = {"artist_list": artists,'form': form}
+	context = {"artist_list": artists}
 	return render_to_response("artists.html", context)
 
 def albums(request):
 	albums = Album.objects.all()
-	form = SearchForm()
-	context = {"albums_list": albums,'form': form}
+	context = {"albums_list": albums}
 	return render_to_response("albums.html", context)
 
 def artistdatabase(request):
 	artists =  Artist.objects.all()
-	form = SearchForm()
-	context = {"artist_list": artists,'form': form}
+	context = {"artist_list": artists}
 	return render(request, "artist_database.html", context)
 
 def albumdatabase(request):
 	albums = Album.objects.all()
-	form = SearchForm()
-	context = {"albums_list": albums, 'form': form}
+	context = {"albums_list": albums}
 	return render(request, "album_database.html", context)	
 		
 ################################################################### 
@@ -63,10 +57,9 @@ def albumdatabase(request):
 
 def artist_view(request, name):
 	name = name.replace('_', ' ')
-	form = SearchForm()
 	artist = Artist.objects.get(full_name = name)
 	album  = artist.recommended_album
-	context = {"album": album, "artist": artist,'form': form}
+	context = {"album": album, "artist": artist}
 
 
 	return render_to_response("dynamic_artist.html", context)
@@ -74,9 +67,8 @@ def artist_view(request, name):
 def album_view(request, name):
 	name = name.replace('_', ' ')
 	album  = Album.objects.get(album_name = name)
-	form = SearchForm()
 	artist = album.album_artist
-	context = {"album": album, "artist": artist,'form': form}
+	context = {"album": album, "artist": artist}
 	return render_to_response('dynamic_album.html', context)
 
 ################################################################### 
@@ -123,24 +115,20 @@ def search(request) :
 			if Artist.objects.filter(query_results[x]) :
 				artist = Artist.objects.filter(query_results[x])
 				and_artist_fields = artist_field(artist_field_list[x % 4], artist)
-				and_artists.append(artist)
 		for x in range(4, 8) :
 			if Artist.objects.filter(query_results[x]) :
 				artist = Artist.objects.filter(query_results[x])
 				or_artist_fields = artist_field(artist_field_list[x % 4], artist)
-				or_artists.append(artist)
 		y = 0		
 		for x in range(8, 11) :
 			if Album.objects.filter(query_results[x]) :
 				album = Album.objects.filter(query_results[x])
 				and_album_fields = album_field(album_field_list[y % 3], album)
-				and_albums.append(album)
 			y += 1
 		for x in range(11, 14) :
 			if Album.objects.filter(query_results[x]) :
 				album = Album.objects.filter(query_results[x])
 				or_album_fields = album_field(album_field_list[y % 3], album)
-				or_albums.append(album)
 			y += 1
 
 		# and_artists = zip(reduce(add, and_artists),and_artist_fields)
@@ -175,15 +163,9 @@ def search(request) :
 		context = {'query_string': query_string, 'and_artist_fields': and_artist_fields, 'or_artist_fields': or_artist_fields, 'and_album_fields': and_album_fields, 'or_album_fields': or_album_fields,'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
 		return render_to_response('search.html', context, context_instance=RequestContext(request))								
 
-	# 	context = {'query_string': query_string, 'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
-	# else :
-	# 	context = {'form': form}
-	# return render_to_response('search.html', context, context_instance=RequestContext(request))	
-
 def artist_field(field_name, artist):
 
 	result = []
-	#artist = list(artists)
 	if field_name == 'full_name':
 		result = [item.full_name for item in artist]
 	if field_name == 'genre':

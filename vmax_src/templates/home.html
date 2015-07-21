@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="{% static 'img/music-icon.png'%}">
+
+
+     <link rel="shortcut icon" href="{% static 'img/music-icon.png'%}">
 
     <title>Volume.max()</title>
 
@@ -22,6 +26,8 @@
     <!--DataTables CSS-->
       <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
 
+    <!-- BigVideo CSS-->
+    <link href="{% static 'css/bigvideo.css' %}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
@@ -79,6 +85,9 @@
                     <li>
                         <a  href="{% url 'albums' %}">Albums</a>
                     </li>
+                    <li>
+                        <a href="#">NFL</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -89,7 +98,7 @@
     <!-- Intro Header -->
     <header class="intro">
 
-        <div class="intro-body" style="background-img:url({% static 'img/background.jpg' %})">
+        <div class="intro-body" style="">
 
             
 
@@ -129,6 +138,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{% static 'js/grayscale.js' %}"></script>
+
+    <!--BigVideo Dependencies-->
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/video.js' %}"></script>
+    <!--BigVideo JavaScript-->
+    <script src="{% static 'js/bigvideo.js' %}"></script>
+    <script>
+    $(function() {
+        var BV = new $.BigVideo();
+        BV.init();
+        BV.show('http://vjs.zencdn.net/v/oceans.mp4',{ambient:true});
+    });
+    </script>
 
 </body>
 
