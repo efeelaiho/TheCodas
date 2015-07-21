@@ -60,7 +60,7 @@ class SearchTestCase(TestCase):
         self.assertEqual(list(artist),[])
 
     def test_search_nonexistent2(self):
-        artist = Artist.objects.filter(get_query('and', "", ['full_name']))
+        artist = Artist.objects.filter(get_query('and', " ", ['full_name']))
         self.assertEqual(list(artist),[])
 
     def test_search_and_artist(self):
