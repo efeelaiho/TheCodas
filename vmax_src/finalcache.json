@@ -34,7 +34,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:0QVoYzGd1p8Z3ohEaM0lsc", 
-            "release_date": "2002-09-23", 
+            "release_date": "2002", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/725c77471dea914e9f4c59fa802b57661c452bfd", 
             "genre": "Rock", 
@@ -64,7 +64,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a", 
-            "release_date": "1982-11-30", 
+            "release_date": "1982", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/e337f3661f68bc4d96a554de0ad7988d65edb25a", 
             "genre": "Pop", 
@@ -94,7 +94,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:43lok9zd7BW5CoYkXZs7S0", 
-            "release_date": "2009-09-18", 
+            "release_date": "2009", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/006c443e86ad04f6ce8f9ade1da24e9b6f2e2132", 
             "genre": "Pop", 
@@ -124,7 +124,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:2OZbaW9tgO62ndm375lFZr", 
-            "release_date": "1971-11-05", 
+            "release_date": "1971", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/0d28b0477b59b0a18450c9a6ce8dd9bac0184fa5", 
             "genre": "Rock", 
@@ -154,7 +154,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1Ugdi2OTxKopVVqsprp5pb", 
-            "release_date": "1971-11-08", 
+            "release_date": "1971", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/5ef60ee8ba01f7042961420378733beb308e46f0", 
             "genre": "Rock", 
@@ -184,7 +184,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1x0uzT3ETlIYjPueTyNfnQ", 
-            "release_date": "1975-09-12", 
+            "release_date": "1975", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/015298910a64e2f4be650dd21792cfa7a9d3a58f", 
             "genre": "Rock", 
@@ -214,7 +214,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1ibYM4abQtSVQFQWvDSo4J", 
-            "release_date": "1995-09-26", 
+            "release_date": "1995", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/ac0afd64e904c7eff0895b49b23adfb886bf6484", 
             "genre": "R&B", 
@@ -244,7 +244,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:08aLDHdtfHxjtOmEHusqGC", 
-            "release_date": "1996-03-11", 
+            "release_date": "1996", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/7b2f36e5a8be3d02dc1a3424d38502220786f559", 
             "genre": "R&B", 
@@ -274,7 +274,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:7JVJlkNNobS0GSoy4tCS96", 
-            "release_date": "1992-11-17", 
+            "release_date": "1992", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/7bcb439989b592287aeac1599aaa36be17672b73", 
             "genre": "R&B", 
@@ -304,7 +304,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh", 
-            "release_date": "1980-07-25", 
+            "release_date": "1980", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/8d6f289fc3586790c5e89feba8ce4d0c2d86a1c9", 
             "genre": "Rock", 
@@ -364,7 +364,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:4l4u9e9jSbotSXNjYfOugy", 
-            "release_date": "1969-12-05", 
+            "release_date": "1969", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/f1d32b1a4e0f1d3c3b6904a19a94412d28f6b0d4", 
             "genre": "Rock", 
@@ -424,7 +424,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:4S8F794ucXJcAtycwOZgR9", 
-            "release_date": "2015-03-26", 
+            "release_date": "2015", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/7e4855c2279dba5e19d15d3e0ce825a895d40c8b", 
             "genre": "Pop", 
@@ -454,7 +454,7 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:45nqVXRAW0xv0wpU9JljPN", 
-            "release_date": "2012-03-19", 
+            "release_date": "2012", 
             "editors_notes": "ADD FROM ITUNES", 
             "image_url": "https://i.scdn.co/image/e6f4b10d325a5dc4db62fd1624e3e0a87b935379", 
             "genre": "Pop", 
