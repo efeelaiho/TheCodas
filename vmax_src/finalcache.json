@@ -1839,7 +1839,7 @@
             "image_url": "https://i.scdn.co/image/8ac6bc32c9114dfba63d403f5387b0c220dc72a9", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "If You're Reading This It's Too Late", 
-            "album_artist": "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+            "album_artist": 61
         }
     }, 
     {
@@ -1849,7 +1849,7 @@
         "fields": {
             "origin": "Toronto, Ontario, Canada", 
             "popularity": 100, 
-            "recommended_album": "spotify:album:0ptlfJfwGTy0Yvrk14JK1I", 
+            "recommended_album": 61, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/61284bbd3a91413941ec97806c3de0513b750dc4", 
             "spotify_artist_uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4", 
             "full_name": "Drake", 
@@ -1869,7 +1869,7 @@
             "image_url": "https://i.scdn.co/image/3cdbd7caa79ade02e77d5d7ad3bdf4e2dc531fb6", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Cherry Bomb", 
-            "album_artist": "spotify:artist:4V8LLVI7PbaPR0K2TGSxFF"
+            "album_artist": 62
         }
     }, 
     {
@@ -1879,7 +1879,7 @@
         "fields": {
             "origin": "Ladera Heights, California", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:621OhgnZJ7Pz8iUazct1In", 
+            "recommended_album": 62, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/596950c44360fb23a9bef699728ef71c09efa15f", 
             "spotify_artist_uri": "spotify:artist:4V8LLVI7PbaPR0K2TGSxFF", 
             "full_name": "Tyler, The Creator", 
@@ -1899,7 +1899,7 @@
             "image_url": "https://i.scdn.co/image/646e9619750dfa3d1eadbbea959dc6f528a9109e", 
             "genre": "R&B", 
             "album_name": "X (Deluxe Edition)", 
-            "album_artist": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V"
+            "album_artist": 63
         }
     }, 
     {
@@ -1909,7 +1909,7 @@
         "fields": {
             "origin": " Hebden Bridge, West Yorkshire, England", 
             "popularity": 98, 
-            "recommended_album": "spotify:album:1xn54DMo2qIqBuMqHtUsFd", 
+            "recommended_album": 63, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ba57d0db68e7a5af235b0e7eb91a17a1dda11424", 
             "spotify_artist_uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V", 
             "full_name": "Ed Sheeran", 
@@ -1929,7 +1929,7 @@
             "image_url": "https://i.scdn.co/image/c5af6ac191c10474288e39e54ae50466d5ea0066", 
             "genre": "Not available", 
             "album_name": "Oxymoron (Deluxe)", 
-            "album_artist": "spotify:artist:5IcR3N7QB1j6KBL8eImZ8m"
+            "album_artist": 64
         }
     }, 
     {
@@ -1939,7 +1939,7 @@
         "fields": {
             "origin": " Wiesbaden, Germany", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:7Et3bSTLLqdABO1qCxUplS", 
+            "recommended_album": 64, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3a30d6faea7edb01d5487059fedca729660fb015", 
             "spotify_artist_uri": "spotify:artist:5IcR3N7QB1j6KBL8eImZ8m", 
             "full_name": "Schoolboy Q", 
@@ -1959,7 +1959,7 @@
             "image_url": "https://i.scdn.co/image/0e2747127c12222577e98ccec7ce44773c12c546", 
             "genre": "Electronic", 
             "album_name": "Motion", 
-            "album_artist": "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+            "album_artist": 65
         }
     }, 
     {
@@ -1969,7 +1969,7 @@
         "fields": {
             "origin": "Dumfries, Scotland, UK", 
             "popularity": 93, 
-            "recommended_album": "spotify:album:48zisMeiXniWLzOQghbPqS", 
+            "recommended_album": 65, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f07d61d57a0d4852a5f2855a68234d2028a027c0", 
             "spotify_artist_uri": "spotify:artist:7CajNmpbOovFoOoasH2HaY", 
             "full_name": "Calvin Harris", 
@@ -1989,7 +1989,7 @@
             "image_url": "https://i.scdn.co/image/40aee5f4ae2cff4e5ea340e756a2ebdf4af4e86f", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Dark Sky Paradise", 
-            "album_artist": "spotify:artist:0c173mlxpT3dSFRgMO8XPh"
+            "album_artist": 66
         }
     }, 
     {
@@ -1999,7 +1999,7 @@
         "fields": {
             "origin": "Detroit, Michigan", 
             "popularity": 92, 
-            "recommended_album": "spotify:album:1j2x7FJXTgUT0X5hZ8TDXE", 
+            "recommended_album": 66, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3f261fb8e00a5ca8082b78ae853bd3d70be2c299", 
             "spotify_artist_uri": "spotify:artist:0c173mlxpT3dSFRgMO8XPh", 
             "full_name": "Big Sean", 
@@ -2019,7 +2019,7 @@
             "image_url": "https://i.scdn.co/image/edff0706907bd488b6bec693b4d8aa5880e86365", 
             "genre": "Rock", 
             "album_name": "Lungs (Deluxe Edition)", 
-            "album_artist": "spotify:artist:1moxjboGR7GNWYIMWsRjgG"
+            "album_artist": 67
         }
     }, 
     {
@@ -2029,7 +2029,7 @@
         "fields": {
             "origin": "London, England", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:2FgknX5e7fJlriQtxvpLhZ", 
+            "recommended_album": 67, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/830d7ee17a91bc17cebd36ba0cb8929e53c7bdc4", 
             "spotify_artist_uri": "spotify:artist:1moxjboGR7GNWYIMWsRjgG", 
             "full_name": "Florence + The Machine", 
@@ -2049,7 +2049,7 @@
             "image_url": "https://i.scdn.co/image/123a32e80b8373e90511dae14ca59cb23d440e79", 
             "genre": "Rock", 
             "album_name": "Bat Out Of Hell", 
-            "album_artist": "spotify:artist:7dnB1wSxbYa8CejeVg98hz"
+            "album_artist": 68
         }
     }, 
     {
@@ -2059,7 +2059,7 @@
         "fields": {
             "origin": "Dallas, Texas, U.S.", 
             "popularity": 68, 
-            "recommended_album": "spotify:album:0elHWyUbF2KLuHl8GjlzEM", 
+            "recommended_album": 68, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/54b6368cd4dcf3aad997719c32d6ceac3b1bc3e0", 
             "spotify_artist_uri": "spotify:artist:7dnB1wSxbYa8CejeVg98hz", 
             "full_name": "Meat Loaf", 
@@ -2079,7 +2079,7 @@
             "image_url": "https://i.scdn.co/image/cc5293a9bf15d998061cab8127d13f6acb7f3937", 
             "genre": "Country", 
             "album_name": "Come On Over (International Version)", 
-            "album_artist": "spotify:artist:5e4Dhzv426EvQe3aDb64jL"
+            "album_artist": 69
         }
     }, 
     {
@@ -2089,7 +2089,7 @@
         "fields": {
             "origin": " Windsor, Ontario, Canada", 
             "popularity": 74, 
-            "recommended_album": "spotify:album:0vOj0JVKv2bobFBBUTjgQF", 
+            "recommended_album": 69, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ed07f4e6997e0a6109a7a819f28e4a356d65902d", 
             "spotify_artist_uri": "spotify:artist:5e4Dhzv426EvQe3aDb64jL", 
             "full_name": "Shania Twain", 
@@ -2109,7 +2109,7 @@
             "image_url": "https://i.scdn.co/image/2a996c920d96d5926050336b5f5296b2d3a41a7d", 
             "genre": "Alternative Rock", 
             "album_name": "The Collection (Standard Edition)", 
-            "album_artist": "spotify:artist:6ogn9necmbUdCppmNnGOdi"
+            "album_artist": 70
         }
     }, 
     {
@@ -2119,7 +2119,7 @@
         "fields": {
             "origin": " Ottawa, Ontario, Canada", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:4N7LuZYpstQrtcHIoOKzqg", 
+            "recommended_album": 70, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/84327ec33de45cc5b6911a26016aa613f7ee4196", 
             "spotify_artist_uri": "spotify:artist:6ogn9necmbUdCppmNnGOdi", 
             "full_name": "Alanis Morissette", 
@@ -2139,7 +2139,7 @@
             "image_url": "https://i.scdn.co/image/8fa409e337ce4d3056bb957bc1d0586ba99629b9", 
             "genre": "R&B", 
             "album_name": "21", 
-            "album_artist": "spotify:artist:4dpARuHxo51G3z768sgnrY"
+            "album_artist": 71
         }
     }, 
     {
@@ -2149,7 +2149,7 @@
         "fields": {
             "origin": " Tottenham, London, England", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:1azUkThwd2HfUDdeNeT147", 
+            "recommended_album": 71, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9c0ab03ce86482525f03487b25c7f90c08c8ccfd", 
             "spotify_artist_uri": "spotify:artist:4dpARuHxo51G3z768sgnrY", 
             "full_name": "Adele", 
@@ -2169,7 +2169,7 @@
             "image_url": "https://i.scdn.co/image/bab9d36b846fc49562db73e2122ed2232769eb35", 
             "genre": "Soundtrack", 
             "album_name": "The Amazing Spider-Man", 
-            "album_artist": "spotify:artist:3PhL2Vdao2v8SS8AptuhAr"
+            "album_artist": 72
         }
     }, 
     {
@@ -2179,7 +2179,7 @@
         "fields": {
             "origin": " Los Angeles, California, U.S.", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:60IT8AganbZfiCpoJbiEnU", 
+            "recommended_album": 72, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/07c253f1756278c39be8b39adc978137d68be4b5", 
             "spotify_artist_uri": "spotify:artist:3PhL2Vdao2v8SS8AptuhAr", 
             "full_name": "James Horner", 
@@ -2198,7 +2198,7 @@
             "editors_notes": "Nevermind is the second studio album by the American rock band Nirvana, released on September 24, 1991. Produced by Butch Vig, Nevermind was the group's first release on DGC Records. Frontman Kurt Cobain sought to make music outside the restrictive confines of the Seattle grunge scene, drawing influence from groups such as the Pixies and their use of \"loud/quiet\" dynamics. It is their first album to feature drummer Dave Grohl.\nDespite low commercial expectations by the band and its record label, Nevermind became a surprise success in late 1991, largely due to the popularity of its first single, \"Smells Like Teen Spirit\". By January 1992, it had replaced Michael Jackson's album Dangerous at number one on the Billboard 200 chart. The album also produced three other successful singles: \"Come as You Are\", \"Lithium\", and \"In Bloom\". The Recording Industry Association of America has certified the album Diamond (over 10 million copies shipped), and the album has sold over 30 million copies worldwide. Nevermind was in part responsible for bringing alternative rock to a large mainstream audience, and has been ranked highly on lists of the greatest albums of all time by publications such as Rolling Stone and Time.",             "image_url": "https://i.scdn.co/image/5445e6941b0979d381b1635fe75b0ae8d0f8a856", 
             "genre": "Rock", 
             "album_name": "Nevermind (Remastered)", 
-            "album_artist": "spotify:artist:6olE6TJLqED3rqDCT0FyPh"
+            "album_artist": 73
         }
     }, 
     {
@@ -2208,7 +2208,7 @@
         "fields": {
             "origin": "Not available", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:2guirTSEqLizK7j9i1MTTZ", 
+            "recommended_album": 73, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5d66307bbf73337bb073bfb2bf242e099a47e219", 
             "spotify_artist_uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh", 
             "full_name": "Nirvana", 
@@ -2228,7 +2228,7 @@
             "image_url": "https://i.scdn.co/image/3d5922f3ba74a2b68b2164e07ffb18ff9e49d6b9", 
             "genre": "Rock", 
             "album_name": "Supernatural (Remastered)", 
-            "album_artist": "spotify:artist:6GI52t8N5F02MxU0g5U69P"
+            "album_artist": 74
         }
     }, 
     {
@@ -2238,7 +2238,7 @@
         "fields": {
             "origin": "San Francisco, California", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:10aiDpdFGyfCFEcqpx6XTq", 
+            "recommended_album": 74, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/edb899765b221479a00fdb401ea5bf9d22d8b119", 
             "spotify_artist_uri": "spotify:artist:6GI52t8N5F02MxU0g5U69P", 
             "full_name": "Santana", 
@@ -2258,7 +2258,7 @@
             "image_url": "https://i.scdn.co/image/5ca35e4b6f956888d8e0ad1a22f36d3bc76c7a49", 
             "genre": "Pop", 
             "album_name": "Spice", 
-            "album_artist": "spotify:artist:0uq5PttqEjj3IH1bzwcrXF"
+            "album_artist": 75
         }
     }, 
     {
@@ -2268,7 +2268,7 @@
         "fields": {
             "origin": " London, England", 
             "popularity": 73, 
-            "recommended_album": "spotify:album:3x2jF7blR6bFHtk4MccsyJ", 
+            "recommended_album": 75, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/770d5b1c4033a02da7a443f496673a6f2512ef57", 
             "spotify_artist_uri": "spotify:artist:0uq5PttqEjj3IH1bzwcrXF", 
             "full_name": "Spice Girls", 
@@ -2288,7 +2288,7 @@
             "image_url": "https://i.scdn.co/image/265c0eab7914bcd19da90fde628ef5579d2b1a32", 
             "genre": "Alternative Rock", 
             "album_name": "Hybrid Theory (Bonus Track Version)", 
-            "album_artist": "spotify:artist:6XyY86QOPPrYVGvF9ch6wz"
+            "album_artist": 76
         }
     }, 
     {
@@ -2298,7 +2298,7 @@
         "fields": {
             "origin": "Agoura Hills, California, U.S.", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM", 
+            "recommended_album": 76, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a69c24b2a21274bdfac4c0a45a2ce5e6bdd1d858", 
             "spotify_artist_uri": "spotify:artist:6XyY86QOPPrYVGvF9ch6wz", 
             "full_name": "Linkin Park", 
@@ -2318,7 +2318,7 @@
             "image_url": "https://i.scdn.co/image/6d9d02b2c9357ccb3027d7139b78a388484afd07", 
             "genre": "Reggae", 
             "album_name": "Marley OST", 
-            "album_artist": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+            "album_artist": 77
         }
     }, 
     {
@@ -2328,7 +2328,7 @@
         "fields": {
             "origin": "Nine Mile, Saint Ann, Jamaica", 
             "popularity": 87, 
-            "recommended_album": "spotify:album:3GNhjIdkd87lLc19w2L1jS", 
+            "recommended_album": 77, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/22e6ec2e00e3fe5ce9e0aadb3ed2616d900bb385", 
             "spotify_artist_uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD", 
             "full_name": "Bob Marley & The Wailers", 
@@ -2348,7 +2348,7 @@
             "image_url": "https://i.scdn.co/image/7638f1da35bb4a5105aee22a1c8b661662ee4bbd", 
             "genre": "Rock", 
             "album_name": "Tapestry (Legacy Edition)", 
-            "album_artist": "spotify:artist:319yZVtYM9MBGqmSQnMyY6"
+            "album_artist": 78
         }
     }, 
     {
@@ -2358,7 +2358,7 @@
         "fields": {
             "origin": "Manhattan, New York City, United States", 
             "popularity": 65, 
-            "recommended_album": "spotify:album:7kLLC7CN8oxt0HgP2a051K", 
+            "recommended_album": 78, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/96206b0febd16932f6e97a28a2673be4728eb032", 
             "spotify_artist_uri": "spotify:artist:319yZVtYM9MBGqmSQnMyY6", 
             "full_name": "Carole King", 
@@ -2378,7 +2378,7 @@
             "image_url": "https://i.scdn.co/image/dbbec299844faf0b4d905a84cda75d7afd20c891", 
             "genre": "Jazz", 
             "album_name": "Come Away With Me", 
-            "album_artist": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N"
+            "album_artist": 79
         }
     }, 
     {
@@ -2388,7 +2388,7 @@
         "fields": {
             "origin": " Brooklyn, New York City", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:1JvoMzqg04nC29gam4Qaiq", 
+            "recommended_album": 79, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f209693f17ccea2ba2f43f2643d8b1f1ab28becc", 
             "spotify_artist_uri": "spotify:artist:2Kx7MNY7cI1ENniW7vT30N", 
             "full_name": "Norah Jones", 
@@ -2408,7 +2408,7 @@
             "image_url": "https://i.scdn.co/image/4261b0913e61938ba09b1f141d14f55740390271", 
             "genre": "Rock", 
             "album_name": "The Graduate", 
-            "album_artist": "spotify:artist:70cRZdQywnSFp9pnc2WTCE"
+            "album_artist": 80
         }
     }, 
     {
@@ -2418,7 +2418,7 @@
         "fields": {
             "origin": "Forest Hills, New York City, NY", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:6aimJxDJMApLmry2VSjsLT", 
+            "recommended_album": 80, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/33095ef51150e02623b610356b87f2059df97f8e", 
             "spotify_artist_uri": "spotify:artist:70cRZdQywnSFp9pnc2WTCE", 
             "full_name": "Simon & Garfunkel", 
@@ -2438,7 +2438,7 @@
             "image_url": "https://i.scdn.co/image/b9a6cb0c19766459665583a603f25bc9c984ec05", 
             "genre": "Pop", 
             "album_name": "Happy Nation (Remastered)", 
-            "album_artist": "spotify:artist:5ksRONqssB7BR161NTtJAm"
+            "album_artist": 81
         }
     }, 
     {
@@ -2448,7 +2448,7 @@
         "fields": {
             "origin": " Gothenburg, Sweden", 
             "popularity": 69, 
-            "recommended_album": "spotify:album:6cpOIdpPfGaazHsh5eYz0k", 
+            "recommended_album": 81, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c078afe830133a5a07529757bbcdd9867b0c8f39", 
             "spotify_artist_uri": "spotify:artist:5ksRONqssB7BR161NTtJAm", 
             "full_name": "Ace of Base", 
@@ -2468,7 +2468,7 @@
             "image_url": "https://i.scdn.co/image/c22e5297f8dcb45774503563523201552bb1f53e", 
             "genre": "Rock", 
             "album_name": "Who's Next (Deluxe Edition)", 
-            "album_artist": "spotify:artist:67ea9eGLXYMsO2eYQRui3w"
+            "album_artist": 82
         }
     }, 
     {
@@ -2478,7 +2478,7 @@
         "fields": {
             "origin": " London, England", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:5MqyhhHbT13zsloD3uHhlQ", 
+            "recommended_album": 82, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5304476e4596646d98a8f556d4d4ed19983c419e", 
             "spotify_artist_uri": "spotify:artist:67ea9eGLXYMsO2eYQRui3w", 
             "full_name": "The Who", 
@@ -2498,7 +2498,7 @@
             "image_url": "https://i.scdn.co/image/eaa88bf0154395e6d9d03cd7935d308d141aba7d", 
             "genre": "Pop", 
             "album_name": "Katy Perry - Teenage Dream: The Complete Confection", 
-            "album_artist": "spotify:artist:6jJ0s89eD6GaHleKKya26X"
+            "album_artist": 83
         }
     }, 
     {
@@ -2508,7 +2508,7 @@
         "fields": {
             "origin": " Santa Barbara, California, U.S.", 
             "popularity": 90, 
-            "recommended_album": "spotify:album:5BvgP623rtvlc0HDcpzquz", 
+            "recommended_album": 83, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d962669f8cb25b4d41b5f8970960d819ea88e2fc", 
             "spotify_artist_uri": "spotify:artist:6jJ0s89eD6GaHleKKya26X", 
             "full_name": "Katy Perry", 
@@ -2528,7 +2528,7 @@
             "image_url": "https://i.scdn.co/image/4107f2042e335af19063191d42050e4c10d856ca", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Pretty Girls", 
-            "album_artist": "spotify:artist:5yG7ZAZafVaAlMTeBybKAL"
+            "album_artist": 84
         }
     }, 
     {
@@ -2538,7 +2538,7 @@
         "fields": {
             "origin": " Sydney, Australia", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
+            "recommended_album": 84, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/54664af051f70685bc26529ac53d0527de79b059", 
             "spotify_artist_uri": "spotify:artist:5yG7ZAZafVaAlMTeBybKAL", 
             "full_name": "Iggy Azalea", 
@@ -2557,7 +2557,7 @@
             "editors_notes": "At just 16 years old, New Zealand pop singer Ella Yelich-O’Connor—d.b.a. Lorde—captured the top of the pop charts with the smart and wise-beyond-her-years single \"Royals,\" where she trashes modern pop and hip-hop’s obsession with materialism in favor of a world of love, friendship, and ideas. It’s the best Morrissey song he never wrote. Her earlier The Love Club EP primed audiences for what they’d be hearing, but nothing could prepare one for the actual excitement of her debut album’s best cuts. Lorde’s co-conspirator/producer/writer Joel Little ensures that songs like \"Tennis Court,\" \"Ribs,\" and \"Buzzcut Season\" never lose their way. This is sharp, inspired pop music that knows how much fun it can be to play up to type and then spin things on their heads for a new conclusion.",             "image_url": "https://i.scdn.co/image/5bca76a430b03c65cf6118f7c1fc5d0cdf4bc8b8", 
             "genre": "Alternative Rock", 
             "album_name": "Pure Heroine", 
-            "album_artist": "spotify:artist:163tK9Wjr9P9DmM0AVK7lm"
+            "album_artist": 85
         }
     }, 
     {
@@ -2567,7 +2567,7 @@
         "fields": {
             "origin": "Takapuna, Auckland, New Zealand", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:0rmhjUgoVa17LZuS8xWQ3v", 
+            "recommended_album": 85, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/02c4a43ced9e85812d29573e5ca1c055f4e77b76", 
             "spotify_artist_uri": "spotify:artist:163tK9Wjr9P9DmM0AVK7lm", 
             "full_name": "Lorde", 
@@ -2587,7 +2587,7 @@
             "image_url": "https://i.scdn.co/image/641bd4b037edd64cf3984898097074fba5c02008", 
             "genre": "Pop", 
             "album_name": "Bangerz (Deluxe Version)", 
-            "album_artist": "spotify:artist:5YGY8feqx7naU7z4HrwZM6"
+            "album_artist": 86
         }
     }, 
     {
@@ -2597,7 +2597,7 @@
         "fields": {
             "origin": " Franklin, Tennessee, U.S.", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:3RDqXDc1bAETps54MSSOW0", 
+            "recommended_album": 86, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a43b45e1a4fb11d428a3e0018122d94829c821bd", 
             "spotify_artist_uri": "spotify:artist:5YGY8feqx7naU7z4HrwZM6", 
             "full_name": "Miley Cyrus", 
@@ -2617,7 +2617,7 @@
             "image_url": "https://i.scdn.co/image/3a1ec3bdc44d89ed93bf99d12138139469731b14", 
             "genre": "Rock", 
             "album_name": "Dookie (U.S. Version)", 
-            "album_artist": "spotify:artist:7oPftvlwr6VrsViSDV7fJY"
+            "album_artist": 87
         }
     }, 
     {
@@ -2627,7 +2627,7 @@
         "fields": {
             "origin": "East Bay, California, U.S.", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:4uG8q3GPuWHQlRbswMIRS6", 
+            "recommended_album": 87, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/40d3253d366dd6d2f8bb14a75c6b762ddc493033", 
             "spotify_artist_uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY", 
             "full_name": "Green Day", 
@@ -2647,7 +2647,7 @@
             "image_url": "https://i.scdn.co/image/185865ae146633b3751a10dbf9b98a211c85a227", 
             "genre": "Rock", 
             "album_name": "Three Days Grace (Deluxe Version)", 
-            "album_artist": "spotify:artist:2xiIXseIJcq3nG7C8fHeBj"
+            "album_artist": 88
         }
     }, 
     {
@@ -2657,7 +2657,7 @@
         "fields": {
             "origin": " Norwood, Ontario, Canada", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:38pfSOHvxHqDWwDnjZ25U5", 
+            "recommended_album": 88, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9f94f11a19fb58694661b1e8d9327f87af179627", 
             "spotify_artist_uri": "spotify:artist:2xiIXseIJcq3nG7C8fHeBj", 
             "full_name": "Three Days Grace", 
@@ -2677,7 +2677,7 @@
             "image_url": "https://i.scdn.co/image/7138d0afa3700f065bf08b5b67b782b8930efef4", 
             "genre": "Rock", 
             "album_name": "The Number of the Beast", 
-            "album_artist": "spotify:artist:6mdiAmATAx73kdxrNrnlao"
+            "album_artist": 89
         }
     }, 
     {
@@ -2687,7 +2687,7 @@
         "fields": {
             "origin": "Leyton, London, England", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:0QXyw5GWqDZe3nSWrM6d4z", 
+            "recommended_album": 89, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/98226e1830a09668c1b810bc90b4ad00ab6ef4f1", 
             "spotify_artist_uri": "spotify:artist:6mdiAmATAx73kdxrNrnlao", 
             "full_name": "Iron Maiden", 
@@ -2707,7 +2707,7 @@
             "image_url": "https://i.scdn.co/image/e966a23aa91a4ab7a328448fcf2c31e70bbec5e9", 
             "genre": "Rock", 
             "album_name": "Reunion", 
-            "album_artist": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
+            "album_artist": 90
         }
     }, 
     {
@@ -2717,7 +2717,7 @@
         "fields": {
             "origin": "Aston, Birmingham, England", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:0G3YLIcJdk5wqqLAgOCmL8", 
+            "recommended_album": 90, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/181409237e2bb85b981a9218af384606efc99f5b", 
             "spotify_artist_uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ", 
             "full_name": "Black Sabbath", 
@@ -2738,7 +2738,7 @@
             "image_url": "https://i.scdn.co/image/303606adba5b0a881379ecb2298741a61e7b082c", 
             "genre": "Rock", 
             "album_name": "Vol. 3: The Subliminal Verses [Special Package]", 
-            "album_artist": "spotify:artist:05fG473iIaoy82BF1aGhL8"
+            "album_artist": 92
         }
     }, 
     {
@@ -2748,7 +2748,7 @@
         "fields": {
             "origin": "Des Moines, Iowa", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:4ZDBQSIDIZRUBOG2OHcN3T", 
+            "recommended_album": 92, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/564b80d4bae375befe9ce67234cceaf1424dda8c", 
             "spotify_artist_uri": "spotify:artist:05fG473iIaoy82BF1aGhL8", 
             "full_name": "Slipknot", 
@@ -2768,7 +2768,7 @@
             "image_url": "https://i.scdn.co/image/dcab2d136873cfbdb5feac7539897d6774bf83d3", 
             "genre": "Rock", 
             "album_name": "Follow The Leader", 
-            "album_artist": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD"
+            "album_artist": 93
         }
     }, 
     {
@@ -2778,7 +2778,7 @@
         "fields": {
             "origin": " Bakersfield, California, United States", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:5eAoPNZzWRn2C409kAUsbE", 
+            "recommended_album": 93, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e5bf69b96bb43daded7be0f3030491a9b5acf69f", 
             "spotify_artist_uri": "spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD", 
             "full_name": "Korn", 
@@ -2798,7 +2798,7 @@
             "image_url": "https://i.scdn.co/image/7879f73024ce6bb1c89fe749511eaeeee69478c0", 
             "genre": "Rock", 
             "album_name": "Dirt", 
-            "album_artist": "spotify:artist:64tNsm6TnZe2zpcMVMOoHL"
+            "album_artist": 94
         }
     }, 
     {
@@ -2808,7 +2808,7 @@
         "fields": {
             "origin": "Seattle, Washington", 
             "popularity": 74, 
-            "recommended_album": "spotify:album:58NXIEYqmq5dQHg9nV9duM", 
+            "recommended_album": 94, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/572bfcffd87b779cdde697c0253db0576039ee7f", 
             "spotify_artist_uri": "spotify:artist:64tNsm6TnZe2zpcMVMOoHL", 
             "full_name": "Alice In Chains", 
@@ -2828,7 +2828,7 @@
             "image_url": "https://i.scdn.co/image/31fbc5cbd627b5271c59494feb091f79afaafeaa", 
             "genre": "Rock", 
             "album_name": "Inhuman Rampage", 
-            "album_artist": "spotify:artist:2pH3wEn4eYlMMIIQyKPbVR"
+            "album_artist": 95
         }
     }, 
     {
@@ -2838,7 +2838,7 @@
         "fields": {
             "origin": " London, England, UK", 
             "popularity": 64, 
-            "recommended_album": "spotify:album:5hzFLt9DwW1RXr7omvS4B5", 
+            "recommended_album": 95, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/b7d5f1dc16b78ce33969cc0d71fcda2c48350d09", 
             "spotify_artist_uri": "spotify:artist:2pH3wEn4eYlMMIIQyKPbVR", 
             "full_name": "DragonForce", 
@@ -2858,7 +2858,7 @@
             "image_url": "https://i.scdn.co/image/e0771f87beebf166ea39b8a0b59f96e403421e6c", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Devil's Whisper", 
-            "album_artist": "spotify:artist:2PU4qFehXQF7WnlFsJpBiJ"
+            "album_artist": 96
         }
     }, 
     {
@@ -2868,7 +2868,7 @@
         "fields": {
             "origin": " Stone Mountain, Georgia", 
             "popularity": 67, 
-            "recommended_album": "spotify:album:7BaR2YAgS5xCH20TBFqy74", 
+            "recommended_album": 96, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/21d010168cccffd641179b970174630e87959d00", 
             "spotify_artist_uri": "spotify:artist:2PU4qFehXQF7WnlFsJpBiJ", 
             "full_name": "Raury", 
@@ -2888,7 +2888,7 @@
             "image_url": "https://i.scdn.co/image/f4d13c2a7638b3738e23cf942071277c67815f8a", 
             "genre": "Pop", 
             "album_name": "Heartthrob", 
-            "album_artist": "spotify:artist:5e1BZulIiYWPRm8yogwUYH"
+            "album_artist": 97
         }
     }, 
     {
@@ -2898,7 +2898,7 @@
         "fields": {
             "origin": "Calgary, Alberta, Canada", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:5IUJ6v408Z7pECC3BXUJxX", 
+            "recommended_album": 97, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/7a68f2fe93df12d94790ece0e8ca0bf1dbbaf19b", 
             "spotify_artist_uri": "spotify:artist:5e1BZulIiYWPRm8yogwUYH", 
             "full_name": "Tegan And Sara", 
@@ -2918,7 +2918,7 @@
             "image_url": "https://i.scdn.co/image/3feefd0c85953760f02ef151ed7a7150bd86d4e0", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "The Pinkprint (Deluxe)", 
-            "album_artist": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh"
+            "album_artist": 98
         }
     }, 
     {
@@ -2928,7 +2928,7 @@
         "fields": {
             "origin": " Saint James, Trinidad and Tobago", 
             "popularity": 99, 
-            "recommended_album": "spotify:album:5ooCuPIk58IwSo6DRr1JCu", 
+            "recommended_album": 98, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/60022a8b1b807f1cd7b540769bdf8e655e72fc32", 
             "spotify_artist_uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh", 
             "full_name": "Nicki Minaj", 
@@ -2948,7 +2948,7 @@
             "image_url": "https://i.scdn.co/image/8c6c9bb2fa59212fd2f28d90113ee3cdcc28833d", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "G I R L", 
-            "album_artist": "spotify:artist:2RdwBSPQiwcmiDo9kixcl8"
+            "album_artist": 99
         }
     }, 
     {
@@ -2958,7 +2958,7 @@
         "fields": {
             "origin": " Virginia Beach, Virginia, United States", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:2lkQd5T32QHDOfFkEIPJKz", 
+            "recommended_album": 99, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/da3896abb10bd0431548b30a0a3de08b5a033ca8", 
             "spotify_artist_uri": "spotify:artist:2RdwBSPQiwcmiDo9kixcl8", 
             "full_name": "Pharrell Williams", 
@@ -2978,7 +2978,7 @@
             "image_url": "https://i.scdn.co/image/8a46ad36789d2eba454e16caffca4fb994f5f64c", 
             "genre": "R&B", 
             "album_name": "Five More Hours", 
-            "album_artist": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z"
+            "album_artist": 100
         }
     }, 
     {
@@ -2988,7 +2988,7 @@
         "fields": {
             "origin": " Tappahannock, Virginia, U.S.", 
             "popularity": 99, 
-            "recommended_album": "spotify:album:1j4y4oErsQ2dIiZXClg1Zc", 
+            "recommended_album": 100, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e5f738a6b6138aa8410899d1d2774395064e11a2", 
             "spotify_artist_uri": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z", 
             "full_name": "Chris Brown", 
@@ -3008,7 +3008,7 @@
             "image_url": "https://i.scdn.co/image/1f7f2f62999164b6006955286ebec2a58bbbcb81", 
             "genre": "Pop", 
             "album_name": "My Everything (Deluxe)", 
-            "album_artist": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+            "album_artist": 101
         }
     }, 
     {
@@ -3018,7 +3018,7 @@
         "fields": {
             "origin": " Boca Raton, Florida, U.S.", 
             "popularity": 94, 
-            "recommended_album": "spotify:album:6EVYTRG1drKdO8OnIQBeEj", 
+            "recommended_album": 101, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/74c06cbc800430762db478b7a512b8765eb24017", 
             "spotify_artist_uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR", 
             "full_name": "Ariana Grande", 
@@ -3038,7 +3038,7 @@
             "image_url": "https://i.scdn.co/image/905d15abb3b2fcc9551d5be90213df448da8f7f4", 
             "genre": "Alternative Rock", 
             "album_name": "Talking Dreams (Deluxe Version)", 
-            "album_artist": "spotify:artist:1PbBg2aYjWLKRk84zJK15x"
+            "album_artist": 102
         }
     }, 
     {
@@ -3048,7 +3048,7 @@
         "fields": {
             "origin": " Chino, California, United States", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:1oHY6eQmEG8skElDvFgKz2", 
+            "recommended_album": 102, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e30a363e13abeba0db9a22bdbfe1a8a93ffc8e19", 
             "spotify_artist_uri": "spotify:artist:1PbBg2aYjWLKRk84zJK15x", 
             "full_name": "Echosmith", 
@@ -3068,7 +3068,7 @@
             "image_url": "https://i.scdn.co/image/eb4670fd970449ec78e022f53ad8d7ba3c6d32fd", 
             "genre": "R&B", 
             "album_name": "In The Lonely Hour", 
-            "album_artist": "spotify:artist:2wY79sveU1sp5g7SokKOiI"
+            "album_artist": 103
         }
     }, 
     {
@@ -3078,7 +3078,7 @@
         "fields": {
             "origin": "London, England", 
             "popularity": 94, 
-            "recommended_album": "spotify:album:2Jg7JZ0ZXOGje1bkq7CVgK", 
+            "recommended_album": 103, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/03ceb102d60bffca5c0dae63d558a1093cc04af2", 
             "spotify_artist_uri": "spotify:artist:2wY79sveU1sp5g7SokKOiI", 
             "full_name": "Sam Smith", 
@@ -3098,7 +3098,7 @@
             "image_url": "https://i.scdn.co/image/4c23a82f33b034795a0fbc67af559420c8cb4928", 
             "genre": "Pop", 
             "album_name": "V", 
-            "album_artist": "spotify:artist:04gDigrS5kc9YWfZHwBETP"
+            "album_artist": 104
         }
     }, 
     {
@@ -3108,7 +3108,7 @@
         "fields": {
             "origin": " Los Angeles, California, United States", 
             "popularity": 97, 
-            "recommended_album": "spotify:album:2Auw0pTT6EcQdvHNimhLQI", 
+            "recommended_album": 104, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/61b73a1125c1fc8d23355d0b709b6917536e61b4", 
             "spotify_artist_uri": "spotify:artist:04gDigrS5kc9YWfZHwBETP", 
             "full_name": "Maroon 5", 
@@ -3128,7 +3128,7 @@
             "image_url": "https://i.scdn.co/image/25e922d7e29f4e6f0c245068966a33c14471eff9", 
             "genre": "R&B", 
             "album_name": "Trigga Reloaded", 
-            "album_artist": "spotify:artist:2iojnBLj0qIMiKPvVhLnsH"
+            "album_artist": 105
         }
     }, 
     {
@@ -3138,7 +3138,7 @@
         "fields": {
             "origin": "Petersburg, Virginia, U.S.", 
             "popularity": 89, 
-            "recommended_album": "spotify:album:3pKTKC0AAe3yTcXQLzvpSW", 
+            "recommended_album": 105, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/214b1108d830f4426cb182cf742a409d72317cf6", 
             "spotify_artist_uri": "spotify:artist:2iojnBLj0qIMiKPvVhLnsH", 
             "full_name": "Trey Songz", 
@@ -3158,7 +3158,7 @@
             "image_url": "https://i.scdn.co/image/2f92812b3d81fa8e4987b77c17ca5441f77d4b6f", 
             "genre": "Electronic", 
             "album_name": "Queen Of The Clouds", 
-            "album_artist": "spotify:artist:4NHQUGzhtTLFvgF5SZesLK"
+            "album_artist": 106
         }
     }, 
     {
@@ -3168,7 +3168,7 @@
         "fields": {
             "origin": " Stockholm, Sweden", 
             "popularity": 90, 
-            "recommended_album": "spotify:album:1teQxZPWNILIowWpQA6qfm", 
+            "recommended_album": 106, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8d98605bcf26576df6e1eab28605baf803b1f901", 
             "spotify_artist_uri": "spotify:artist:4NHQUGzhtTLFvgF5SZesLK", 
             "full_name": "Tove Lo", 
@@ -3188,7 +3188,7 @@
             "image_url": "https://i.scdn.co/image/a6b8a73eadfad92e0f799b1e01194659478b4212", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "More Than A Game", 
-            "album_artist": "spotify:artist:55Aa2cqylxrFIXC767Z865"
+            "album_artist": 107
         }
     }, 
     {
@@ -3198,7 +3198,7 @@
         "fields": {
             "origin": " New Orleans, Louisiana, United States", 
             "popularity": 95, 
-            "recommended_album": "spotify:album:55UhXq8grzHPga0we8mEL3", 
+            "recommended_album": 107, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e482561e4ae8727a66fb200fdd7343e8d758ee6b", 
             "spotify_artist_uri": "spotify:artist:55Aa2cqylxrFIXC767Z865", 
             "full_name": "Lil Wayne", 
@@ -3218,7 +3218,7 @@
             "image_url": "https://i.scdn.co/image/d0dab7610a3f191b2f07b3ed8ad209d1cf744ff0", 
             "genre": "Pop", 
             "album_name": "1000 Forms Of Fear", 
-            "album_artist": "spotify:artist:5WUlDfRSoLAfcVSX1WnrxN"
+            "album_artist": 108
         }
     }, 
     {
@@ -3228,7 +3228,7 @@
         "fields": {
             "origin": "Adelaide, South Australia, Australia", 
             "popularity": 93, 
-            "recommended_album": "spotify:album:3xFSl9lIRaYXIYkIn3OIl9", 
+            "recommended_album": 108, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/42507434e08f0ad11d8f227654f10f94dfbf2566", 
             "spotify_artist_uri": "spotify:artist:5WUlDfRSoLAfcVSX1WnrxN", 
             "full_name": "Sia", 
@@ -3248,7 +3248,7 @@
             "image_url": "https://i.scdn.co/image/c6ac5f61eddd60ce0872ec8cbec2597f67f226a3", 
             "genre": "Pop", 
             "album_name": "Fifty Shades Of Grey (Original Motion Picture Soundtrack)", 
-            "album_artist": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ"
+            "album_artist": 109
         }
     }, 
     {
@@ -3258,7 +3258,7 @@
         "fields": {
             "origin": " Hereford, Herefordshire, England", 
             "popularity": 94, 
-            "recommended_album": "spotify:album:38WMYJ0LhCKAiRflk43Xt9", 
+            "recommended_album": 109, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/cdfa418a53726ce2255cd543d4be873af49b5499", 
             "spotify_artist_uri": "spotify:artist:0X2BH1fck6amBIoJhDVmmJ", 
             "full_name": "Ellie Goulding", 
@@ -3278,7 +3278,7 @@
             "image_url": "https://i.scdn.co/image/d4b91c357087554d2720c20e53e288253ba16db8", 
             "genre": "Electronic", 
             "album_name": "Waiting For Love", 
-            "album_artist": "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6"
+            "album_artist": 110
         }
     }, 
     {
@@ -3288,7 +3288,7 @@
         "fields": {
             "origin": "Stockholm, Sweden", 
             "popularity": 95, 
-            "recommended_album": "spotify:album:3bWO7zjRbZeyMMPpzmmKnJ", 
+            "recommended_album": 110, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/886965d33b3e1e469d24f3a8e44374b1e19d3055", 
             "spotify_artist_uri": "spotify:artist:1vCWHaC5f2uS3yhpwWbIA6", 
             "full_name": "Avicii", 
@@ -3308,7 +3308,7 @@
             "image_url": "https://i.scdn.co/image/835884befb1b595476e590e656f27b3ec028308b", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Globalization", 
-            "album_artist": "spotify:artist:0TnOYISbd1XYRBk9myaseg"
+            "album_artist": 111
         }
     }, 
     {
@@ -3318,7 +3318,7 @@
         "fields": {
             "origin": "Miami, Florida", 
             "popularity": 96, 
-            "recommended_album": "spotify:album:4EUf4YyNjuXypWY6W5wEDm", 
+            "recommended_album": 111, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5f85e5201ae4c5dd50f60ee1feb4e1064683a90a", 
             "spotify_artist_uri": "spotify:artist:0TnOYISbd1XYRBk9myaseg", 
             "full_name": "Pitbull", 
@@ -3338,7 +3338,7 @@
             "image_url": "https://i.scdn.co/image/bf60b560bc5dd85ed7412508bdb75f6f27731c73", 
             "genre": "Meek Mill", 
             "album_name": "Dreams Worth More Than Money", 
-            "album_artist": "spotify:artist:20sxb77xiYeusSH8cVdatc"
+            "album_artist": 112
         }
     }, 
     {
@@ -3348,7 +3348,7 @@
         "fields": {
             "origin": " Philadelphia, Pennsylvania, United States", 
             "popularity": 92, 
-            "recommended_album": "spotify:album:2O3OKOYCub892PUGprsaQo", 
+            "recommended_album": 112, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8f016d1eaf8f8838832bacede7fd1084b0759007", 
             "spotify_artist_uri": "spotify:artist:20sxb77xiYeusSH8cVdatc", 
             "full_name": "Meek Mill", 
@@ -3371,7 +3371,7 @@
             "biography": "Kanye Omari West (/\u02c8k\u0251\u02d0nje\u026a/; born June 8, 1977) is an American rapper, songwriter, record producer and fashion designer. West first became known as a producer for Roc-A-Fella Records; he achieved recognition for his work on rapper Jay-Z's The Blueprint (2001), as well as hit singles for musical artists including Alicia Keys, Ludacris, and Janet Jackson. His style of production originally used high-pitched vocal samples from soul songs incorporated with his own drums and instruments. He later broadened his influences to include 1970s R&B, baroque pop, trip hop, arena rock, house, folk, alternative, electronica, synthpop, industrial, and classical music.\nWest was raised in a middle-class household in Chicago, Illinois, and began rapping in the third grade, becoming involved in the city's hip hop scene. West attended art school for one semester before dropping out to pursue music entirely in the late 1990s. Although his real desire was to become a rapper, record executives did not take West seriously, viewing him as a producer first and foremost. After being signed to Roc-A-Fella in 2002, West released his debut album The College Dropout in 2004 to commercial and critical acclaim. The baroque-inspired Late Registration followed in 2005, and Graduation in 2007. West switched rapping for singing on his emotive 2008 effort 808's & Heartbreak, and embraced maximalism on 2010's My Beautiful Dark Twisted Fantasy. Following several collaborations, West released his abrasive sixth album, Yeezus, in 2013.\nWest is one of the best- selling artists of all time, having sold more than 21 million albums and 100 million digital downloads. He has won a total of 21 Grammy Awards, making him one of the most awarded artists of all- time and the most Grammy-awarded artist of his age. Time named West one of the 100 most influential people in the world in 2005, 2011 and 2015. He has also been included in a number of Forbes annual lists. Three of his albums rank on Rolling Stone's 2012 \"500 Greatest Albums of All Time\" list; two of his albums feature at #8 and #1 in Pitchfork Media's The 100 Best Albums of 2010\u20132014.\nWest's background and style, from his debut album, deviated from the then-dominant \"gangsta\" persona in hip hop, and he would later alter the genre stylistically as rappers adopted his alternative aesthetic. An outspoken and controversial celebrity, West has often been a source of controversy due to his appearances at award shows and his various television and radio interviews. West has collaborated on multiple occasions with brands Nike, Louis Vuitton, Adidas and A.P.C.. West also runs his own record label GOOD Music and has directed several short films.",
             "youtube_url_1": "https://www.youtube.com/embed/Co0tTeuUVhU",
             "youtube_url_2": "https://www.youtube.com/embed/PsO6ZnUZI0g",
-            "recommended_album": "spotify:album:3ff2p3LnR6V7m6BinwhNaQ",
+            "recommended_album": 113,
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fca17e83545e076fafb561569e8d5ec64f87eb8c"
         }
     },
@@ -3379,7 +3379,7 @@
         "pk": 113,
         "model": "volumemax.album",
         "fields": {
-            "album_artist": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+            "album_artist": 113,
             "release_date": 2009,
             "genre": "rap",
             "album_name": "College Dropout",
@@ -3401,7 +3401,7 @@
             "biography": "An R&B vocalist affiliated with the outlandish hip-hop crew Odd Future Wolf Gang Kill Them All, Frank Ocean (Christopher \"Lonny\" Breaux) was born and raised in New Orleans. The aspiring songwriter and singer had just moved into his dorm at the University of New Orleans when Hurricane Katrina hit. With his future under water, Ocean immediately left the academic life behind and moved to L.A. to give music a shot. He cut some demos at a friend's home studio, shopped them around town, and eventually landed a songwriting deal that would find him working for Justin Bieber, John Legend, and Brandy. Some of this work was alongside Christopher \"Tricky\" Stewart, a fellow songwriter and producer who would convince Ocean to sign a solo artist deal with Def Jam in late 2009. It was also around this time he met Odd Future and began writing music for the crew while making guest appearances on their mixtapes. In February 2011, as Odd Future were making waves, Ocean broke out on his own with the Nostalgia, Ultra mixtape, issued through his Tumblr blog. Later in the year, he appeared on Tyler, the Creator's Goblin (\"She,\" \"Window\"), Beyoncé's 4 (\"I Miss You\"), and Jay-Z and Kanye West's Watch the Throne (\"No Church in the Wild,\" \"Made in America\"). Def Jam's plan for the release of Nostalgia, Lite — an EP-length version of the mixtape — was scrapped, yet the songs \"Novacane\" (produced by Stewart) and \"Swim Good\" (MIDI Mafia) were released as singles with accompanying videos. The former reached number 17 on Billboard's Hot R&B/Hip-Hop chart. The latter peaked at number 70. By the end of the year, several publications listed Nostalgia, Ultra as one of 2011's best releases. While his association with Def Jam had been strained, Ocean nonetheless proceeded with the making of his official debut album, working beside the likes of Malay, Om'Mas Keith, and Pharrell Williams as fellow producers. The album, Channel Orange, was previewed for journalists at a handful of listening events. Some writers alleged that certain lyrics on the album revealed Ocean's bisexuality. Ocean subsequently published a screen shot of a TextEdit file (entitled \"thank you's\") that included details of a romantic relationship — his first love — with a male. On July 10, six days after the post, Channel Orange was released by Def Jam as a download, while the CD version was issued the following week. Along with featured appearances from Earl Sweatshirt, John Mayer, and André 3000, the album involved material about unrequited love, as well as class and drug dependency — all delivered with Ocean's descriptive storytelling and understated yet expressive vocals. The album would go on to be an all-around success, receiving nearly universal critical acclaim, a spot on the Billboard 200, and a host of Grammy nominations.",
             "youtube_url_1": "https://www.youtube.com/embed/TMfPJT4XjAI",
             "youtube_url_2": "https://www.youtube.com/embed/PmN9rZW0HGo",
-            "recommended_album": "spotify:album:392p3shh2jkxUxY2VHvlH8",
+            "recommended_album": 114,
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/310bcbad5e6048493ff198822a54c28c8214f06f"
         }
     },
@@ -3409,7 +3409,7 @@
         "pk": 114,
         "model": "volumemax.album",
         "fields": {
-            "album_artist": "spotify:artist:2h93pZq0e7k5yf4dywlkpM",
+            "album_artist": 114,
             "release_date": 2009,
             "genre": "Hip-Hop/Rap",
             "album_name": "Channel Orange",
@@ -3422,7 +3422,7 @@
         "pk": 115,
         "model": "volumemax.album",
         "fields": {
-            "album_artist": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+            "album_artist": 115,
             "release_date": 2009,
             "genre": "Hip-Hop/Rap",
             "album_name": "To Pimp A Butterfly",
@@ -3443,7 +3443,7 @@
             "spotify_artist_uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
             "biography": "Platinum-selling, Grammy-nominated rapper Kendrick Lamar is one of the rare artists who has achieved critical and commercial success while earning the respect and support of those who inspired him. A native of Compton, California, Lamar originally rapped as K. Dot and released a series of mixtapes under that name. Youngest Head N***a in Charge (2003), issued when he was only 16 years old, caught the attention of Top Dawg Entertainment and led to a long-term association that helped raise the rapper's profile. Training Day (2005) and C4 (2009) also preceded his decision to go by his birth name. The latter was issued the same year he became part of Black Hippy — beside fellow Top Dawg artists Ab-Soul, Jay Rock, and ScHoolboy Q — a group whose members, for the most part, appeared on one another's mixtapes and albums. Overly Dedicated (2010) was the first Kendrick Lamar mixtape and fared well enough to enter Billboard's R&B/Hip-Hop Albums chart that October. His first official album, Section.80 (2011), was released as a digital download the following year and entered the Billboard 200 at number 113. By that point in his career, Lamar's reputation had been strengthened through guest appearances on dozens of tracks, and he had the support of veteran West Coast stars as well. During a 2011 concert, Dr. Dre, Snoop Dogg, and Game dubbed him \"The New King of the West Coast,\" a notion Dre endorsed more significantly by signing Lamar to the Aftermath label. Lamar's Good Kid, M.A.A.D City was released in October 2012 and debuted at number two on the Billboard 200. Three of its singles — \"Swimming Pools (Drank),\" \"Poetic Justice,\" and \"Bitch Don't Kill My Vibe\" — reached the Top Ten of Billboard's Hot R&B/Hip-Hop chart, with each one enjoying lengthy stays on playlists of urban U.S. radio stations. More significantly, the album showcased Lamar as an exceptional storyteller capable of making compelling concept albums. When the nominees for the 56th Annual Grammy Awards were announced, Lamar was listed in seven categories, including Best New Artist and Album of the Year. He won none of the awards. Rather than rest, Lamar remained active during 2013-2014 with touring as well as appearances on tracks by the likes of Tame Impala, YG, and fellow Top Dawg affiliate SZA. Early in 2015, he announced his third album, To Pimp a Butterfly, was due in March with tracks featuring Snoop Dogg, Bilal, Thundercat, and George Clinton. A technical accident caused the digital album to be released eight days early, but it immediately earned rave reviews and sales of 325,000 copies within its first week of release.", "youtube_url_1": "https://www.youtube.com/embed/Z-48u_uWMHY",
             "youtube_url_2": "https://www.youtube.com/embed/8aShfolR6w8",
-            "recommended_album": "spotify:album:7ycBtnsMtyVbbwTfJwRjSP",
+            "recommended_album": 115,
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/710f327a57dff722909bbe1e85d7c8aef88c666e"
         }
     }
