@@ -31,7 +31,7 @@
 			// on a touchscreen unless the play event is attached to a user click
 			forceAutoplay:false,
 			controls:false,
-			doLoop:false,
+			doLoop:true,
 			container:$('body'),
 			shrinkable:false
 		};
@@ -126,63 +126,7 @@
 			}
 		}
 
-		function initPlayControl() {
-			// create video controls
-			var markup = ''+
-				'<div id="big-video-control-container">'+
-					'<div id="big-video-control">'+
-						'<a href="#" id="big-video-control-play"></a>'+
-						'<div id="big-video-control-middle">'+
-							'<div id="big-video-control-bar">'+
-								'<div id="big-video-control-bound-left"></div>'+
-								'<div id="big-video-control-progress"></div>'+
-								'<div id="big-video-control-track"></div>'+
-								'<div id="big-video-control-bound-right"></div>'+
-							'</div>'+
-						'</div>'+
-					'	<div id="big-video-control-timer"></div>'+
-					'</div>'+
-				'</div>';
-			settings.container.append(markup);
-
-			// hide until playVideo
-			$('#big-video-control-container').css('display','none');
-			$('#big-video-control-timer').css('display','none');
-
-			// add events
-			$('#big-video-control-track').slider({
-				animate: true,
-				step: 0.01,
-				slide: function(e,ui) {
-					isSeeking = true;
-					$('#big-video-control-progress').css('width',(ui.value-0.16)+'%');
-					player.currentTime((ui.value/100)*player.duration());
-				},
-				stop:function(e,ui) {
-					isSeeking = false;
-					player.currentTime((ui.value/100)*player.duration());
-				}
-			});
-			$('#big-video-control-bar').click(function(e) {
-				player.currentTime((e.offsetX/$(this).width())*player.duration());
-			});
-			$('#big-video-control-play').click(function(e) {
-				e.preventDefault();
-				playControl('toggle');
-			});
-			player.on('timeupdate', function() {
-				if (!isSeeking && (player.currentTime()/player.duration())) {
-					var currTime = player.currentTime();
-					var minutes = Math.floor(currTime/60);
-					var seconds = Math.floor(currTime) - (60*minutes);
-					if (seconds < 10) seconds='0'+seconds;
-					var progress = player.currentTime()/player.duration()*100;
-					$('#big-video-control-track').slider('value',progress);
-					$('#big-video-control-progress').css('width',(progress-0.16)+'%');
-					$('#big-video-control-timer').text(minutes+':'+seconds+'/'+vidDur);
-				}
-			});
-		}
+		
 
 		function playControl(a) {
 			var action = a || 'toggle';
