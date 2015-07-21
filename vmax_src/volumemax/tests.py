@@ -59,10 +59,6 @@ class SearchTestCase(TestCase):
         artist = Artist.objects.filter(get_query('and', "Board to Base", ['full_name']))
         self.assertEqual(list(artist),[])
 
-    def test_search_nonexistent2(self):
-        artist = Artist.objects.filter(get_query('and', " ", ['full_name']))
-        self.assertEqual(list(artist),[])
-
     def test_search_and_artist(self):
         a = Artist.objects.create(full_name ="Jordan", origin = "Chicago, IL", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
         b = Artist.objects.create(full_name ="Michael Jackson", origin = "Gary, IN", popularity = 90, genre = "Pop", biography = "asdf")
