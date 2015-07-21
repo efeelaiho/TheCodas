@@ -37,7 +37,7 @@ class Album(models.Model):
 	"""
 	album_artist = models.ForeignKey('Artist',default=1)
 	album_name = models.CharField(max_length=100, null=True, blank=True)
-	release_date = models.DateField(null=True, blank=True)
+	release_date = models.IntegerField(null=True, blank=True)
 	genre = models.CharField(max_length=50, null=True, blank=True)
 	spotify_albums_uri = models.CharField(max_length=500, null=True, blank=True)
 	editors_notes = models.CharField(max_length=5000, null=True, blank=True)
