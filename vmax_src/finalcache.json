@@ -9,7 +9,7 @@
             "image_url": "https://i.scdn.co/image/bfec3a994153dbb09229d4eb7d7ab9df9246d83f", 
             "genre": "Pop", 
             "album_name": "First (Deluxe Edition)", 
-            "album_artist": "spotify:artist:3WrFJ7ztbogyGnTHbHJFl2"
+            "album_artist": 0
         }
     }, 
     {
@@ -19,7 +19,7 @@
         "fields": {
             "origin": " Liverpool, England", 
             "popularity": 62, 
-            "recommended_album": "spotify:album:046kB3y8x1LboYxmd6Ntxv", 
+            "recommended_album": 0, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8c2622e70133d2e80b00e81b353c908657d5e7f6", 
             "spotify_artist_uri": "spotify:artist:3WrFJ7ztbogyGnTHbHJFl2", 
             "full_name": "The Beatles", 
@@ -39,7 +39,7 @@
             "image_url": "https://i.scdn.co/image/725c77471dea914e9f4c59fa802b57661c452bfd", 
             "genre": "Rock", 
             "album_name": "Elvis 30 #1 Hits", 
-            "album_artist": "spotify:artist:43ZHCT0cAZBISjO8DG9PnE"
+            "album_artist": 1
         }
     }, 
     {
@@ -49,7 +49,7 @@
         "fields": {
             "origin": "Tupelo, Mississippi", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:0QVoYzGd1p8Z3ohEaM0lsc", 
+            "recommended_album": 1, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c7b8708eab6d0f0902908c1b9f9ba1daaeed06af", 
             "spotify_artist_uri": "spotify:artist:43ZHCT0cAZBISjO8DG9PnE", 
             "full_name": "Elvis Presley", 
@@ -69,7 +69,7 @@
             "image_url": "https://i.scdn.co/image/e337f3661f68bc4d96a554de0ad7988d65edb25a", 
             "genre": "Pop", 
             "album_name": "Thriller 25 Super Deluxe Edition", 
-            "album_artist": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            "album_artist": 2
         }
     }, 
     {
@@ -79,7 +79,7 @@
         "fields": {
             "origin": " Gary, Indiana, U.S.", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:1C2h7mLntPSeVYciMRTF4a", 
+            "recommended_album": 2, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/738650ce127e119788a7bca020fbd054b5aa57b5", 
             "spotify_artist_uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm", 
             "full_name": "Michael Jackson", 
@@ -99,7 +99,7 @@
             "image_url": "https://i.scdn.co/image/006c443e86ad04f6ce8f9ade1da24e9b6f2e2132", 
             "genre": "Pop", 
             "album_name": "Celebration", 
-            "album_artist": "spotify:artist:6tbjWDEIzxoDsBA1FuhfPW"
+            "album_artist": 3
         }
     }, 
     {
@@ -109,7 +109,7 @@
         "fields": {
             "origin": "Bay City, Michigan", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:43lok9zd7BW5CoYkXZs7S0", 
+            "recommended_album": 3, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c9b53f16231496566a250b980853688d0060c5f7", 
             "spotify_artist_uri": "spotify:artist:6tbjWDEIzxoDsBA1FuhfPW", 
             "full_name": "Madonna", 
@@ -129,7 +129,7 @@
             "image_url": "https://i.scdn.co/image/0d28b0477b59b0a18450c9a6ce8dd9bac0184fa5", 
             "genre": "Rock", 
             "album_name": "Madman Across The Water", 
-            "album_artist": "spotify:artist:3PhoLpVuITZKcymswpck5b"
+            "album_artist": 4
         }
     }, 
     {
@@ -139,7 +139,7 @@
         "fields": {
             "origin": " Pinner, Middlesex, England", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:2OZbaW9tgO62ndm375lFZr", 
+            "recommended_album": 4, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ff6101db4095db23a14bb0affa031a039aa7653f", 
             "spotify_artist_uri": "spotify:artist:3PhoLpVuITZKcymswpck5b", 
             "full_name": "Elton John", 
@@ -159,7 +159,7 @@
             "image_url": "https://i.scdn.co/image/5ef60ee8ba01f7042961420378733beb308e46f0", 
             "genre": "Rock", 
             "album_name": "Led Zeppelin IV", 
-            "album_artist": "spotify:artist:36QJpDe2go2KgaRleHCDTp"
+            "album_artist": 5
         }
     }, 
     {
@@ -169,7 +169,7 @@
         "fields": {
             "origin": " London, England", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:1Ugdi2OTxKopVVqsprp5pb", 
+            "recommended_album": 5, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/bc9b5c84f5806bdf34879f5c9a0628eaadb348c8", 
             "spotify_artist_uri": "spotify:artist:36QJpDe2go2KgaRleHCDTp", 
             "full_name": "Led Zeppelin", 
@@ -189,7 +189,7 @@
             "image_url": "https://i.scdn.co/image/015298910a64e2f4be650dd21792cfa7a9d3a58f", 
             "genre": "Rock", 
             "album_name": "Wish You Were Here [2011 - Remaster] (2011 Remastered Version)", 
-            "album_artist": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9"
+            "album_artist": 6
         }
     }, 
     {
@@ -199,7 +199,7 @@
         "fields": {
             "origin": " London, England", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:1x0uzT3ETlIYjPueTyNfnQ", 
+            "recommended_album": 6, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/b954149fed21dcbafe1cee4c30454eb934c384ee", 
             "spotify_artist_uri": "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9", 
             "full_name": "Pink Floyd", 
@@ -219,7 +219,7 @@
             "image_url": "https://i.scdn.co/image/ac0afd64e904c7eff0895b49b23adfb886bf6484", 
             "genre": "R&B", 
             "album_name": "Daydream", 
-            "album_artist": "spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ"
+            "album_artist": 7
         }
     }, 
     {
@@ -229,7 +229,7 @@
         "fields": {
             "origin": " Huntington, New York", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:1ibYM4abQtSVQFQWvDSo4J", 
+            "recommended_album": 7, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/20e78a9ef314b580776bff93e8e073f74c79b969", 
             "spotify_artist_uri": "spotify:artist:4iHNK0tOyZPYnBU7nGAgpQ", 
             "full_name": "Mariah Carey", 
@@ -249,7 +249,7 @@
             "image_url": "https://i.scdn.co/image/7b2f36e5a8be3d02dc1a3424d38502220786f559", 
             "genre": "R&B", 
             "album_name": "Falling Into You", 
-            "album_artist": "spotify:artist:4S9EykWXhStSc15wEx8QFK"
+            "album_artist": 8
         }
     }, 
     {
@@ -259,7 +259,7 @@
         "fields": {
             "origin": "Not available", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:08aLDHdtfHxjtOmEHusqGC", 
+            "recommended_album": 8, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/226917d0f37fc00c8d1bd903d9418c7221425cbc", 
             "spotify_artist_uri": "spotify:artist:4S9EykWXhStSc15wEx8QFK", 
             "full_name": "Celine Dion", 
@@ -279,7 +279,7 @@
             "image_url": "https://i.scdn.co/image/7bcb439989b592287aeac1599aaa36be17672b73", 
             "genre": "R&B", 
             "album_name": "The Bodyguard - Original Soundtrack Album", 
-            "album_artist": "spotify:artist:6XpaIBNiVzIetEPCWDvAFP"
+            "album_artist": 9
         }
     }, 
     {
@@ -289,7 +289,7 @@
         "fields": {
             "origin": " Newark, New Jersey, U.S.", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:7JVJlkNNobS0GSoy4tCS96", 
+            "recommended_album": 9, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a7a51d32aa7c45838354ab8d5f89487b28e1e4f2", 
             "spotify_artist_uri": "spotify:artist:6XpaIBNiVzIetEPCWDvAFP", 
             "full_name": "Whitney Houston", 
@@ -309,7 +309,7 @@
             "image_url": "https://i.scdn.co/image/8d6f289fc3586790c5e89feba8ce4d0c2d86a1c9", 
             "genre": "Rock", 
             "album_name": "Back In Black", 
-            "album_artist": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+            "album_artist": 10
         }
     }, 
     {
@@ -319,7 +319,7 @@
         "fields": {
             "origin": " Sydney, Australia", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:6mUdeDZCsExyJLMdAfDuwh", 
+            "recommended_album": 10, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a16c5d95ede008ec905d6ca6d1b5abbf39ad4566", 
             "spotify_artist_uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un", 
             "full_name": "AC/DC", 
@@ -339,7 +339,7 @@
             "image_url": "https://i.scdn.co/image/a17df796c83359e90ff722ff3d065ee00411ed74", 
             "genre": "Rock", 
             "album_name": "A Night At The Opera (Deluxe Remastered Version)", 
-            "album_artist": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+            "album_artist": 11
         }
     }, 
     {
@@ -349,7 +349,7 @@
         "fields": {
             "origin": "London, United Kingdom", 
             "popularity": 87, 
-            "recommended_album": "spotify:album:6X9k3hSsvQck2OfKYdBbXr", 
+            "recommended_album": 11, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f439465a43dd0e4d1aed1df5b0e3243eda49a403", 
             "spotify_artist_uri": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d", 
             "full_name": "Queen", 
@@ -369,7 +369,7 @@
             "image_url": "https://i.scdn.co/image/f1d32b1a4e0f1d3c3b6904a19a94412d28f6b0d4", 
             "genre": "Rock", 
             "album_name": "Let It Bleed", 
-            "album_artist": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
+            "album_artist": 12
         }
     }, 
     {
@@ -379,7 +379,7 @@
         "fields": {
             "origin": " London, England", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:4l4u9e9jSbotSXNjYfOugy", 
+            "recommended_album": 12, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/2b3993e967c42310876f226e5c380896e861ae8d", 
             "spotify_artist_uri": "spotify:artist:22bE4uQ6baNwSHPVcDxLCe", 
             "full_name": "The Rolling Stones", 
@@ -399,7 +399,7 @@
             "image_url": "https://i.scdn.co/image/50c3071b308c78365b99cdfe8a931ab3057a1b06", 
             "genre": "Pop", 
             "album_name": "Arrival", 
-            "album_artist": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV"
+            "album_artist": 13
         }
     }, 
     {
@@ -409,7 +409,7 @@
         "fields": {
             "origin": "Stockholm, Sweden", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:1M4anG49aEs4YimBdj96Oy", 
+            "recommended_album": 13, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/1ace43eddbf6010d417d53ce77b584bd6aa11428", 
             "spotify_artist_uri": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV", 
             "full_name": "ABBA", 
@@ -429,7 +429,7 @@
             "image_url": "https://i.scdn.co/image/7e4855c2279dba5e19d15d3e0ce825a895d40c8b", 
             "genre": "Pop", 
             "album_name": "Bitch Better Have My Money", 
-            "album_artist": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H"
+            "album_artist": 14
         }
     }, 
     {
@@ -439,7 +439,7 @@
         "fields": {
             "origin": " Saint Michael, Barbados", 
             "popularity": 97, 
-            "recommended_album": "spotify:album:4S8F794ucXJcAtycwOZgR9", 
+            "recommended_album": 14, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d2370c8f8e57525bd4c76931c61e97787b40823b", 
             "spotify_artist_uri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H", 
             "full_name": "Rihanna", 
@@ -459,7 +459,7 @@
             "image_url": "https://i.scdn.co/image/e6f4b10d325a5dc4db62fd1624e3e0a87b935379", 
             "genre": "Pop", 
             "album_name": "The Hunger Games: Songs From District 12 And Beyond", 
-            "album_artist": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+            "album_artist": 15
         }
     }, 
     {
@@ -469,7 +469,7 @@
         "fields": {
             "origin": " Reading, Pennsylvania", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:45nqVXRAW0xv0wpU9JljPN", 
+            "recommended_album": 15, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5071b7d68d0a039e67f6524018ec30d7c03ca481", 
             "spotify_artist_uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02", 
             "full_name": "Taylor Swift", 
@@ -489,7 +489,7 @@
             "image_url": "https://i.scdn.co/image/f4127e4708860dca407b1c24794456477c57b7d5", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "The Eminem Show", 
-            "album_artist": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+            "album_artist": 16
         }
     }, 
     {
@@ -499,7 +499,7 @@
         "fields": {
             "origin": " St. Joseph, Missouri", 
             "popularity": 96, 
-            "recommended_album": "spotify:album:2cWBwpqMsDJC1ZUwz813lo", 
+            "recommended_album": 16, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c", 
             "spotify_artist_uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR", 
             "full_name": "Eminem", 
@@ -519,7 +519,7 @@
             "image_url": "https://i.scdn.co/image/f2b0c7bb0fe2d9805f260635a60dd5d98313ca03", 
             "genre": "Country", 
             "album_name": "The George Jones Collection", 
-            "album_artist": "spotify:artist:4BclNkZtAUq1YrYNzye3N7"
+            "album_artist": 17
         }
     }, 
     {
@@ -529,7 +529,7 @@
         "fields": {
             "origin": " Tulsa, Oklahoma, U.S", 
             "popularity": 54, 
-            "recommended_album": "spotify:album:2HlCIUeBTNkI07j4VgrsA3", 
+            "recommended_album": 17, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3b7c415b27aeaa6b690660903b2b85b51a979351", 
             "spotify_artist_uri": "spotify:artist:4BclNkZtAUq1YrYNzye3N7", 
             "full_name": "Garth Brooks", 
@@ -549,7 +549,7 @@
             "image_url": "https://i.scdn.co/image/a5d370a3ea82efa63784521a1d7352db0a7a4d3a", 
             "genre": "Rock", 
             "album_name": "Hotel California (Remastered)", 
-            "album_artist": "spotify:artist:0ECwFtbIWEVNwjlrfc6xoL"
+            "album_artist": 18
         }
     }, 
     {
@@ -559,7 +559,7 @@
         "fields": {
             "origin": "Los Angeles, CA", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:2widuo17g5CEC66IbzveRu", 
+            "recommended_album": 18, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/173519085c3eb8301fbeb744b0b92b6747938ab3", 
             "spotify_artist_uri": "spotify:artist:0ECwFtbIWEVNwjlrfc6xoL", 
             "full_name": "Eagles", 
@@ -579,7 +579,7 @@
             "image_url": "https://i.scdn.co/image/7d70e6c75857e33c0afb7a7efed7bedc684b0f07", 
             "genre": "Rock", 
             "album_name": "The Joshua Tree (Deluxe Edition Remastered)", 
-            "album_artist": "spotify:artist:51Blml2LZPmy7TTiAg47vQ"
+            "album_artist": 19
         }
     }, 
     {
@@ -589,7 +589,7 @@
         "fields": {
             "origin": " Dublin, Ireland", 
             "popularity": 84, 
-            "recommended_album": "spotify:album:4mULDK6YXrFXTfSwvwm4M3", 
+            "recommended_album": 19, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/56b6cf38f0ebc5386efb482f181267c560768ad4", 
             "spotify_artist_uri": "spotify:artist:51Blml2LZPmy7TTiAg47vQ", 
             "full_name": "U2", 
@@ -609,7 +609,7 @@
             "image_url": "https://i.scdn.co/image/460b81e8a291a65056e9a24d8f197037f31c7662", 
             "genre": "Pop", 
             "album_name": "Piano Man (Legacy Edition)", 
-            "album_artist": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e"
+            "album_artist": 20
         }
     }, 
     {
@@ -619,7 +619,7 @@
         "fields": {
             "origin": " The Bronx, New York, US", 
             "popularity": 79, 
-            "recommended_album": "spotify:album:69wjSAZXZiD2EBia3b3gxL", 
+            "recommended_album": 20, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c6cbad7a43b1167426e4e921030eded3aebf5d79", 
             "spotify_artist_uri": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e", 
             "full_name": "Billy Joel", 
@@ -639,7 +639,7 @@
             "image_url": "https://i.scdn.co/image/f1d8b65faccb92c4451c223d7773a6b55fd1d20a", 
             "genre": "Rock", 
             "album_name": "Face Value", 
-            "album_artist": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp"
+            "album_artist": 21
         }
     }, 
     {
@@ -649,7 +649,7 @@
         "fields": {
             "origin": " Chiswick, Greater London, England", 
             "popularity": 80, 
-            "recommended_album": "spotify:album:0z6C9U8FscvTVyFXo4Zza3", 
+            "recommended_album": 21, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9889ab008381b7f35cab362cc2b8f8e1b1ed7214", 
             "spotify_artist_uri": "spotify:artist:4lxfqrEsLX6N1N4OCSkILp", 
             "full_name": "Phil Collins", 
@@ -669,7 +669,7 @@
             "image_url": "https://i.scdn.co/image/ffe911bedb8c069c93427687ed59dd56449f4830", 
             "genre": "Rock", 
             "album_name": "I Don't Want To Miss A Thing", 
-            "album_artist": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH"
+            "album_artist": 22
         }
     }, 
     {
@@ -679,7 +679,7 @@
         "fields": {
             "origin": " Boston, Massachusetts", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:616UgaZTc454Gu0aXxVH3K", 
+            "recommended_album": 22, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/e0ea6225a3f89374d53ba1344c73ae2819cd2020", 
             "spotify_artist_uri": "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH", 
             "full_name": "Aerosmith", 
@@ -699,7 +699,7 @@
             "image_url": "https://i.scdn.co/image/e0570464ff9519d95129286c97e304ba8c99881f", 
             "genre": "Jazz", 
             "album_name": "Come Fly With Me", 
-            "album_artist": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0"
+            "album_artist": 23
         }
     }, 
     {
@@ -709,7 +709,7 @@
         "fields": {
             "origin": " Hoboken, New Jersey", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:66v9QmjAj0Wwhh2OpbU4BE", 
+            "recommended_album": 23, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d0a3c1d046165b767e2924dd144882e2944d5dd9", 
             "spotify_artist_uri": "spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0", 
             "full_name": "Frank Sinatra", 
@@ -729,7 +729,7 @@
             "image_url": "https://i.scdn.co/image/311eef499f07d4fa1d4016f8cda3425e421da73c", 
             "genre": "Pop", 
             "album_name": "Guilty", 
-            "album_artist": "spotify:artist:7jmTilWYlKOuavFfmQAcu6"
+            "album_artist": 24
         }
     }, 
     {
@@ -739,7 +739,7 @@
         "fields": {
             "origin": " Brooklyn, New York", 
             "popularity": 67, 
-            "recommended_album": "spotify:album:5mMebbufullX8FIhpCxwCt", 
+            "recommended_album": 24, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5c398a460fd08ab2a3775b35ceecda6b61ed3f60", 
             "spotify_artist_uri": "spotify:artist:7jmTilWYlKOuavFfmQAcu6", 
             "full_name": "Barbra Streisand", 
@@ -759,7 +759,7 @@
             "image_url": "https://i.scdn.co/image/431343e6995d6b71cc700fd24d18f336dfcbe61a", 
             "genre": "Rock", 
             "album_name": "Invisible Touch", 
-            "album_artist": "spotify:artist:3CkvROUTQ6nRi9yQOcsB50"
+            "album_artist": 25
         }
     }, 
     {
@@ -769,7 +769,7 @@
         "fields": {
             "origin": "Godalming, Surrey", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:632b0oXuFpstA4DO2cUKdG", 
+            "recommended_album": 25, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/147c67b0c8e6248d46b11db586be1ba0f5e2b3d3", 
             "spotify_artist_uri": "spotify:artist:3CkvROUTQ6nRi9yQOcsB50", 
             "full_name": "Genesis", 
@@ -789,7 +789,7 @@
             "image_url": "https://i.scdn.co/image/4479f1db678aa5a4bbab7709bea0b1c71de4581c", 
             "genre": "Rock", 
             "album_name": "Sweet Caroline", 
-            "album_artist": "spotify:artist:7mEIug7XUlQHikrFxjTWes"
+            "album_artist": 26
         }
     }, 
     {
@@ -799,7 +799,7 @@
         "fields": {
             "origin": " Brooklyn, New York, United States", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:3F3ZBkt86QKDSPRrVpk7Wx", 
+            "recommended_album": 26, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/f4d0fb18cb338eddee6b482779d946183a743b12", 
             "spotify_artist_uri": "spotify:artist:7mEIug7XUlQHikrFxjTWes", 
             "full_name": "Neil Diamond", 
@@ -819,7 +819,7 @@
             "image_url": "https://i.scdn.co/image/60d572a6f384afec96e89887a9072b65782c1137", 
             "genre": "Rock", 
             "album_name": "Born In The U.S.A.", 
-            "album_artist": "spotify:artist:3eqjTLE0HfPfh78zjh6TqT"
+            "album_artist": 27
         }
     }, 
     {
@@ -829,7 +829,7 @@
         "fields": {
             "origin": " Long Branch, New Jersey", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:0PMasrHdpaoIRuHuhHp72O", 
+            "recommended_album": 27, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/08142d2cf369e2d9a4562c458b406936110dae62", 
             "spotify_artist_uri": "spotify:artist:3eqjTLE0HfPfh78zjh6TqT", 
             "full_name": "Bruce Springsteen", 
@@ -849,7 +849,7 @@
             "image_url": "https://i.scdn.co/image/f8be5e54fb651f86bb6c9e328a805c34e5527d48", 
             "genre": "Pop", 
             "album_name": "Number Ones", 
-            "album_artist": "spotify:artist:1LZEQNv7sE11VDY3SdxQeN"
+            "album_artist": 28
         }
     }, 
     {
@@ -859,7 +859,7 @@
         "fields": {
             "origin": "Redcliffe, Australia", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:79F4jBcsI4qg66Xax1u4U8", 
+            "recommended_album": 28, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/1d5a05673975ba0c378cd280344e000b0b865620", 
             "spotify_artist_uri": "spotify:artist:1LZEQNv7sE11VDY3SdxQeN", 
             "full_name": "Bee Gees", 
@@ -879,7 +879,7 @@
             "image_url": "https://i.scdn.co/image/dc9275eb6b5e550ddbe19eac3476a7b57260fa01", 
             "genre": "Latin", 
             "album_name": "Personalidad", 
-            "album_artist": "spotify:artist:4etuCZVdP8yiNPn4xf0ie5"
+            "album_artist": 29
         }
     }, 
     {
@@ -889,7 +889,7 @@
         "fields": {
             "origin": " Madrid, Spain", 
             "popularity": 72, 
-            "recommended_album": "spotify:album:2mvTdPihXIOm17QqGlkK3i", 
+            "recommended_album": 29, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/07dcce290eea888445157a778b71c456a4e9a525", 
             "spotify_artist_uri": "spotify:artist:4etuCZVdP8yiNPn4xf0ie5", 
             "full_name": "Julio Iglesias", 
@@ -909,7 +909,7 @@
             "image_url": "https://i.scdn.co/image/a635106f337f4216c7c05f72e43aac71c89c9d77", 
             "genre": "Rock", 
             "album_name": "Dire Straits", 
-            "album_artist": "spotify:artist:0WwSkZ7LtFUFjGjMZBMt6T"
+            "album_artist": 30
         }
     }, 
     {
@@ -919,7 +919,7 @@
         "fields": {
             "origin": " Deptford, London, England", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:4dKdxly4ji1vfl7sEYuqBe", 
+            "recommended_album": 30, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fe4ea9c5a7292dd49935b432d726becd443039d1", 
             "spotify_artist_uri": "spotify:artist:0WwSkZ7LtFUFjGjMZBMt6T", 
             "full_name": "Dire Straits", 
@@ -939,7 +939,7 @@
             "image_url": "https://i.scdn.co/image/bbd1f19477ee2cb30c1ae9cece461b156d2bb48d", 
             "genre": "Rock", 
             "album_name": "Metallica", 
-            "album_artist": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
+            "album_artist": 31
         }
     }, 
     {
@@ -949,7 +949,7 @@
         "fields": {
             "origin": " Los Angeles, California", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:37lWyRxkf3wQHCOlXM5WfX", 
+            "recommended_album": 31, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3e77faaefed7e976999d5d40b02c2d0cae173a5a", 
             "spotify_artist_uri": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB", 
             "full_name": "Metallica", 
@@ -969,7 +969,7 @@
             "image_url": "https://i.scdn.co/image/49ac2c956fbade3288660fcf0d607badf7f941f4", 
             "genre": "Rock", 
             "album_name": "Slippery When Wet (Remastered)", 
-            "album_artist": "spotify:artist:58lV9VcRSjABbAbfWS6skp"
+            "album_artist": 32
         }
     }, 
     {
@@ -979,7 +979,7 @@
         "fields": {
             "origin": " Sayreville, New Jersey", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:5uU2uM1RGHfzlA12opjqol", 
+            "recommended_album": 32, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8ad1a9868710343e60b2236fcbd744bbd3152a38", 
             "spotify_artist_uri": "spotify:artist:58lV9VcRSjABbAbfWS6skp", 
             "full_name": "Bon Jovi", 
@@ -999,7 +999,7 @@
             "image_url": "https://i.scdn.co/image/d794460520c3ace23242ab5dd2be938695723848",
             "genre": "Hip-Hop/Rap", 
             "album_name": "Watch The Throne [Deluxe Edition (Explicit)]", 
-            "album_artist": "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB"
+            "album_artist": 33
         }
     }, 
     {
@@ -1009,7 +1009,7 @@
         "fields": {
             "origin": "Brooklyn, New York", 
             "popularity": 93, 
-            "recommended_album": "spotify:album:1YwzJz7CrV9fd9Qeb6oo1d", 
+            "recommended_album": 33, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/51725c003bbf5c6ffb2fe4bc0b25b44236ace1b3", 
             "spotify_artist_uri": "spotify:artist:3nFkdlSjzX9mRTtwJOzDYB", 
             "full_name": "Jay-Z", 
@@ -1029,7 +1029,7 @@
             "image_url": "https://i.scdn.co/image/4107f2042e335af19063191d42050e4c10d856ca", 
             "genre": "Pop", 
             "album_name": "Pretty Girls", 
-            "album_artist": "spotify:artist:26dSoYclwsYLMAKD3tpOr4"
+            "album_artist": 34
         }
     }, 
     {
@@ -1039,7 +1039,7 @@
         "fields": {
             "origin": " McComb, Mississippi", 
             "popularity": 86, 
-            "recommended_album": "spotify:album:76LmTxakuFgfAmvUvEXz5S", 
+            "recommended_album": 34, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5d9cf1639f9e114166acc63e3f0a185974788b5d", 
             "spotify_artist_uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4", 
             "full_name": "Britney Spears", 
@@ -1059,7 +1059,7 @@
             "image_url": "https://i.scdn.co/image/201be9c27da63b75628cffc9864b413a25907a0a", 
             "genre": "Rock", 
             "album_name": "Blondes Have More Fun", 
-            "album_artist": "spotify:artist:2y8Jo9CKhJvtfeKOsYzRdT"
+            "album_artist": 35
         }
     }, 
     {
@@ -1069,7 +1069,7 @@
         "fields": {
             "origin": " Highgate, North London, England", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:38tXOrjXUUfQWWV2DRwMio", 
+            "recommended_album": 35, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/78b073677ac24bac958e428df6966046b49d952f", 
             "spotify_artist_uri": "spotify:artist:2y8Jo9CKhJvtfeKOsYzRdT", 
             "full_name": "Rod Stewart", 
@@ -1089,7 +1089,7 @@
             "image_url": "https://i.scdn.co/image/d0a80af9bc4735ae29a26493785439bf3ef88660", 
             "genre": "Rock", 
             "album_name": "Fleetwood Mac", 
-            "album_artist": "spotify:artist:08GQAI4eElDnROBrJRGE0X"
+            "album_artist": 36
         }
     }, 
     {
@@ -1099,7 +1099,7 @@
         "fields": {
             "origin": " London, United Kingdom", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:5VIQ3VaAoRKOEpJ0fewdvo", 
+            "recommended_album": 36, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/ab13f377f5309c2570032fdb61abdfe1422a6680", 
             "spotify_artist_uri": "spotify:artist:08GQAI4eElDnROBrJRGE0X", 
             "full_name": "Fleetwood Mac", 
@@ -1119,7 +1119,7 @@
             "image_url": "https://i.scdn.co/image/77c11da2a69490dc9d34b2ca09a6f5a170b0ac5f", 
             "genre": "Country", 
             "album_name": "Love Is Everything", 
-            "album_artist": "spotify:artist:5vngPClqofybhPERIqQMYd"
+            "album_artist": 37
         }
     }, 
     {
@@ -1129,7 +1129,7 @@
         "fields": {
             "origin": "Poteet, Texas", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:2tJoaDnwr0xWHD4OriSNtB", 
+            "recommended_album": 37, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d3b6df803e3f4ece885ff0e7267651d71fb7803f", 
             "spotify_artist_uri": "spotify:artist:5vngPClqofybhPERIqQMYd", 
             "full_name": "George Strait", 
@@ -1149,7 +1149,7 @@
             "image_url": "https://i.scdn.co/image/72fa1290350b648028c634a98d5644167361e5b2", 
             "genre": "Pop", 
             "album_name": "The Hits--Chapter One", 
-            "album_artist": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+            "album_artist": 38
         }
     }, 
     {
@@ -1159,7 +1159,7 @@
         "fields": {
             "origin": " Orlando, Florida", 
             "popularity": 80, 
-            "recommended_album": "spotify:album:1NslKOZobWxINFaFkLol3r", 
+            "recommended_album": 38, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/97b5bec99eae9b4306844b0c2f9aa24e4216a804", 
             "spotify_artist_uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7", 
             "full_name": "Backstreet Boys", 
@@ -1179,7 +1179,7 @@
             "image_url": "https://i.scdn.co/image/b6c85982f15447256f06fde54023a15a5d84e718", 
             "genre": "Rock", 
             "album_name": "Appetite For Destruction (Explicit Version)", 
-            "album_artist": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+            "album_artist": 39
         }
     }, 
     {
@@ -1189,7 +1189,7 @@
         "fields": {
             "origin": " Los Angeles, California", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:5JKFiC2WVi9HtvJEm8CUB8", 
+            "recommended_album": 39, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9161b5e282bbe652c80d7a364a6af8871a7a4d4e", 
             "spotify_artist_uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC", 
             "full_name": "Guns N' Roses", 
@@ -1209,7 +1209,7 @@
             "image_url": "https://i.scdn.co/image/f45f771ba626071c1a295c9e9a0bcdb853f35a6d", 
             "genre": "Latin", 
             "album_name": "Soy el Mismo", 
-            "album_artist": "spotify:artist:3MHaV05u0io8fQbZ2XPtlC"
+            "album_artist": 40
         }
     }, 
     {
@@ -1219,7 +1219,7 @@
         "fields": {
             "origin": " The Bronx, New York", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:4o8ZyBzwPxPVc2bqNG5Xfe", 
+            "recommended_album": 40, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/b4f54097c32971a0f2b964429e129a469a8b4002", 
             "spotify_artist_uri": "spotify:artist:3MHaV05u0io8fQbZ2XPtlC", 
             "full_name": "Prince Royce", 
@@ -1239,7 +1239,7 @@
             "image_url": "https://i.scdn.co/image/430d7afebf738c788ccadc1b2488ab956465236f", 
             "genre": "Pop", 
             "album_name": "FourFiveSeconds", 
-            "album_artist": "spotify:artist:4STHEaNw4mPZ2tzheohgXB"
+            "album_artist": 41
         }
     }, 
     {
@@ -1249,7 +1249,7 @@
         "fields": {
             "origin": " Liverpool, England", 
             "popularity": 88, 
-            "recommended_album": "spotify:album:7yBl4uFyJzH48Vy6tPieXL", 
+            "recommended_album": 41, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/96e2e59a1bf0b90cce97035ca48ad017cb9937c9", 
             "spotify_artist_uri": "spotify:artist:4STHEaNw4mPZ2tzheohgXB", 
             "full_name": "Paul McCartney", 
@@ -1269,7 +1269,7 @@
             "image_url": "https://i.scdn.co/image/58f30cb6545fe5ecba1153844617e5ad79fe2ab1", 
             "genre": "Country", 
             "album_name": "The Gambler", 
-            "album_artist": "spotify:artist:4tw2Lmn9tTPUv7Gy7mVPI4"
+            "album_artist": 42
         }
     }, 
     {
@@ -1279,7 +1279,7 @@
         "fields": {
             "origin": " Houston, Texas", 
             "popularity": 69, 
-            "recommended_album": "spotify:album:3XdvQjIMjdwxRivZrg1ziJ", 
+            "recommended_album": 42, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/979a116ec6410a6de03890ae91b15b277e9da5f0", 
             "spotify_artist_uri": "spotify:artist:4tw2Lmn9tTPUv7Gy7mVPI4", 
             "full_name": "Kenny Rogers", 
@@ -1299,7 +1299,7 @@
             "image_url": "https://i.scdn.co/image/3bcfd01d87f7e6a2588d5ad24d7acae4c9d4b192", 
             "genre": "Pop", 
             "album_name": "No Sleeep", 
-            "album_artist": "spotify:artist:4qwGe91Bz9K2T8jXTZ815W"
+            "album_artist": 43
         }
     }, 
     {
@@ -1309,7 +1309,7 @@
         "fields": {
             "origin": "Gary, Indiana", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:01f9l0SBAi6PrQZ99qCv1w", 
+            "recommended_album": 43, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/7530f723f0bb8b31c19635dbe2b9f198209def62", 
             "spotify_artist_uri": "spotify:artist:4qwGe91Bz9K2T8jXTZ815W", 
             "full_name": "Janet Jackson", 
@@ -1329,7 +1329,7 @@
             "image_url": "https://i.scdn.co/image/730e9ea3b8bd5b5d2590216346aa95a360ea7f6d", 
             "genre": "Rock", 
             "album_name": "Chicago X", 
-            "album_artist": "spotify:artist:3iDD7bnsjL9J4fO298r0L0"
+            "album_artist": 44
         }
     }, 
     {
@@ -1339,7 +1339,7 @@
         "fields": {
             "origin": "Chicago, Illinois", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:4asBn7hzIq2Ka7rDzJN24P", 
+            "recommended_album": 44, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a09994fb177b1c7d9b0c2ebdccdeb3e0bba387f4", 
             "spotify_artist_uri": "spotify:artist:3iDD7bnsjL9J4fO298r0L0", 
             "full_name": "Chicago", 
@@ -1359,7 +1359,7 @@
             "image_url": "https://i.scdn.co/image/a46be8e9d28f1e2c05b475194114d604a2f87836", 
             "genre": "Pop", 
             "album_name": "Horizon", 
-            "album_artist": "spotify:artist:6nWLkLMNljsR8U1emdLDbJ"
+            "album_artist": 45
         }
     }, 
     {
@@ -1369,7 +1369,7 @@
         "fields": {
             "origin": "Los Angeles, California", 
             "popularity": 14, 
-            "recommended_album": "spotify:album:2FxmC1q7CTXLSfHIX5xWCr", 
+            "recommended_album": 45, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/446426460bdc9a60adbbd46c4bdcad5ffac7e043", 
             "spotify_artist_uri": "spotify:artist:6nWLkLMNljsR8U1emdLDbJ", 
             "full_name": "The Carpenters", 
@@ -1389,7 +1389,7 @@
             "image_url": "https://i.scdn.co/image/4475b6e95cd5c153cf89f49daa3a85b939359690", 
             "genre": "Rock", 
             "album_name": "Highway 61 Revisited", 
-            "album_artist": "spotify:artist:74ASZWbe4lXaubB36ztrGX"
+            "album_artist": 46
         }
     }, 
     {
@@ -1399,7 +1399,7 @@
         "fields": {
             "origin": "Duluth, Minnesota", 
             "popularity": 81, 
-            "recommended_album": "spotify:album:6YabPKtZAjxwyWbuO9p4ZD", 
+            "recommended_album": 46, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c5525afd94a493d7d7dd53ef23f1def0db47fc51", 
             "spotify_artist_uri": "spotify:artist:74ASZWbe4lXaubB36ztrGX", 
             "full_name": "Bob Dylan", 
@@ -1419,7 +1419,7 @@
             "image_url": "https://i.scdn.co/image/2a7f31645ca539734a18c841dda5047784c017cf", 
             "genre": "Pop", 
             "album_name": "Ladies And Gentlemen... The Best Of George Michael", 
-            "album_artist": "spotify:artist:19ra5tSw0tWufvUp8GotLo"
+            "album_artist": 47
         }
     }, 
     {
@@ -1429,7 +1429,7 @@
         "fields": {
             "origin": "East Finchley, London, England", 
             "popularity": 75, 
-            "recommended_album": "spotify:album:3coLNlyStg9h7f8CZ103Rl", 
+            "recommended_album": 47, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d3609d12d1ba580782d9c8e6aeb6859975078a2d", 
             "spotify_artist_uri": "spotify:artist:19ra5tSw0tWufvUp8GotLo", 
             "full_name": "George Michael", 
@@ -1449,7 +1449,7 @@
             "image_url": "https://i.scdn.co/image/d67cc75b3cc7641af4f7f90e055cfad617e9dfe9", 
             "genre": "Rock", 
             "album_name": "Reckless (30th Anniversary / Deluxe Edition)", 
-            "album_artist": "spotify:artist:3Z02hBLubJxuFJfhacLSDc"
+            "album_artist": 48
         }
     }, 
     {
@@ -1459,7 +1459,7 @@
         "fields": {
             "origin": "Kingston, Ontario, Canada", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:2o2G49EPi4lua5zgxUKhLL", 
+            "recommended_album": 48, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/a536bf733956e47aba8cdaa17d974b4496c5cc55", 
             "spotify_artist_uri": "spotify:artist:3Z02hBLubJxuFJfhacLSDc", 
             "full_name": "Bryan Adams", 
@@ -1479,7 +1479,7 @@
             "image_url": "https://i.scdn.co/image/076da5ae5491ae8fd19e0705a4ffc56268ac9888", 
             "genre": "Rock", 
             "album_name": "Pour Some Sugar On Me (2012)", 
-            "album_artist": "spotify:artist:6H1RjVyNruCmrBEWRbD0VZ"
+            "album_artist": 49
         }
     }, 
     {
@@ -1489,7 +1489,7 @@
         "fields": {
             "origin": " Sheffield, South Yorkshire, England", 
             "popularity": 71, 
-            "recommended_album": "spotify:album:5eJnzLcFCVt0Wcepaj6GiW", 
+            "recommended_album": 49, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fd9b7876e070e868ffce4a86db26584665eeefc6", 
             "spotify_artist_uri": "spotify:artist:6H1RjVyNruCmrBEWRbD0VZ", 
             "full_name": "Def Leppard", 
@@ -1509,7 +1509,7 @@
             "image_url": "https://i.scdn.co/image/e42cfaca492919e1c090ae41ac89b4792a256f18", 
             "genre": "Rock", 
             "album_name": "The Essential Johnny Cash", 
-            "album_artist": "spotify:artist:6kACVPfCOnqzgfEF5ryl0x"
+            "album_artist": 50
         }
     }, 
     {
@@ -1519,7 +1519,7 @@
         "fields": {
             "origin": " Kingsland, Arkansas, U.S.", 
             "popularity": 82, 
-            "recommended_album": "spotify:album:4E2eUhFHqTG2pu9MN1NDIF", 
+            "recommended_album": 50, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/48284d2fdb793dc003f48a3eae3a86183c16501b", 
             "spotify_artist_uri": "spotify:artist:6kACVPfCOnqzgfEF5ryl0x", 
             "full_name": "Johnny Cash", 
@@ -1539,7 +1539,7 @@
             "image_url": "https://i.scdn.co/image/6c41a31021b9ce126768d6ed51bb76bf0673c4b2", 
             "genre": "Alternative Rock", 
             "album_name": "Paramore", 
-            "album_artist": "spotify:artist:74XFHRwlV6OrjEM0A2NCMF"
+            "album_artist": 51
         }
     }, 
     {
@@ -1549,7 +1549,7 @@
         "fields": {
             "origin": "Franklin, Tennessee", 
             "popularity": 83, 
-            "recommended_album": "spotify:album:4sgYpkIASM1jVlNC8Wp9oF", 
+            "recommended_album": 51, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8abe74b2a7d3e92c0be3757a38533c48f7397ebb", 
             "spotify_artist_uri": "spotify:artist:74XFHRwlV6OrjEM0A2NCMF", 
             "full_name": "Paramore", 
@@ -1569,7 +1569,7 @@
             "image_url": "https://i.scdn.co/image/eed98be29bfd1387cc359d45a9704076d11f0e71", 
             "genre": "Alternative Rock", 
             "album_name": "Flyleaf", 
-            "album_artist": "spotify:artist:4IliztYDlfMvzQzbx50o60"
+            "album_artist": 52
         }
     }, 
     {
@@ -1579,7 +1579,7 @@
         "fields": {
             "origin": " Belton and Temple, Texas", 
             "popularity": 70, 
-            "recommended_album": "spotify:album:0XvHcGX9MJXt9Cx1Iml7WS", 
+            "recommended_album": 52, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/cf761e063cc68d02170de496c4cd5b96cfa269f9", 
             "spotify_artist_uri": "spotify:artist:4IliztYDlfMvzQzbx50o60", 
             "full_name": "Flyleaf", 
@@ -1599,7 +1599,7 @@
             "image_url": "https://i.scdn.co/image/ebb609c04ae8687e974625af45ac93a29bf3ede4", 
             "genre": "Rock", 
             "album_name": "The Iggy Pop Tribute: We Will Fall", 
-            "album_artist": "spotify:artist:1Fmb52lZ6Jv7FMWXXTPO3K"
+            "album_artist": 53
         }
     }, 
     {
@@ -1609,7 +1609,7 @@
         "fields": {
             "origin": " Wynnewood, Pennsylvania, United States", 
             "popularity": 41, 
-            "recommended_album": "spotify:album:6F5sVtKKgS7c9dhSyNru09", 
+            "recommended_album": 53, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/1340f87073b56dc9e40984b1d558484cc29d6a1b", 
             "spotify_artist_uri": "spotify:artist:1Fmb52lZ6Jv7FMWXXTPO3K", 
             "full_name": "Joan Jett & The Blackhearts", 
@@ -1629,7 +1629,7 @@
             "image_url": "https://i.scdn.co/image/a42e3ae40dfd871b5d17a00f2f8167c0d0d26916", 
             "genre": "Rock", 
             "album_name": "Fallen", 
-            "album_artist": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c"
+            "album_artist": 54
         }
     }, 
     {
@@ -1639,7 +1639,7 @@
         "fields": {
             "origin": " Little Rock, Arkansas, United States", 
             "popularity": 76, 
-            "recommended_album": "spotify:album:02w1xMzzdF2OJxTeh1basm", 
+            "recommended_album": 54, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/51aaff58f3fa23591eb9fbf9316aff7e551b586a", 
             "spotify_artist_uri": "spotify:artist:5nGIFgo0shDenQYSE0Sn7c", 
             "full_name": "Evanescence", 
@@ -1659,7 +1659,7 @@
             "image_url": "https://i.scdn.co/image/8dd4af6ec5392ea84fee555a000c6a21d4b7f202", 
             "genre": "New Age", 
             "album_name": "A Day Without Rain", 
-            "album_artist": "spotify:artist:6uothxMWeLWIhsGeF7cyo4"
+            "album_artist": 55
         }
     }, 
     {
@@ -1669,7 +1669,7 @@
         "fields": {
             "origin": " Gweedore, County Donegal, Ireland", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:2ioso1tqQ5zABQDVYyiUi5", 
+            "recommended_album": 55, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/c778362e32c11f57427575d8c0ee871b17cfa3a2", 
             "spotify_artist_uri": "spotify:artist:6uothxMWeLWIhsGeF7cyo4", 
             "full_name": "Enya", 
@@ -1689,7 +1689,7 @@
             "image_url": "https://i.scdn.co/image/d0217aa4bab7b2a6d94beba073e97b5f289c7026", 
             "genre": "Electronic", 
             "album_name": "Radioactive", 
-            "album_artist": "spotify:artist:378dH6EszOLFShpRzAQkVM"
+            "album_artist": 56
         }
     }, 
     {
@@ -1699,7 +1699,7 @@
         "fields": {
             "origin": "Santa Ana, California, United States", 
             "popularity": 77, 
-            "recommended_album": "spotify:album:67vgL4RvpcGY0nooDOK6zW", 
+            "recommended_album": 56, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/35610d772f02ff9355d053a6a5e374b902b05de7", 
             "spotify_artist_uri": "spotify:artist:378dH6EszOLFShpRzAQkVM", 
             "full_name": "Lindsey Stirling", 
@@ -1719,7 +1719,7 @@
             "image_url": "https://i.scdn.co/image/358ed12331556a389256bc3c14597f2693b331d2", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "Because The Internet", 
-            "album_artist": "spotify:artist:73sIBHcqh3Z3NyqHKZ7FOL"
+            "album_artist": 57
         }
     }, 
     {
@@ -1729,7 +1729,7 @@
         "fields": {
             "origin": "Stone Mountain, Georgia", 
             "popularity": 85, 
-            "recommended_album": "spotify:album:0zi2TaQkYxfXIBvl2yTjQJ", 
+            "recommended_album": 57, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3edce0c25a024d222472a002260379a8b3dcdf5e", 
             "spotify_artist_uri": "spotify:artist:73sIBHcqh3Z3NyqHKZ7FOL", 
             "full_name": "Childish Gambino", 
@@ -1749,7 +1749,7 @@
             "image_url": "https://i.scdn.co/image/639b18cf32f07d300a7b657fc4c4f2f51f6f4afa", 
             "genre": "Pop", 
             "album_name": "Our Own House", 
-            "album_artist": "spotify:artist:5ivCbtrcD5N4rD337xIb2z"
+            "album_artist": 58
         }
     }, 
     {
@@ -1759,7 +1759,7 @@
         "fields": {
             "origin": " New York City, New York", 
             "popularity": 78, 
-            "recommended_album": "spotify:album:726GB3GTBwPdsGr5XzOQbz", 
+            "recommended_album": 58, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/5ff916bf0ef383c0122a292b1a121a05df286fbb", 
             "spotify_artist_uri": "spotify:artist:5ivCbtrcD5N4rD337xIb2z", 
             "full_name": "MisterWives", 
@@ -1779,7 +1779,7 @@
             "image_url": "https://i.scdn.co/image/78db80806a4274ddbd3d23116c6d448b1066b762", 
             "genre": "Hip-Hop/Rap", 
             "album_name": "2014 Forest Hills Drive", 
-            "album_artist": "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5"
+            "album_artist": 59
         }
     }, 
     {
@@ -1789,7 +1789,7 @@
         "fields": {
             "origin": " Frankfurt, West Germany", 
             "popularity": 91, 
-            "recommended_album": "spotify:album:7viNUmZZ8ztn2UB4XB3jIL", 
+            "recommended_album": 59, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/23dd8dd8d8694a09e4872b8bb5f0978000bed401", 
             "spotify_artist_uri": "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5", 
             "full_name": "J. Cole", 
@@ -1809,7 +1809,7 @@
             "image_url": "https://i.scdn.co/image/81af87afb8641d98d00cec4fc322756be81c2b72", 
             "genre": "R&B", 
             "album_name": "Can't Feel My Face", 
-            "album_artist": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+            "album_artist": 60
         }
     }, 
     {
@@ -1819,7 +1819,7 @@
         "fields": {
             "origin": " Scarborough, Ontario, Canada", 
             "popularity": 98, 
-            "recommended_album": "spotify:album:2SNSXzdTfoGk3XTpD5DAi9", 
+            "recommended_album": 60, 
             "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/9969909da151cb95ec7c60e1ec8f2aa408c8e6bc", 
             "spotify_artist_uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ", 
             "full_name": "The Weeknd", 
