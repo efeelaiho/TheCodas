@@ -11,9 +11,28 @@ from rest_framework.decorators import api_view
 from volumemax.models import Artist, Album
 from volumemax.serializer import ArtistSerializer, AlbumSerializer
 from volumemax.forms import SearchForm
-from volumemax.search import get_query
+from volumemax.search import *
 from volumemax.tests import *
 from operator import add
+
+from io import StringIO
+import unittest
+from django.test.utils import setup_test_environment
+from django.utils import unittest
+
+from django.core.urlresolvers import reverse
+from django.core.management import call_command
+
+from django.test import TestCase
+import datetime
+from datetime import date
+
+try:
+    from urllib.request import urlopen, Request
+except:
+    from urllib2 import *
+
+from json import dumps, loads
 
 # Create your views here.
 
@@ -27,8 +46,22 @@ def home(request):
 	return render(request, "home.html",{})
 
 def about(request):
+	search_test = unittest.TestLoader().loadTestsFromTestCase(SearchTestCase)
+	search = StringIO()
+	unittest.TextTestRunner(stream=search).run(search_test)
+	artist_test = unittest.TestLoader().loadTestsFromTestCase(ArtistTestCase)
+	artist = StringIO()
+	unittest.TextTestRunner(stream=artist).run(artist_test)
+	API_test = unittest.TestLoader().loadTestsFromTestCase(APItests)
+	API = StringIO()
+	unittest.TextTestRunner(stream=API).run(API_test)
 
-	return render(request, "about.html", {})
+	context = {'search_results': search.getvalue(),'artist_results': artist.getvalue(),'API_results': API.getvalue()}
+	# context = {}
+	search.close()
+	artist.close()
+	API.close()
+	return render(request, "about.html", context)
 
 def artists(request):
 	artists = Artist.objects.all()
