@@ -44,10 +44,10 @@
                             <td> <a href="{% url 'artist_view' artist.get_absolute_url %}">
                     <img class="img-responsive" src="{{artist.image_url}}" width="200" height="200" 
                     style="border-radius: 5px;border-style: solid;border-width: 2px;border-color: #D50000;"></a></td>  
-                            <td><a href="{% url 'artist_view' artist.get_absolute_url %}">{{artist.full_name}}</a></td>  
-                            <td>{{artist.origin}}</td>  
+                            <td style="text-transform: capitalize;"><a href="{% url 'artist_view' artist.get_absolute_url %}">{{artist.full_name}}</a></td>  
+                            <td style="text-transform: capitalize;">{{artist.origin}}</td>  
                             <td>{{artist.popularity}}</td>
-                            <td>{{artist.genre}}</td>  
+                            <td style="text-transform: capitalize;">{{artist.genre}}</td>  
                           </tr>  
                            {% endfor %}
                           

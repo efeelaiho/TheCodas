@@ -11,7 +11,8 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      
+      <link rel="shortcut icon" href="{% static 'img/music-icon.png'%}">
+
 
       <!-- Bootstrap Core CSS -->
       <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
@@ -66,15 +67,16 @@
                 </ul>
                 <form class="navbar-form navbar-right" action="/search/" method="get">
 
-                        <input id="id_q" maxlength="100" name="q" placeholder="Search Volume.max()" type="text" style="color:black; font-weight:700;border-radius: 5px;width: 200px;border-style: solid;border-width: 2px;border-color: #D50000;outline: none;">
+                        <input id="id_q" maxlength="100" name="q" placeholder="Search Volume.max()" type="text" style="color: white; font-weight:700;border-radius: 5px;width: 200px;border-style: solid;border-width: 2px;border-color: #D50000;outline: none;background-color: black;text-indent: 5px;">
 
                         <input type="submit" class="custom-btn" value="Search" style="
                         border-radius: 5px;
-                        background-color: #D50000;
+                        background-color: black;
                         border-width: 2px;
                         border-style: solid;
                         border-color: #D50000;
-                        outline: none;">
+                        outline: none;
+                        color: white;">
                 </form>
             </div>
             <!-- /.navbar-collapse -->
