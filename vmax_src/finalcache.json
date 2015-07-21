@@ -3359,5 +3359,94 @@
             "genre": "Hip-Hop/Rap", 
             "biography": "Robert Rahmeek Williams (born May 6, 1987), better known by his stage name Meek Mill, is an American hip hop recording artist from Philadelphia, Pennsylvania. He was briefly signed to Atlanta-based record label Grand Hustle, owned by record executive and fellow American rapper T.I.. In February 2011, after leaving Grand Hustle, Mill signed a record deal with fellow American rapper Rick Ross' Miami-based Maybach Music Group (MMG) imprint.\nMill's debut studio album, Dreams and Nightmares, was released in 2012, under MMG and Warner Bros. Records. The album, preceded by the single \"Young & Gettin' It\", debuted at number two on the US Billboard 200. He has also appeared on MMG's Self Made compilation series, with his debut single \"Tupac Back\" and second single \"Ima Boss\", being included on volume one.\nIn October 2012, Meek Mill announced the launching of his own imprint, Dream Chasers Records, named after his popular mixtape series. He also revealed having already signed several fellow Philadelphia-based rappers in 2012."
         }
+    },
+    {
+        "model": "volumemax.artist",
+        "pk": 113,
+        "track_url": "https://p.scdn.co/mp3-preview/f890183ccfd5f46ce172da78066231d952b9024d",
+        "fields": {
+            "full_name": "Kanye West",
+            "origin": "Chicago, IL",
+            "popularity": 97,
+            "genre": "Hip-Hop/Rap",
+            "spotify_artist_uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+            "biography": "Kanye Omari West (/\u02c8k\u0251\u02d0nje\u026a/; born June 8, 1977) is an American rapper, songwriter, record producer and fashion designer. West first became known as a producer for Roc-A-Fella Records; he achieved recognition for his work on rapper Jay-Z's The Blueprint (2001), as well as hit singles for musical artists including Alicia Keys, Ludacris, and Janet Jackson. His style of production originally used high-pitched vocal samples from soul songs incorporated with his own drums and instruments. He later broadened his influences to include 1970s R&B, baroque pop, trip hop, arena rock, house, folk, alternative, electronica, synthpop, industrial, and classical music.\nWest was raised in a middle-class household in Chicago, Illinois, and began rapping in the third grade, becoming involved in the city's hip hop scene. West attended art school for one semester before dropping out to pursue music entirely in the late 1990s. Although his real desire was to become a rapper, record executives did not take West seriously, viewing him as a producer first and foremost. After being signed to Roc-A-Fella in 2002, West released his debut album The College Dropout in 2004 to commercial and critical acclaim. The baroque-inspired Late Registration followed in 2005, and Graduation in 2007. West switched rapping for singing on his emotive 2008 effort 808's & Heartbreak, and embraced maximalism on 2010's My Beautiful Dark Twisted Fantasy. Following several collaborations, West released his abrasive sixth album, Yeezus, in 2013.\nWest is one of the best- selling artists of all time, having sold more than 21 million albums and 100 million digital downloads. He has won a total of 21 Grammy Awards, making him one of the most awarded artists of all- time and the most Grammy-awarded artist of his age. Time named West one of the 100 most influential people in the world in 2005, 2011 and 2015. He has also been included in a number of Forbes annual lists. Three of his albums rank on Rolling Stone's 2012 \"500 Greatest Albums of All Time\" list; two of his albums feature at #8 and #1 in Pitchfork Media's The 100 Best Albums of 2010\u20132014.\nWest's background and style, from his debut album, deviated from the then-dominant \"gangsta\" persona in hip hop, and he would later alter the genre stylistically as rappers adopted his alternative aesthetic. An outspoken and controversial celebrity, West has often been a source of controversy due to his appearances at award shows and his various television and radio interviews. West has collaborated on multiple occasions with brands Nike, Louis Vuitton, Adidas and A.P.C.. West also runs his own record label GOOD Music and has directed several short films.",
+            "youtube_url_1": "https://www.youtube.com/embed/Co0tTeuUVhU",
+            "youtube_url_2": "https://www.youtube.com/embed/PsO6ZnUZI0g",
+            "recommended_album": "spotify:album:3ff2p3LnR6V7m6BinwhNaQ",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fca17e83545e076fafb561569e8d5ec64f87eb8c"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "volumemax.album",
+        "fields": {
+            "album_artist": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+            "release_date": "2009-05-01",
+            "genre": "rap",
+            "album_name": "College Dropout",
+            "editors_notes": "Kanye West gained notoriety as a producer-for-hire before The College Dropout shook hip-hop to its core. The mix of styles and subject matter is breathtaking. Pop hits rub up against vulnerable moments. Street anthems mingle with wild humor. And \"Jesus Walks\" challenges beliefs like no other rap song before it. Kanye West attacks the set with confidence and conviction.",
+            "spotify_albums_uri": "spotify:album:3ff2p3LnR6V7m6BinwhNaQ",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/102504bd8952b26857974a3dab5884430245e228"
+        }
+    },
+    {
+        "model": "volumemax.artist",
+        "pk": 114,
+        "track_url": "https://p.scdn.co/mp3-preview/12d783d8fb8db8c94add736eab5e9ff6e504e0a5",
+        "fields": {
+            "full_name": "Frank Ocean",
+            "origin": "New Orleans, LA",
+            "popularity": 82,
+            "genre": "Hip-Hop/Rap",
+            "spotify_artist_uri": "spotify:artist:2h93pZq0e7k5yf4dywlkpM",
+            "biography": "An R&B vocalist affiliated with the outlandish hip-hop crew Odd Future Wolf Gang Kill Them All, Frank Ocean (Christopher \"Lonny\" Breaux) was born and raised in New Orleans. The aspiring songwriter and singer had just moved into his dorm at the University of New Orleans when Hurricane Katrina hit. With his future under water, Ocean immediately left the academic life behind and moved to L.A. to give music a shot. He cut some demos at a friend's home studio, shopped them around town, and eventually landed a songwriting deal that would find him working for Justin Bieber, John Legend, and Brandy. Some of this work was alongside Christopher \"Tricky\" Stewart, a fellow songwriter and producer who would convince Ocean to sign a solo artist deal with Def Jam in late 2009. It was also around this time he met Odd Future and began writing music for the crew while making guest appearances on their mixtapes. In February 2011, as Odd Future were making waves, Ocean broke out on his own with the Nostalgia, Ultra mixtape, issued through his Tumblr blog. Later in the year, he appeared on Tyler, the Creator's Goblin (\"She,\" \"Window\"), Beyoncé's 4 (\"I Miss You\"), and Jay-Z and Kanye West's Watch the Throne (\"No Church in the Wild,\" \"Made in America\"). Def Jam's plan for the release of Nostalgia, Lite — an EP-length version of the mixtape — was scrapped, yet the songs \"Novacane\" (produced by Stewart) and \"Swim Good\" (MIDI Mafia) were released as singles with accompanying videos. The former reached number 17 on Billboard's Hot R&B/Hip-Hop chart. The latter peaked at number 70. By the end of the year, several publications listed Nostalgia, Ultra as one of 2011's best releases. While his association with Def Jam had been strained, Ocean nonetheless proceeded with the making of his official debut album, working beside the likes of Malay, Om'Mas Keith, and Pharrell Williams as fellow producers. The album, Channel Orange, was previewed for journalists at a handful of listening events. Some writers alleged that certain lyrics on the album revealed Ocean's bisexuality. Ocean subsequently published a screen shot of a TextEdit file (entitled \"thank you's\") that included details of a romantic relationship — his first love — with a male. On July 10, six days after the post, Channel Orange was released by Def Jam as a download, while the CD version was issued the following week. Along with featured appearances from Earl Sweatshirt, John Mayer, and André 3000, the album involved material about unrequited love, as well as class and drug dependency — all delivered with Ocean's descriptive storytelling and understated yet expressive vocals. The album would go on to be an all-around success, receiving nearly universal critical acclaim, a spot on the Billboard 200, and a host of Grammy nominations.",
+            "youtube_url_1": "https://www.youtube.com/embed/TMfPJT4XjAI",
+            "youtube_url_2": "https://www.youtube.com/embed/PmN9rZW0HGo",
+            "recommended_album": "spotify:album:392p3shh2jkxUxY2VHvlH8",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/310bcbad5e6048493ff198822a54c28c8214f06f"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "volumemax.album",
+        "fields": {
+            "album_artist": "spotify:artist:2h93pZq0e7k5yf4dywlkpM",
+            "release_date": "2009-05-01",
+            "genre": "Hip-Hop/Rap",
+            "album_name": "Channel Orange",
+            "editors_notes": "Frank Ocean uses a honeycoated tenor to express what’s on his mind. After opening with falsetto-brushed musings about his first love and spending too much time alone, the soul singer gives us an effervescent, sun-kissed view of life’s simple pleasures ) and a tongue-in-cheek glimpse of what it means to be \"Super Rich Kids\"—featuring Odd Future lyricist Earl Sweatshirt.\"",
+            "spotify_albums_uri": "spotify:album:392p3shh2jkxUxY2VHvlH8",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/3012f6af84d128b2261b54b40dae836d0102a553"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "volumemax.album",
+        "fields": {
+            "album_artist": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+            "release_date": "2009-05-01",
+            "genre": "Hip-Hop/Rap",
+            "album_name": "To Pimp A Butterfly",
+            "editors_notes": "Packed with jazzy, dreamlike production and staggering lyrical work, To Pimp a Butterfly finds Lamar grappling with the weight of his newfound fame. Through the funky menace of \"King Kunta\" he makes blistering reference to the protagonist of Alex Haley’s Roots, while the feverish standout \"The Blacker the Berry\" sees him attack black-on-black crime with singular precision and ferocity.",
+            "spotify_albums_uri": "spotify:album:7ycBtnsMtyVbbwTfJwRjSP",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/d71a94b751b18e4bf7622a05680014c5bb7acb75"
+        }
+    },
+    {
+        "model": "volumemax.artist",
+        "pk": 115,
+        "track_url": "https://p.scdn.co/mp3-preview/a0f6fa9dee74bed6bfbbdd23e29d840649a631f5",
+        "fields": {
+            "full_name": "Kendrick Lamar",
+            "origin": "Compton, CA",
+            "popularity": 93,
+            "genre": "Hip-Hop/Rap",
+            "spotify_artist_uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+            "biography": "Platinum-selling, Grammy-nominated rapper Kendrick Lamar is one of the rare artists who has achieved critical and commercial success while earning the respect and support of those who inspired him. A native of Compton, California, Lamar originally rapped as K. Dot and released a series of mixtapes under that name. Youngest Head N***a in Charge (2003), issued when he was only 16 years old, caught the attention of Top Dawg Entertainment and led to a long-term association that helped raise the rapper's profile. Training Day (2005) and C4 (2009) also preceded his decision to go by his birth name. The latter was issued the same year he became part of Black Hippy — beside fellow Top Dawg artists Ab-Soul, Jay Rock, and ScHoolboy Q — a group whose members, for the most part, appeared on one another's mixtapes and albums. Overly Dedicated (2010) was the first Kendrick Lamar mixtape and fared well enough to enter Billboard's R&B/Hip-Hop Albums chart that October. His first official album, Section.80 (2011), was released as a digital download the following year and entered the Billboard 200 at number 113. By that point in his career, Lamar's reputation had been strengthened through guest appearances on dozens of tracks, and he had the support of veteran West Coast stars as well. During a 2011 concert, Dr. Dre, Snoop Dogg, and Game dubbed him \"The New King of the West Coast,\" a notion Dre endorsed more significantly by signing Lamar to the Aftermath label. Lamar's Good Kid, M.A.A.D City was released in October 2012 and debuted at number two on the Billboard 200. Three of its singles — \"Swimming Pools (Drank),\" \"Poetic Justice,\" and \"Bitch Don't Kill My Vibe\" — reached the Top Ten of Billboard's Hot R&B/Hip-Hop chart, with each one enjoying lengthy stays on playlists of urban U.S. radio stations. More significantly, the album showcased Lamar as an exceptional storyteller capable of making compelling concept albums. When the nominees for the 56th Annual Grammy Awards were announced, Lamar was listed in seven categories, including Best New Artist and Album of the Year. He won none of the awards. Rather than rest, Lamar remained active during 2013-2014 with touring as well as appearances on tracks by the likes of Tame Impala, YG, and fellow Top Dawg affiliate SZA. Early in 2015, he announced his third album, To Pimp a Butterfly, was due in March with tracks featuring Snoop Dogg, Bilal, Thundercat, and George Clinton. A technical accident caused the digital album to be released eight days early, but it immediately earned rave reviews and sales of 325,000 copies within its first week of release.", "youtube_url_1": "https://www.youtube.com/embed/Z-48u_uWMHY",
+            "youtube_url_2": "https://www.youtube.com/embed/8aShfolR6w8",
+            "recommended_album": "spotify:album:7ycBtnsMtyVbbwTfJwRjSP",
+            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/710f327a57dff722909bbe1e85d7c8aef88c666e"
+        }
     }
 ]
