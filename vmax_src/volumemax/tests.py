@@ -42,14 +42,14 @@ class SearchTestCase(TestCase):
         self.assertEqual(terms, [])
 
     def test_normalize_terms4(self):
-        query = 'isnt is crystal clear'
+        query = 'isnt it crystal clear'
         terms = normalize_query(query)
         self.assertEqual(terms, ['isnt','it','crystal','clear'])
 
     def test_normalize_terms5(self):
         query = ' " "   "  '
         terms = normalize_query(query)
-        self.assertEqual(terms, [])
+        self.assertEqual(terms, ['', '"'])
 
     # ---------
     # Searching
@@ -57,6 +57,10 @@ class SearchTestCase(TestCase):
 
     def test_search_nonexistent(self):
         artist = Artist.objects.filter(get_query('and', "Board to Base", ['full_name']))
+        self.assertEqual(list(artist),[])
+
+    def test_search_nonexistent2(self):
+        artist = Artist.objects.filter(get_query('and', "", ['full_name']))
         self.assertEqual(list(artist),[])
 
     def test_search_and_artist(self):
@@ -136,6 +140,26 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.genre, "Pop")
         self.assertEqual(a.biography, "asdf")
 
+    def test_artists4(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Rihanna", origin = "Saint Michael, Barbados", popularity = 97, genre = "Pop", biography = "qwerty")
+        self.assertEqual(a.full_name, "Rihanna")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "Saint Michael, Barbados")
+        self.assertEqual(a.popularity, 97)
+        self.assertEqual(a.genre, "Pop")
+        self.assertEqual(a.biography, "qwerty")
+
+    def test_artists5(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Queen", origin = "London, United Kingdom", popularity = 87, genre = "Rock", biography = "azerty")
+        self.assertEqual(a.full_name, "Queen")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "London, United Kingdom")
+        self.assertEqual(a.popularity, 87)
+        self.assertEqual(a.genre, "Rock")
+        self.assertEqual(a.biography, "azerty")
+
     # ----
     # Albums
     # ----
@@ -169,6 +193,26 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.release_date, 2004)
         self.assertEqual(a.genre, "Hip hop")
         self.assertEqual(a.editors_notes, "asdf")
+
+    def test_albums4(self): 
+        date = datetime.date(1995,9,7)
+        mj = Artist.objects.create(full_name = "Mariah Carey")
+        a = Album.objects.create(album_name = "Daydream", album_artist = mariah, release_date = 1995, genre = "R&B", editors_notes = "crystal clear")
+        self.assertEqual(a.album_name, "Daydream")
+        self.assertEqual(a.album_artist, mariah)
+        self.assertEqual(a.release_date, 1995)
+        self.assertEqual(a.genre, "R&B")
+        self.assertEqual(a.editors_notes, "crystal clear")
+
+    def test_albums5(self): 
+        date = datetime.date(1980,5,6)
+        mj = Artist.objects.create(full_name = "AC/DC")
+        a = Album.objects.create(album_name = "Back In Black", album_artist = acdc, release_date = 1980, genre = "Rock", editors_notes = "hello world")
+        self.assertEqual(a.album_name, "Back In Black")
+        self.assertEqual(a.album_artist, acdc)
+        self.assertEqual(a.release_date, 1980)
+        self.assertEqual(a.genre, "Rock")
+        self.assertEqual(a.editors_notes, "hello world")
 
 
 
