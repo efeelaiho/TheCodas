@@ -15,7 +15,7 @@ def normalize_query(query_string,
     '''
     return [normspace(' ', (t[0] or t[1]).strip()) for t in findterms(query_string)] 
 
-def get_query(query_string, search_fields):
+def get_query(flag, query_string, search_fields):
     ''' Returns a query, that is a combination of Q objects. That combination
         aims to search keywords within a model by testing the given search fields.
     
@@ -33,5 +33,37 @@ def get_query(query_string, search_fields):
         if query is None:
             query = or_query
         else:
-            query = query & or_query
+            if flag == 'and' :
+                query = query & or_query
+            elif flag == 'or' :
+                query = query | or_query
+            else :
+                query = query
     return query
+
+# def get_query(flag, query_string, search_fields):
+#     ''' Returns a query, that is a combination of Q objects. That combination
+#         aims to search keywords within a model by testing the given search fields.
+    
+#     '''
+#     query = {} # Query to search for every search term        
+#     terms = normalize_query(query_string)
+#     for term in terms:
+#         or_query = {} # Query to search for a given term in each field
+#         for field_name in search_fields:
+#             q = Q(**{"%s__icontains" % field_name: term})
+#             if not or_query:
+#                 or_query[field_name] = q
+#             else:
+#                 temp = or_query.pop(q)
+#                 or_query.add(temp | q)
+#         if query is None:
+#             query = or_query
+#         else:
+#             if flag == 'and' :
+#                 query = query & or_query
+#             elif flag == 'or' :
+#                 query = query | or_query
+#             else :
+#                 query = query
+#     return query
