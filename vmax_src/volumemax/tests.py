@@ -41,6 +41,16 @@ class SearchTestCase(TestCase):
         terms = normalize_query(query)
         self.assertEqual(terms, [])
 
+    def test_normalize_terms4(self):
+        query = 'isnt is crystal clear'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['isnt','it','crystal','clear'])
+
+    def test_normalize_terms5(self):
+        query = ' " "   "  '
+        terms = normalize_query(query)
+        self.assertEqual(terms, [])
+
     # ---------
     # Searching
     # ---------
