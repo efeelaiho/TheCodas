@@ -19,9 +19,11 @@ div.dataTables_filter input {
 	border-width: 2px;
 	border-style: solid;
 	border-color: #D50000;
-	color: black;
+	color: white;
+	background-color: black;
 	font-weight: 700;
 	outline: none;
+	text-indent: 5px;
 }
 
 div.dataTables_info {
