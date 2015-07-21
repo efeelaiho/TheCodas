@@ -34,13 +34,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:0QVoYzGd1p8Z3ohEaM0lsc", 
-<<<<<<< HEAD
             "release_date": "2002-09-23", 
             "editors_notes": "N/A", 
-=======
-            "release_date": "2002", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/725c77471dea914e9f4c59fa802b57661c452bfd", 
             "genre": "Rock", 
             "album_name": "Elvis 30 #1 Hits", 
@@ -69,13 +64,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a", 
-<<<<<<< HEAD
             "release_date": "1982-11-30", 
-            "editors_notes": "Thriller’s late-1982 release marked the beginning of Michael Jackson’s entry into another level of fame; it also saw the end of a great five-year period of creativity that had seen him raise his solo game on the unstoppable Off the Wall and make heavy contributions to the Jacksons’ Destiny and Triumph. Stripping the weight of history from Thriller is a big job, but hearing the record as a statement in itself remains hugely rewarding. Seven of its nine original cuts were Top Ten singles, but more important is the way Jackson and producer Quincy Jones turned the singer’s obsessions into intricate, stunningly sung pop-funk. From the knowing humor of the title track to the dread of \"Billie Jean\" and \"Beat It\" and the irresistible cuteness of \"P.Y.T. (Pretty Young Thing)\" and \"Baby Be Mine,\" Thriller finds Jackson at an artistic height. A quarter century later, it still sells. And nostalgia is far down the list of reasons why. This special edition includes \"Someone in the Dark\" from an E.T. story album, a \"Billie Jean\" demo, outtakes and numerous intriguing, amusing interview segments with Jones and songwriting collaborator Rod Temperton.", 
-=======
-            "release_date": "1982", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
+            "editors_notes": "Thriller’s late-1982 release marked the beginning of Michael Jackson’s entry into another level of fame; it also saw the end of a great five-year period of creativity that had seen him raise his solo game on the unstoppable Off the Wall and make heavy contributions to the Jacksons’ Destiny and Triumph. Stripping the weight of history from Thriller is a big job, but hearing the record as a statement in itself remains hugely rewarding. Seven of its nine original cuts were Top Ten singles, but more important is the way Jackson and producer Quincy Jones turned the singer’s obsessions into intricate, stunningly sung pop-funk. From the knowing humor of the title track to the dread of \"Billie Jean\" and \"Beat It\" and the irresistible cuteness of \"P.Y.T. (Pretty Young Thing)\" and \"Baby Be Mine,\" Thriller finds Jackson at an artistic height. A quarter century later, it still sells. And nostalgia is far down the list of reasons why. This special edition includes \"Someone in the Dark\" from an E.T. story album, a \"Billie Jean\" demo, outtakes and numerous intriguing, amusing interview segments with Jones and songwriting collaborator Rod Temperton.",
             "image_url": "https://i.scdn.co/image/e337f3661f68bc4d96a554de0ad7988d65edb25a", 
             "genre": "Pop", 
             "album_name": "Thriller 25 Super Deluxe Edition", 
@@ -104,13 +94,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:43lok9zd7BW5CoYkXZs7S0", 
-<<<<<<< HEAD
             "release_date": "2009-09-18", 
-            "editors_notes": "Celebration is a befitting retrospective for the shapeshifting international icon. Every era, every reinvention, every musical nuance is captured here, from the '80s gleam of \"Holiday\" and \"Like a Virgin\" to the ghetto-fab swagger of \"Music\" and the embrace of dance music culture ushered in by \"Ray of Light.\", 
-=======
-            "release_date": "2009", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
+            "editors_notes": "Celebration is a befitting retrospective for the shapeshifting international icon. Every era, every reinvention, every musical nuance is captured here, from the '80s gleam of \"Holiday\" and \"Like a Virgin\" to the ghetto-fab swagger of \"Music\" and the embrace of dance music culture ushered in by \"Ray of Light.\"", 
             "image_url": "https://i.scdn.co/image/006c443e86ad04f6ce8f9ade1da24e9b6f2e2132", 
             "genre": "Pop", 
             "album_name": "Celebration", 
@@ -139,13 +124,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:2OZbaW9tgO62ndm375lFZr", 
-<<<<<<< HEAD
             "release_date": "1971-11-05", 
             "editors_notes": "Trading the cinematic aspirations of Tumbleweed Connection for a tentative stab at prog rock, Elton John and Bernie Taupin delivered another excellent collection of songs with Madman Across the Water. Like its two predecessors, Madman Across the Water is driven by the sweeping string arrangements of Paul Buckmaster, who gives the songs here a richly dark and haunting edge. And these are songs that benefit from grandiose treatments. With most songs clocking in around five minutes, the record feels like a major work, and in many ways it is. While it's not as adventurous as Tumbleweed Connection, the overall quality of the record is very high, particularly on character sketches \"Levon\" and \"Razor Face,\" as well as the melodramatic \"Tiny Dancer\" and the paranoid title track. Madman Across the Water begins to fall apart toward the end, but the record remains an ambitious and rewarding work, and John never attained its darkly introspective atmosphere again. ", 
-=======
-            "release_date": "1971", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/0d28b0477b59b0a18450c9a6ce8dd9bac0184fa5", 
             "genre": "Rock", 
             "album_name": "Madman Across The Water", 
@@ -174,13 +154,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1Ugdi2OTxKopVVqsprp5pb", 
-<<<<<<< HEAD
             "release_date": "1971-11-08", 
             "editors_notes": "With each successive studio album Led Zeppelin further defined their territory and their artistic reach. For album number four, often referred to as \"Runes\" for the Runic symbols on the cover, Zep pulled all the aspects of their legend into tight focus. \"Black Dog\" twisted a blues-boogie riff around Robert Plant’s macho swagger and drummer John Bonham’s unerring sense of time, while \"Rock and Roll\" took a primordial textbook guitar riff and slammed it into the ground. A mandolin and English folk legend Sandy Denny perfectly complement \"The Battle of Evermore\" and set the stage for the band’s magnum opus, \"Stairway to Heaven,\" where for eight minutes the band builds its \"Bolero,\" a simmering to a boil dynamic wedded to a serpentine melody that leads from a mystical English garden to a raving, megalomaniacal climax. \"Misty Mountain Hop\" and \"Four Sticks\" exhibit the band’s unusually funky approach to hard rock rhythms. \"Going to California\" retains a hippie mysticism in its folk roots, while \"When the Levee Breaks\" shudders with the cataclysmic wallop of John Bonham and guitars that practically bleed from the speakers. Led Zeppelin never cut a bad studio album and most of their work is essential listening to any serious rock music fan. But Led Zeppelin IV remains the group’s crowning achievement.", 
-=======
-            "release_date": "1971", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/5ef60ee8ba01f7042961420378733beb308e46f0", 
             "genre": "Rock", 
             "album_name": "Led Zeppelin IV", 
@@ -209,13 +184,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1x0uzT3ETlIYjPueTyNfnQ", 
-<<<<<<< HEAD
             "release_date": "1975-09-12", 
             "editors_notes": "N/A", 
-=======
-            "release_date": "1975", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/015298910a64e2f4be650dd21792cfa7a9d3a58f", 
             "genre": "Rock", 
             "album_name": "Wish You Were Here [2011 - Remaster] (2011 Remastered Version)", 
@@ -244,13 +214,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:1ibYM4abQtSVQFQWvDSo4J", 
-<<<<<<< HEAD
             "release_date": "1995-09-26", 
             "editors_notes": "Looking back, Daydream can be seen as a demarcation point in Mariah Carey’s career. At the time, the singer had built her enormous success upon powerhouse ballads and frothy dance tunes. Daydream nudged Carey towards a more hip-hop based sound, moving her away from grand love arias and towards streetwise jams. That’s not to say that the big ballads are absent — \"I Am Free\" and an overwrought remake of Journey’s \"Open Arms\" give her plenty of room to exercise her phenomenal pipes. But the best moments come when Mariah climbs off her pedestal and mixes it up with lesser mortals. \"Fantasy\" lets her voice slither and glide around an effervescent track taken from Tom Tom Club’s \"Genius of Love.\" \"One Sweet Day\" (her shiver-inducing duet with Boyz II Men) and \"Always Be My Baby\" borrow from early R&B to create an organic yet ethereal feel. And \"Melt Away\" lives up to its title as Mariah delivers a molten performance. Mariah would take bolder steps in the years ahead, but the big change really started with Daydream.", 
-=======
-            "release_date": "1995", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/ac0afd64e904c7eff0895b49b23adfb886bf6484", 
             "genre": "R&B", 
             "album_name": "Daydream", 
@@ -279,13 +244,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:08aLDHdtfHxjtOmEHusqGC", 
-<<<<<<< HEAD
             "release_date": "1996-03-11", 
             "editors_notes": "Celine Dion’s vocal grandeur has made her Barbra Streisand’s natural heir as the supreme female singer in pop. Her sky-high range and nearly-flawless delivery hasn’t always found material to match. Fortunately, Falling Into You (1996) provided her with songs worthy of her abilities. Emotionally-vulnerable lyrics wrapped in heroic melodies are Dion’s particularly forte – on this album, she’s given an outstanding pair of such tunes in \"Because You Loved Me\" (from the film Up Close And Personal) and \"It’s All Coming Back To Me Now\" (written by rock bombast king Jim Steinman). Stepping further into pure pop melodrama, she fully connects with Eric Carmen’s \"All By Myself\" and takes a shot at matching Tina Turner’s fireworks on \"River Deep, Mountain High.\" Beyond these show-stoppers, Fall Into You is notable for its more restrained tunes, such as the balmy, gently-flowing title number and the subdued, slightly unearthly \"Fly.\" Dion’s intimate readings of these and similar tracks will surprise those who only think of her as a belter par excellence. Falling Into You fully solidified Celine’s stature as a worldwide megastar. Grand in design and impeccable in execution, it still captures the essential sweetness of the artist at its center.", 
-=======
-            "release_date": "1996", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/7b2f36e5a8be3d02dc1a3424d38502220786f559", 
             "genre": "R&B", 
             "album_name": "Falling Into You", 
@@ -314,13 +274,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:7JVJlkNNobS0GSoy4tCS96", 
-<<<<<<< HEAD
             "release_date": "1992-11-17", 
             "editors_notes": "At the time of its release, this was the watershed for soundtracks, selling a kazillion copies. It documents Whitney Houston's character in the Kevin Costner movie, which required Houston to play only herself (although one hopes she wouldn't end up with someone as smarmy as Costner). The album is as much a testament to the production of Babyface who, through the mid-1990s, actually was the mainstream of contemporary hit music. Houston's singing is much better than her acting, and almost every song enjoyed a long tenure at the top of all the charts. Along with \"I Will Always Love You\" and five other Houston songs, the soundtrack also features Lisa Stansfield, Kenny G with Aaron Neville, and Joe Cocker with Sass Jordan.", 
-=======
-            "release_date": "1992", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/7bcb439989b592287aeac1599aaa36be17672b73", 
             "genre": "R&B", 
             "album_name": "The Bodyguard - Original Soundtrack Album", 
@@ -349,13 +304,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh", 
-<<<<<<< HEAD
             "release_date": "1980-07-25", 
             "editors_notes": "N/A", 
-=======
-            "release_date": "1980", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/8d6f289fc3586790c5e89feba8ce4d0c2d86a1c9", 
             "genre": "Rock", 
             "album_name": "Back In Black", 
@@ -414,13 +364,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:4l4u9e9jSbotSXNjYfOugy", 
-<<<<<<< HEAD
             "release_date": "1969-12-05", 
             "editors_notes": "The Stones closed the '60s with one of their most emblematic albums, and perhaps their best ever. Let It Bleed is a deeply gritty document of the band at a soaring peak—one that came as Mick Jagger and Keith Richards realized that the entire world wasn't necessarily ready to buy into the decade's dream of a greater society. \"Gimmie Shelter\" and \"You Can't Always Get What You Want\" were the epics that framed the album and the emotions of characters who'd halfway convinced themselves of endless possibilities. The Stones were hardly backing down musically; these cuts' creativity and heart rivaled what the Beatles were doing in 1969: Hard rock rarely got as brutal as \"Live With Me\" and \"Monkey Man,\" country rock as funny as \"Country Honk\" (a piss-take on \"Honky Tonk Women\"), or as deeply felt as Keith's \"You Got the Silver.\"", 
-=======
-            "release_date": "1969", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/f1d32b1a4e0f1d3c3b6904a19a94412d28f6b0d4", 
             "genre": "Rock", 
             "album_name": "Let It Bleed", 
@@ -479,13 +424,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:4S8F794ucXJcAtycwOZgR9", 
-<<<<<<< HEAD
             "release_date": "2015-03-26", 
-            "editors_notes": "Rihanna challenges all who would doubt her on this bold single. \"Bitch Better Have My Money\" finds the pop royal tearing through a gauntlet of weapons-grade trap beats with assassin-like calm. \"Don’t act like you forgot,\" she snarls. \"I call the shots.\"", 
-=======
-            "release_date": "2015", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
+            "editors_notes": "Rihanna challenges all who would doubt her on this bold single. \"Bitch Better Have My Money\" finds the pop royal tearing through a gauntlet of weapons-grade trap beats with assassin-like calm. \"Don’t act like you forgot,\" she snarls. \"I call the shots.\"",  
             "image_url": "https://i.scdn.co/image/7e4855c2279dba5e19d15d3e0ce825a895d40c8b", 
             "genre": "Pop", 
             "album_name": "Bitch Better Have My Money", 
@@ -514,13 +454,8 @@
         "model": "volumemax.album", 
         "fields": {
             "spotify_albums_uri": "spotify:album:45nqVXRAW0xv0wpU9JljPN", 
-<<<<<<< HEAD
             "release_date": "2012-03-19", 
             "editors_notes": "N/A", 
-=======
-            "release_date": "2012", 
-            "editors_notes": "ADD FROM ITUNES", 
->>>>>>> fca1599b8e8de336f3658abea383759dc86aab58
             "image_url": "https://i.scdn.co/image/e6f4b10d325a5dc4db62fd1624e3e0a87b935379", 
             "genre": "Pop", 
             "album_name": "The Hunger Games: Songs From District 12 And Beyond", 
