@@ -293,7 +293,7 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.editors_notes, "gpdowning")
 
     def test_albums7(self): 
-        pharrell = Artist.objects.create(full_name = "Pharrell Williams")
+        cake = Artist.objects.create(full_name = "cake")
         a = Album.objects.create(album_name = "G I R L", album_artist = cake, release_date = 1993, genre = "Hip-Hop/Rap", editors_notes = "byoung")
         self.assertEqual(a.album_name, "G I R L")
         self.assertEqual(a.album_artist, cake)
@@ -303,10 +303,10 @@ class ArtistTestCase(TestCase):
 
 
     def test_albums8(self): 
-        pharrell = Artist.objects.create(full_name = "Pharrell Williams")
-        a = Album.objects.create(album_name = "crash", album_artist = cake, release_date = 13, genre = "Hip-Hop/Rap", editors_notes = "byoung")
+        asdf = Artist.objects.create(full_name = "asdf")
+        a = Album.objects.create(album_name = "crash", album_artist = asdf, release_date = 13, genre = "Hip-Hop/Rap", editors_notes = "byoung")
         self.assertEqual(a.album_name, "crash")
-        self.assertEqual(a.album_artist, cake)
+        self.assertEqual(a.album_artist, asdf)
         self.assertEqual(a.release_date, 13)
         self.assertEqual(a.genre, "Hip-Hop/Rap")
         self.assertEqual(a.editors_notes, "byoung")
@@ -366,7 +366,7 @@ class APItests(unittest.TestCase) :
 
     def test_get_artist4(self) :
         request = Request(self.url+"api/artists/25")
-        expected_api = {"full_name":"Genesis","origin":"Godalming, Surrey","popularity":71,"genre":"Rock","spotify_artist_uri":"spotify:artist:3CkvROUTQ6nRi9yQOcsB50","biography":"Not available","youtube_url_1":"https://www.youtube.com/embed/1pkVLqSaahk","youtube_url_2":"https://www.youtube.com/embed/pW68T84RLHw","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/147c67b0c8e6248d46b11db586be1ba0f5e2b3d3","recommended_album":25}
+        expected_api = {"full_name":"Genesis","origin":"Godalming, Surrey","popularity":71,"genre":"Rock","spotify_artist_uri":"spotify:artist:3CkvROUTQ6nRi9yQOcsB50","biography":"Genesis started life as a progressive rock band, in the manner of Yes and King Crimson, before a series of membership changes brought about a transformation in their sound, into one of the most successful pop/rock bands of the 1980s and 1990s. In addition, the group has provided a launching pad for the superstardom of members Peter Gabriel and Phil Collins, and star solo careers for members Tony Banks, Michael Rutherford, and Steve Hackett. Their roots go back to 1965 and a pair of rival groups, the Garden Wall and the Anon, formed by students at the Charterhouse School in Godalming, Surrey. They merged, with the result that 15-year-olds Peter Gabriel, Tony Banks, and Michael Rutherford joined with 14-year-old Anthony Phillips, calling themselves the New Anon and recording a six-song demo featuring songs primarily written by Rutherford and Phillips. Charterhouse alumnus, recording artist, and producer Jonathan King heard the tape and arranged for the group to continue working in the studio, and it was also King who renamed the band Genesis. In December of 1967 they cut their debut single, \"The Silent Sun,\" a very deliberate Bee Gees-style pastiche — it was released in February of 1968 without attracting much notice from the public, and a second single, \"A Winter's Tale,\" followed with similar neglect. They also ran through a couple of drummers during this period, Chris Stewart and John Silver. At this time, the group's music was a form of lyrical folk-based progressive pop, built on lush melodies primarily carried on acoustic guitar and piano, with lyrics that tended toward the florid and trippy — psychedelia was in vogue, and Genesis showed an exceptional facility with poetic content as well as gorgeous melodies. Their debut album, From Genesis to Revelation — which the group has all but disowned in the decades since — was released in March of 1969, and passed without too much notice from the music press or the public. The members began thinking about getting on with their lives outside of music, and especially attending college. But they felt strongly enough about their work to try making it as a professional band. The re-formed in 1969 and got their first paying gig in September of that year, and spent the next several months working out new material, with new drummer John Mayhew aboard.","youtube_url_1":"https://www.youtube.com/embed/1pkVLqSaahk","youtube_url_2":"https://www.youtube.com/embed/pW68T84RLHw","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/147c67b0c8e6248d46b11db586be1ba0f5e2b3d3","recommended_album":25}
         api = urlopen(request)
         api_body = api.read().decode("utf-8")
         self.assertEqual(api.getcode(), 200)
