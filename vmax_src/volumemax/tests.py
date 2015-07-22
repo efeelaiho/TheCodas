@@ -42,14 +42,24 @@ class SearchTestCase(TestCase):
         self.assertEqual(terms, [])
 
     def test_normalize_terms4(self):
-        query = 'isnt it crystal clear'
+        query = 'isnt is crystal clear'
         terms = normalize_query(query)
         self.assertEqual(terms, ['isnt','it','crystal','clear'])
 
     def test_normalize_terms5(self):
         query = ' " "   "  '
         terms = normalize_query(query)
-        self.assertEqual(terms, ['', '"'])
+        self.assertEqual(terms, [])
+
+    def test_normalize_terms4(self):
+        query = 'what are you trying to find'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['what','are','you','trying','to','find'])
+
+    def test_normalize_terms5(self):
+        query = 'this class is hard'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['this','class','is','hard'])
 
     # ---------
     # Searching
@@ -57,6 +67,10 @@ class SearchTestCase(TestCase):
 
     def test_search_nonexistent(self):
         artist = Artist.objects.filter(get_query('and', "Board to Base", ['full_name']))
+        self.assertEqual(list(artist),[])
+
+    def test_search_nonexistent2(self):
+        artist = Artist.objects.filter(get_query('and', "", ['full_name']))
         self.assertEqual(list(artist),[])
 
     def test_search_and_artist(self):
@@ -99,6 +113,7 @@ class SearchTestCase(TestCase):
         album = Album.objects.filter(get_query('or', "DroPOUt Bad", ['album_name']))
         # self.assertQuerysetEqual(list(album),['<Album: Bad>','<Album: The College Dropout>'])
         self.assertEqual(album[0].album_name,db)
+
 
 class ArtistTestCase(TestCase):
          
@@ -156,12 +171,37 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.genre, "Rock")
         self.assertEqual(a.biography, "azerty")
 
+
+    def test_artists6(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Elvis Presley", origin = "Tupelo, Mississippi", popularity = 82, genre = "Rock", biography = "elvis is cool")
+        self.assertEqual(a.full_name, "Elvis Presley")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "Tupelo, Mississippi")
+        self.assertEqual(a.popularity, 82)
+        self.assertEqual(a.genre, "Rock")
+        self.assertEqual(a.biography, "elvis is cool")
+
+    def test_artists7(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Britney Spears", origin = "McComb, Mississippi", popularity = 86, genre = "Pop", biography = "clown")
+        self.assertEqual(a.full_name, "Britney Spears")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "McComb, Mississippi")
+        self.assertEqual(a.popularity, 86)
+        self.assertEqual(a.genre, "Pop")
+        self.assertEqual(a.biography, "clown")
+
+
+
+
+    
+
     # ----
     # Albums
     # ----
 
     def test_albums1(self): 
-        date = datetime.date(1987,9,7)
         mj = Artist.objects.create(full_name = "Michael Jackson")
         a = Album.objects.create(album_name = "Bad", album_artist = mj, release_date = 1987, genre = "Pop", editors_notes = "abc")
         self.assertEqual(a.album_name, "Bad")
@@ -171,7 +211,6 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.editors_notes, "abc")
 
     def test_albums2(self): 
-        date = datetime.date(2004,11,12)
         Eminem = Artist.objects.create(full_name = "Eminem")
         a = Album.objects.create(album_name = "Encore", album_artist = Eminem, release_date = 2004, genre = "Hip hop", editors_notes = "123")
         self.assertEqual(a.album_name, "Encore")
@@ -181,7 +220,6 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.editors_notes, "123")
 
     def test_albums3(self): 
-        date = datetime.date(2004,2,10)
         kanye = Artist.objects.create(full_name = "Kanye West")
         a = Album.objects.create(album_name = "The College Dropout", album_artist = kanye, release_date = 2004, genre = "Hip hop", editors_notes = "asdf")
         self.assertEqual(a.album_name, "The College Dropout")
@@ -191,7 +229,6 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.editors_notes, "asdf")
 
     def test_albums4(self): 
-        date = datetime.date(1995,9,7)
         mariah = Artist.objects.create(full_name = "Mariah Carey")
         a = Album.objects.create(album_name = "Daydream", album_artist = mariah, release_date = 1995, genre = "R&B", editors_notes = "crystal clear")
         self.assertEqual(a.album_name, "Daydream")
@@ -201,7 +238,6 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.editors_notes, "crystal clear")
 
     def test_albums5(self): 
-        date = datetime.date(1980,5,6)
         acdc = Artist.objects.create(full_name = "AC/DC")
         a = Album.objects.create(album_name = "Back In Black", album_artist = acdc, release_date = 1980, genre = "Rock", editors_notes = "hello world")
         self.assertEqual(a.album_name, "Back In Black")
@@ -209,6 +245,17 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.release_date, 1980)
         self.assertEqual(a.genre, "Rock")
         self.assertEqual(a.editors_notes, "hello world")
+
+
+    def test_albums6(self): 
+        pharrell = Artist.objects.create(full_name = "Pharrell Williams")
+        a = Album.objects.create(album_name = "G I R L", album_artist = pharrell, release_date = 2014, genre = "Hip-Hop/Rap", editors_notes = "gpdowning")
+        self.assertEqual(a.album_name, "G I R L")
+        self.assertEqual(a.album_artist, pharrell)
+        self.assertEqual(a.release_date, 2014)
+        self.assertEqual(a.genre, "Hip-Hop/Rap")
+        self.assertEqual(a.editors_notes, "gpdowning")
+
 
 
 
