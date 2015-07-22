@@ -28,11 +28,12 @@ import datetime
 from datetime import date
 
 try:
-    from urllib.request import urlopen, Request
+	from urllib.request import urlopen, Request
 except:
-    from urllib2 import *
+	from urllib2 import *
 
 from json import dumps, loads
+import random
 
 # Create your views here.
 
@@ -57,7 +58,6 @@ def about(request):
 	unittest.TextTestRunner(stream=API).run(API_test)
 
 	context = {'search_results': search.getvalue(),'artist_results': artist.getvalue(),'API_results': API.getvalue()}
-	# context = {}
 	search.close()
 	artist.close()
 	API.close()
@@ -73,16 +73,22 @@ def albums(request):
 	context = {"albums_list": albums}
 	return render_to_response("albums.html", context)
 
-def artistdatabase(request):
-	artists =  Artist.objects.all()
-	context = {"artist_list": artists}
-	return render(request, "artist_database.html", context)
+def nfl(request):
+	with open('/u/mcl267/TheCodas/vmax_src/nfl.json') as data_file:    
+		teams = json.load(data_file)
+	artist = []
+	total = Artist.objects.all().count()
+	for x in range(0,len(teams) + 1):
+		id = random.randrange(1,total)
+		if (id == 91):  # there is no artist #91 in the db
+		  id = 92
+		artist.append(Artist.objects.get(pk=id))
+	artist = list(artist)
+	result = zip(teams,artist)
+	context = {'teams': result}
+	return render_to_response('nfl.html', context)
 
-def albumdatabase(request):
-	albums = Album.objects.all()
-	context = {"albums_list": albums}
-	return render(request, "album_database.html", context)	
-		
+	
 ################################################################### 
 #
 #   DYNAMIC - ARTIST - ALBUM
@@ -104,6 +110,16 @@ def album_view(request, name):
 	artist = album.album_artist
 	context = {"album": album, "artist": artist}
 	return render_to_response('dynamic_album.html', context)
+
+def artistdatabase(request):
+	artists =  Artist.objects.all()
+	context = {"artist_list": artists}
+	return render(request, "artist_database.html", context)
+
+def albumdatabase(request):
+	albums = Album.objects.all()
+	context = {"albums_list": albums}
+	return render(request, "album_database.html", context)	
 
 ################################################################### 
 #
