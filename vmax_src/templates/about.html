@@ -133,59 +133,75 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Data</h1>
-                <h3 id="-data-format"># Data format</h3>
-                <p>The data was extracted from Spotify.com using their Web API&lt;sup&gt;1&lt;/sup&gt;. Using a Python library called Spotipy&lt;sup&gt;2&lt;/sup&gt;, the artist data and album data were fetched from the Spotify music catalog with a Python script isolating the information that was relevant to the models (and some data that will hopefully be utilized in future phases for a richer user expererience). A Pythonic wrapper named Wikipedia&lt;sup&gt;3&lt;/sup&gt; was also used to extract the summary section of the artists&#39; and albums&#39; Wikipedia pages. All the data was stored in a single json object as a dictionary indexed by their Spotify IDs.</p>
-                <p>The artist dictionary contains dictionaries of their name, top track names, dictionaries of album names and their album art, Wikipedia page summary, and the url of the artist image. For example:</p>
-            <pre><code>{&quot;19eLuQmk9aCobbVDHc6eek&quot;: 
-    {&quot;toptracks&quot;: 
-        [&quot;What A Wonderful World&quot;, &quot;Dream A Little Dream Of Me&quot;, &quot;La Vie En Rose - Single Version&quot;],
-     &quot;albums&quot;: [&quot;By Popular Demand&quot;, &quot;In Person&quot;, ...], 
-     &quot;img&quot;: &quot;https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3&quot;}, 
-&quot;3fMbdgg4jU18AjLCKBhRSm&quot;: 
-    {&quot;toptracks&quot;: 
-        [&quot;Billie Jean - Single Version&quot;, &quot;Love Never Felt so Good&quot;, &quot;Love Never Felt so Good&quot;], 
-     &quot;albums&quot;: [&quot;XSCAPE&quot;, &quot;Michael&quot;, &quot;Invincible&quot;, &quot;BLOOD ON THE DANCE FLOOR/ HIStory In The Mix&quot;, ...],
-     &quot;img&quot;: &quot;https://i.scdn.co/image/738650ce127e119788a7bca020fbd054b5aa57b5&quot;}, ...}
-</code></pre><p>This is stored in <code>TheCodas/vmax_src/artistcache.json</code>
-(The artist cache will eventually hold more information: birth and death and/or years active information, genres, birthplace/origin, members, website, the top tracks will be a dictionary of track names keyed to their Spotify track IDs, and possibly more)</p>
-<p>The album dictionary contains dictionaries of their name, list of tracks and the url of the album art. For example:</p>
-<pre><code>{&quot;6YlPSTWp7bq3Q01L9EcaGG&quot;: 
-    {&quot;name&quot;: &quot;Heart Full Of Rhythm / Volume 2 (1936-38)&quot;, 
-     &quot;img&quot;: &quot;https://i.scdn.co/image/6b843f9e2a1df891f5c270577c056621f50d5413&quot;, 
-     &quot;albumtracks&quot;: [&quot;I Come From A Musical Family - Single Version&quot;, &quot;Somebody Stole My Break - Single Version&quot;, &quot;If We Never Meet Again - Single Version&quot;, ...]},
- &quot;5xifZlByZcZecgkP7sYSoW&quot;: 
-     {&quot;name&quot;: &quot;The Marshall Mathers LP&quot;, 
-      &quot;img&quot;: &quot;https://i.scdn.co/image/2cdee8b0dd96ca108db92f3894366c574055f959&quot;, 
-      &quot;albumtracks&quot;: [&quot;Public Service Announcement 2000&quot;, &quot;Kill You&quot;, &quot;Stan&quot;, &quot;Paul - Skit (Explicit)&quot;, &quot;Who Knew&quot;, &quot;Steve Berman&quot;, ...]}, ...}
-</code></pre><p>This is stored in <code>TheCodas/vmax_src/albumcache.json</code>
-(The album cache will eventually hold more information: release date, genres, the track list will be a dictionary of track names keyed to their Spotify track IDs, and possibly more.)</p>
-<p>Currently, these files contain sample data of just six artists and their albums:</p>
-<ul>
-<li>Louis Armstrong</li>
-<li>Miles Davis</li>
-<li>Bill Evans</li>
-<li>Eminem</li>
-<li>Kanye West</li>
-<li>Michael Jackson</li>
-</ul>
-<p>However, the plan is to expand this to the top 50 artists, found from scraping another (to be determined if not available in Spotify Web API) API and processing that data through the python script.</p>
-<h2 id="-accessing-the-data"># Accessing the data</h2>
-<h3 id="-internal-use"># Internal use</h3>
-<p>In order to access the data internally, the JSON dictionaries will be loaded as cached data. The data can then be called throughout the application readily by key and/or index.</p>
-<h3 id="-external-use"># External use</h3>
-<p>The data is exposed using the apiary API volumemin&lt;sup&gt;4&lt;/sup&gt;.  It can be accessed at <a href="http://volumemax.me:8000/api">http://volumemax.me:8000/api</a> .  See the apiary documentation for more details.  For example:</p>
-<pre><code>http://volumemax.me:8000/api/artists/1
-</code></pre><p><code>{</code>
-            <code>&quot;toptracks&quot;: [&quot;What A Wonderful World&quot;, &quot;Dream A Little Dream Of Me&quot;, &quot;La Vie En Rose - Single Version&quot;],</code>
-            <code>&quot;albums&quot;: [&quot;By Popular Demand&quot;, &quot;In Person&quot;],</code>
-            <code>&quot;img&quot;: &quot;https://i.scdn.co/image/7e61be280d4f457b89d563be6b2a11e8ef9e67f3&quot;</code>
-        <code>}</code></p>
-<h6 id="-references"># References</h6>
+                <h3 id="data-format"># Data format</h3>
+<p>In order to gather data, a python script was created, taking advantage of several APIs and some Python libraries that made integration of the different APIs and formatting simpler.</p>
+<p>The data was extracted from Spotify.com using their Web API<sup>1</sup>. Using a Python library called Spotipy<sup>2</sup>, the artist data and album data were fetched from the Spotify music catalog with a Python script isolating the information that was relevant to the models from the entirety of Spotify Web API such as artist and album names, artist and album URIs, album images, album release date, album artist name, and artist popularity.</p>
+<p>A Pythonic wrapper named Wikipedia<sup>3</sup> was also used in conjuction with a parser called BeautifulSoup<sup>4</sup> to extract the summary section of the artists' Wikipedia pages to be used as bio sections for the artists.</p>
+<p>A parser called mwparserfromhell<sup>5</sup> was used to parse the infoboxes of the artist pages in order to find a person's birthplace or a group's origin.</p>
+<p>For the Wikipedia information, regular expressions had to be used in order to create the correctly formatted search queries and to make the extracted information look cleaner.</p>
+<p>For artist images, the images that are pulled by Spotify varied in dimension, so instead, Google Image Search API<sup>6</sup> was used. Though deprecated, Google Image Search API was able to fetch the first several images of a Google image search query of <code>Spotify &lt;artist name&gt;</code>, from which the first image with a 640x640 size was extracted.</p>
+<p>All the data was stored in a single json object as a list of dictionaries, with primary keys being generated as the data was scraped.</p>
+<p>An artist dictionary contains dictionaries of their primary key, model, prview track URL (to be rendered as a preview audio player at the top of artist pages), and a nested dictionary of fields with origin, popularity, recommended album (the album of the the artist's top track), image URL (first 640x640 image returned from a Google image search query of <code>Spotify &lt;artist name&gt;</code>), Spotify artist URI, full name, two YouTube video URLs, genre, and biography (Summary from the artist's Wikipedia page).</p>
+<p>For example:</p>
+<pre><code>{
+    "pk": 0, 
+    "model": "volumemax.artist", 
+    "track_url": "https://p.scdn.co/mp3-preview/91dce87c97ece764c03e0d2cb7cc2b03efaf45c8", 
+    "fields": {
+        "origin": " Liverpool, England", 
+        "popularity": 62, 
+        "recommended_album": "spotify:album:046kB3y8x1LboYxmd6Ntxv", 
+        "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/8c2622e70133d2e80b00e81b353c908657d5e7f6", 
+        "spotify_artist_uri": "spotify:artist:3WrFJ7ztbogyGnTHbHJFl2", 
+        "full_name": "The Beatles", 
+        "youtube_url_1": "https://www.youtube.com/embed/r5nARZKS-AY", 
+        "youtube_url_2": "https://www.youtube.com/embed/zkH3PdDZZuA", 
+        "genre": "Pop", 
+        "biography": "The Beatles were an English rock band, formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the greatest and most influential [...]"
+    }
+},
+</code></pre>
+<p>The album dictionary contains dictionaries of their primary keys, model, and a nested dictionary of fields with Spotify album URI, release date, editor's notes (taken from iTunes pages), album art URL, genre, album name, and album artist.</p>
+<p>For example:</p>
+<pre><code>{
+    "pk": 0, 
+    "model": "volumemax.album", 
+    "fields": {
+        "spotify_albums_uri": "spotify:album:046kB3y8x1LboYxmd6Ntxv", 
+        "release_date": "2004", 
+        "editors_notes": "So much has been said and written about the Beatles — and their story [...]", 
+        "image_url": "https://i.scdn.co/image/bfec3a994153dbb09229d4eb7d7ab9df9246d83f", 
+        "genre": "Pop", 
+        "album_name": "First (Deluxe Edition)", 
+        "album_artist": "spotify:artist:3WrFJ7ztbogyGnTHbHJFl2"
+    }
+},
+</code></pre>
+<p>These are all stored in a list and output to a JSON file named <code>finalcache.json</code>. Currently, the file contains the top 50 top selling artists, according to Wikipedia, plus 65 artists personally hand selected by the team. The albums are each listed artist's top track's album, plus three albums personally hand selected by the team.</p>
+<h2 id="accessing-the-data"># Accessing the data</h2>
+<h3 id="internal-use"># Internal use</h3>
+<p>In order to access the data internally, the cache file created was used to populate the MySQL database. To populate the SQL database, the <code>python manage.py loaddata finalcache.json</code> command may be run. The only difficulty is that Django expects the .json file to be in a particular serialized format which matches the models.py file, which can be seen in the above code snippets.</p>
+<p>Note that all the elements from the inner "fields" dictionary are variable names in the Artist class from models.py. "model" tells Django which class to use (volumemax.Artist or volumemax.Album for this project), and "pk" means "primary key" and is used to reference this item in as a foreign key, for example. A foreign key (as in the Album.album_artist field) takes as an integer value the pk where the artist is found.</p>
+<h3 id="external-use-api"># External use (API)</h3>
+<p>The data is exposed using the API volumemax<sup>7</sup>.  It can be accessed at http://volumemax.me/api .  It is extensively documented using Apiary at http://docs.volumemax.apiary.io/# .<br />
+</p>
+<p>An example access artist follows here:</p>
+<p>'http://volumemax.me/api/artists/16'</p>
+<pre><code>    {"full_name":"Eminem","origin":" St. Joseph, Missouri","popularity":96,"genre":"Hip-Hop/Rap","spotify_artist_uri":"spotify:artist:7dGJo4pcD2V6oG8kP0tJRR","biography":"Marshall Bruce Mathers III (born October 17, 1972), better known by his stage name Eminem, is an American rapper, record producer, and songwriter from Detroit, Michigan. In addition to his solo career, he is a member of D12 and (with Royce da 5'9\") half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States; Rolling Stone ranked him 83rd on its list of 100 Greatest Artists of All Time, calling him the King of Hip Hop. Including his work with D12 and Bad Meets Evil, Eminem has had ten number-one albums on the Billboard 200. He has sold more than 155 million albums and singles, making him one of the world's best-selling artists. As of June 2014, Eminem is the second-bestselling male artist of the Nielsen SoundScan era, the sixth-bestselling artist in the United States and the bestselling hip-hop artist, with sales of 45,160,000 albums and 31 million digital singles.\nAfter his debut album Infinite (1996), Eminem achieved mainstream popularity in 1999 with The Slim Shady LP; the commercially successful second album received his first Grammy Award for Best Rap Album. His next two releases (2000's The Marshall Mathers LP and 2002's The Eminem Show) were worldwide successes, with each certified diamond in US sales. Both won Best Rap Album Grammy Awards, making Eminem the first artist to win the award for three consecutive LPs. They were followed by Encore in 2004, another critical and commercial success. Eminem went on hiatus after touring in 2005, releasing Relapse in 2009 and Recovery in 2010; both won Grammy Awards. Recovery was the bestselling album of 2010 worldwide, and the rapper's second international bestselling album of the year (his first was The Eminem Show). Eminem's eighth album (2013's The Marshall Mathers LP 2) won two Grammy Awards, including Best Rap Album; it expanded his record for the most wins in that category and his Grammy total to 15.\nEminem has developed other ventures, including Shady Records with manager Paul Rosenberg. He has his own channel, Shade 45, on Sirius XM Radio. In November 2002, Eminem starred in the hip hop film 8 Mile. He won the Academy Award for Best Original Song for \"Lose Yourself\", the first rap artist to win the award. Eminem has made cameo appearances in the films The Wash (2001), Funny People (2009), The Interview (2014) and the television series Entourage.","youtube_url_1":"https://www.youtube.com/embed/0AqnCSdkjQ0","youtube_url_2":"https://www.youtube.com/embed/XbGs_qK2PQA","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c","recommended_album":16}`
+</code></pre>
+<p>And an example album access follow here:</p>
+<p>'http://volumemax.me/api/albums/16'</p>
+<pre><code>{"album_artist":16,"album_name":"The Eminem Show","release_date":2002,"genre":"Hip-Hop/Rap","spotify_albums_uri":"spotify:album:2cWBwpqMsDJC1ZUwz813lo","editors_notes":"On the follow-up to The Marshall Mathers LP, Eminem set out to broaden his already wide artistic horizons. He makes his most overt nods yet to rock music, borrowing Aerosmith's \"Dream On\" for the basis of \"Sing for the Moment,\" and gets explicitly political about his job on \"White America\" (\"I could be one of your kids\"). At the same time, he takes himself no more seriously than usual, mocking any hint of grandiosity on \"My Dad's Gone Crazy,\" which invites his beloved daughter Hailie to take funny shots at the old man. \"Superman\" pulls a similar trick not only with the rapper's image, but the macho pose intrinsic to commercial hip-hop.","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/1f881110ff752c80069da0308b1de30196d4f8a1"}
+</code></pre>
+<h6 id="references"># References</h6>
 <ol>
-<li><a href="https://developer.spotify.com/web-api/">https://developer.spotify.com/web-api/</a></li>
-<li><a href="http://spotipy.readthedocs.org/en/latest/">http://spotipy.readthedocs.org/en/latest/</a></li>
-<li><a href="https://wikipedia.readthedocs.org/en/latest/code.html">https://wikipedia.readthedocs.org/en/latest/code.html</a></li>
-<li><a href="http://docs.volumemax.apiary.io/#">http://docs.volumemax.apiary.io/#</a></li>
+<li>https://developer.spotify.com/web-api/</li>
+<li>http://spotipy.readthedocs.org/en/latest/</li>
+<li>https://wikipedia.readthedocs.org/en/latest/code.html</li>
+<li>http://www.crummy.com/software/BeautifulSoup/bs4/doc/</li>
+<li>https://mwparserfromhell.readthedocs.org/en/latest/</li>
+<li>https://developers.google.com/image-search/</li>
+<li>http://docs.volumemax.apiary.io/#</li>
 </ol>
 <hr>
             </div>
