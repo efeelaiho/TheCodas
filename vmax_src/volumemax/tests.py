@@ -282,49 +282,45 @@ class APItests(unittest.TestCase) :
         unmatched_item = set(api_data) ^ set(expected_api)
         self.assertEqual(len(unmatched_item), 0)
 
+
     def test_get_artist2(self) :
-        request = Request(self.url+"api/artists/16")
-        expected_api ={"full_name":"Eminem","origin":" St. Joseph, Missouri","popularity":96,"genre":"Hip-Hop/Rap","spotify_artist_uri":"spotify:artist:7dGJo4pcD2V6oG8kP0tJRR","biography":"Marshall Bruce Mathers III (born October 17, 1972), better known by his stage name Eminem, is an American rapper, record producer, and songwriter from Detroit, Michigan. In addition to his solo career, he is a member of D12 and (with Royce da 5'9\") half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States; Rolling Stone ranked him 83rd on its list of 100 Greatest Artists of All Time, calling him the King of Hip Hop. Including his work with D12 and Bad Meets Evil, Eminem has had ten number-one albums on the Billboard 200. He has sold more than 155 million albums and singles, making him one of the world's best-selling artists. As of June 2014, Eminem is the second-bestselling male artist of the Nielsen SoundScan era, the sixth-bestselling artist in the United States and the bestselling hip-hop artist, with sales of 45,160,000 albums and 31 million digital singles.\nAfter his debut album Infinite (1996), Eminem achieved mainstream popularity in 1999 with The Slim Shady LP; the commercially successful second album received his first Grammy Award for Best Rap Album. His next two releases (2000's The Marshall Mathers LP and 2002's The Eminem Show) were worldwide successes, with each certified diamond in US sales. Both won Best Rap Album Grammy Awards, making Eminem the first artist to win the award for three consecutive LPs. They were followed by Encore in 2004, another critical and commercial success. Eminem went on hiatus after touring in 2005, releasing Relapse in 2009 and Recovery in 2010; both won Grammy Awards. Recovery was the bestselling album of 2010 worldwide, and the rapper's second international bestselling album of the year (his first was The Eminem Show). Eminem's eighth album (2013's The Marshall Mathers LP 2) won two Grammy Awards, including Best Rap Album; it expanded his record for the most wins in that category and his Grammy total to 15.\nEminem has developed other ventures, including Shady Records with manager Paul Rosenberg. He has his own channel, Shade 45, on Sirius XM Radio. In November 2002, Eminem starred in the hip hop film 8 Mile. He won the Academy Award for Best Original Song for \"Lose Yourself\", the first rap artist to win the award. Eminem has made cameo appearances in the films The Wash (2001), Funny People (2009), The Interview (2014) and the television series Entourage.","youtube_url_1":"https://www.youtube.com/embed/0AqnCSdkjQ0","youtube_url_2":"https://www.youtube.com/embed/XbGs_qK2PQA","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c","recommended_album":16}
+        request = Request(self.url+"api/artists/113")
+        expected_api ={
+        "full_name": "Kanye West",
+        "origin": "Chicago, IL",
+        "popularity": 97,
+        "genre": "Hip-Hop/Rap",
+        "spotify_artist_uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+        "biography": "Kanye Omari West (/\u02c8k\u0251\u02d0nje\u026a/; born June 8, 1977) is an American rapper, songwriter, record producer and fashion designer. West first became known as a producer for Roc-A-Fella Records; he achieved recognition for his work on rapper Jay-Z's The Blueprint (2001), as well as hit singles for musical artists including Alicia Keys, Ludacris, and Janet Jackson. His style of production originally used high-pitched vocal samples from soul songs incorporated with his own drums and instruments. He later broadened his influences to include 1970s R&B, baroque pop, trip hop, arena rock, house, folk, alternative, electronica, synthpop, industrial, and classical music.\nWest was raised in a middle-class household in Chicago, Illinois, and began rapping in the third grade, becoming involved in the city's hip hop scene. West attended art school for one semester before dropping out to pursue music entirely in the late 1990s. Although his real desire was to become a rapper, record executives did not take West seriously, viewing him as a producer first and foremost. After being signed to Roc-A-Fella in 2002, West released his debut album The College Dropout in 2004 to commercial and critical acclaim. The baroque-inspired Late Registration followed in 2005, and Graduation in 2007. West switched rapping for singing on his emotive 2008 effort 808's & Heartbreak, and embraced maximalism on 2010's My Beautiful Dark Twisted Fantasy. Following several collaborations, West released his abrasive sixth album, Yeezus, in 2013.\nWest is one of the best- selling artists of all time, having sold more than 21 million albums and 100 million digital downloads. He has won a total of 21 Grammy Awards, making him one of the most awarded artists of all- time and the most Grammy-awarded artist of his age. Time named West one of the 100 most influential people in the world in 2005, 2011 and 2015. He has also been included in a number of Forbes annual lists. Three of his albums rank on Rolling Stone's 2012 \"500 Greatest Albums of All Time\" list; two of his albums feature at #8 and #1 in Pitchfork Media's The 100 Best Albums of 2010\u20132014.\nWest's background and style, from his debut album, deviated from the then-dominant \"gangsta\" persona in hip hop, and he would later alter the genre stylistically as rappers adopted his alternative aesthetic. An outspoken and controversial celebrity, West has often been a source of controversy due to his appearances at award shows and his various television and radio interviews. West has collaborated on multiple occasions with brands Nike, Louis Vuitton, Adidas and A.P.C.. West also runs his own record label GOOD Music and has directed several short films.",
+        "youtube_url_1": "https://www.youtube.com/embed/Co0tTeuUVhU",
+        "youtube_url_2": "https://www.youtube.com/embed/PsO6ZnUZI0g",
+        "recommended_album": 113,
+        "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fca17e83545e076fafb561569e8d5ec64f87eb8c"
+        }
         api = urlopen(request)
         api_body = api.read().decode("utf-8")
         self.assertEqual(api.getcode(), 200)
         api_data = loads(api_body)
+        self.assertEqual(api_data, expected_api)
 
-        unmatched_item = set(api_data) ^ set(expected_api)
-        self.assertEqual(len(unmatched_item), 0)        
+    def test_get_artist3(self) :
+        request = Request(self.url+"api/artists/54")
+        expected_api = {"full_name":"Evanescence","origin":" Little Rock, Arkansas, United States","popularity":76,"genre":"Rock","spotify_artist_uri":"spotify:artist:5nGIFgo0shDenQYSE0Sn7c","biography":"Evanescence is an American rock band founded in Little Rock, Arkansas in 1995 by singer/pianist Amy Lee and guitarist Ben Moody. After recording independent albums, the band released their first full-length album, Fallen, on Wind-up Records in 2003. Fallen sold more than 17 million copies worldwide and helped the band win two Grammy Awards and seven nominations, as well as scoring No. 6 in CBS's \"Top Bestselling Albums of the Last 10 Years\" (2008). A year later, Evanescence released their first live album, Anywhere but Home, which sold more than one million copies worldwide. In 2006, the band released their second studio album, The Open Door, which sold more than five million copies.\nThe line-up of the group has changed several times: David Hodges leaving in 2002, co-founder Moody left in 2003 (mid-tour), bassist Will Boyd in 2006, followed by guitarist John LeCompt and drummer Rocky Gray in 2007. The last two changes led to a hiatus, with temporary band members contributing to tour performances. Billboard ranked Evanescence No. 71 on the Best Artists of the Decade chart.\nAnnounced in June 2009, the newest line-up of the band eventually returned with Evanescence, their self-titled third studio album, released on October 11, 2011. It debuted at No. 1 on the Billboard 200 chart with 127,000 copies in sales. The album also debuted at No. 1 on four other different Billboard charts; the Rock Albums, Digital Albums, Alternative Albums, and the Hard Rock Albums charts. The band spent 2012 on tour in promotion of their new album with other bands including The Pretty Reckless and Fair to Midland.","youtube_url_1":"https://www.youtube.com/embed/5anLPw0Efmo","youtube_url_2":"https://www.youtube.com/embed/CdhqVtpR2ts","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/51aaff58f3fa23591eb9fbf9316aff7e551b586a","recommended_album":54}
+        api = urlopen(request)
+        api_body = api.read().decode("utf-8")
+        self.assertEqual(api.getcode(), 200)
+        api_data = loads(api_body)
+        self.assertEqual(api_data, expected_api)
 
-    def test_get_artist1(self) :
-            request = Request(self.url+"api/artists/16")
-            expected_api ={"full_name":"Eminem","origin":" St. Joseph, Missouri","popularity":96,"genre":"Hip-Hop/Rap","spotify_artist_uri":"spotify:artist:7dGJo4pcD2V6oG8kP0tJRR","biography":"Marshall Bruce Mathers III (born October 17, 1972), better known by his stage name Eminem, is an American rapper, record producer, and songwriter from Detroit, Michigan. In addition to his solo career, he is a member of D12 and (with Royce da 5'9\") half of the hip-hop duo Bad Meets Evil. Eminem is the best-selling artist of the 2000s in the United States; Rolling Stone ranked him 83rd on its list of 100 Greatest Artists of All Time, calling him the King of Hip Hop. Including his work with D12 and Bad Meets Evil, Eminem has had ten number-one albums on the Billboard 200. He has sold more than 155 million albums and singles, making him one of the world's best-selling artists. As of June 2014, Eminem is the second-bestselling male artist of the Nielsen SoundScan era, the sixth-bestselling artist in the United States and the bestselling hip-hop artist, with sales of 45,160,000 albums and 31 million digital singles.\nAfter his debut album Infinite (1996), Eminem achieved mainstream popularity in 1999 with The Slim Shady LP; the commercially successful second album received his first Grammy Award for Best Rap Album. His next two releases (2000's The Marshall Mathers LP and 2002's The Eminem Show) were worldwide successes, with each certified diamond in US sales. Both won Best Rap Album Grammy Awards, making Eminem the first artist to win the award for three consecutive LPs. They were followed by Encore in 2004, another critical and commercial success. Eminem went on hiatus after touring in 2005, releasing Relapse in 2009 and Recovery in 2010; both won Grammy Awards. Recovery was the bestselling album of 2010 worldwide, and the rapper's second international bestselling album of the year (his first was The Eminem Show). Eminem's eighth album (2013's The Marshall Mathers LP 2) won two Grammy Awards, including Best Rap Album; it expanded his record for the most wins in that category and his Grammy total to 15.\nEminem has developed other ventures, including Shady Records with manager Paul Rosenberg. He has his own channel, Shade 45, on Sirius XM Radio. In November 2002, Eminem starred in the hip hop film 8 Mile. He won the Academy Award for Best Original Song for \"Lose Yourself\", the first rap artist to win the award. Eminem has made cameo appearances in the films The Wash (2001), Funny People (2009), The Interview (2014) and the television series Entourage.","youtube_url_1":"https://www.youtube.com/embed/0AqnCSdkjQ0","youtube_url_2":"https://www.youtube.com/embed/XbGs_qK2PQA","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/f08ed487e3894e0f9ab1c199cbd449d0fb7e244c","recommended_album":16}
-            api = urlopen(request)
-            api_body = api.read().decode("utf-8")
-            self.assertEqual(api.getcode(), 200)
-            api_data = loads(api_body)
+    def test_get_artist4(self) :
+        request = Request(self.url+"api/artists/25")
+        expected_api = {"full_name":"Genesis","origin":"Godalming, Surrey","popularity":71,"genre":"Rock","spotify_artist_uri":"spotify:artist:3CkvROUTQ6nRi9yQOcsB50","biography":"Not available","youtube_url_1":"https://www.youtube.com/embed/1pkVLqSaahk","youtube_url_2":"https://www.youtube.com/embed/pW68T84RLHw","image_url":"https://d3rt1990lpmkn.cloudfront.net/640/147c67b0c8e6248d46b11db586be1ba0f5e2b3d3","recommended_album":25}
+        api = urlopen(request)
+        api_body = api.read().decode("utf-8")
+        self.assertEqual(api.getcode(), 200)
+        api_data = loads(api_body)
+        self.assertEqual(api_data, expected_api)
 
-            unmatched_item = set(api_data) ^ set(expected_api)
-            self.assertEqual(len(unmatched_item), 0)
-
-    def test_get_artist1(self) :
-            request = Request(self.url+"api/artists/113")
-            expected_api ={
-            "full_name": "Kanye West",
-            "origin": "Chicago, IL",
-            "popularity": 97,
-            "genre": "Hip-Hop/Rap",
-            "spotify_artist_uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
-            "biography": "Kanye Omari West (/\u02c8k\u0251\u02d0nje\u026a/; born June 8, 1977) is an American rapper, songwriter, record producer and fashion designer. West first became known as a producer for Roc-A-Fella Records; he achieved recognition for his work on rapper Jay-Z's The Blueprint (2001), as well as hit singles for musical artists including Alicia Keys, Ludacris, and Janet Jackson. His style of production originally used high-pitched vocal samples from soul songs incorporated with his own drums and instruments. He later broadened his influences to include 1970s R&B, baroque pop, trip hop, arena rock, house, folk, alternative, electronica, synthpop, industrial, and classical music.\nWest was raised in a middle-class household in Chicago, Illinois, and began rapping in the third grade, becoming involved in the city's hip hop scene. West attended art school for one semester before dropping out to pursue music entirely in the late 1990s. Although his real desire was to become a rapper, record executives did not take West seriously, viewing him as a producer first and foremost. After being signed to Roc-A-Fella in 2002, West released his debut album The College Dropout in 2004 to commercial and critical acclaim. The baroque-inspired Late Registration followed in 2005, and Graduation in 2007. West switched rapping for singing on his emotive 2008 effort 808's & Heartbreak, and embraced maximalism on 2010's My Beautiful Dark Twisted Fantasy. Following several collaborations, West released his abrasive sixth album, Yeezus, in 2013.\nWest is one of the best- selling artists of all time, having sold more than 21 million albums and 100 million digital downloads. He has won a total of 21 Grammy Awards, making him one of the most awarded artists of all- time and the most Grammy-awarded artist of his age. Time named West one of the 100 most influential people in the world in 2005, 2011 and 2015. He has also been included in a number of Forbes annual lists. Three of his albums rank on Rolling Stone's 2012 \"500 Greatest Albums of All Time\" list; two of his albums feature at #8 and #1 in Pitchfork Media's The 100 Best Albums of 2010\u20132014.\nWest's background and style, from his debut album, deviated from the then-dominant \"gangsta\" persona in hip hop, and he would later alter the genre stylistically as rappers adopted his alternative aesthetic. An outspoken and controversial celebrity, West has often been a source of controversy due to his appearances at award shows and his various television and radio interviews. West has collaborated on multiple occasions with brands Nike, Louis Vuitton, Adidas and A.P.C.. West also runs his own record label GOOD Music and has directed several short films.",
-            "youtube_url_1": "https://www.youtube.com/embed/Co0tTeuUVhU",
-            "youtube_url_2": "https://www.youtube.com/embed/PsO6ZnUZI0g",
-            "recommended_album": 113,
-            "image_url": "https://d3rt1990lpmkn.cloudfront.net/640/fca17e83545e076fafb561569e8d5ec64f87eb8c"
-            }
-            api = urlopen(request)
-            api_body = api.read().decode("utf-8")
-            self.assertEqual(api.getcode(), 200)
-            api_data = loads(api_body)
-
-            unmatched_item = set(api_data) ^ set(expected_api)
-            self.assertEqual(len(unmatched_item), 0)
     #----
     #Albums
     #----
@@ -335,9 +331,7 @@ class APItests(unittest.TestCase) :
         response_body = response.read().decode("utf-8")
         self.assertEqual(response.getcode(), 200)
         api_data = loads(response_body)
-
-        unmatched_item = set(api_data) ^ set(expected_api)
-        self.assertEqual(len(unmatched_item), 0)
+        self.assertEqual(api_data, expected_api)
 
     def test_get_album2(self) :
         request = Request(self.url+"api/albums/113")
@@ -346,9 +340,25 @@ class APItests(unittest.TestCase) :
         response_body = response.read().decode("utf-8")
         self.assertEqual(response.getcode(), 200)
         api_data = loads(response_body)
+        self.assertEqual(api_data, expected_api)
 
-        unmatched_item = set(api_data) ^ set(expected_api)
-        self.assertEqual(len(unmatched_item), 0)
+    def test_get_album3(self) :
+        request = Request(self.url+"api/albums/25")
+        expected_api = {"album_artist":25,"album_name":"Invisible Touch","release_date":1986,"genre":"Rock","spotify_albums_uri":"spotify:album:632b0oXuFpstA4DO2cUKdG","editors_notes":"Not available","image_url":"https://i.scdn.co/image/431343e6995d6b71cc700fd24d18f336dfcbe61a"}
+        response = urlopen(request)
+        response_body = response.read().decode("utf-8")
+        self.assertEqual(response.getcode(), 200)
+        api_data = loads(response_body)
+        self.assertEqual(api_data, expected_api)
+
+    def test_get_album4(self) :
+        request = Request(self.url+"api/albums/54")
+        expected_api = {"album_artist":54,"album_name":"Fallen","release_date":2003,"genre":"Rock","spotify_albums_uri":"spotify:album:02w1xMzzdF2OJxTeh1basm","editors_notes":"Fallen is the debut studio album by American rock band Evanescence. It was released on March 4, 2003, through Wind-up Records and Epic Records.[4] The album was recorded in multiple recording studios, including Conway Recording Studios in Hollywood, California. It is commercially the band's most successful album to date, selling more than seven million copies in the United States alone, and more than 17 million worldwide. It debuted at number 7 on the Billboard 200, selling more than 141,000 copies within its first week, eventually peaking at number 3 in June 2003. Internationally, it topped the charts in more than ten countries. It was certified Platinum seven times by the Recording Industry Association of America (RIAA), and acquired multiple certifications worldwide.\nUpon its release, Fallen received mixed to positive reviews from music critics. It spawned four singles: \"Bring Me to Life\", \"My Immortal\", \"Going Under\", and \"Everybody's Fool\". \"Bring Me to Life\" and \"My Immortal\" peaked within the charts of more than ten countries, including Australia, the United Kingdom, and the United States. The album earned the band five nominations at the 46th Grammy Awards: Album of the Year, Best Rock Album, Best Rock Song, Best Hard Rock Performance and Grammy Award for Best New Artist, winning Best New Artist and Best Hard Rock Performance.","image_url":"https://i.scdn.co/image/a42e3ae40dfd871b5d17a00f2f8167c0d0d26916"}
+        response = urlopen(request)
+        response_body = response.read().decode("utf-8")
+        self.assertEqual(response.getcode(), 200)
+        api_data = loads(response_body)
+        self.assertEqual(api_data, expected_api)
 
 
         # for album1, album2 in zip(api_data, expected_api):
