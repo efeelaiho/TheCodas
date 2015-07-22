@@ -185,12 +185,20 @@ def search(request) :
 		album_and_query = get_query('and', query_string, ['album_name', 'genre', 'album_artist__full_name'])
 		artist_or_query = get_query('or', query_string, ['full_name', 'genre', 'origin', 'recommended_album__album_name'])
 		album_or_query = get_query('or', query_string, ['album_name', 'genre', 'album_artist__full_name'])
-		and_artists = zip(Artist.objects.filter(artist_and_query).order_by('full_name'),and_artist_fields)
-		and_albums  = zip(Album.objects.filter(album_and_query).order_by('album_name'),and_album_fields)
-		or_artists = zip(Artist.objects.filter(artist_or_query).order_by('full_name'),or_artist_fields)
-		or_albums  = zip(Album.objects.filter(album_or_query).order_by('album_name'),or_artist_fields)
+		# and_artists = zip(Artist.objects.filter(artist_and_query),and_artist_fields)
+		# and_albums  = zip(Album.objects.filter(album_and_query).order_by('album_name'),and_album_fields)
+		# or_artists = zip(Artist.objects.filter(artist_or_query).order_by('full_name'),or_artist_fields)
+		# or_albums  = zip(Album.objects.filter(album_or_query).order_by('album_name'),or_album_fields)
+		and_artists = Artist.objects.filter(artist_and_query)
+		and_albums  = Album.objects.filter(album_and_query)
+		or_artists = Artist.objects.filter(artist_or_query)
+		or_albums  = Album.objects.filter(album_or_query)	
 
-		context = {'query_string': query_string, 'and_artist_fields': and_artist_fields, 'or_artist_fields': or_artist_fields, 'and_album_fields': and_album_fields, 'or_album_fields': or_album_fields,'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
+		query_size = len(normalize_query(query_string))
+		if query_size == 1 :
+			context = {'query_string': query_string, 'and_artists': and_artists, 'and_albums': and_albums}
+		else:
+			context = {'query_string': query_string, 'and_artists': and_artists, 'and_albums': and_albums, 'or_artists': or_artists, 'or_albums': or_albums}
 		return render_to_response('search.html', context, context_instance=RequestContext(request))
 	else:
 		return render_to_response("search.html", {})

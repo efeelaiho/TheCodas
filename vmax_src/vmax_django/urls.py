@@ -47,7 +47,6 @@ urlpatterns = [
     ################################################################### 
     url(r'^search/$', 'volumemax.views.search', name='search'),
     url(r'^search/(?P<query>\w+)', 'volumemax.views.search', name='search'),
-    #url(r'^results/$', 'volumemax.views.search_results', name='results'),
 
     ###################################################################    
     #
