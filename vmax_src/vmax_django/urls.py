@@ -59,6 +59,7 @@ urlpatterns = [
     url(r'^api/albums/$', 'volumemax.views.album_list', name='api'),    
     url(r'^api/artists/(?P<pk>[0-9]+)/$', 'volumemax.views.artist_detail', name='api'),
     url(r'^api/albums/(?P<pk>[0-9]+)/$', 'volumemax.views.album_detail', name='api'),
+    url(r'^nfl/$', 'volumemax.views.nfl', name='nfl'),
 ]
 
 
