@@ -29,7 +29,7 @@
 			useFlashForFirefox:true,
 			// If you are doing a playlist, the video won't play the first time
 			// on a touchscreen unless the play event is attached to a user click
-			forceAutoplay:false,
+			forceAutoplay:true,
 			controls:false,
 			doLoop:true,
 			container:$('body'),

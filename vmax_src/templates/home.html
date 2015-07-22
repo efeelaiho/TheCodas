@@ -53,7 +53,7 @@
 
 
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" background="{% static 'img/soundwave.jpg' %}">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!--           <div style = "position: fixed; z-index: -99; width: 100%; height: 100%">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LraNu_78sCw?autoplay=1&showinfo=0&mute=1&controls=0" frameborder="0" allowfullscreen></iframe>   
             </div> -->
@@ -106,7 +106,7 @@
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Volume.max()</h1>
+                        <h1 class="brand-heading" style="color: red;">Volume.max()</h1>
 
                         <p class="intro-text">A database for musical artists and their albums.</p>
                     </div>
@@ -150,7 +150,8 @@
     $(function() {
         var BV = new $.BigVideo();
         BV.init();
-        BV.show('http://vjs.zencdn.net/v/oceans.mp4',{ambient:true});
+        var src = "{% static 'img/volumemax.mp4' %}";
+        BV.show(src,{ambient:true});
     });
     </script>
 
