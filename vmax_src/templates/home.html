@@ -26,9 +26,6 @@
     <!--DataTables CSS-->
       <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
 
-    <!-- BigVideo CSS-->
-    <link href="{% static 'css/bigvideo.css' %}" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
@@ -106,7 +103,7 @@
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading" style="color: #D50000;">Volume.max()</h1>
+                        <h1 class="brand-heading" >Volume.max()</h1>
 
                         <p class="intro-text">A database for musical artists and their albums.</p>
                     </div>
@@ -139,27 +136,6 @@
     <!-- Custom Theme JavaScript -->
     <script src="{% static 'js/grayscale.js' %}"></script>
 
-    <!--BigVideo Dependencies-->
-    <script src="{% static 'js/jquery.min.js' %}"></script>
-    <script src="{% static 'js/jquery-ui.js' %}"></script>
-    <script src="{% static 'js/jquery-ui.min.js' %}"></script>
-    <script src="{% static 'js/video.js' %}"></script>
-    <!--BigVideo JavaScript-->
-    <script src="{% static 'js/bigvideo.js' %}"></script>
-    <script>
-    $(function() {
-            var BV = new $.BigVideo({useFlashForFirefox:false}, {loop:true});
-            var srca ="{% static 'img/volumemax480.mp4' %}"
-            var srcb ="{% static 'img/volumemax480.webm' %}"
-            var srcc ="{% static 'img/volumemax480.ogv' %}"
-            BV.init();
-            BV.show([
-                { type: "video/mp4",  src: srca },
-                { type: "video/webm", src: srcb },
-                { type: "video/ogg",  src: srcc }
-            ]);
-        });
-    </script>
 
 </body>
 
