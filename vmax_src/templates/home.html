@@ -106,7 +106,7 @@
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading" style="color: red;">Volume.max()</h1>
+                        <h1 class="brand-heading" style="color: #D50000;">Volume.max()</h1>
 
                         <p class="intro-text">A database for musical artists and their albums.</p>
                     </div>
@@ -148,11 +148,17 @@
     <script src="{% static 'js/bigvideo.js' %}"></script>
     <script>
     $(function() {
-        var BV = new $.BigVideo();
-        BV.init();
-        var src = "{% static 'img/volumemax.mp4' %}";
-        BV.show(src,{ambient:true});
-    });
+            var BV = new $.BigVideo({useFlashForFirefox:false}, {loop:true});
+            var srca ="{% static 'img/volumemax480.mp4' %}"
+            var srcb ="{% static 'img/volumemax480.webm' %}"
+            var srcc ="{% static 'img/volumemax480.ogv' %}"
+            BV.init();
+            BV.show([
+                { type: "video/mp4",  src: srca },
+                { type: "video/webm", src: srcb },
+                { type: "video/ogg",  src: srcc }
+            ]);
+        });
     </script>
 
 </body>

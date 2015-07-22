@@ -61,6 +61,15 @@ class SearchTestCase(TestCase):
         terms = normalize_query(query)
         self.assertEqual(terms, ['this','class','is','hard'])
 
+    def test_normalize_terms6(self):
+        query = 'this class is okay'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['this','class','is','okay'])            
+
+    def test_normalize_terms7(self):
+        query = 'hello hello hello hello'
+        terms = normalize_query(query)
+        self.assertEqual(terms, ['hello','hello','hello','hello'])
     # ---------
     # Searching
     # ---------
@@ -192,8 +201,35 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.genre, "Pop")
         self.assertEqual(a.biography, "clown")
 
+    def test_artists8(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Efe", origin = "Chicago, IL", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
+        self.assertEqual(a.full_name, "Efe")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "Chicago, IL")
+        self.assertEqual(a.popularity, 97)
+        self.assertEqual(a.genre, "Rap, Hip Hop")
+        self.assertEqual(a.biography, "abc")
 
+    def test_artists9(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="Elaiho", origin = "Chicago", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
+        self.assertEqual(a.full_name, "Elaiho")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "Chicago")
+        self.assertEqual(a.popularity, 97)
+        self.assertEqual(a.genre, "Rap, Hip Hop")
+        self.assertEqual(a.biography, "abc")
 
+    def test_artists10(self):
+        # date = datetime.date(1977,6,8)
+        a = Artist.objects.create(full_name ="ElaihoEfe", origin = "Chicago", popularity = 97, genre = "Rap, Hip Hop", biography = "abc")
+        self.assertEqual(a.full_name, "ElaihoEfe")
+        # self.assertEqual(a.date_of_birth, date(1977,6,8))
+        self.assertEqual(a.origin, "Chicago")
+        self.assertEqual(a.popularity, 97)
+        self.assertEqual(a.genre, "Rap, Hip Hop")
+        self.assertEqual(a.biography, "abc")
 
     
 
@@ -256,8 +292,24 @@ class ArtistTestCase(TestCase):
         self.assertEqual(a.genre, "Hip-Hop/Rap")
         self.assertEqual(a.editors_notes, "gpdowning")
 
+    def test_albums7(self): 
+        pharrell = Artist.objects.create(full_name = "Pharrell Williams")
+        a = Album.objects.create(album_name = "G I R L", album_artist = cake, release_date = 1993, genre = "Hip-Hop/Rap", editors_notes = "byoung")
+        self.assertEqual(a.album_name, "G I R L")
+        self.assertEqual(a.album_artist, cake)
+        self.assertEqual(a.release_date, 1993)
+        self.assertEqual(a.genre, "Hip-Hop/Rap")
+        self.assertEqual(a.editors_notes, "byoung")
 
 
+    def test_albums8(self): 
+        pharrell = Artist.objects.create(full_name = "Pharrell Williams")
+        a = Album.objects.create(album_name = "crash", album_artist = cake, release_date = 13, genre = "Hip-Hop/Rap", editors_notes = "byoung")
+        self.assertEqual(a.album_name, "crash")
+        self.assertEqual(a.album_artist, cake)
+        self.assertEqual(a.release_date, 13)
+        self.assertEqual(a.genre, "Hip-Hop/Rap")
+        self.assertEqual(a.editors_notes, "byoung")
 
 # ------------------
 # API Tests
